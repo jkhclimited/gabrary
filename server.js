@@ -1,17 +1,21 @@
-import express from "express";
-import cors from "cors";
-import "./loadEnvironment.mjs";
-import records from "./routes/record.mjs";
+const express = require('express');
+const path = require('path');
+const logger = require('morgan');
+const cors = require('cors');
+
+require('dotenv').config();
+require('./config/database');
 
 const PORT = process.env.PORT || 5050;
+const express = require("express");
 const app = express();
 
-app.use(cors());
 app.use(express.json());
+app.use(cors());
 
 app.use("/record", records);
 
-// start the Express server
+// Start the Express server
 app.listen(PORT, () => {
   console.log(`Server is running on port: ${PORT}`);
 });

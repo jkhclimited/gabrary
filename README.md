@@ -4,7 +4,8 @@ A project to create an app for running a small database for any TCG of choice, j
 
 ### Phase 1
 
-1. Compile data for one set of cards first. (IPR)
-2. Create template pages based on the data acquired. (New)
-3. Create the models/routes (New)
+1. Compile data for one set of cards first. (Done)
+2. Create the models to put data into it. (IPR)
+3. Create template pages based on the data acquired. (New)
+4. Create routing (New)
 
