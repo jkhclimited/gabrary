@@ -1,4 +1,6 @@
 import React from "react";
+import { Link, Route, Routes, Navigate } from 'react-router-dom';
+import ChampionsPage from "../ChampionsPage/ChampionsPage";
 import '../SetPage/SetPage.css';
 
 class SetPage extends React.Component {
@@ -11,7 +13,7 @@ class SetPage extends React.Component {
             <div className='center-div'>
                 <Routes>
                     <Route path='/champions' element={<ChampionsPage />}/>
-                    <Route path='/materials' element={<MaterialsPage />}/>
+                    {/* <Route path='/materials' element={<MaterialsPage />}/>
                     <Route path='/landmarks' element={<LandmarksPage />}/>
                     <Route path='/null' element={<NullPage />}/>
                     <Route path='/fire' element={<FirePage />}/>
@@ -20,9 +22,9 @@ class SetPage extends React.Component {
                     <Route path='/luxem' element={<LuxemPage />}/>
                     <Route path='/crux' element={<CruxPage />}/>
                     <Route path='/arcane' element={<ArcanePage />}/>
-                    <Route path='/tera' element={<TeraPage />}/>
+                    <Route path='/tera' element={<TeraPage />}/> */}
                 </Routes>
-                Placeholding text
+                <Link to="/DOA/Champions" className="setspage">DOA Champions</Link>
             </div>
         )
     }

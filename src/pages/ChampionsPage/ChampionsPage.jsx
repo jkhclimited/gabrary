@@ -1,4 +1,5 @@
 import React from "react";
+import DB_DOA from "../../local_database/DB_DOAAlter.json";
 import '../ChampionsPage/ChampionsPage.css';
 
 class ChampionsPage extends React.Component {
@@ -7,24 +8,14 @@ class ChampionsPage extends React.Component {
     };
 
     getCards = async () => {
-        try {
-            const cardList = await fetch('DB_DOAAlter.json', {
-                headers: {
-                    'Content-Type': 'application/json',
-                    'Accept': 'application/json'
-                }
-            }).then(res => res.json());
-            const champsList = [];
-            for (i = 0; i < cardList.length; i++) {
-                if (cardList[i].types.includes('CHAMPION')) {
-                    champsList.push(cardList[i]);
-                }
+        let champsList = [];
+        for (let i = 0; i < DB_DOA.length; i++) {
+            if (DB_DOA[i].types.includes('CHAMPION')) {
+                champsList.push(DB_DOA[i]);
             }
-            this.setState({ cards: champsList });
-            console.log(champsList);
-        } catch (err) {
-            console.error("Error:", err);
-        };
+        }
+        console.log(champsList);
+        this.setState({ cards: champsList });
     };
 
     componentDidMount = async () => {
