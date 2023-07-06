@@ -1,7 +1,7 @@
 import React from "react";
 import '../CardPage/CardPage.css';
 
-class Cardpage extends React.Component {
+class CardPage extends React.Component {
  
     render() {
         return (
@@ -27,3 +27,5 @@ class Cardpage extends React.Component {
         )
     }
 }
+
+export default CardPage;
