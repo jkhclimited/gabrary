@@ -12,3 +12,5 @@ class NoPage extends React.Component {
         )
     }
 }
+
+export default NoPage;
