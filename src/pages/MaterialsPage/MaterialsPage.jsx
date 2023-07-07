@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import DB_DOA from '../../local_database/DB_DOAAlter.json';
 import ToggleSwitch from '../../components/ToggleSwitch/ToggleSwitch';
-import '../ChampionsPage/ChampionsPage.css';
+import '../MaterialsPage/MaterialsPage.css';
 
-class ChampionsPage extends React.Component {
+class MaterialsPage extends React.Component {
     state = {
         showing: false,
         cards: [],
@@ -17,7 +17,7 @@ class ChampionsPage extends React.Component {
     getCards = async () => {
         let champsList = [];
         for (let i = 0; i < DB_DOA.length; i++) {
-            if (DB_DOA[i].types.includes('CHAMPION')) {
+            if (DB_DOA[i].types.includes('REGALIA')) {
                 champsList.push(DB_DOA[i]);
             }
         }
@@ -49,5 +49,5 @@ class ChampionsPage extends React.Component {
     }
 }
 
-export default ChampionsPage;
+export default MaterialsPage;
 

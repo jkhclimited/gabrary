@@ -1,3 +1,4 @@
+/* Start of Overall App Stuff */
 .App {
   text-align: center;
 }
@@ -27,8 +28,15 @@
 .App-link {
   color: #61dafb;
 }
+/* End of Overall App Stuff */
 
-/* Card Image CSS Section */
+/* Start of Toggle Section */
+.toggleText {
+  margin: 5px 0px 0px 10px;
+  font-weight: bold;
+}
+
+/* Start of Card Image Section */
 .flexCardImgs {
   display: flex;
   flex-flow: row wrap;
@@ -36,82 +44,31 @@
 }
 
 @media (max-width: 7681px) {
-  .cardImg {
-    height: auto;
-    width: 27vh;
-    margin: 2px;
-  }
-
-  .centerText {
-    margin: -20px 0px 0px 0px;
-    text-align: center;
-    font-size: 80px;
-    width: 27vh;
-  }
+  .cardImg { height: auto; width: 27vh; margin: 2px;}
+  .centerText { margin: -20px 0px 0px 0px; text-align: center; font-size: 80px; width: 27vh; }
 }
 
 @media (max-width: 5761px) {
-  .centerText {
-    font-size: 50px;
-  }
+  .centerText { font-size: 50px; }
 }
 
 @media (max-width: 1921px) {
-  .cardImg {
-    height: auto;
-    width: 27vh;
-    margin: 2px;
-  }
-
-  .centerText {
-    margin: -20px 0px 0px 0px;
-    text-align: center;
-    font-size: 27px;
-    width: 27vh;
-  }
+  .cardImg { height: auto; width: 27vh; margin: 2px; }
+  .centerText { margin: -20px 0px 0px 0px; text-align: center; font-size: 27px; width: 27vh; }
 }
 
 @media (max-width: 1367px) {
-  .cardImg {
-    height: auto;
-    width: 27vh;
-    margin: 2px;
-  }
-
-  .centerText {
-    margin: -20px 0px 0px 0px;
-    text-align: center;
-    font-size: 20px;
-    width: 27vh;
-  }
+  .cardImg { height: auto; width: 27vh; margin: 2px; }
+  .centerText { margin: -20px 0px 0px 0px; text-align: center; font-size: 20px; width: 27vh; }
 }
 
 @media (max-width: 641px) {
-  .cardImg {
-    height: auto;
-    width: 20vh;
-    margin: 2px;
-  }
-
-  .centerText {
-    margin: -20px 0px 0px 0px;
-    text-align: center;
-    font-size: 8px;
-    width: 20vh;
-  }
+  .cardImg { height: auto; width: 20vh; margin: 2px; }
+  .centerText { margin: -20px 0px 0px 0px; text-align: center; font-size: 8px; width: 20vh; }
 }
 
 @media (max-width: 385px) {
-  .cardImg {
-    height: auto;
-    width: 20vh;
-    margin: 2px;
-  }
-
-  .centerText {
-    margin: -20px 0px 0px 0px;
-    text-align: center;
-    font-size: 5px;
-    width: 20vh;
-  }
+  .cardImg { height: auto; width: 20vh; margin: 2px; }
+  .centerText { margin: -20px 0px 0px 0px; text-align: center; font-size: 5px; width: 20vh;}
 }
+/* End of Card Image Section */
