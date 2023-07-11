@@ -1,5 +1,5 @@
 import React, { Component, FC } from 'react';
-import './ToggleSwitch.scss';
+import './ToggleTextSwitch.scss';
 
 interface ToggleProps {
   name: string,

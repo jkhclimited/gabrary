@@ -7,7 +7,7 @@ class NoPage extends React.Component {
         return (
             <div className='nopage-message'>
                 404 Page Not Found
-                <Link to="/home">Home</Link>
+                <br /><Link to="/">Home</Link>
             </div> 
         )
     }

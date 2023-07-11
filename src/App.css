@@ -1,6 +1,7 @@
 /* Start of Overall App Stuff */
 .App {
-  text-align: center;
+  /* text-align: center; */
+  height: 100vh;
 }
 
 .App-logo {
@@ -28,10 +29,19 @@
 .App-link {
   color: #61dafb;
 }
+
+.darkModeIstrue {
+  background-color: #333;
+  color: #fff;
+}
+.darkModeIsfalse {
+  background-color: #fff;
+  color: #333;
+}
 /* End of Overall App Stuff */
 
-/* Start of Toggle Section */
-.toggleText {
+/* Toggle Section */
+.toggleText, .toggleDarkMode {
   margin: 5px 0px 0px 10px;
   font-weight: bold;
 }
@@ -64,11 +74,11 @@
 
 @media (max-width: 641px) {
   .cardImg { height: auto; width: 20vh; margin: 2px; }
-  .centerText { margin: -20px 0px 0px 0px; text-align: center; font-size: 8px; width: 20vh; }
+  .centerText { margin: -20px 0px 0px 0px; text-align: center; font-size: 10px; width: 20vh; }
 }
 
 @media (max-width: 385px) {
   .cardImg { height: auto; width: 20vh; margin: 2px; }
-  .centerText { margin: -20px 0px 0px 0px; text-align: center; font-size: 5px; width: 20vh;}
+  .centerText { margin: -20px 0px 0px 0px; text-align: center; font-size: 10px; width: 20vh;}
 }
 /* End of Card Image Section */

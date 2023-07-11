@@ -9,8 +9,20 @@ class SetPage extends React.Component {
 
     render() {
         return (
-            <div className='center-div'>
-                <Link to='/sets/DOA-Alter' className="setspage">Dawn of Ashes Alter Edition</Link>
+            <div className='sets-main-div'>
+                <p className='sets-header'>Sets Listed Below from Newest to Oldest</p><br />
+                <div className='aSet'>
+                    <a href='/sets/SP1' rel="noreferrer" className="setsPage">
+                        <img className="setIMG" src={process.env.PUBLIC_URL + `/Set_Symbols/SupporterPack1.jpg`} alt="Supporter Pack 1" />
+                    </a>
+                    <p className='sets-name'>Supporter Pack 1</p>
+                </div>
+                <div className='aSet'>
+                    <a href='/sets/DOA-Alter' rel="noreferrer" className="setsPage">
+                        <img className="setIMG" src={process.env.PUBLIC_URL + `/Set_Symbols/DawnofAshesAlterEdition.jpg`} alt="Dawn of Ashes Alter Edition" />
+                    </a>
+                    <p className='sets-name'>Dawn of Ashes Alter Edition</p>
+                </div>
             </div>
         )
     }
