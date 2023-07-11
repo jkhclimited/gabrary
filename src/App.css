@@ -1,7 +1,8 @@
 /* Start of Overall App Stuff */
 .App {
   /* text-align: center; */
-  height: 100vh;
+  height: auto !important;
+  min-height: 100vh;
 }
 
 .App-logo {
@@ -74,7 +75,7 @@
 
 @media (max-width: 641px) {
   .cardImg { height: auto; width: 20vh; margin: 2px; }
-  .centerText { margin: -20px 0px 0px 0px; text-align: center; font-size: 10px; width: 20vh; }
+  .centerText { margin: -20px 0px 0px 0px; text-align: center; font-size: 15px; width: 20vh; }
 }
 
 @media (max-width: 385px) {

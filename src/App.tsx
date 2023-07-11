@@ -19,8 +19,10 @@ import ArcanesPage from './pages/ArcanesPage/ArcanesPage';
 import TerasPage from './pages/TerasPage/TerasPage';
 import NoPage from './pages/NoPage/NoPage';
 import AllCardsPage from './pages/AllCardsPage/AllCardsPage';
+import AltArtsPage from './pages/AltArtsPage/AltArtsPage';
 import ToggleSwitch from './components/ToggleTextSwitch/ToggleTextSwitch';
 import ToggleDarkMode from './components/ToggleDarkMode/ToggleDarkMode';
+
 
 interface AppOverallState {
   darkmode: boolean,
@@ -60,6 +62,7 @@ const App: FC = () => {
         <Route path='/sets/:id/cruxs' element={<CruxsPage />}/>
         <Route path='/sets/:id/arcanes' element={<ArcanesPage />}/>
         <Route path='/sets/:id/teras' element={<TerasPage />}/>
+        <Route path='/sets/:id/alt-arts' element={<AltArtsPage />}/>
         <Route path="*" element={<NoPage />}/>
       </Routes>
     </BrowserRouter>

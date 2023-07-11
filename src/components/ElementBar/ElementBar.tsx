@@ -42,6 +42,9 @@ const ElementBar: FC<ElemProps> = ({id}) => {
         <a href={`/sets/${ id }/Teras`} rel="noreferrer">
             <img className="elemBarIMG" src={process.env.PUBLIC_URL + `/Element_Symbols/tera.png`} alt="Tera" />
         </a>
+        <a href={`/sets/${ id }/Alt-Arts`} rel="noreferrer">
+            <img className="elemBarIMG" src={process.env.PUBLIC_URL + `/Element_Symbols/alt-arts.png`} alt="Alt Arts" />
+        </a>
     </nav>
     </>;
 }
