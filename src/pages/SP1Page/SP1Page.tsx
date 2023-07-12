@@ -1,7 +1,7 @@
 import React, { useState, useEffect }from "react";
 import { useParams } from "react-router-dom";
 import { FC } from "react";
-import SP1 from '../../local_database/SP1.json';
+import SP1 from '../../local_database/DB_SP1.json';
 import ToggleSwitch from '../../components/ToggleTextSwitch/ToggleTextSwitch';
 import './SP1Page.css';
 import { getSetData } from "../../services/gatcg-api";

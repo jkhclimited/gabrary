@@ -1,0 +1,74 @@
+[
+    {
+      "name": "Nia, Mistveiled Scout",
+      "collector_number": "001",
+      "types": "['UNIQUE', 'ALLY']",
+      "classes": "['ASSASSIN']",
+      "subtypes": "['ASSASSIN', 'HUMAN']",
+      "element": "WATER",
+      "effect": "b\"[Class Bonus] Stealth (This unit can't be targeted by attacks unless permitted by true sight.)\\r\\nOn Enter: Look at target opponent's memory, then choose any card name. \\r\\nCards with the chosen name cost 1 more to play.",
+      "flavor_text": "",
+      "cost_memory": "",
+      "cost_reserve": 3,
+      "level": "",
+      "power": 1,
+      "life": 3,
+      "speed": "",
+      "legality": "",
+      "editions": [
+        "Dawn of Ashes Alter Edition 3 b'Hanh Chu'",
+        "Dawn of Ashes First Edition 3 b'Hanh Chu'",
+        "Event Packs 7 b'Hanh Chu'"
+      ],
+      "slug": "nia-mistveiled-scout",
+      "durability": ""
+    },
+    {
+      "name": "Arthur, Young Heir",
+      "collector_number": "002",
+      "types": "['UNIQUE', 'ALLY']",
+      "classes": "['WARRIOR']",
+      "subtypes": "['WARRIOR', 'HUMAN']",
+      "element": "FIRE",
+      "effect": "b\"On Enter: You may rest Arthur. If you do, Arthur gains immortality until the beginning of your next turn. (A unit with immortality can't die.)\\r\\nAs long as Arthur is rested, other allies you control get +1 power.",
+      "flavor_text": "",
+      "cost_memory": "",
+      "cost_reserve": 4,
+      "level": "",
+      "power": 2,
+      "life": 3,
+      "speed": "",
+      "legality": "",
+      "editions": [
+        "Dawn of Ashes Alter Edition 4 b'Hanh Chu'",
+        "Dawn of Ashes First Edition 4 b'Hanh Chu'",
+        "Event Packs 7 b'Hanh Chu'"
+      ],
+      "slug": "arthur-young-heir",
+      "durability": ""
+    },
+    {
+      "name": "Lunete, Frostbinder Priest",
+      "collector_number": "003",
+      "types": "['UNIQUE', 'ALLY']",
+      "classes": "['CLERIC']",
+      "subtypes": "['CLERIC', 'HUMAN']",
+      "element": "WATER",
+      "effect": "b'Allies your opponents control enter the field rested.\\r\\nBalance \\xe2\\x80\\x94 Lunete gets +3 life as long as the amount of cards in your hand and memory are equal.'",
+      "flavor_text": "b'\"Kneel. Your ceaseless violence is not welcome here.\"'",
+      "cost_memory": "",
+      "cost_reserve": 3,
+      "level": "",
+      "power": 1,
+      "life": 1,
+      "speed": "",
+      "legality": "",
+      "editions": [
+        "Dawn of Ashes Alter Edition 3 b'\\xe7\\x99\\xbd\\xe5\\xb8\\x9d'",
+        "Dawn of Ashes First Edition 3 b'\\xe7\\x99\\xbd\\xe5\\xb8\\x9d'",
+        "Event Packs 7 b'Faicha'"
+      ],
+      "slug": "lunete-frostbinder-priest",
+      "durability": ""
+    }
+]

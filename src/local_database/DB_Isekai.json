@@ -1,0 +1,78 @@
+[
+    {
+      "name": "Favorable Winds",
+      "collector_number": "001",
+      "types": "['ACTION']",
+      "classes": "['MAGE']",
+      "subtypes": "['MAGE', 'SPELL']",
+      "element": "WIND",
+      "effect": "b'Allies you control get +1 life until end of turn.\\r\\nFloating Memory (While paying for a memory cost, you may banish this card from your graveyard to pay for 1 of that cost.)'",
+      "flavor_text": "b'A sudden gust to turn the tide.'",
+      "cost_memory": "",
+      "cost_reserve": 1,
+      "level": "",
+      "power": "",
+      "life": "",
+      "speed": "True",
+      "legality": "",
+      "editions": [
+        "Dawn of Ashes Alter Edition 1 b'\\xe9\\x81\\x93\\xe6\\xbc\\xab'",
+        "Dawn of Ashes First Edition 1 b'\\xe9\\x81\\x93\\xe6\\xbc\\xab'",
+        "Dawn of Ashes Prelude 1 b'\\xe9\\x81\\x93\\xe6\\xbc\\xab'",
+        "Dawn of Ashes Starter Decks 1 b'\\xe9\\x81\\x93\\xe6\\xbc\\xab'",
+        "LGS Demo 2023 1 b'\\xe9\\x81\\x93\\xe6\\xbc\\xab'",
+        "GenSeCha 6 b'Kumai'"
+      ],
+      "slug": "favorable-winds",
+      "durability": ""
+    },
+    {
+      "name": "Empowering Harmony",
+      "collector_number": "002",
+      "types": "['ACTION']",
+      "classes": "['TAMER']",
+      "subtypes": "['TAMER', 'SKILL', 'HARMONY']",
+      "element": "NORM",
+      "effect": "b\"Your champion gets +2 level until end of turn.\\r\\n[Class Bonus] Harmonize \\xe2\\x80\\x94 If you've activated a Melody card this turn, draw a card.",
+      "flavor_text": "b'Melodies sound ever more beautiful with strong accompaniment.'",
+      "cost_memory": "",
+      "cost_reserve": 2,
+      "level": "",
+      "power": "",
+      "life": "",
+      "speed": "False",
+      "legality": "",
+      "editions": [
+        "Dawn of Ashes Alter Edition 1 b'\\xe9\\x81\\x93\\xe6\\xbc\\xab'",
+        "Dawn of Ashes First Edition 1 b'\\xe9\\x81\\x93\\xe6\\xbc\\xab'",
+        "Dawn of Ashes Starter Decks 1 b'\\xe9\\x81\\x93\\xe6\\xbc\\xab'",
+        "GenSeCha 6 b'Hori'"
+      ],
+      "slug": "empowering-harmony",
+      "durability": ""
+    },
+    {
+      "name": "Strategic Planning",
+      "collector_number": "003",
+      "types": "['ACTION']",
+      "classes": "['ASSASSIN']",
+      "subtypes": "['ASSASSIN', 'SKILL']",
+      "element": "NORM",
+      "effect": "b'Glimpse 2. Put a preparation counter on your champion. (To glimpse, look at that many cards from the top of your deck. Put those cards back on the top or on the bottom of your deck in any order.)'",
+      "flavor_text": "b'No such thing as too much preperation.'",
+      "cost_memory": "",
+      "cost_reserve": 2,
+      "level": "",
+      "power": "",
+      "life": "",
+      "speed": "False",
+      "legality": "",
+      "editions": [
+        "Dawn of Ashes Alter Edition 1 b'\\xe9\\x81\\x93\\xe6\\xbc\\xab'",
+        "Dawn of Ashes First Edition 1 b'\\xe9\\x81\\x93\\xe6\\xbc\\xab'",
+        "GenSeCha 6 b'Hanh Chu'"
+      ],
+      "slug": "strategic-planning",
+      "durability": ""
+    }
+]

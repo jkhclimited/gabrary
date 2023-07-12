@@ -2,7 +2,7 @@ import React, { useState, useEffect }from "react";
 import { useParams } from "react-router-dom";
 import { FC } from "react";
 import DOAAlter from '../../local_database/DB_DOAAlter.json';
-import SP1 from '../../local_database/SP1.json';
+import SP1 from '../../local_database/DB_SP1.json';
 import ToggleSwitch from '../../components/ToggleTextSwitch/ToggleTextSwitch';
 import ElementBar from "../../components/ElementBar/ElementBar";
 import '../ChampionsPage/ChampionsPage.css';
