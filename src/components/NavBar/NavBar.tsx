@@ -8,7 +8,8 @@ class NavBar extends React.Component {
             <nav className="header-bar">
                 <Link to="/" className="homepage">Home</Link>
                 <Link to="/sets" className="setspage">Sets</Link>
-                <Link to="/home#" className="">Placehold1</Link>
+                <Link to="/creators" className="">Creators</Link>
+                <Link to="/spoilers" className="">Spoilers</Link>
                 <Link to="/home#1" className="">Placehold2</Link>
             </nav>
         )

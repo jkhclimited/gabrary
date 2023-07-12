@@ -1,7 +1,10 @@
 import './App.css';
 import React, { useState , FC } from 'react';
 import { BrowserRouter, Route, Routes, Navigate } from 'react-router-dom';
+
 import NavBar from './components/NavBar/NavBar';
+import ToggleDarkMode from './components/ToggleDarkMode/ToggleDarkMode';
+
 import FrontPage from './pages/FrontPage/FrontPage';
 import SetPage from './pages/SetPage/SetPage';
 import DOAAlterPage from './pages/DOAAlterPage/DOAAlterPage';
@@ -20,8 +23,7 @@ import TerasPage from './pages/TerasPage/TerasPage';
 import NoPage from './pages/NoPage/NoPage';
 import AllCardsPage from './pages/AllCardsPage/AllCardsPage';
 import AltArtsPage from './pages/AltArtsPage/AltArtsPage';
-import ToggleSwitch from './components/ToggleTextSwitch/ToggleTextSwitch';
-import ToggleDarkMode from './components/ToggleDarkMode/ToggleDarkMode';
+import ContentCreatorsPage from './pages/ContentCreatorsPage/ContentCreatorsPage';
 
 
 interface AppOverallState {
@@ -63,6 +65,7 @@ const App: FC = () => {
         <Route path='/sets/:id/arcanes' element={<ArcanesPage />}/>
         <Route path='/sets/:id/teras' element={<TerasPage />}/>
         <Route path='/sets/:id/alt-arts' element={<AltArtsPage />}/>
+        <Route path='/creators' element={<ContentCreatorsPage />}/>
         <Route path="*" element={<NoPage />}/>
       </Routes>
     </BrowserRouter>

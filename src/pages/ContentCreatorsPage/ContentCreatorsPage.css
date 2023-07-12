@@ -1,0 +1,30 @@
+.contentCreator {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+}
+
+.contentCreatorName {
+    font-weight: bold;
+}
+
+.videoArea {
+    margin: 0 auto;
+    width: 600px;
+    height: 340px;
+}
+
+@media (max-width: 1264px) {
+    .contentCreator {
+        display: block;
+    }
+}
+
+@media (max-width: 620px) {
+    .videoArea {
+        margin: 0 auto;
+        width: 440px;
+        height: 270px;
+    }
+}
