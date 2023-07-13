@@ -1,0 +1,23 @@
+.sets-header {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px;
+    margin: 0 0 0 0;
+}
+ /* top right bottom left */
+
+.aSet {
+    display: inline-block;
+    margin: 0px 0px 15px 10px;
+    max-width: 244px;
+    text-align: center;
+}
+
+.setIMG {
+    max-width: 100%;
+    margin: 10px, 10px, 5px, 10px,
+}
+
+.sets-name {
+    margin: 0px;
+}
