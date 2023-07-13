@@ -35,10 +35,15 @@
   background-color: #333;
   color: #fff;
 }
+
 .darkModeIsfalse {
   background-color: #fff;
   color: #333;
 }
+
+a { color: #fff; }
+a:hover, a:active { text-decoration: none; color:grey }
+
 /* End of Overall App Stuff */
 
 /* Toggle Section */

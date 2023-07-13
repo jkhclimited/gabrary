@@ -1,6 +1,17 @@
+.sets-main-div {
+    margin: 0 auto;
+    max-width: 1056px;
+    align-items: center;
+}
+
+.setLink {
+    text-decoration: none;
+}
+
 .sets-header {
     font-size: 30px;
     font-weight: bold;
+    width: 100%;
     padding: 10px;
     margin: 0 0 0 0;
 }
@@ -8,7 +19,7 @@
 
 .aSet {
     display: inline-block;
-    margin: 0px 0px 15px 10px;
+    margin: 10px;
     max-width: 244px;
     text-align: center;
 }
