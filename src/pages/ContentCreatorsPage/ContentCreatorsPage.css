@@ -1,3 +1,7 @@
+.contentCreatorsMainDiv {
+    margin: 0 auto;
+}
+
 .contentCreator {
     vertical-align: top;
     display: inline-block;
@@ -7,6 +11,8 @@
 
 .contentCreatorName {
     font-weight: bold;
+    font-size: 35px;
+    margin: 0 0 5px 0;
 }
 
 .videoArea {
@@ -15,16 +21,31 @@
     height: 340px;
 }
 
-@media (max-width: 1264px) {
+@media (max-width: 1921px) {
+    .contentCreatorsMainDiv {
+        width: 1248px;
+    }
+}
+
+@media (max-width: 1281px) {
+    .contentCreatorsMainDiv {
+        width: 626px;
+    }
     .contentCreator {
         display: block;
     }
 }
 
-@media (max-width: 620px) {
+@media (max-width: 650px) {
+    .contentCreatorsMainDiv {
+        width: 360px;
+    }
+    .contentCreatorName {
+        font-size: 20px;
+    }
     .videoArea {
         margin: 0 auto;
-        width: 440px;
-        height: 270px;
+        width: 340px;
+        height: 190px;
     }
 }

@@ -9,42 +9,42 @@ interface ElemProps {
 const ElementBar: FC<ElemProps> = ({id}) => {
     return <>
     <nav className="element-bar">
-        <a href={`/sets/${ id }/Champions`} rel="noreferrer">
+        <Link to={`/sets/${ id }/Champions`} className="elemLink">
             <img className="elemBarIMG" src={process.env.PUBLIC_URL + `/Element_Symbols/champion.png`} alt="Champions" />
-        </a>
-        <a href={`/sets/${ id }/Regalias`} rel="noreferrer">
+        </Link>
+        <Link to={`/sets/${ id }/Regalias`} className="elemLink">
             <img className="elemBarIMG" src={process.env.PUBLIC_URL + `/Element_Symbols/regalia.png`} alt="Regalias" />
-        </a>
-        <a href={`/sets/${ id }/Domains`} rel="noreferrer">
+        </Link>
+        <Link to={`/sets/${ id }/Domains`} className="elemLink">
             <img className="elemBarIMG" src={process.env.PUBLIC_URL + `/Element_Symbols/domain.png`} alt="Domains" />
-        </a>
-        <a href={`/sets/${ id }/Nulls`} rel="noreferrer">
+        </Link>
+        <Link to={`/sets/${ id }/Nulls`} className="elemLink">
             <img className="elemBarIMG" src={process.env.PUBLIC_URL + `/Element_Symbols/null.png`} alt="Null" />
-        </a>
-        <a href={`/sets/${ id }/Fires`} rel="noreferrer">
+        </Link>
+        <Link to={`/sets/${ id }/Fires`} className="elemLink">
             <img className="elemBarIMG" src={process.env.PUBLIC_URL + `/Element_Symbols/fire.png`} alt="Fire" />
-        </a>
-        <a href={`/sets/${ id }/Waters`} rel="noreferrer">
+        </Link>
+        <Link to={`/sets/${ id }/Waters`} className="elemLink">
             <img className="elemBarIMG" src={process.env.PUBLIC_URL + `/Element_Symbols/water.png`} alt="Water" />
-        </a>
-        <a href={`/sets/${ id }/Winds`} rel="noreferrer">
+        </Link>
+        <Link to={`/sets/${ id }/Winds`} className="elemLink">
             <img className="elemBarIMG" src={process.env.PUBLIC_URL + `/Element_Symbols/wind.png`} alt="Wind" />
-        </a>
-        <a href={`/sets/${ id }/Luxems`} rel="noreferrer">
+        </Link>
+        <Link to={`/sets/${ id }/Luxems`} className="elemLink">
             <img className="elemBarIMG" src={process.env.PUBLIC_URL + `/Element_Symbols/luxem.png`} alt="Luxem" />
-        </a>
-        <a href={`/sets/${ id }/Cruxs`} rel="noreferrer">
+        </Link>
+        <Link to={`/sets/${ id }/Cruxs`} className="elemLink">
             <img className="elemBarIMG" src={process.env.PUBLIC_URL + `/Element_Symbols/crux.png`} alt="Crux" />
-        </a>
-        <a href={`/sets/${ id }/Arcanes`} rel="noreferrer">
+        </Link>
+        <Link to={`/sets/${ id }/Arcanes`} className="elemLink">
             <img className="elemBarIMG" src={process.env.PUBLIC_URL + `/Element_Symbols/arcane.png`} alt="Arcane" />
-        </a>
-        <a href={`/sets/${ id }/Teras`} rel="noreferrer">
+        </Link>
+        <Link to={`/sets/${ id }/Teras`} className="elemLink">
             <img className="elemBarIMG" src={process.env.PUBLIC_URL + `/Element_Symbols/tera.png`} alt="Tera" />
-        </a>
-        <a href={`/sets/${ id }/Alt-Arts`} rel="noreferrer">
+        </Link>
+        <Link to={`/sets/${ id }/Alt-Arts`} className="elemLink">
             <img className="elemBarIMG" src={process.env.PUBLIC_URL + `/Element_Symbols/alt-arts.png`} alt="Alt Arts" />
-        </a>
+        </Link>
     </nav>
     </>;
 }
