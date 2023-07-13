@@ -1,6 +1,6 @@
 .sets-main-div {
     margin: 0 auto;
-    max-width: 1056px;
+    width: 1056px;
     align-items: center;
 }
 
@@ -31,4 +31,22 @@
 
 .sets-name {
     margin: 0px;
+}
+
+@media (max-width: 1080px) {
+    .sets-main-div {
+        width: 792px;
+    }
+}
+
+@media (max-width: 810px) {
+    .sets-main-div {
+        width: 530px;
+    }
+}
+
+@media (max-width: 580px) {
+    .sets-main-div {
+        width: 265px;
+    }
 }
