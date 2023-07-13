@@ -7,8 +7,6 @@ import ToggleDarkMode from './components/ToggleDarkMode/ToggleDarkMode';
 
 import FrontPage from './pages/FrontPage/FrontPage';
 import SetPage from './pages/SetPage/SetPage';
-import DOAAlterPage from './pages/DOAAlterPage/DOAAlterPage';
-import SP1Page from './pages/SP1Page/SP1Page';
 import ChampionsPage from './pages/ChampionsPage/ChampionsPage';
 import MaterialsPage from './pages/MaterialsPage/MaterialsPage';
 import DomainsPage from './pages/DomainsPage/DomainsPage';
@@ -50,9 +48,7 @@ const App: FC = () => {
       <Routes>
         <Route path='/' element={<FrontPage />}/>
         <Route path='/sets' element={<SetPage />}/>
-        <Route path='/sets/DOA-Alter' element={<DOAAlterPage />}/>
-        <Route path='/sets/SP1' element={<SP1Page />}/>
-        <Route path='/sets/:id/all-cards' element={<AllCardsPage />}/>
+        <Route path='/sets/:id' element={<AllCardsPage />}/>
         <Route path='/sets/:id/champions' element={<ChampionsPage />}/>
         <Route path='/sets/:id/regalias' element={<MaterialsPage />}/>
         <Route path='/sets/:id/domains' element={<DomainsPage />}/>
