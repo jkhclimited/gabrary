@@ -3,6 +3,7 @@
   /* text-align: center; */
   height: auto !important;
   min-height: 100vh;
+  font-size: 35px;
 }
 
 .App-logo {
@@ -76,11 +77,13 @@ a:hover, a:active { text-decoration: none; color:grey }
 @media (max-width: 1367px) {
   .cardImg { height: auto; width: 27vh; margin: 2px; }
   .centerText { margin: -20px 0px 0px 0px; text-align: center; font-size: 20px; width: 27vh; }
+  .App { font-size: 27px; }
 }
 
 @media (max-width: 641px) {
   .cardImg { height: auto; width: 20vh; margin: 2px; }
   .centerText { margin: -20px 0px 0px 0px; text-align: center; font-size: 15px; width: 20vh; }
+  .App { font-size: 20px; }
 }
 
 @media (max-width: 385px) {

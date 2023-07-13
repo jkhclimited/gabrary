@@ -9,6 +9,9 @@ interface ElemProps {
 const ElementBar: FC<ElemProps> = ({id}) => {
     return <>
     <nav className="element-bar">
+        <Link to={`/sets/${ id }`} className="elemLink">
+            <img className="elemBarIMG" src={process.env.PUBLIC_URL + `/Element_Symbols/all-cards.png`} alt="All Cards" />
+        </Link>
         <Link to={`/sets/${ id }/Champions`} className="elemLink">
             <img className="elemBarIMG" src={process.env.PUBLIC_URL + `/Element_Symbols/champion.png`} alt="Champions" />
         </Link>

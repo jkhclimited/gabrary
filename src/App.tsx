@@ -41,7 +41,7 @@ const App: FC = () => {
   }
 
   return <>
-  <div className={`App darkModeIs${appState.darkmode} linkModeIs${appState.darkmode}`}>
+  <div className={`App darkModeIs${appState.darkmode}`}>
     <BrowserRouter>
       <NavBar />
       <p className="toggleDarkMode">Light Mode <ToggleDarkMode name='Toggle Dark Mode' handleTextToggle={handleToggle}/></p> 
