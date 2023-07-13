@@ -1,6 +1,6 @@
-# TCG Database Base
+# Gabary.net
 
-A project to create an app for running a small database for any TCG of choice, just add details.
+A project aiming to bring easy access to information for Grand Archive cards and creators.
 
 ### Phase 1 (Complete)
 
