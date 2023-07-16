@@ -4,7 +4,7 @@
   /* text-align: center; */
   height: auto !important;
   min-height: 100vh;
-  font-size: 35px;
+  font-size: 32px;
 }
 
 .App-logo {
@@ -72,6 +72,20 @@ a:hover, a:active { text-decoration: none; color:grey }
 .toggleText, .toggleDarkMode {
   margin: 5px 0px 0px 10px;
   font-weight: bold;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1326px) {
+  .toggleText {
+    max-width: 1000px;
+  }
+}
+
+@media (max-width: 1064px) {
+  .toggleText {
+    max-width: 750px;
+  }
 }
 
 /* Start of Card Image Section */
@@ -79,6 +93,8 @@ a:hover, a:active { text-decoration: none; color:grey }
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+  max-width: 1330px;
+  margin: 0 auto;
 }
 
 @media (max-width: 7681px) {

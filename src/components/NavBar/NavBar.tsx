@@ -1,7 +1,7 @@
 import React, { FC, useState } from 'react';
 import { Link } from 'react-router-dom';
 import './NavBar.css';
-import ToggleSwitch from '../ToggleDarkMode/ToggleDarkMode';
+// import ToggleSwitch from '../ToggleDarkMode/ToggleDarkMode';
 
 interface NavBarProps {
     clicked: boolean,
@@ -22,7 +22,9 @@ const NavBar: FC = () => {
 
     return (
         <nav className="header-bar">
-            <img id="logoPNG" src={process.env.PUBLIC_URL + `/gabary-logo.png`} alt="logo.png" />
+            <Link to="/" className="logoNavItem">
+                <img id="logoPNG" src={process.env.PUBLIC_URL + `/gabary-logo.png`} alt="logo.png"/>
+            </Link>
             <div className={navBarState.clicked ? "navBarLinks active" : "navBarLinks"}>
                 <Link to="/" className="navItem">Home</Link>
                 <Link to="/sets" className="navItem">Sets</Link>

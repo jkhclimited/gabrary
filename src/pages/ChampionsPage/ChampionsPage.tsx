@@ -13,8 +13,8 @@ import DB_SP1 from '../../local_database/DB_SP1.json';
 import ToggleSwitch from '../../components/ToggleTextSwitch/ToggleTextSwitch';
 import ElementBar from "../../components/ElementBar/ElementBar";
 import '../ChampionsPage/ChampionsPage.css';
-import { getSetData } from "../../services/gatcg-api";
-import { Card } from "../../models/card";
+// import { getSetData } from "../../services/gatcg-api";
+// import { Card } from "../../models/card";
 
 
 interface ChampsPageState {
@@ -40,39 +40,39 @@ const ChampionsPage: FC = () => {
     };
 
     useEffect(() => {
-        if (id == "DOA-Alter") {
+        if (id === "DOA-Alter") {
             const cardsList = DB_DOAAlter.filter((card: any) => card.types.includes('CHAMPION'));;
             setChampsState({ ...champsState, cards: cardsList, imgSrc: "DOAAlter_Images" });
         }
-        if (id == "DOA1st") {
+        if (id === "DOA1st") {
             const champsList = DB_DOA1st.filter((card: any) => card.types.includes('CHAMPION'));
             setChampsState({ ...champsState, cards: champsList, imgSrc: "DOA1st_Images"});
         }
-        if (id == "DOAp") {
+        if (id === "DOAp") {
             const cardsList = DB_DOAp.filter((card: any) => card.types.includes('CHAMPION'));;
             setChampsState({ ...champsState, cards: cardsList, imgSrc: "DOAp_Images" });
         }
-        if (id == "DOASD") {
+        if (id === "DOASD") {
             const cardsList = DB_DOASD.filter((card: any) => card.types.includes('CHAMPION'));;
             setChampsState({ ...champsState, cards: cardsList, imgSrc: "DOASD_Images" });
         }
-        if (id == "EVP") {
+        if (id === "EVP") {
             const cardsList = DB_EVP.filter((card: any) => card.types.includes('CHAMPION'));;
             setChampsState({ ...champsState, cards: cardsList, imgSrc: "EVP_Images" });
         }
-        if (id == "GVC") {
+        if (id === "GVC") {
             const cardsList = DB_Isekai.filter((card: any) => card.types.includes('CHAMPION'));;
             setChampsState({ ...champsState, cards: cardsList, imgSrc: "GVC_Images" });
         }
-        if (id == "KSP") {
+        if (id === "KSP") {
             const cardsList = DB_KSP.filter((card: any) => card.types.includes('CHAMPION'));;
             setChampsState({ ...champsState, cards: cardsList, imgSrc: "KSP_Images" });
         }
-        if (id == "P22") {
+        if (id === "P22") {
             const cardsList = DB_P22.filter((card: any) => card.types.includes('CHAMPION'));;
             setChampsState({ ...champsState, cards: cardsList, imgSrc: "P22_Images"});
         }
-        if (id == "SP1") {
+        if (id === "SP1") {
             const cardsList = DB_SP1.filter((card: any) => card.types.includes('CHAMPION'));;
             setChampsState({ ...champsState, cards: cardsList, imgSrc: "SP1_Images"});
         }

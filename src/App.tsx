@@ -1,6 +1,6 @@
 import './App.css';
 import React, { FC, useState, useEffect } from 'react';
-import { BrowserRouter, Route, Routes, Navigate, } from 'react-router-dom';
+import { BrowserRouter, Route, Routes, } from 'react-router-dom';
 
 import NavBar from './components/NavBar/NavBar';
 // import ToggleDarkMode from './components/ToggleDarkMode/ToggleDarkMode';
@@ -45,7 +45,7 @@ const App: FC = () => {
   // Scroll To Top Button Section
   useEffect(() => {
     const scrollButtonVisible = () => {
-      window.scrollY > 300 ? setAppState({ ...appState, showButton: true}) : setAppState({ ...appState, showButton: false});
+      window.scrollY > 500 ? setAppState({ ...appState, showButton: true}) : setAppState({ ...appState, showButton: false});
     };
 
     window.addEventListener('scroll', scrollButtonVisible);

@@ -3,15 +3,21 @@
     color: rgb(117, 117, 117);
     display: flex;
     align-items: center;
+    justify-content: right;
     height: 3em;
 }
+
+.logoNavItem {
+    left: 0;
+    position: fixed;
+}
   
-.header-bar a:hover {
+.navBarLinks a:hover {
     color: rgb(255, 0, 0);
     border-bottom: 5px solid rgb(255, 0, 0);
 }
   
-.header-bar a {
+.navBarLinks a {
     line-height: 3rem;
     padding: 0 1rem;
     text-transform: uppercase;
@@ -28,21 +34,23 @@
     justify-content: center;
 }
 
+
+
 #threeLines, .mobileNav {
     max-height: 1em;
     padding-right: 8px;
 }
 
 #logoPNG {
-    max-height: 1.8em;
-    margin: 0 10px;
+    height: 2em;
+    margin: auto 20px auto 10px;
 }
 
 .mobileNav {
     display: none;
 }
 
-@media screen and (max-width:860px) {
+@media screen and (max-width:911px) {
     .navBarLinks {
         display: flex;
         flex-direction: column;
