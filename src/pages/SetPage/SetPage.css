@@ -9,8 +9,17 @@
 }
 
 .sets-header {
-    font-size: 30px;
+    font-size: 50px;
     font-weight: bold;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    margin: 0 0 0 0;
+}
+
+.sets-subheader {
+    font-size: 30px;
+    text-align: center;
     width: 100%;
     padding: 10px;
     margin: 0 0 0 0;
@@ -21,6 +30,7 @@
     display: inline-block;
     margin: 10px;
     max-width: 244px;
+    vertical-align: top;
     text-align: center;
 }
 

@@ -1,4 +1,5 @@
 /* Start of Overall App Stuff */
+
 .App {
   /* text-align: center; */
   height: auto !important;
@@ -18,7 +19,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #1b181d;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -33,7 +34,7 @@
 }
 
 .darkModeIstrue {
-  background-color: #333;
+  background-color: #1b181d;
   color: #fff;
 }
 
@@ -45,6 +46,26 @@
 a { color: #fff; }
 a:hover, a:active { text-decoration: none; color:grey }
 
+.scrollTopDiv {
+  display: flex;
+  position: fixed;
+  right: 5px; bottom: 5px;
+  width: 50px; height: 50px;
+}
+
+.scrollTopButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px; height: 50px;
+  font-size: 30px;
+  cursor: pointer;
+  background-color: transparent;
+  border-color: red;
+  border-width: 4px; border-radius: 9999px;
+  color: red;
+  padding-bottom: 8px;
+}
 /* End of Overall App Stuff */
 
 /* Toggle Section */

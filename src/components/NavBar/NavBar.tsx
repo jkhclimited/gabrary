@@ -1,19 +1,45 @@
-import React from 'react';
+import React, { FC, useState } from 'react';
 import { Link } from 'react-router-dom';
 import './NavBar.css';
+import ToggleSwitch from '../ToggleDarkMode/ToggleDarkMode';
 
-class NavBar extends React.Component {
-    render() {
-        return (
-            <nav className="header-bar">
-                <Link to="/" className="homepage">Home</Link>
-                <Link to="/sets" className="setspage">Sets</Link>
-                <Link to="/creators" className="">Creators</Link>
-                <Link to="/spoilers" className="">Spoilers</Link>
-                <Link to="/home#1" className="">Placehold2</Link>
-            </nav>
-        )
+interface NavBarProps {
+    clicked: boolean,
+}
+
+const initState: NavBarProps = {
+    clicked: false,
+}
+
+const NavBar: FC = () => {
+    const [navBarState, setNavBarState] = useState(initState);
+
+    const handleIconClick = () => {
+        const clicked = navBarState.clicked;
+        console.log(clicked);
+        setNavBarState({ ...navBarState, clicked: !clicked });
     }
+
+    return (
+        <nav className="header-bar">
+            <img id="logoPNG" src={process.env.PUBLIC_URL + `/gabary-logo.png`} alt="logo.png" />
+            <div className={navBarState.clicked ? "navBarLinks active" : "navBarLinks"}>
+                <Link to="/" className="navItem">Home</Link>
+                <Link to="/sets" className="navItem">Sets</Link>
+                <Link to="/creators" className="navItem">Content Creators</Link>
+                <Link to="/spoilers" className="navItem">Spoilers</Link>
+                <Link to="/reports" className="navItem">Tournament Reports</Link>
+            </div>
+            <div className="toggleDark">
+
+            </div>
+            <div className="mobileNav" onClick={() => handleIconClick()}>
+                <img id="threeLines" src={process.env.PUBLIC_URL + `/threeLines.png`} alt="menu.png"
+                    className={navBarState.clicked ? "iconShow" : "iconNoShow"}
+                ></img>
+            </div>
+        </nav>
+    )
 }
 
 export default NavBar;

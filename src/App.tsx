@@ -1,9 +1,9 @@
 import './App.css';
-import React, { useState , FC } from 'react';
-import { BrowserRouter, Route, Routes, Navigate } from 'react-router-dom';
+import React, { FC, useState, useEffect } from 'react';
+import { BrowserRouter, Route, Routes, Navigate, } from 'react-router-dom';
 
 import NavBar from './components/NavBar/NavBar';
-import ToggleDarkMode from './components/ToggleDarkMode/ToggleDarkMode';
+// import ToggleDarkMode from './components/ToggleDarkMode/ToggleDarkMode';
 
 import FrontPage from './pages/FrontPage/FrontPage';
 import SetPage from './pages/SetPage/SetPage';
@@ -26,25 +26,50 @@ import ContentCreatorsPage from './pages/ContentCreatorsPage/ContentCreatorsPage
 
 interface AppOverallState {
   darkmode: boolean,
+  showButton: boolean,
 }
 
 const initState: AppOverallState = {
   darkmode: true,
+  showButton: false,
 }
 
 const App: FC = () => {
   const [appState, setAppState] = useState(initState);
   
-  const handleToggle = () => {
-    const darkmode = appState.darkmode;
-    setAppState({ ...appState, darkmode: !darkmode });
-  }
+  // const handleToggle = () => {
+  //   const darkmode = appState.darkmode;
+  //   setAppState({ ...appState, darkmode: !darkmode });
+  // }
 
+  // Scroll To Top Button Section
+  useEffect(() => {
+    const scrollButtonVisible = () => {
+      window.scrollY > 300 ? setAppState({ ...appState, showButton: true}) : setAppState({ ...appState, showButton: false});
+    };
+
+    window.addEventListener('scroll', scrollButtonVisible);
+
+    return () => {
+      window.removeEventListener('scroll', scrollButtonVisible);
+    };
+  });
+
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth'});
+  };
+
+  // Render Section
   return <>
   <div className={`App darkModeIs${appState.darkmode}`}>
     <BrowserRouter>
       <NavBar />
-      <p className="toggleDarkMode">Light Mode <ToggleDarkMode name='Toggle Dark Mode' handleTextToggle={handleToggle}/></p> 
+      {appState.showButton && (
+        <div className='scrollTopDiv'>
+          <button className='scrollTopButton' onClick={scrollToTop}>⮙</button>
+        </div>
+      )}
+      {/* <p className="toggleDarkMode">Light Mode <ToggleDarkMode name='Toggle Dark Mode' handleTextToggle={handleToggle}/></p>  */}
       <Routes>
         <Route path='/' element={<FrontPage />}/>
         <Route path='/sets' element={<SetPage />}/>

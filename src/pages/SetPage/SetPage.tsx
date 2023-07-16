@@ -1,12 +1,13 @@
-import React, { FC, useState } from "react";
-import { Link, Route, Routes, Navigate } from 'react-router-dom';
+import React, { FC } from "react";
+import { Link } from 'react-router-dom';
 import '../SetPage/SetPage.css';
 
 const SetPage: FC = () => {
 
     return (
         <div className='sets-main-div'>
-            <p className='sets-header'>Sets Listed Below from Newest to Oldest</p>
+            <p className='sets-header'>Sets</p>
+            <p className='sets-subheader'>Listed Below from Newest to Oldest</p>
             <div className='aSet'>
                 <Link to={`/sets/SP1`} className="setLink">
                     <img className="setIMG" src={process.env.PUBLIC_URL + `/Set_Symbols/SP1.jpg`} alt="Supporter Pack 1" />
