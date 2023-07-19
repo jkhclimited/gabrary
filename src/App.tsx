@@ -7,21 +7,24 @@ import NavBar from './components/NavBar/NavBar';
 
 import FrontPage from './pages/FrontPage/FrontPage';
 import SetPage from './pages/SetPage/SetPage';
-import ChampionsPage from './pages/ChampionsPage/ChampionsPage';
-import MaterialsPage from './pages/MaterialsPage/MaterialsPage';
-import DomainsPage from './pages/DomainsPage/DomainsPage';
-import NullsPage from './pages/NullsPage/NullsPage';
-import FiresPage from './pages/FiresPage/FiresPage';
-import WatersPage from './pages/WatersPage/WatersPage';
-import WindsPage from './pages/WindsPage/WindsPage';
-import LuxemsPage from './pages/LuxemsPage/LuxemsPage';
-import CruxsPage from './pages/CruxsPage/CruxsPage';
-import ArcanesPage from './pages/ArcanesPage/ArcanesPage';
-import TerasPage from './pages/TerasPage/TerasPage';
+import ChampionsPage from './pages/CardsPages/ChampionsPage/ChampionsPage';
+import MaterialsPage from './pages/CardsPages/MaterialsPage/MaterialsPage';
+import DomainsPage from './pages/CardsPages/DomainsPage/DomainsPage';
+import NullsPage from './pages/CardsPages/NullsPage/NullsPage';
+import FiresPage from './pages/CardsPages/FiresPage/FiresPage';
+import WatersPage from './pages/CardsPages/WatersPage/WatersPage';
+import WindsPage from './pages/CardsPages/WindsPage/WindsPage';
+import LuxemsPage from './pages/CardsPages/LuxemsPage/LuxemsPage';
+import CruxsPage from './pages/CardsPages/CruxsPage/CruxsPage';
+import ArcanesPage from './pages/CardsPages/ArcanesPage/ArcanesPage';
+import TerasPage from './pages/CardsPages/TerasPage/TerasPage';
 import NoPage from './pages/NoPage/NoPage';
-import AllCardsPage from './pages/AllCardsPage/AllCardsPage';
-import AltArtsPage from './pages/AltArtsPage/AltArtsPage';
+import AllCardsPage from './pages/CardsPages/AllCardsPage/AllCardsPage';
+import AltArtsPage from './pages/CardsPages/AltArtsPage/AltArtsPage';
+
 import ContentCreatorsPage from './pages/ContentCreatorsPage/ContentCreatorsPage';
+import ArticlePage from './pages/ArticlePage/ArticlePage';
+import ArticleIndivPage from './pages/ArticleIndivPage/ArticleIndivPage';
 
 
 interface AppOverallState {
@@ -72,6 +75,7 @@ const App: FC = () => {
       {/* <p className="toggleDarkMode">Light Mode <ToggleDarkMode name='Toggle Dark Mode' handleTextToggle={handleToggle}/></p>  */}
       <Routes>
         <Route path='/' element={<FrontPage />}/>
+
         <Route path='/sets' element={<SetPage />}/>
         <Route path='/sets/:id' element={<AllCardsPage />}/>
         <Route path='/sets/:id/champions' element={<ChampionsPage />}/>
@@ -86,6 +90,9 @@ const App: FC = () => {
         <Route path='/sets/:id/arcanes' element={<ArcanesPage />}/>
         <Route path='/sets/:id/teras' element={<TerasPage />}/>
         <Route path='/sets/:id/alt-arts' element={<AltArtsPage />}/>
+
+        <Route path='/articles' element={<ArticlePage />}/>
+        <Route path='/articles/:id' element={<ArticleIndivPage />}/>
         <Route path='/creators' element={<ContentCreatorsPage />}/>
         <Route path="*" element={<NoPage />}/>
       </Routes>

@@ -9,7 +9,7 @@
 
 .logoNavItem {
     left: 0;
-    position: fixed;
+    position: absolute;
 }
   
 .navBarLinks a:hover {

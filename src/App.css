@@ -4,7 +4,7 @@
   /* text-align: center; */
   height: auto !important;
   min-height: 100vh;
-  font-size: 32px;
+  font-size: 42px;
 }
 
 .App-logo {
@@ -97,18 +97,20 @@ a:hover, a:active { text-decoration: none; color:grey }
   margin: 0 auto;
 }
 
-@media (max-width: 7681px) {
+@media (max-width: 7683px) {
   .cardImg { height: auto; width: 27vh; margin: 2px;}
   .centerText { margin: -20px 0px 0px 0px; text-align: center; font-size: 80px; width: 27vh; }
 }
 
-@media (max-width: 5761px) {
+@media (max-width: 3841px) {
   .centerText { font-size: 50px; }
+  .App { font-size: 36px; }
 }
 
 @media (max-width: 1921px) {
   .cardImg { height: auto; width: 27vh; margin: 2px; }
   .centerText { margin: -20px 0px 0px 0px; text-align: center; font-size: 27px; width: 27vh; }
+  .App { font-size: 32px; }
 }
 
 @media (max-width: 1367px) {
