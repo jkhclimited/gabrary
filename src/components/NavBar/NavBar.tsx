@@ -16,7 +16,6 @@ const NavBar: FC = () => {
 
     const handleIconClick = () => {
         const clicked = navBarState.clicked;
-        console.log(clicked);
         setNavBarState({ ...navBarState, clicked: !clicked });
     }
 

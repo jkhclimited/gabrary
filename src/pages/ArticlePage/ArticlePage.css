@@ -1,3 +1,9 @@
+.articles-main-div {
+    margin: 0 auto;
+    width: 2480px;
+    align-items: center;
+}
+
 .articles-header {
     font-size: 50px;
     font-weight: bold;
@@ -13,12 +19,6 @@
     width: 100%;
     padding: 10px;
     margin: 0 0 0 0;
-}
-
-.articles-main-div {
-    margin: 0 auto;
-    width: 2480px;
-    align-items: center;
 }
 
 .articleLink {

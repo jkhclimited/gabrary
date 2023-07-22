@@ -4,7 +4,7 @@
     display: flex;
     align-items: center;
     justify-content: right;
-    height: 3em;
+    height: 6em;
 }
 
 .logoNavItem {
@@ -24,7 +24,7 @@
     text-decoration: none;
     color: rgb(255, 255, 255);
     font-weight: bold;
-    font-size: 20px;
+    font-size: 60px;
     transition: 0.35s ease-in-out;
 }
 
@@ -33,8 +33,6 @@
     align-items: center;
     justify-content: center;
 }
-
-
 
 #threeLines, .mobileNav {
     max-height: 1em;
@@ -48,6 +46,11 @@
 
 .mobileNav {
     display: none;
+}
+
+@media (max-width: 3841px) {
+    .header-bar { height: 3em; }
+    .navBarLinks a { font-size: 25px; }
 }
 
 @media screen and (max-width:911px) {

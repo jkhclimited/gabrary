@@ -1,8 +1,8 @@
 import React, { useState, useEffect }from "react";
 import { useParams } from "react-router-dom";
 import { FC } from "react";
-import DOAAlterAlts from '../../../local_database/DB_DOAAlter_Alt.json';
-import DOA1stAlts from '../../../local_database/DB_DOA1st_Alt.json';
+import DOAAlterAlts from '../../../database_sets/DB_DOAAlter_Alt.json';
+import DOA1stAlts from '../../../database_sets/DB_DOA1st_Alt.json';
 import ToggleSwitch from '../../../components/ToggleTextSwitch/ToggleTextSwitch';
 import ElementBar from "../../../components/ElementBar/ElementBar";
 import '../AltArtsPage/AltArtsPage.css';
