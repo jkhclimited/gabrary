@@ -18,12 +18,16 @@ interface FiresPageState {
     showing: boolean,
     cards: (any)[],
     imgSrc: string,
+    lightboxDisplay: boolean,
+    cardToShow: string,
 }
 
 const initState: FiresPageState = {
     showing: false,
     cards: [],
     imgSrc: "",
+    lightboxDisplay: false,
+    cardToShow: "",
 }
 
 const FiresPage: FC = () => {
@@ -33,6 +37,14 @@ const FiresPage: FC = () => {
     const handleTextToggle = () => {
         const showing = fireState.showing;
         setfireState({ ...fireState, showing: !showing });
+    };
+
+    const showLightbox = (targetImage: string) => {
+        setfireState({ ...fireState, lightboxDisplay: true, cardToShow: targetImage });
+    };
+    
+    const hideLightBox = () => {
+        setfireState({ ...fireState, lightboxDisplay: false });
     };
 
     useEffect(() => {
@@ -83,13 +95,17 @@ const FiresPage: FC = () => {
             {fireState.cards.length > 0 ?
                 fireState.cards.map(card => (
                     <div className="text-row" key={card["name"].toString()}>                           
-                        <p id={card["name"].toString()}><img className="cardImg" src={process.env.PUBLIC_URL + `/${fireState.imgSrc}/${parseInt(card.collector_number)}.jpg`} alt="" /></p>
+                        <p id={card["name"].toString()}><img className="cardImg" onClick={() => showLightbox(card.collector_number)} src={process.env.PUBLIC_URL + `/${fireState.imgSrc}/${parseInt(card.collector_number)}.jpg`} alt="" /></p>
                         <p style={{ display: (fireState.showing ? 'block' : 'none' ) }} id={card["collector_number"].toString()} className="centerText">{card.name}</p>
                         <br />
                     </div>
                 ))
             : <p>No Cards!</p>}
         </div> 
+        { fireState.lightboxDisplay ? 
+        <div id="lightbox">
+            <img id="lightbox-img" onClick={() => hideLightBox()}src={process.env.PUBLIC_URL + `/${fireState.imgSrc}/${fireState.cardToShow}.jpg`}/>
+        </div> : '' }
     </div>
     </>;
 } 

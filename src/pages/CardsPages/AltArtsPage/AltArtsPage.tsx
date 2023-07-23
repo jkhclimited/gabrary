@@ -15,12 +15,16 @@ interface AltArtsPageState {
     // cards: Card[],
     cards: (any)[],
     imgSrc: string,
+    lightboxDisplay: boolean,
+    cardToShow: string,
 }
 
 const initState: AltArtsPageState = {
     showing: false,
     cards: [],
     imgSrc: "",
+    lightboxDisplay: false,
+    cardToShow: "",
 }
 
 const AltArtsPage: FC = () => {
@@ -32,22 +36,23 @@ const AltArtsPage: FC = () => {
         setAltArtsState({ ...altArtsState, showing: !showing });
     };
 
+    const showLightbox = (targetImage: string) => {
+        setAltArtsState({ ...altArtsState, lightboxDisplay: true, cardToShow: targetImage });
+    };
+    
+    const hideLightBox = () => {
+        setAltArtsState({ ...altArtsState, lightboxDisplay: false });
+    };
+
     useEffect(() => {
-        console.log(id);
-        if (id == "DOA-Alter") {
+        if (id === "DOA-Alter") {
             const cardsList = DOAAlterAlts;
             setAltArtsState({ ...altArtsState, cards: cardsList, imgSrc: "DOAAlter_Alt_Images" });
         }
-        if (id == "DOA1st") {
+        if (id === "DOA1st") {
             const cardsList = DOA1stAlts;
             setAltArtsState({ ...altArtsState, cards: cardsList, imgSrc: "DOA1st_Alt_Images" });
         }
-        // const fixedID = id?.replace("-", " ");
-        // getSetData(fixedID!!).then((cards) => {
-        //     console.log(cards);
-        //     const champsList = cards.filter((card: any) => card.types.includes('CHAMPION'));
-        //     setaltArtsState({ ...altArtsState, cards: champsList });
-        // })
     }, [])
 
     return <>
@@ -58,13 +63,17 @@ const AltArtsPage: FC = () => {
             {altArtsState.cards.length > 0 ?
                 altArtsState.cards.map(card => (
                     <div className="text-row" key={card["name"].toString()}>                           
-                        <p id={card["name"].toString()}><img className="cardImg" src={process.env.PUBLIC_URL + `/${altArtsState.imgSrc}/${parseInt(card.collector_number)}.jpg`} alt="" /></p>
+                        <p id={card["name"].toString()}><img className="cardImg" onClick={() => showLightbox(card.collector_number)} src={process.env.PUBLIC_URL + `/${altArtsState.imgSrc}/${parseInt(card.collector_number)}.jpg`} alt="" /></p>
                         <p style={{ display: (altArtsState.showing ? 'block' : 'none' ) }} id={card["collector_number"].toString()} className="centerText">{card.name}</p>
                         <br />
                     </div>
                 ))
             : <p>No Cards!</p>}
         </div> 
+        { altArtsState.lightboxDisplay ? 
+        <div id="lightbox">
+            <img id="lightbox-img" onClick={() => hideLightBox()}src={process.env.PUBLIC_URL + `/${altArtsState.imgSrc}/${altArtsState.cardToShow}.jpg`}/>
+        </div> : '' }
     </div>
     </>;
 } 

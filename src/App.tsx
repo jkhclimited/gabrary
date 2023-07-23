@@ -24,7 +24,7 @@ import AltArtsPage from './pages/CardsPages/AltArtsPage/AltArtsPage';
 
 import ContentCreatorsPage from './pages/ContentCreatorsPage/ContentCreatorsPage';
 import ArticlePage from './pages/ArticlePage/ArticlePage';
-import ArticleIndivPage from './pages/ArticleIndivPage/ArticleIndivPage';
+import ArticleIndivPage from './pages/ArticleIndivPages/ArticleIndivPage';
 
 
 interface AppOverallState {

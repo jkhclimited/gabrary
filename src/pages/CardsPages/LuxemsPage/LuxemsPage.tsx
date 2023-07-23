@@ -18,12 +18,16 @@ interface LuxemsPageState {
     showing: boolean,
     cards: (any)[],
     imgSrc: string,
+    lightboxDisplay: boolean,
+    cardToShow: string,
 }
 
 const initState: LuxemsPageState = {
     showing: false,
     cards: [],
     imgSrc: "",
+    lightboxDisplay: false,
+    cardToShow: "",
 }
 
 const LuxemsPage: FC = () => {
@@ -33,6 +37,14 @@ const LuxemsPage: FC = () => {
     const handleTextToggle = () => {
         const showing = luxemState.showing;
         setluxemState({ ...luxemState, showing: !showing });
+    };
+
+    const showLightbox = (targetImage: string) => {
+        setluxemState({ ...luxemState, lightboxDisplay: true, cardToShow: targetImage });
+    };
+    
+    const hideLightBox = () => {
+        setluxemState({ ...luxemState, lightboxDisplay: false });
     };
 
     useEffect(() => {
@@ -83,13 +95,17 @@ const LuxemsPage: FC = () => {
             {luxemState.cards.length > 0 ?
                 luxemState.cards.map(card => (
                     <div className="text-row" key={card["name"].toString()}>                           
-                        <p id={card["name"].toString()}><img className="cardImg" src={process.env.PUBLIC_URL + `/${luxemState.imgSrc}/${parseInt(card.collector_number)}.jpg`} alt="" /></p>
+                        <p id={card["name"].toString()}><img className="cardImg" onClick={() => showLightbox(card.collector_number)} src={process.env.PUBLIC_URL + `/${luxemState.imgSrc}/${parseInt(card.collector_number)}.jpg`} alt="" /></p>
                         <p style={{ display: (luxemState.showing ? 'block' : 'none' ) }} id={card["collector_number"].toString()} className="centerText">{card.name}</p>
                         <br />
                     </div>
                 ))
             : <p>No Cards!</p>}
         </div> 
+        { luxemState.lightboxDisplay ? 
+        <div id="lightbox">
+            <img id="lightbox-img" onClick={() => hideLightBox()}src={process.env.PUBLIC_URL + `/${luxemState.imgSrc}/${luxemState.cardToShow}.jpg`}/>
+        </div> : '' }
     </div>
     </>;
 } 

@@ -17,12 +17,16 @@ interface WindsPageState {
     showing: boolean,
     cards: (any)[],
     imgSrc: string,
+    lightboxDisplay: boolean,
+    cardToShow: string,
 }
 
 const initState: WindsPageState = {
     showing: false,
     cards: [],
     imgSrc: "",
+    lightboxDisplay: false,
+    cardToShow: "",
 }
 
 const WindsPage: FC = () => {
@@ -32,6 +36,14 @@ const WindsPage: FC = () => {
     const handleTextToggle = () => {
         const showing = windsState.showing;
         setwindsState({ ...windsState, showing: !showing });
+    };
+
+    const showLightbox = (targetImage: string) => {
+        setwindsState({ ...windsState, lightboxDisplay: true, cardToShow: targetImage });
+    };
+    
+    const hideLightBox = () => {
+        setwindsState({ ...windsState, lightboxDisplay: false });
     };
 
     useEffect(() => {
@@ -82,13 +94,17 @@ const WindsPage: FC = () => {
             {windsState.cards.length > 0 ?
                 windsState.cards.map(card => (
                     <div className="text-row" key={card["name"].toString()}>                           
-                        <p id={card["name"].toString()}><img className="cardImg" src={process.env.PUBLIC_URL + `/${windsState.imgSrc}/${parseInt(card.collector_number)}.jpg`} alt="" /></p>
+                        <p id={card["name"].toString()}><img className="cardImg" onClick={() => showLightbox(card.collector_number)} src={process.env.PUBLIC_URL + `/${windsState.imgSrc}/${parseInt(card.collector_number)}.jpg`} alt="" /></p>
                         <p style={{ display: (windsState.showing ? 'block' : 'none' ) }} id={card["collector_number"].toString()} className="centerText">{card.name}</p>
                         <br />
                     </div>
                 ))
             : <p>No Cards!</p>}
         </div> 
+        { windsState.lightboxDisplay ? 
+        <div id="lightbox">
+            <img id="lightbox-img" onClick={() => hideLightBox()}src={process.env.PUBLIC_URL + `/${windsState.imgSrc}/${windsState.cardToShow}.jpg`}/>
+        </div> : '' }
     </div>
     </>;
 } 

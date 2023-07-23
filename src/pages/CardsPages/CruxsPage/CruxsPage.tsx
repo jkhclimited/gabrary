@@ -18,12 +18,16 @@ interface CruxsPageState {
     showing: boolean,
     cards: (any)[],
     imgSrc: string,
+    lightboxDisplay: boolean,
+    cardToShow: string,
 }
 
 const initState: CruxsPageState = {
     showing: false,
     cards: [],
     imgSrc: "",
+    lightboxDisplay: false,
+    cardToShow: "",
 }
 
 const CruxsPage: FC = () => {
@@ -33,6 +37,14 @@ const CruxsPage: FC = () => {
     const handleTextToggle = () => {
         const showing = cruxsState.showing;
         setcruxsState({ ...cruxsState, showing: !showing });
+    };
+
+    const showLightbox = (targetImage: string) => {
+        setcruxsState({ ...cruxsState, lightboxDisplay: true, cardToShow: targetImage });
+    };
+    
+    const hideLightBox = () => {
+        setcruxsState({ ...cruxsState, lightboxDisplay: false });
     };
 
     useEffect(() => {
@@ -83,13 +95,17 @@ const CruxsPage: FC = () => {
             {cruxsState.cards.length > 0 ?
                 cruxsState.cards.map(card => (
                     <div className="text-row" key={card["name"].toString()}>                           
-                        <p id={card["name"].toString()}><img className="cardImg" src={process.env.PUBLIC_URL + `/${cruxsState.imgSrc}/${parseInt(card.collector_number)}.jpg`} alt="" /></p>
+                        <p id={card["name"].toString()}><img className="cardImg" onClick={() => showLightbox(card.collector_number)} src={process.env.PUBLIC_URL + `/${cruxsState.imgSrc}/${parseInt(card.collector_number)}.jpg`} alt="" /></p>
                         <p style={{ display: (cruxsState.showing ? 'block' : 'none' ) }} id={card["collector_number"].toString()} className="centerText">{card.name}</p>
                         <br />
                     </div>
                 ))
             : <p>No Cards!</p>}
         </div> 
+        { cruxsState.lightboxDisplay ? 
+        <div id="lightbox">
+            <img id="lightbox-img" onClick={() => hideLightBox()}src={process.env.PUBLIC_URL + `/${cruxsState.imgSrc}/${cruxsState.cardToShow}.jpg`}/>
+        </div> : '' }
     </div>
     </>;
 } 

@@ -20,12 +20,16 @@ interface AllCardsPageState {
     showing: boolean,
     cards: (any)[],
     imgSrc: string,
+    lightboxDisplay: boolean,
+    cardToShow: string,
 }
 
 const initState: AllCardsPageState = {
     showing: false,
     cards: [],
     imgSrc: "",
+    lightboxDisplay: false,
+    cardToShow: "",
 }
 
 const AllCardsPage: FC = () => {
@@ -37,40 +41,48 @@ const AllCardsPage: FC = () => {
         setallCardsState({ ...allCardsState, showing: !showing });
     };
 
+    const showLightbox = (targetImage: string) => {
+        setallCardsState({ ...allCardsState, lightboxDisplay: true, cardToShow: targetImage });
+    };
+    
+    const hideLightBox = () => {
+        setallCardsState({ ...allCardsState, lightboxDisplay: false });
+    };
+
     useEffect(() => {
-        if (id == "DOA-Alter") {
+        if (id === "DOA-Alter") {
             const cardsList = DB_DOAAlter;
             setallCardsState({ ...allCardsState, cards: cardsList, imgSrc: "DOAAlter_Images" });
         }
-        if (id == "DOA1st") {
+        if (id === "DOA1st") {
             const cardsList = DB_DOA1st;
             setallCardsState({ ...allCardsState, cards: cardsList, imgSrc: "DOA1st_Images" });
         }
-        if (id == "DOAp") {
+        if (id === "DOAp") {
             const cardsList = DB_DOAp;
             setallCardsState({ ...allCardsState, cards: cardsList, imgSrc: "DOAp_Images" });
         }
-        if (id == "DOASD") {
+        if (id === "DOASD") {
             const cardsList = DB_DOASD;
             setallCardsState({ ...allCardsState, cards: cardsList, imgSrc: "DOASD_Images" });
         }
-        if (id == "EVP") {
+        if (id === "EVP") {
             const cardsList = DB_EVP;
             setallCardsState({ ...allCardsState, cards: cardsList, imgSrc: "EVP_Images" });
         }
-        if (id == "GVC") {
+        if (id === "GVC") {
             const cardsList = DB_Isekai;
             setallCardsState({ ...allCardsState, cards: cardsList, imgSrc: "GVC_Images" });
         }
-        if (id == "KSP") {
+        if (id === "KSP") {
             const cardsList = DB_KSP;
             setallCardsState({ ...allCardsState, cards: cardsList, imgSrc: "KSP_Images" });
         }
-        if (id == "P22") {
+        if (id === "P22") {
             const cardsList = DB_P22;
             setallCardsState({ ...allCardsState, cards: cardsList, imgSrc: "P22_Images"});
         }
-        if (id == "SP1") {
+        if (id === "SP1") {
             const cardsList = DB_SP1;
             setallCardsState({ ...allCardsState, cards: cardsList, imgSrc: "SP1_Images"});
         }
@@ -84,13 +96,17 @@ const AllCardsPage: FC = () => {
             {allCardsState.cards.length > 0 ?
                 allCardsState.cards.map(card => (
                     <div className="text-row" key={card["name"].toString()}>                           
-                        <p id={card["name"].toString()}><img className="cardImg" src={process.env.PUBLIC_URL + `/${allCardsState.imgSrc}/${parseInt(card.collector_number)}.jpg`} alt="" /></p>
+                        <p id={card["name"].toString()}><img className="cardImg" onClick={() => showLightbox(card.collector_number)} src={process.env.PUBLIC_URL + `/${allCardsState.imgSrc}/${parseInt(card.collector_number)}.jpg`} alt="" /></p>
                         <p style={{ display: (allCardsState.showing ? 'block' : 'none' ) }} id={card["collector_number"].toString()} className="centerText">{card.name}</p>
                         <br />
                     </div>
                 ))
             : <p>No Cards!</p>}
         </div> 
+        { allCardsState.lightboxDisplay ? 
+        <div id="lightbox">
+            <img id="lightbox-img" onClick={() => hideLightBox()}src={process.env.PUBLIC_URL + `/${allCardsState.imgSrc}/${allCardsState.cardToShow}.jpg`}/>
+        </div> : '' }
     </div>
     </>;
 } 

@@ -18,12 +18,16 @@ interface WatersPageState {
     showing: boolean,
     cards: (any)[],
     imgSrc: string,
+    lightboxDisplay: boolean,
+    cardToShow: string,
 }
 
 const initState: WatersPageState = {
     showing: false,
     cards: [],
     imgSrc: "",
+    lightboxDisplay: false,
+    cardToShow: "",
 }
 
 const WatersPage: FC = () => {
@@ -33,6 +37,14 @@ const WatersPage: FC = () => {
     const handleTextToggle = () => {
         const showing = watersState.showing;
         setwatersState({ ...watersState, showing: !showing });
+    };
+
+    const showLightbox = (targetImage: string) => {
+        setwatersState({ ...watersState, lightboxDisplay: true, cardToShow: targetImage });
+    };
+    
+    const hideLightBox = () => {
+        setwatersState({ ...watersState, lightboxDisplay: false });
     };
 
     useEffect(() => {
@@ -83,13 +95,17 @@ const WatersPage: FC = () => {
             {watersState.cards.length > 0 ?
                 watersState.cards.map(card => (
                     <div className="text-row" key={card["name"].toString()}>                           
-                        <p id={card["name"].toString()}><img className="cardImg" src={process.env.PUBLIC_URL + `/${watersState.imgSrc}/${parseInt(card.collector_number)}.jpg`} alt="" /></p>
+                        <p id={card["name"].toString()}><img className="cardImg" onClick={() => showLightbox(card.collector_number)} src={process.env.PUBLIC_URL + `/${watersState.imgSrc}/${parseInt(card.collector_number)}.jpg`} alt="" /></p>
                         <p style={{ display: (watersState.showing ? 'block' : 'none' ) }} id={card["collector_number"].toString()} className="centerText">{card.name}</p>
                         <br />
                     </div>
                 ))
             : <p>No Cards!</p>}
         </div> 
+        { watersState.lightboxDisplay ? 
+        <div id="lightbox">
+            <img id="lightbox-img" onClick={() => hideLightBox()}src={process.env.PUBLIC_URL + `/${watersState.imgSrc}/${watersState.cardToShow}.jpg`}/>
+        </div> : '' }
     </div>
     </>;
 } 

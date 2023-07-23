@@ -22,12 +22,16 @@ interface ChampsPageState {
     // cards: Card[],
     cards: (any)[],
     imgSrc: string,
+    lightboxDisplay: boolean,
+    cardToShow: string,
 }
 
 const initState: ChampsPageState = {
     showing: false,
     cards: [],
     imgSrc: "",
+    lightboxDisplay: false,
+    cardToShow: "",
 }
 
 const ChampionsPage: FC = () => {
@@ -37,6 +41,14 @@ const ChampionsPage: FC = () => {
     const handleTextToggle = () => {    
         const showing = champsState.showing;
         setChampsState({ ...champsState, showing: !showing });
+    };
+
+    const showLightbox = (targetImage: string) => {
+        setChampsState({ ...champsState, lightboxDisplay: true, cardToShow: targetImage });
+    };
+    
+    const hideLightBox = () => {
+        setChampsState({ ...champsState, lightboxDisplay: false });
     };
 
     useEffect(() => {
@@ -92,13 +104,17 @@ const ChampionsPage: FC = () => {
             {champsState.cards.length > 0 ?
                 champsState.cards.map(card => (
                     <div className="text-row" key={card["name"].toString()}>                           
-                        <p id={card["name"].toString()}><img className="cardImg" src={process.env.PUBLIC_URL + `/${champsState.imgSrc}/${parseInt(card.collector_number)}.jpg`} alt="" /></p>
+                        <p id={card["name"].toString()}><img className="cardImg" onClick={() => showLightbox(card.collector_number)} src={process.env.PUBLIC_URL + `/${champsState.imgSrc}/${parseInt(card.collector_number)}.jpg`} alt="" /></p>
                         <p style={{ display: (champsState.showing ? 'block' : 'none' ) }} id={card["collector_number"].toString()} className="centerText">{card.name}</p>
                         <br />
                     </div>
                 ))
             : <p>No Cards!</p>}
         </div> 
+        { champsState.lightboxDisplay ? 
+        <div id="lightbox">
+            <img id="lightbox-img" onClick={() => hideLightBox()}src={process.env.PUBLIC_URL + `/${champsState.imgSrc}/${champsState.cardToShow}.jpg`}/>
+        </div> : '' }
     </div>
     </>;
 } 
