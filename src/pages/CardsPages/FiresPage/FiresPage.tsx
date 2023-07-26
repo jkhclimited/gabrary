@@ -95,7 +95,7 @@ const FiresPage: FC = () => {
             {fireState.cards.length > 0 ?
                 fireState.cards.map(card => (
                     <div className="text-row" key={card["name"].toString()}>                           
-                        <p id={card["name"].toString()}><img className="cardImg" onClick={() => showLightbox(card.collector_number)} src={process.env.PUBLIC_URL + `/${fireState.imgSrc}/${parseInt(card.collector_number)}.jpg`} alt="" /></p>
+                        <p className="cardImgBox" id={card["name"].toString()}><img className="cardImg" onClick={() => showLightbox(card.collector_number)} src={process.env.PUBLIC_URL + `/${fireState.imgSrc}/${parseInt(card.collector_number)}.jpg`} alt="" /></p>
                         <p style={{ display: (fireState.showing ? 'block' : 'none' ) }} id={card["collector_number"].toString()} className="centerText">{card.name}</p>
                         <br />
                     </div>

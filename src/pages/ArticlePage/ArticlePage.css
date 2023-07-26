@@ -1,34 +1,35 @@
 .articles-main-div {
     margin: 0 auto;
-    width: 2480px;
-    align-items: center;
-}
-
-.articles-header {
-    font-size: 50px;
-    font-weight: bold;
+    width: 75vw;
     text-align: center;
-    width: 100%;
-    padding: 10px;
-    margin: 0 0 0 0;
-}
-
-.articles-subheader {
-    font-size: 40px;
-    text-align: center;
-    width: 100%;
-    padding: 10px;
-    margin: 0 0 0 0;
 }
 
 .articleLink {
     text-decoration: none;
 }
 
+.articles-header {
+    font-size: 3vw;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    padding: 5px;
+    margin: 0;
+}
+
+.articles-subheader {
+    font-size: 1.5vw;
+    text-align: center;
+    width: 100%;
+    padding: 5px;
+    margin: 0;
+}
+ /* top right bottom left */
+
 .anArticle {
     display: inline-block;
     margin: 10px;
-    max-width: 600px;
+    max-width: 30vw;
     vertical-align: top;
     text-align: left;
 }
@@ -39,37 +40,25 @@
 }
 
 .articleBlurb {
-    font-size: 30px;
+    font-size: 1vw;
 }
 
 .articleIMG {
-    width: 600px;
-}
- /* top right bottom left */
-
-@media (max-width: 2561px) {
-    .articles-main-div {
-        margin: 0 auto;
-        width: 1260px;
-        align-items: center;
-    }
-    .articleLink { text-decoration: none; }
-    .anArticle { max-width: 400px; }
-    .articleBlurb { font-size: 20px; }
-    .articleIMG { max-width: 400px; max-height: 222px; }
+    max-width: 30vw;
 }
 
 @media (max-width: 1080px) {
-    .articles-main-div { width: 840px; }
-}
-
-@media (max-width: 810px) {
-    .articles-main-div { width: 420px; }
+    .articles-header { font-size: 4vw; }
+    .articles-subheader { font-size: 2vw; }
+    .articleTitle { font-size: 2vw; }
+    .articleBlurb { font-size: 1.5vw; }
 }
 
 @media (max-width: 580px) {
-    .articles-main-div { width: 265px; }
-    .articleBlurb { font-size: 15px; }
-    .anArticle { max-width: 240px; }
-    .articleIMG { max-width: 240px; }
+    .articles-header { font-size: 6vw; }
+    .articles-subheader { font-size: 3vw; }
+    .articleTitle { font-size: 4.5vw; }
+    .articleBlurb { font-size: 3vw; }
+    .anArticle { max-width: 60vw; }
+    .articleIMG { max-width: 60vw; }
 }

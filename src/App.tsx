@@ -69,7 +69,7 @@ const App: FC = () => {
       <NavBar />
       {appState.showButton && (
         <div className='scrollTopDiv'>
-          <button className='scrollTopButton' onClick={scrollToTop}>⮙</button>
+          <button className='scrollTopButton' onClick={scrollToTop}>⬆</button>
         </div>
       )}
       {/* <p className="toggleDarkMode">Light Mode <ToggleDarkMode name='Toggle Dark Mode' handleTextToggle={handleToggle}/></p>  */}

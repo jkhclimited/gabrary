@@ -1,10 +1,15 @@
 /* Start of Overall App Stuff */
+html {
+  background-color: #1b181d;
+  text-align: center;
+}
 
 .App {
-  /* text-align: center; */
   height: auto !important;
   min-height: 100vh;
-  font-size: 42px;
+  font-size: 2vw;
+  margin-bottom: 20px;
+  color: #fff;
 }
 
 .App-logo {
@@ -33,16 +38,6 @@
   color: #61dafb;
 }
 
-.darkModeIstrue {
-  background-color: #1b181d;
-  color: #fff;
-}
-
-.darkModeIsfalse {
-  background-color: #fff;
-  color: #333;
-}
-
 a { color: #fff; }
 a:hover, a:active { text-decoration: none; color:grey }
 
@@ -66,20 +61,26 @@ a:hover, a:active { text-decoration: none; color:grey }
   color: red;
   padding-bottom: 8px;
 }
+
 /* End of Overall App Stuff */
 
 /* Toggle Section */
 .toggleText, .toggleDarkMode {
-  margin: 5px 0px 0px 10px;
   font-weight: bold;
-  max-width: 1300px;
+  max-width: 65vw;
   margin: 0 auto;
+  text-align: left;
 }
 
 @media (max-width: 1326px) {
   .toggleText {
     max-width: 1000px;
+    margin: 5px 0px 0px 10px;
   }
+}
+
+@media (max-width: 385px) {
+  
 }
 
 /* Lightbox Section */
@@ -97,19 +98,11 @@ a:hover, a:active { text-decoration: none; color:grey }
 
 #lightbox-img {
   margin: 0 auto;
-  width: 40vh;
+  height: 70vh;
 }
 
 @media (max-width: 1000px) {
-  #lightbox-img {
-      width: 40vh;
-  }
-}
-
-@media (max-width: 1064px) {
-  .toggleText {
-    max-width: 750px;
-  }
+  .toggleText { max-width: 750px; }
 }
 
 /* Start of Card Image Section */
@@ -117,42 +110,30 @@ a:hover, a:active { text-decoration: none; color:grey }
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  max-width: 5000px;
-  margin: 0 auto;
+  max-width: 75vw;
+  margin: 10px auto;
 }
 
-@media (max-width: 7683px) {
-  .cardImg { height: auto; width: 27vh; margin: 2px;}
-  .centerText { margin: -20px 0px 0px 0px; text-align: center; font-size: 80px; width: 27vh; }
-}
+.cardImg { width: 13vw; height: auto; }
+.cardImgBox { width: 13vw; margin: 2px; }
 
-@media (max-width: 3841px) {
-  .centerText { font-size: 50px; }
-  .App { font-size: 36px; }
-  .flexCardImgs { max-width: 3000px; }
+.centerText { 
+  margin: 0; 
+  text-align: center; 
+  font-size: 2vw; 
+  width: 13vw; 
 }
 
 @media (max-width: 1921px) {
-  .centerText { font-size: 27px; }
-  .App { font-size: 30px; }
-  .flexCardImgs { max-width: 1600px; }
+  .centerText, .text-row { font-size: 1.5vw; }
 }
 
-@media (max-width: 1367px) {
-  .centerText { font-size: 20px; }
-  .App { font-size: 20px; }
-  .flexCardImgs { max-width: 1200px; }
+@media (max-width: 1080px) {
+  .centerText { font-size: 2.5vw; }
+  .cardImg, .cardImgBox, .centerText { width: 23vw; }
 }
 
-@media (max-width: 641px) {
-  .cardImg { height: auto; width: 20vh; margin: 2px; }
-  .centerText { font-size: 15px; }
-  .App { font-size: 15px; }
-  .flexCardImgs { max-width: 600px; }
-}
-
-@media (max-width: 385px) {
-  .centerText { font-size: 10px; }
-  .App { font-size: 12px; }
+@media (max-width: 580px) {
+  .toggleText { max-width: 360px; margin-left: 10px; margin-top: 5px; }
 }
 /* End of Card Image Section */

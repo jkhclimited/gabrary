@@ -7,8 +7,8 @@ const SetPage: FC = () => {
 
     return (
         <div className='sets-main-div'>
-            <p className='sets-header'>Sets</p>
-            <p className='sets-subheader'>Listed Below from Newest to Oldest</p>
+            <p className='sets-header header-text'>Sets</p>
+            <p className='sets-subheader subheader-text'>Listed Below from Newest to Oldest</p>
             <div className='aSet'>
                 <Link to={`/sets/SP1`} className='setLink'>
                     <img className='setIMG' src={process.env.PUBLIC_URL + `/Set_Symbols/SP1.jpg`} alt='Supporter Pack 1' />

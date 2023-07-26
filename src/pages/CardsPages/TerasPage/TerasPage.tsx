@@ -95,7 +95,7 @@ const TerasPage: FC = () => {
             {terasState.cards.length > 0 ?
                 terasState.cards.map(card => (
                     <div className="text-row" key={card["name"].toString()}>                           
-                        <p id={card["name"].toString()}><img className="cardImg" onClick={() => showLightbox(card.collector_number)} src={process.env.PUBLIC_URL + `/${terasState.imgSrc}/${parseInt(card.collector_number)}.jpg`} alt="" /></p>
+                        <p className="cardImgBox" id={card["name"].toString()}><img className="cardImg" onClick={() => showLightbox(card.collector_number)} src={process.env.PUBLIC_URL + `/${terasState.imgSrc}/${parseInt(card.collector_number)}.jpg`} alt="" /></p>
                         <p style={{ display: (terasState.showing ? 'block' : 'none' ) }} id={card["collector_number"].toString()} className="centerText">{card.name}</p>
                         <br />
                     </div>

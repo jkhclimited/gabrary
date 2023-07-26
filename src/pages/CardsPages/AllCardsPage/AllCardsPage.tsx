@@ -2,9 +2,7 @@ import './AllCardsPage.css';
 import React, { FC, useState, useEffect }from "react";
 import { useParams } from "react-router-dom";
 import DB_DOAAlter from '../../../database_sets/DB_DOAAlter.json';
-import DB_DOAAlterAlt from '../../../database_sets/DB_DOAAlter_Alt.json';
 import DB_DOA1st from '../../../database_sets/DB_DOA1st.json';
-import DB_DOA1stAlt from '../../../database_sets/DB_DOA1st_Alt.json';
 import DB_DOAp from '../../../database_sets/DB_DOAp.json';
 import DB_DOASD from '../../../database_sets/DB_DOASD.json';
 import DB_EVP from '../../../database_sets/DB_EVP.json';
@@ -96,7 +94,7 @@ const AllCardsPage: FC = () => {
             {allCardsState.cards.length > 0 ?
                 allCardsState.cards.map(card => (
                     <div className="text-row" key={card["name"].toString()}>                           
-                        <p id={card["name"].toString()}><img className="cardImg" onClick={() => showLightbox(card.collector_number)} src={process.env.PUBLIC_URL + `/${allCardsState.imgSrc}/${parseInt(card.collector_number)}.jpg`} alt="" /></p>
+                        <p className="cardImgBox" id={card["name"].toString()}><img className="cardImg" onClick={() => showLightbox(card.collector_number)} src={process.env.PUBLIC_URL + `/${allCardsState.imgSrc}/${parseInt(card.collector_number)}.jpg`} alt="" /></p>
                         <p style={{ display: (allCardsState.showing ? 'block' : 'none' ) }} id={card["collector_number"].toString()} className="centerText">{card.name}</p>
                         <br />
                     </div>

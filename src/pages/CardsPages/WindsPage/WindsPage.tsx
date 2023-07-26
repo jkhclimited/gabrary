@@ -94,7 +94,7 @@ const WindsPage: FC = () => {
             {windsState.cards.length > 0 ?
                 windsState.cards.map(card => (
                     <div className="text-row" key={card["name"].toString()}>                           
-                        <p id={card["name"].toString()}><img className="cardImg" onClick={() => showLightbox(card.collector_number)} src={process.env.PUBLIC_URL + `/${windsState.imgSrc}/${parseInt(card.collector_number)}.jpg`} alt="" /></p>
+                        <p className="cardImgBox" id={card["name"].toString()}><img className="cardImg" onClick={() => showLightbox(card.collector_number)} src={process.env.PUBLIC_URL + `/${windsState.imgSrc}/${parseInt(card.collector_number)}.jpg`} alt="" /></p>
                         <p style={{ display: (windsState.showing ? 'block' : 'none' ) }} id={card["collector_number"].toString()} className="centerText">{card.name}</p>
                         <br />
                     </div>
