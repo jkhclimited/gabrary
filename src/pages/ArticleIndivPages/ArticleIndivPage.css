@@ -1,11 +1,12 @@
 .indivArticle-main-div {
     margin: 0 auto;
-    width: 75vw;
+    width: 70vw;
+    text-align: left;
     align-items: left;
 }
 
 .indivArticle-main-image {
-    width: 75vw;
+    width: 70vw;
     height: auto;
 }
 
