@@ -62,5 +62,5 @@
 
 
 @media (max-width: 580px) {
-    .carouselMain { width: 90vw; };
+    .carouselMain { width: 85vw; height: 47vw; };
 }
