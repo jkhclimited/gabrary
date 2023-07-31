@@ -3,9 +3,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 750px;
-    height: 400px;
-
+    width: 65vw;
+    height: auto;
 }
 
 .carouselIMGs {
@@ -59,4 +58,9 @@
 
 .indivIndicator-inactive {
     background-color: gray;
+}
+
+
+@media (max-width: 580px) {
+    .carouselMain { width: 90vw; };
 }

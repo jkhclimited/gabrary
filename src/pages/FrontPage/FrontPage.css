@@ -13,3 +13,11 @@
     padding: 5px;
     margin: 10px;
 }
+
+@media (max-width: 1080px) {
+    .homepage-header { font-size: 4vw; }
+}
+
+@media (max-width: 580px) {
+    .homepage-header { font-size: 6vw; }
+}
