@@ -1,0 +1,136 @@
+"filename", "language", "JSON", "Markdown", "JSON with Comments", "TypeScript", "JavaScript", "TypeScript JSX", "CSS", "HTML", "XML", "SCSS", "comment", "blank", "total"
+"e:\Coding\tcg-database-base\tcg-database\README.md", "Markdown", 0, 15, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 23
+"e:\Coding\tcg-database-base\tcg-database\components\CardSearch\CardSearch.css", "CSS", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"e:\Coding\tcg-database-base\tcg-database\components\CardSearch\CardSearch.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 11, 0, 0, 0, 0, 36, 7, 54
+"e:\Coding\tcg-database-base\tcg-database\components\ElementBar\ElementBar.css", "CSS", 0, 0, 0, 0, 0, 0, 21, 0, 0, 0, 2, 3, 26
+"e:\Coding\tcg-database-base\tcg-database\components\ElementBar\ElementBar.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 49, 0, 0, 0, 0, 0, 3, 52
+"e:\Coding\tcg-database-base\tcg-database\components\NavBar\NavBar.css", "CSS", 0, 0, 0, 0, 0, 0, 26, 0, 0, 0, 0, 4, 30
+"e:\Coding\tcg-database-base\tcg-database\components\NavBar\NavBar.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 17, 0, 0, 0, 0, 0, 2, 19
+"e:\Coding\tcg-database-base\tcg-database\components\ToggleDarkMode\ToggleDarkMode.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 0, 0, 85, 0, 0, 85
+"e:\Coding\tcg-database-base\tcg-database\components\ToggleDarkMode\ToggleDarkMode.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 24, 0, 0, 0, 0, 0, 3, 27
+"e:\Coding\tcg-database-base\tcg-database\components\ToggleTextSwitch\ToggleTextSwitch.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 0, 0, 85, 0, 0, 85
+"e:\Coding\tcg-database-base\tcg-database\components\ToggleTextSwitch\ToggleTextSwitch.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 24, 0, 0, 0, 0, 0, 3, 27
+"e:\Coding\tcg-database-base\tcg-database\config\database.js", "JavaScript", 0, 0, 0, 0, 9, 0, 0, 0, 0, 0, 0, 3, 12
+"e:\Coding\tcg-database-base\tcg-database\controllers\api\cards.js", "JavaScript", 0, 0, 0, 0, 25, 0, 0, 0, 0, 0, 0, 3, 28
+"e:\Coding\tcg-database-base\tcg-database\controllers\api\sets.js", "JavaScript", 0, 0, 0, 0, 23, 0, 0, 0, 0, 0, 0, 3, 26
+"e:\Coding\tcg-database-base\tcg-database\package-lock.json", "JSON", 17577, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 17578
+"e:\Coding\tcg-database-base\tcg-database\package.json", "JSON", 46, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 47
+"e:\Coding\tcg-database-base\tcg-database\pages\AllCardsPage\AllCardsPage.css", "CSS", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"e:\Coding\tcg-database-base\tcg-database\pages\AllCardsPage\AllCardsPage.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 91, 0, 0, 0, 0, 3, 8, 102
+"e:\Coding\tcg-database-base\tcg-database\pages\AltArtsPage\AltArtsPage.css", "CSS", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"e:\Coding\tcg-database-base\tcg-database\pages\AltArtsPage\AltArtsPage.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 57, 0, 0, 0, 0, 7, 8, 72
+"e:\Coding\tcg-database-base\tcg-database\pages\ArcanesPage\ArcanesPage.css", "CSS", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"e:\Coding\tcg-database-base\tcg-database\pages\ArcanesPage\ArcanesPage.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 88, 0, 0, 0, 0, 0, 9, 97
+"e:\Coding\tcg-database-base\tcg-database\pages\ChampionsPage\ChampionsPage.css", "CSS", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"e:\Coding\tcg-database-base\tcg-database\pages\ChampionsPage\ChampionsPage.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 91, 0, 0, 0, 0, 7, 8, 106
+"e:\Coding\tcg-database-base\tcg-database\pages\ContentCreatorsPage\ContentCreatorsPage.css", "CSS", 0, 0, 0, 0, 0, 0, 45, 0, 0, 0, 0, 6, 51
+"e:\Coding\tcg-database-base\tcg-database\pages\ContentCreatorsPage\ContentCreatorsPage.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 51, 0, 0, 0, 0, 0, 2, 53
+"e:\Coding\tcg-database-base\tcg-database\pages\CruxsPage\CruxsPage.css", "CSS", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"e:\Coding\tcg-database-base\tcg-database\pages\CruxsPage\CruxsPage.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 88, 0, 0, 0, 0, 0, 9, 97
+"e:\Coding\tcg-database-base\tcg-database\pages\DomainsPage\DomainsPage.css", "CSS", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"e:\Coding\tcg-database-base\tcg-database\pages\DomainsPage\DomainsPage.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 88, 0, 0, 0, 0, 0, 9, 97
+"e:\Coding\tcg-database-base\tcg-database\pages\FiresPage\FiresPage.css", "CSS", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"e:\Coding\tcg-database-base\tcg-database\pages\FiresPage\FiresPage.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 88, 0, 0, 0, 0, 0, 9, 97
+"e:\Coding\tcg-database-base\tcg-database\pages\FrontPage\FrontPage.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 14, 0, 0, 0, 0, 0, 2, 16
+"e:\Coding\tcg-database-base\tcg-database\pages\LuxemsPage\LuxemsPage.css", "CSS", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"e:\Coding\tcg-database-base\tcg-database\pages\LuxemsPage\LuxemsPage.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 88, 0, 0, 0, 0, 0, 9, 97
+"e:\Coding\tcg-database-base\tcg-database\pages\MaterialsPage\MaterialsPage.css", "CSS", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"e:\Coding\tcg-database-base\tcg-database\pages\MaterialsPage\MaterialsPage.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 88, 0, 0, 0, 0, 0, 9, 97
+"e:\Coding\tcg-database-base\tcg-database\pages\NoPage\NoPage.css", "CSS", 0, 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 6
+"e:\Coding\tcg-database-base\tcg-database\pages\NoPage\NoPage.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 14, 0, 0, 0, 0, 0, 2, 16
+"e:\Coding\tcg-database-base\tcg-database\pages\NullsPage\NullsPage.css", "CSS", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"e:\Coding\tcg-database-base\tcg-database\pages\NullsPage\NullsPage.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 88, 0, 0, 0, 0, 0, 9, 97
+"e:\Coding\tcg-database-base\tcg-database\pages\SetPage\SetPage.css", "CSS", 0, 0, 0, 0, 0, 0, 19, 0, 0, 0, 1, 3, 23
+"e:\Coding\tcg-database-base\tcg-database\pages\SetPage\SetPage.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 65, 0, 0, 0, 0, 0, 3, 68
+"e:\Coding\tcg-database-base\tcg-database\pages\TerasPage\TerasPage.css", "CSS", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"e:\Coding\tcg-database-base\tcg-database\pages\TerasPage\TerasPage.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 88, 0, 0, 0, 0, 0, 9, 97
+"e:\Coding\tcg-database-base\tcg-database\pages\WatersPage\WatersPage.css", "CSS", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"e:\Coding\tcg-database-base\tcg-database\pages\WatersPage\WatersPage.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 88, 0, 0, 0, 0, 0, 9, 97
+"e:\Coding\tcg-database-base\tcg-database\pages\WindsPage\WindsPage.css", "CSS", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"e:\Coding\tcg-database-base\tcg-database\pages\WindsPage\WindsPage.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 88, 0, 0, 0, 0, 0, 8, 96
+"e:\Coding\tcg-database-base\tcg-database\public\index.html", "HTML", 0, 0, 0, 0, 0, 0, 0, 20, 0, 0, 23, 1, 44
+"e:\Coding\tcg-database-base\tcg-database\public\manifest.json", "JSON", 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 26
+"e:\Coding\tcg-database-base\tcg-database\routes\api\cards.js", "JavaScript", 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 2, 8
+"e:\Coding\tcg-database-base\tcg-database\routes\api\sets.js", "JavaScript", 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 2, 8
+"e:\Coding\tcg-database-base\tcg-database\server.ts", "TypeScript", 0, 0, 0, 15, 0, 0, 0, 0, 0, 0, 1, 5, 21
+"e:\Coding\tcg-database-base\tcg-database\src\App.css", "CSS", 0, 0, 0, 0, 0, 0, 113, 0, 0, 0, 7, 22, 142
+"e:\Coding\tcg-database-base\tcg-database\src\App.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 84, 0, 0, 0, 0, 8, 16, 108
+"e:\Coding\tcg-database-base\tcg-database\src\components\CardSearch\CardSearch.css", "CSS", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"e:\Coding\tcg-database-base\tcg-database\src\components\CardSearch\CardSearch.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 11, 0, 0, 0, 0, 36, 7, 54
+"e:\Coding\tcg-database-base\tcg-database\src\components\Carousel\Carousel.css", "CSS", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"e:\Coding\tcg-database-base\tcg-database\src\components\Carousel\Carousel.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 16, 0, 0, 0, 0, 0, 3, 19
+"e:\Coding\tcg-database-base\tcg-database\src\components\ElementBar\ElementBar.css", "CSS", 0, 0, 0, 0, 0, 0, 21, 0, 0, 0, 2, 3, 26
+"e:\Coding\tcg-database-base\tcg-database\src\components\ElementBar\ElementBar.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 52, 0, 0, 0, 0, 0, 3, 55
+"e:\Coding\tcg-database-base\tcg-database\src\components\Footer\Footer.css", "CSS", 0, 0, 0, 0, 0, 0, 17, 0, 0, 0, 0, 2, 19
+"e:\Coding\tcg-database-base\tcg-database\src\components\Footer\Footer.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 14, 0, 0, 0, 0, 0, 3, 17
+"e:\Coding\tcg-database-base\tcg-database\src\components\NavBar\NavBar.css", "CSS", 0, 0, 0, 0, 0, 0, 77, 0, 0, 0, 0, 15, 92
+"e:\Coding\tcg-database-base\tcg-database\src\components\NavBar\NavBar.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 38, 0, 0, 0, 0, 1, 7, 46
+"e:\Coding\tcg-database-base\tcg-database\src\components\ScrollButton\ScrollButton.css", "CSS", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"e:\Coding\tcg-database-base\tcg-database\src\components\ScrollButton\ScrollButton.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"e:\Coding\tcg-database-base\tcg-database\src\components\ToggleDarkMode\ToggleDarkMode.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 0, 0, 85, 0, 0, 85
+"e:\Coding\tcg-database-base\tcg-database\src\components\ToggleDarkMode\ToggleDarkMode.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 24, 0, 0, 0, 0, 0, 3, 27
+"e:\Coding\tcg-database-base\tcg-database\src\components\ToggleTextSwitch\ToggleTextSwitch.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 0, 0, 85, 0, 0, 85
+"e:\Coding\tcg-database-base\tcg-database\src\components\ToggleTextSwitch\ToggleTextSwitch.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 24, 0, 0, 0, 0, 0, 3, 27
+"e:\Coding\tcg-database-base\tcg-database\src\database_articles\Opinion_Articles.json", "JSON", 12, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 12
+"e:\Coding\tcg-database-base\tcg-database\src\database_carousel\carousel_data.json", "JSON", 17, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 17
+"e:\Coding\tcg-database-base\tcg-database\src\database_sets\DB_DOA1st.json", "JSON", 6627, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6627
+"e:\Coding\tcg-database-base\tcg-database\src\database_sets\DB_DOA1st_Alt.json", "JSON", 305, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 305
+"e:\Coding\tcg-database-base\tcg-database\src\database_sets\DB_DOAAlter.json", "JSON", 4762, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4762
+"e:\Coding\tcg-database-base\tcg-database\src\database_sets\DB_DOAAlter_Alt.json", "JSON", 70, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 70
+"e:\Coding\tcg-database-base\tcg-database\src\database_sets\DB_DOASD.json", "JSON", 2673, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2673
+"e:\Coding\tcg-database-base\tcg-database\src\database_sets\DB_DOAp.json", "JSON", 2605, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2605
+"e:\Coding\tcg-database-base\tcg-database\src\database_sets\DB_EVP.json", "JSON", 74, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 74
+"e:\Coding\tcg-database-base\tcg-database\src\database_sets\DB_Isekai.json", "JSON", 78, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 78
+"e:\Coding\tcg-database-base\tcg-database\src\database_sets\DB_KSP.json", "JSON", 203, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 203
+"e:\Coding\tcg-database-base\tcg-database\src\database_sets\DB_P22.json", "JSON", 180, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 180
+"e:\Coding\tcg-database-base\tcg-database\src\database_sets\DB_SP1.json", "JSON", 535, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 535
+"e:\Coding\tcg-database-base\tcg-database\src\database_sets\Spoilers.json", "JSON", 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 3
+"e:\Coding\tcg-database-base\tcg-database\src\index.css", "CSS", 0, 0, 0, 0, 0, 0, 12, 0, 0, 0, 0, 2, 14
+"e:\Coding\tcg-database-base\tcg-database\src\index.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 8, 0, 0, 0, 0, 0, 2, 10
+"e:\Coding\tcg-database-base\tcg-database\src\logo.svg", "XML", 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1
+"e:\Coding\tcg-database-base\tcg-database\src\models\card.ts", "TypeScript", 0, 0, 0, 26, 0, 0, 0, 0, 0, 0, 0, 4, 30
+"e:\Coding\tcg-database-base\tcg-database\src\pages\ArticleIndivPage\ArticleIndivPage.css", "CSS", 0, 0, 0, 0, 0, 0, 34, 0, 0, 0, 0, 7, 41
+"e:\Coding\tcg-database-base\tcg-database\src\pages\ArticleIndivPage\ArticleIndivPage.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 18, 0, 0, 0, 0, 0, 5, 23
+"e:\Coding\tcg-database-base\tcg-database\src\pages\ArticlePage\ArticlePage.css", "CSS", 0, 0, 0, 0, 0, 0, 54, 0, 0, 0, 1, 9, 64
+"e:\Coding\tcg-database-base\tcg-database\src\pages\ArticlePage\ArticlePage.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 25, 0, 0, 0, 0, 0, 3, 28
+"e:\Coding\tcg-database-base\tcg-database\src\pages\Articles\Article1.css", "CSS", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"e:\Coding\tcg-database-base\tcg-database\src\pages\Articles\Article1.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 27, 0, 0, 0, 0, 0, 3, 30
+"e:\Coding\tcg-database-base\tcg-database\src\pages\CardsPages\AllCardsPage\AllCardsPage.css", "CSS", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"e:\Coding\tcg-database-base\tcg-database\src\pages\CardsPages\AllCardsPage\AllCardsPage.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 102, 0, 0, 0, 0, 0, 10, 112
+"e:\Coding\tcg-database-base\tcg-database\src\pages\CardsPages\AltArtsPage\AltArtsPage.css", "CSS", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"e:\Coding\tcg-database-base\tcg-database\src\pages\CardsPages\AltArtsPage\AltArtsPage.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 68, 0, 0, 0, 0, 3, 10, 81
+"e:\Coding\tcg-database-base\tcg-database\src\pages\CardsPages\ArcanesPage\ArcanesPage.css", "CSS", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"e:\Coding\tcg-database-base\tcg-database\src\pages\CardsPages\ArcanesPage\ArcanesPage.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 102, 0, 0, 0, 0, 0, 11, 113
+"e:\Coding\tcg-database-base\tcg-database\src\pages\CardsPages\ChampionsPage\ChampionsPage.css", "CSS", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"e:\Coding\tcg-database-base\tcg-database\src\pages\CardsPages\ChampionsPage\ChampionsPage.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 103, 0, 0, 0, 0, 9, 10, 122
+"e:\Coding\tcg-database-base\tcg-database\src\pages\CardsPages\CruxsPage\CruxsPage.css", "CSS", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"e:\Coding\tcg-database-base\tcg-database\src\pages\CardsPages\CruxsPage\CruxsPage.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 102, 0, 0, 0, 0, 0, 11, 113
+"e:\Coding\tcg-database-base\tcg-database\src\pages\CardsPages\DomainsPage\DomainsPage.css", "CSS", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"e:\Coding\tcg-database-base\tcg-database\src\pages\CardsPages\DomainsPage\DomainsPage.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 102, 0, 0, 0, 0, 0, 11, 113
+"e:\Coding\tcg-database-base\tcg-database\src\pages\CardsPages\FiresPage\FiresPage.css", "CSS", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"e:\Coding\tcg-database-base\tcg-database\src\pages\CardsPages\FiresPage\FiresPage.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 102, 0, 0, 0, 0, 0, 11, 113
+"e:\Coding\tcg-database-base\tcg-database\src\pages\CardsPages\LuxemsPage\LuxemsPage.css", "CSS", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"e:\Coding\tcg-database-base\tcg-database\src\pages\CardsPages\LuxemsPage\LuxemsPage.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 102, 0, 0, 0, 0, 0, 11, 113
+"e:\Coding\tcg-database-base\tcg-database\src\pages\CardsPages\MaterialsPage\MaterialsPage.css", "CSS", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"e:\Coding\tcg-database-base\tcg-database\src\pages\CardsPages\MaterialsPage\MaterialsPage.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 102, 0, 0, 0, 0, 0, 11, 113
+"e:\Coding\tcg-database-base\tcg-database\src\pages\CardsPages\NullsPage\NullsPage.css", "CSS", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"e:\Coding\tcg-database-base\tcg-database\src\pages\CardsPages\NullsPage\NullsPage.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 102, 0, 0, 0, 0, 0, 11, 113
+"e:\Coding\tcg-database-base\tcg-database\src\pages\CardsPages\TerasPage\TerasPage.css", "CSS", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"e:\Coding\tcg-database-base\tcg-database\src\pages\CardsPages\TerasPage\TerasPage.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 102, 0, 0, 0, 0, 0, 11, 113
+"e:\Coding\tcg-database-base\tcg-database\src\pages\CardsPages\WatersPage\WatersPage.css", "CSS", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"e:\Coding\tcg-database-base\tcg-database\src\pages\CardsPages\WatersPage\WatersPage.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 102, 0, 0, 0, 0, 0, 11, 113
+"e:\Coding\tcg-database-base\tcg-database\src\pages\CardsPages\WindsPage\WindsPage.css", "CSS", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"e:\Coding\tcg-database-base\tcg-database\src\pages\CardsPages\WindsPage\WindsPage.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 102, 0, 0, 0, 0, 0, 10, 112
+"e:\Coding\tcg-database-base\tcg-database\src\pages\ContentCreatorsPage\ContentCreatorsPage.css", "CSS", 0, 0, 0, 0, 0, 0, 40, 0, 0, 0, 0, 5, 45
+"e:\Coding\tcg-database-base\tcg-database\src\pages\ContentCreatorsPage\ContentCreatorsPage.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 52, 0, 0, 0, 0, 0, 2, 54
+"e:\Coding\tcg-database-base\tcg-database\src\pages\FrontPage\FrontPage.css", "CSS", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"e:\Coding\tcg-database-base\tcg-database\src\pages\FrontPage\FrontPage.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 16, 0, 0, 0, 0, 0, 2, 18
+"e:\Coding\tcg-database-base\tcg-database\src\pages\NoPage\NoPage.css", "CSS", 0, 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 6
+"e:\Coding\tcg-database-base\tcg-database\src\pages\NoPage\NoPage.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 14, 0, 0, 0, 0, 0, 2, 16
+"e:\Coding\tcg-database-base\tcg-database\src\pages\SetPage\SetPage.css", "CSS", 0, 0, 0, 0, 0, 0, 48, 0, 0, 0, 1, 8, 57
+"e:\Coding\tcg-database-base\tcg-database\src\pages\SetPage\SetPage.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 66, 0, 0, 0, 0, 0, 4, 70
+"e:\Coding\tcg-database-base\tcg-database\src\pages\SpoilersPage\SpoilersPage.css", "CSS", 0, 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 6
+"e:\Coding\tcg-database-base\tcg-database\src\pages\SpoilersPage\SpoilersPage.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 58, 0, 0, 0, 0, 0, 10, 68
+"e:\Coding\tcg-database-base\tcg-database\src\services\gatcg-api.ts", "TypeScript", 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 1, 1, 7
+"e:\Coding\tcg-database-base\tcg-database\tsconfig.json", "JSON with Comments", 0, 0, 13, 0, 0, 0, 0, 0, 0, 0, 89, 10, 112
+"Total", "-", 35791, 15, 13, 46, 69, 3228, 545, 20, 1, 340, 238, 525, 40831

@@ -4,7 +4,8 @@
     display: flex;
     align-items: center;
     justify-content: right;
-    height: 6em;
+    height: 3em;
+    font-size: 2vw;
 }
 
 .logoNavItem {
@@ -39,7 +40,7 @@
 }
 
 #logoPNG {
-    height: 2em;
+    height: 2.5em;
     margin: auto 20px auto 10px;
 }
 
@@ -47,8 +48,10 @@
     display: none;
 }
 
-@media (max-width: 3841px) {
-    .header-bar { height: 3em; }
+@media (min-width: 961px) {
+    .header-bar {
+        font-size: 1.5vw;
+    }
 }
 
 @media screen and (max-width:911px) {

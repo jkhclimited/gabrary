@@ -1,12 +1,14 @@
+import './FrontPage.css';
 import React from "react";
+import Carousel from '../../components/Carousel/Carousel';
 
 class FrontPage extends React.Component {
     render() {
         return (
-            <div>
-                <title>Grand Archive TCG Wiki</title>
+            <div className="homepage">
+                <p className="homepage-header">Welcome to the Gabrary.</p>
                 <div className='center-div'>
-                    Placeholder Text
+                    <Carousel />
                 </div>
             </div>
         )

@@ -1,0 +1,237 @@
+Date : 2023-07-31 17:17:54
+Directory : e:\Coding\tcg-database-base\tcg-database
+Total : 134 files,  40068 codes, 238 comments, 525 blanks, all 40831 lines
+
+Languages
++--------------------+------------+------------+------------+------------+------------+
+| language           | files      | code       | comment    | blank      | total      |
++--------------------+------------+------------+------------+------------+------------+
+| JSON               |         17 |     35,791 |          0 |          4 |     35,795 |
+| TypeScript JSX     |         53 |      3,228 |        110 |        358 |      3,696 |
+| CSS                |         48 |        545 |         14 |        121 |        680 |
+| SCSS               |          4 |        340 |          0 |          0 |        340 |
+| JavaScript         |          5 |         69 |          0 |         13 |         82 |
+| TypeScript         |          3 |         46 |          2 |         10 |         58 |
+| HTML               |          1 |         20 |         23 |          1 |         44 |
+| Markdown           |          1 |         15 |          0 |          8 |         23 |
+| JSON with Comments |          1 |         13 |         89 |         10 |        112 |
+| XML                |          1 |          1 |          0 |          0 |          1 |
++--------------------+------------+------------+------------+------------+------------+
+
+Directories
++------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                           | files      | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                              |        134 |     40,068 |        238 |        525 |     40,831 |
+| . (Files)                                                                                      |          5 |     17,666 |         90 |         25 |     17,781 |
+| components                                                                                     |         10 |        342 |         38 |         26 |        406 |
+| components\CardSearch                                                                          |          2 |         11 |         36 |          8 |         55 |
+| components\ElementBar                                                                          |          2 |         70 |          2 |          6 |         78 |
+| components\NavBar                                                                              |          2 |         43 |          0 |          6 |         49 |
+| components\ToggleDarkMode                                                                      |          2 |        109 |          0 |          3 |        112 |
+| components\ToggleTextSwitch                                                                    |          2 |        109 |          0 |          3 |        112 |
+| config                                                                                         |          1 |          9 |          0 |          3 |         12 |
+| controllers                                                                                    |          2 |         48 |          0 |          6 |         54 |
+| controllers\api                                                                                |          2 |         48 |          0 |          6 |         54 |
+| pages                                                                                          |         33 |      1,333 |         18 |        144 |      1,495 |
+| pages\AllCardsPage                                                                             |          2 |         91 |          3 |          9 |        103 |
+| pages\AltArtsPage                                                                              |          2 |         57 |          7 |          9 |         73 |
+| pages\ArcanesPage                                                                              |          2 |         88 |          0 |         10 |         98 |
+| pages\ChampionsPage                                                                            |          2 |         91 |          7 |          9 |        107 |
+| pages\ContentCreatorsPage                                                                      |          2 |         96 |          0 |          8 |        104 |
+| pages\CruxsPage                                                                                |          2 |         88 |          0 |         10 |         98 |
+| pages\DomainsPage                                                                              |          2 |         88 |          0 |         10 |         98 |
+| pages\FiresPage                                                                                |          2 |         88 |          0 |         10 |         98 |
+| pages\FrontPage                                                                                |          1 |         14 |          0 |          2 |         16 |
+| pages\LuxemsPage                                                                               |          2 |         88 |          0 |         10 |         98 |
+| pages\MaterialsPage                                                                            |          2 |         88 |          0 |         10 |         98 |
+| pages\NoPage                                                                                   |          2 |         20 |          0 |          2 |         22 |
+| pages\NullsPage                                                                                |          2 |         88 |          0 |         10 |         98 |
+| pages\SetPage                                                                                  |          2 |         84 |          1 |          6 |         91 |
+| pages\TerasPage                                                                                |          2 |         88 |          0 |         10 |         98 |
+| pages\WatersPage                                                                               |          2 |         88 |          0 |         10 |         98 |
+| pages\WindsPage                                                                                |          2 |         88 |          0 |          9 |         97 |
+| public                                                                                         |          2 |         45 |         23 |          2 |         70 |
+| routes                                                                                         |          2 |         12 |          0 |          4 |         16 |
+| routes\api                                                                                     |          2 |         12 |          0 |          4 |         16 |
+| src                                                                                            |         79 |     20,613 |         69 |        315 |     20,997 |
+| src (Files)                                                                                    |          5 |        218 |         15 |         42 |        275 |
+| src\components                                                                                 |         16 |        464 |         39 |         53 |        556 |
+| src\components\CardSearch                                                                      |          2 |         11 |         36 |          8 |         55 |
+| src\components\Carousel                                                                        |          2 |         16 |          0 |          4 |         20 |
+| src\components\ElementBar                                                                      |          2 |         73 |          2 |          6 |         81 |
+| src\components\Footer                                                                          |          2 |         31 |          0 |          5 |         36 |
+| src\components\NavBar                                                                          |          2 |        115 |          1 |         22 |        138 |
+| src\components\ScrollButton                                                                    |          2 |          0 |          0 |          2 |          2 |
+| src\components\ToggleDarkMode                                                                  |          2 |        109 |          0 |          3 |        112 |
+| src\components\ToggleTextSwitch                                                                |          2 |        109 |          0 |          3 |        112 |
+| src\database_articles                                                                          |          1 |         12 |          0 |          0 |         12 |
+| src\database_carousel                                                                          |          1 |         17 |          0 |          0 |         17 |
+| src\database_sets                                                                              |         12 |     18,114 |          0 |          1 |     18,115 |
+| src\models                                                                                     |          1 |         26 |          0 |          4 |         30 |
+| src\pages                                                                                      |         42 |      1,757 |         14 |        214 |      1,985 |
+| src\pages\ArticleIndivPage                                                                     |          2 |         52 |          0 |         12 |         64 |
+| src\pages\ArticlePage                                                                          |          2 |         79 |          1 |         12 |         92 |
+| src\pages\Articles                                                                             |          2 |         27 |          0 |          4 |         31 |
+| src\pages\CardsPages                                                                           |         26 |      1,293 |         12 |        152 |      1,457 |
+| src\pages\CardsPages\AllCardsPage                                                              |          2 |        102 |          0 |         11 |        113 |
+| src\pages\CardsPages\AltArtsPage                                                               |          2 |         68 |          3 |         11 |         82 |
+| src\pages\CardsPages\ArcanesPage                                                               |          2 |        102 |          0 |         12 |        114 |
+| src\pages\CardsPages\ChampionsPage                                                             |          2 |        103 |          9 |         11 |        123 |
+| src\pages\CardsPages\CruxsPage                                                                 |          2 |        102 |          0 |         12 |        114 |
+| src\pages\CardsPages\DomainsPage                                                               |          2 |        102 |          0 |         12 |        114 |
+| src\pages\CardsPages\FiresPage                                                                 |          2 |        102 |          0 |         12 |        114 |
+| src\pages\CardsPages\LuxemsPage                                                                |          2 |        102 |          0 |         12 |        114 |
+| src\pages\CardsPages\MaterialsPage                                                             |          2 |        102 |          0 |         12 |        114 |
+| src\pages\CardsPages\NullsPage                                                                 |          2 |        102 |          0 |         12 |        114 |
+| src\pages\CardsPages\TerasPage                                                                 |          2 |        102 |          0 |         12 |        114 |
+| src\pages\CardsPages\WatersPage                                                                |          2 |        102 |          0 |         12 |        114 |
+| src\pages\CardsPages\WindsPage                                                                 |          2 |        102 |          0 |         11 |        113 |
+| src\pages\ContentCreatorsPage                                                                  |          2 |         92 |          0 |          7 |         99 |
+| src\pages\FrontPage                                                                            |          2 |         16 |          0 |          3 |         19 |
+| src\pages\NoPage                                                                               |          2 |         20 |          0 |          2 |         22 |
+| src\pages\SetPage                                                                              |          2 |        114 |          1 |         12 |        127 |
+| src\pages\SpoilersPage                                                                         |          2 |         64 |          0 |         10 |         74 |
+| src\services                                                                                   |          1 |          5 |          1 |          1 |          7 |
++------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++------------------------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+
+| filename                                                                                       | language           | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+
+| e:\Coding\tcg-database-base\tcg-database\README.md                                             | Markdown           |         15 |          0 |          8 |         23 |
+| e:\Coding\tcg-database-base\tcg-database\components\CardSearch\CardSearch.css                  | CSS                |          0 |          0 |          1 |          1 |
+| e:\Coding\tcg-database-base\tcg-database\components\CardSearch\CardSearch.tsx                  | TypeScript JSX     |         11 |         36 |          7 |         54 |
+| e:\Coding\tcg-database-base\tcg-database\components\ElementBar\ElementBar.css                  | CSS                |         21 |          2 |          3 |         26 |
+| e:\Coding\tcg-database-base\tcg-database\components\ElementBar\ElementBar.tsx                  | TypeScript JSX     |         49 |          0 |          3 |         52 |
+| e:\Coding\tcg-database-base\tcg-database\components\NavBar\NavBar.css                          | CSS                |         26 |          0 |          4 |         30 |
+| e:\Coding\tcg-database-base\tcg-database\components\NavBar\NavBar.tsx                          | TypeScript JSX     |         17 |          0 |          2 |         19 |
+| e:\Coding\tcg-database-base\tcg-database\components\ToggleDarkMode\ToggleDarkMode.scss         | SCSS               |         85 |          0 |          0 |         85 |
+| e:\Coding\tcg-database-base\tcg-database\components\ToggleDarkMode\ToggleDarkMode.tsx          | TypeScript JSX     |         24 |          0 |          3 |         27 |
+| e:\Coding\tcg-database-base\tcg-database\components\ToggleTextSwitch\ToggleTextSwitch.scss     | SCSS               |         85 |          0 |          0 |         85 |
+| e:\Coding\tcg-database-base\tcg-database\components\ToggleTextSwitch\ToggleTextSwitch.tsx      | TypeScript JSX     |         24 |          0 |          3 |         27 |
+| e:\Coding\tcg-database-base\tcg-database\config\database.js                                    | JavaScript         |          9 |          0 |          3 |         12 |
+| e:\Coding\tcg-database-base\tcg-database\controllers\api\cards.js                              | JavaScript         |         25 |          0 |          3 |         28 |
+| e:\Coding\tcg-database-base\tcg-database\controllers\api\sets.js                               | JavaScript         |         23 |          0 |          3 |         26 |
+| e:\Coding\tcg-database-base\tcg-database\package-lock.json                                     | JSON               |     17,577 |          0 |          1 |     17,578 |
+| e:\Coding\tcg-database-base\tcg-database\package.json                                          | JSON               |         46 |          0 |          1 |         47 |
+| e:\Coding\tcg-database-base\tcg-database\pages\AllCardsPage\AllCardsPage.css                   | CSS                |          0 |          0 |          1 |          1 |
+| e:\Coding\tcg-database-base\tcg-database\pages\AllCardsPage\AllCardsPage.tsx                   | TypeScript JSX     |         91 |          3 |          8 |        102 |
+| e:\Coding\tcg-database-base\tcg-database\pages\AltArtsPage\AltArtsPage.css                     | CSS                |          0 |          0 |          1 |          1 |
+| e:\Coding\tcg-database-base\tcg-database\pages\AltArtsPage\AltArtsPage.tsx                     | TypeScript JSX     |         57 |          7 |          8 |         72 |
+| e:\Coding\tcg-database-base\tcg-database\pages\ArcanesPage\ArcanesPage.css                     | CSS                |          0 |          0 |          1 |          1 |
+| e:\Coding\tcg-database-base\tcg-database\pages\ArcanesPage\ArcanesPage.tsx                     | TypeScript JSX     |         88 |          0 |          9 |         97 |
+| e:\Coding\tcg-database-base\tcg-database\pages\ChampionsPage\ChampionsPage.css                 | CSS                |          0 |          0 |          1 |          1 |
+| e:\Coding\tcg-database-base\tcg-database\pages\ChampionsPage\ChampionsPage.tsx                 | TypeScript JSX     |         91 |          7 |          8 |        106 |
+| e:\Coding\tcg-database-base\tcg-database\pages\ContentCreatorsPage\ContentCreatorsPage.css     | CSS                |         45 |          0 |          6 |         51 |
+| e:\Coding\tcg-database-base\tcg-database\pages\ContentCreatorsPage\ContentCreatorsPage.tsx     | TypeScript JSX     |         51 |          0 |          2 |         53 |
+| e:\Coding\tcg-database-base\tcg-database\pages\CruxsPage\CruxsPage.css                         | CSS                |          0 |          0 |          1 |          1 |
+| e:\Coding\tcg-database-base\tcg-database\pages\CruxsPage\CruxsPage.tsx                         | TypeScript JSX     |         88 |          0 |          9 |         97 |
+| e:\Coding\tcg-database-base\tcg-database\pages\DomainsPage\DomainsPage.css                     | CSS                |          0 |          0 |          1 |          1 |
+| e:\Coding\tcg-database-base\tcg-database\pages\DomainsPage\DomainsPage.tsx                     | TypeScript JSX     |         88 |          0 |          9 |         97 |
+| e:\Coding\tcg-database-base\tcg-database\pages\FiresPage\FiresPage.css                         | CSS                |          0 |          0 |          1 |          1 |
+| e:\Coding\tcg-database-base\tcg-database\pages\FiresPage\FiresPage.tsx                         | TypeScript JSX     |         88 |          0 |          9 |         97 |
+| e:\Coding\tcg-database-base\tcg-database\pages\FrontPage\FrontPage.tsx                         | TypeScript JSX     |         14 |          0 |          2 |         16 |
+| e:\Coding\tcg-database-base\tcg-database\pages\LuxemsPage\LuxemsPage.css                       | CSS                |          0 |          0 |          1 |          1 |
+| e:\Coding\tcg-database-base\tcg-database\pages\LuxemsPage\LuxemsPage.tsx                       | TypeScript JSX     |         88 |          0 |          9 |         97 |
+| e:\Coding\tcg-database-base\tcg-database\pages\MaterialsPage\MaterialsPage.css                 | CSS                |          0 |          0 |          1 |          1 |
+| e:\Coding\tcg-database-base\tcg-database\pages\MaterialsPage\MaterialsPage.tsx                 | TypeScript JSX     |         88 |          0 |          9 |         97 |
+| e:\Coding\tcg-database-base\tcg-database\pages\NoPage\NoPage.css                               | CSS                |          6 |          0 |          0 |          6 |
+| e:\Coding\tcg-database-base\tcg-database\pages\NoPage\NoPage.tsx                               | TypeScript JSX     |         14 |          0 |          2 |         16 |
+| e:\Coding\tcg-database-base\tcg-database\pages\NullsPage\NullsPage.css                         | CSS                |          0 |          0 |          1 |          1 |
+| e:\Coding\tcg-database-base\tcg-database\pages\NullsPage\NullsPage.tsx                         | TypeScript JSX     |         88 |          0 |          9 |         97 |
+| e:\Coding\tcg-database-base\tcg-database\pages\SetPage\SetPage.css                             | CSS                |         19 |          1 |          3 |         23 |
+| e:\Coding\tcg-database-base\tcg-database\pages\SetPage\SetPage.tsx                             | TypeScript JSX     |         65 |          0 |          3 |         68 |
+| e:\Coding\tcg-database-base\tcg-database\pages\TerasPage\TerasPage.css                         | CSS                |          0 |          0 |          1 |          1 |
+| e:\Coding\tcg-database-base\tcg-database\pages\TerasPage\TerasPage.tsx                         | TypeScript JSX     |         88 |          0 |          9 |         97 |
+| e:\Coding\tcg-database-base\tcg-database\pages\WatersPage\WatersPage.css                       | CSS                |          0 |          0 |          1 |          1 |
+| e:\Coding\tcg-database-base\tcg-database\pages\WatersPage\WatersPage.tsx                       | TypeScript JSX     |         88 |          0 |          9 |         97 |
+| e:\Coding\tcg-database-base\tcg-database\pages\WindsPage\WindsPage.css                         | CSS                |          0 |          0 |          1 |          1 |
+| e:\Coding\tcg-database-base\tcg-database\pages\WindsPage\WindsPage.tsx                         | TypeScript JSX     |         88 |          0 |          8 |         96 |
+| e:\Coding\tcg-database-base\tcg-database\public\index.html                                     | HTML               |         20 |         23 |          1 |         44 |
+| e:\Coding\tcg-database-base\tcg-database\public\manifest.json                                  | JSON               |         25 |          0 |          1 |         26 |
+| e:\Coding\tcg-database-base\tcg-database\routes\api\cards.js                                   | JavaScript         |          6 |          0 |          2 |          8 |
+| e:\Coding\tcg-database-base\tcg-database\routes\api\sets.js                                    | JavaScript         |          6 |          0 |          2 |          8 |
+| e:\Coding\tcg-database-base\tcg-database\server.ts                                             | TypeScript         |         15 |          1 |          5 |         21 |
+| e:\Coding\tcg-database-base\tcg-database\src\App.css                                           | CSS                |        113 |          7 |         22 |        142 |
+| e:\Coding\tcg-database-base\tcg-database\src\App.tsx                                           | TypeScript JSX     |         84 |          8 |         16 |        108 |
+| e:\Coding\tcg-database-base\tcg-database\src\components\CardSearch\CardSearch.css              | CSS                |          0 |          0 |          1 |          1 |
+| e:\Coding\tcg-database-base\tcg-database\src\components\CardSearch\CardSearch.tsx              | TypeScript JSX     |         11 |         36 |          7 |         54 |
+| e:\Coding\tcg-database-base\tcg-database\src\components\Carousel\Carousel.css                  | CSS                |          0 |          0 |          1 |          1 |
+| e:\Coding\tcg-database-base\tcg-database\src\components\Carousel\Carousel.tsx                  | TypeScript JSX     |         16 |          0 |          3 |         19 |
+| e:\Coding\tcg-database-base\tcg-database\src\components\ElementBar\ElementBar.css              | CSS                |         21 |          2 |          3 |         26 |
+| e:\Coding\tcg-database-base\tcg-database\src\components\ElementBar\ElementBar.tsx              | TypeScript JSX     |         52 |          0 |          3 |         55 |
+| e:\Coding\tcg-database-base\tcg-database\src\components\Footer\Footer.css                      | CSS                |         17 |          0 |          2 |         19 |
+| e:\Coding\tcg-database-base\tcg-database\src\components\Footer\Footer.tsx                      | TypeScript JSX     |         14 |          0 |          3 |         17 |
+| e:\Coding\tcg-database-base\tcg-database\src\components\NavBar\NavBar.css                      | CSS                |         77 |          0 |         15 |         92 |
+| e:\Coding\tcg-database-base\tcg-database\src\components\NavBar\NavBar.tsx                      | TypeScript JSX     |         38 |          1 |          7 |         46 |
+| e:\Coding\tcg-database-base\tcg-database\src\components\ScrollButton\ScrollButton.css          | CSS                |          0 |          0 |          1 |          1 |
+| e:\Coding\tcg-database-base\tcg-database\src\components\ScrollButton\ScrollButton.tsx          | TypeScript JSX     |          0 |          0 |          1 |          1 |
+| e:\Coding\tcg-database-base\tcg-database\src\components\ToggleDarkMode\ToggleDarkMode.scss     | SCSS               |         85 |          0 |          0 |         85 |
+| e:\Coding\tcg-database-base\tcg-database\src\components\ToggleDarkMode\ToggleDarkMode.tsx      | TypeScript JSX     |         24 |          0 |          3 |         27 |
+| e:\Coding\tcg-database-base\tcg-database\src\components\ToggleTextSwitch\ToggleTextSwitch.scss | SCSS               |         85 |          0 |          0 |         85 |
+| e:\Coding\tcg-database-base\tcg-database\src\components\ToggleTextSwitch\ToggleTextSwitch.tsx  | TypeScript JSX     |         24 |          0 |          3 |         27 |
+| e:\Coding\tcg-database-base\tcg-database\src\database_articles\Opinion_Articles.json           | JSON               |         12 |          0 |          0 |         12 |
+| e:\Coding\tcg-database-base\tcg-database\src\database_carousel\carousel_data.json              | JSON               |         17 |          0 |          0 |         17 |
+| e:\Coding\tcg-database-base\tcg-database\src\database_sets\DB_DOA1st.json                      | JSON               |      6,627 |          0 |          0 |      6,627 |
+| e:\Coding\tcg-database-base\tcg-database\src\database_sets\DB_DOA1st_Alt.json                  | JSON               |        305 |          0 |          0 |        305 |
+| e:\Coding\tcg-database-base\tcg-database\src\database_sets\DB_DOAAlter.json                    | JSON               |      4,762 |          0 |          0 |      4,762 |
+| e:\Coding\tcg-database-base\tcg-database\src\database_sets\DB_DOAAlter_Alt.json                | JSON               |         70 |          0 |          0 |         70 |
+| e:\Coding\tcg-database-base\tcg-database\src\database_sets\DB_DOASD.json                       | JSON               |      2,673 |          0 |          0 |      2,673 |
+| e:\Coding\tcg-database-base\tcg-database\src\database_sets\DB_DOAp.json                        | JSON               |      2,605 |          0 |          0 |      2,605 |
+| e:\Coding\tcg-database-base\tcg-database\src\database_sets\DB_EVP.json                         | JSON               |         74 |          0 |          0 |         74 |
+| e:\Coding\tcg-database-base\tcg-database\src\database_sets\DB_Isekai.json                      | JSON               |         78 |          0 |          0 |         78 |
+| e:\Coding\tcg-database-base\tcg-database\src\database_sets\DB_KSP.json                         | JSON               |        203 |          0 |          0 |        203 |
+| e:\Coding\tcg-database-base\tcg-database\src\database_sets\DB_P22.json                         | JSON               |        180 |          0 |          0 |        180 |
+| e:\Coding\tcg-database-base\tcg-database\src\database_sets\DB_SP1.json                         | JSON               |        535 |          0 |          0 |        535 |
+| e:\Coding\tcg-database-base\tcg-database\src\database_sets\Spoilers.json                       | JSON               |          2 |          0 |          1 |          3 |
+| e:\Coding\tcg-database-base\tcg-database\src\index.css                                         | CSS                |         12 |          0 |          2 |         14 |
+| e:\Coding\tcg-database-base\tcg-database\src\index.tsx                                         | TypeScript JSX     |          8 |          0 |          2 |         10 |
+| e:\Coding\tcg-database-base\tcg-database\src\logo.svg                                          | XML                |          1 |          0 |          0 |          1 |
+| e:\Coding\tcg-database-base\tcg-database\src\models\card.ts                                    | TypeScript         |         26 |          0 |          4 |         30 |
+| e:\Coding\tcg-database-base\tcg-database\src\pages\ArticleIndivPage\ArticleIndivPage.css       | CSS                |         34 |          0 |          7 |         41 |
+| e:\Coding\tcg-database-base\tcg-database\src\pages\ArticleIndivPage\ArticleIndivPage.tsx       | TypeScript JSX     |         18 |          0 |          5 |         23 |
+| e:\Coding\tcg-database-base\tcg-database\src\pages\ArticlePage\ArticlePage.css                 | CSS                |         54 |          1 |          9 |         64 |
+| e:\Coding\tcg-database-base\tcg-database\src\pages\ArticlePage\ArticlePage.tsx                 | TypeScript JSX     |         25 |          0 |          3 |         28 |
+| e:\Coding\tcg-database-base\tcg-database\src\pages\Articles\Article1.css                       | CSS                |          0 |          0 |          1 |          1 |
+| e:\Coding\tcg-database-base\tcg-database\src\pages\Articles\Article1.tsx                       | TypeScript JSX     |         27 |          0 |          3 |         30 |
+| e:\Coding\tcg-database-base\tcg-database\src\pages\CardsPages\AllCardsPage\AllCardsPage.css    | CSS                |          0 |          0 |          1 |          1 |
+| e:\Coding\tcg-database-base\tcg-database\src\pages\CardsPages\AllCardsPage\AllCardsPage.tsx    | TypeScript JSX     |        102 |          0 |         10 |        112 |
+| e:\Coding\tcg-database-base\tcg-database\src\pages\CardsPages\AltArtsPage\AltArtsPage.css      | CSS                |          0 |          0 |          1 |          1 |
+| e:\Coding\tcg-database-base\tcg-database\src\pages\CardsPages\AltArtsPage\AltArtsPage.tsx      | TypeScript JSX     |         68 |          3 |         10 |         81 |
+| e:\Coding\tcg-database-base\tcg-database\src\pages\CardsPages\ArcanesPage\ArcanesPage.css      | CSS                |          0 |          0 |          1 |          1 |
+| e:\Coding\tcg-database-base\tcg-database\src\pages\CardsPages\ArcanesPage\ArcanesPage.tsx      | TypeScript JSX     |        102 |          0 |         11 |        113 |
+| e:\Coding\tcg-database-base\tcg-database\src\pages\CardsPages\ChampionsPage\ChampionsPage.css  | CSS                |          0 |          0 |          1 |          1 |
+| e:\Coding\tcg-database-base\tcg-database\src\pages\CardsPages\ChampionsPage\ChampionsPage.tsx  | TypeScript JSX     |        103 |          9 |         10 |        122 |
+| e:\Coding\tcg-database-base\tcg-database\src\pages\CardsPages\CruxsPage\CruxsPage.css          | CSS                |          0 |          0 |          1 |          1 |
+| e:\Coding\tcg-database-base\tcg-database\src\pages\CardsPages\CruxsPage\CruxsPage.tsx          | TypeScript JSX     |        102 |          0 |         11 |        113 |
+| e:\Coding\tcg-database-base\tcg-database\src\pages\CardsPages\DomainsPage\DomainsPage.css      | CSS                |          0 |          0 |          1 |          1 |
+| e:\Coding\tcg-database-base\tcg-database\src\pages\CardsPages\DomainsPage\DomainsPage.tsx      | TypeScript JSX     |        102 |          0 |         11 |        113 |
+| e:\Coding\tcg-database-base\tcg-database\src\pages\CardsPages\FiresPage\FiresPage.css          | CSS                |          0 |          0 |          1 |          1 |
+| e:\Coding\tcg-database-base\tcg-database\src\pages\CardsPages\FiresPage\FiresPage.tsx          | TypeScript JSX     |        102 |          0 |         11 |        113 |
+| e:\Coding\tcg-database-base\tcg-database\src\pages\CardsPages\LuxemsPage\LuxemsPage.css        | CSS                |          0 |          0 |          1 |          1 |
+| e:\Coding\tcg-database-base\tcg-database\src\pages\CardsPages\LuxemsPage\LuxemsPage.tsx        | TypeScript JSX     |        102 |          0 |         11 |        113 |
+| e:\Coding\tcg-database-base\tcg-database\src\pages\CardsPages\MaterialsPage\MaterialsPage.css  | CSS                |          0 |          0 |          1 |          1 |
+| e:\Coding\tcg-database-base\tcg-database\src\pages\CardsPages\MaterialsPage\MaterialsPage.tsx  | TypeScript JSX     |        102 |          0 |         11 |        113 |
+| e:\Coding\tcg-database-base\tcg-database\src\pages\CardsPages\NullsPage\NullsPage.css          | CSS                |          0 |          0 |          1 |          1 |
+| e:\Coding\tcg-database-base\tcg-database\src\pages\CardsPages\NullsPage\NullsPage.tsx          | TypeScript JSX     |        102 |          0 |         11 |        113 |
+| e:\Coding\tcg-database-base\tcg-database\src\pages\CardsPages\TerasPage\TerasPage.css          | CSS                |          0 |          0 |          1 |          1 |
+| e:\Coding\tcg-database-base\tcg-database\src\pages\CardsPages\TerasPage\TerasPage.tsx          | TypeScript JSX     |        102 |          0 |         11 |        113 |
+| e:\Coding\tcg-database-base\tcg-database\src\pages\CardsPages\WatersPage\WatersPage.css        | CSS                |          0 |          0 |          1 |          1 |
+| e:\Coding\tcg-database-base\tcg-database\src\pages\CardsPages\WatersPage\WatersPage.tsx        | TypeScript JSX     |        102 |          0 |         11 |        113 |
+| e:\Coding\tcg-database-base\tcg-database\src\pages\CardsPages\WindsPage\WindsPage.css          | CSS                |          0 |          0 |          1 |          1 |
+| e:\Coding\tcg-database-base\tcg-database\src\pages\CardsPages\WindsPage\WindsPage.tsx          | TypeScript JSX     |        102 |          0 |         10 |        112 |
+| e:\Coding\tcg-database-base\tcg-database\src\pages\ContentCreatorsPage\ContentCreatorsPage.css | CSS                |         40 |          0 |          5 |         45 |
+| e:\Coding\tcg-database-base\tcg-database\src\pages\ContentCreatorsPage\ContentCreatorsPage.tsx | TypeScript JSX     |         52 |          0 |          2 |         54 |
+| e:\Coding\tcg-database-base\tcg-database\src\pages\FrontPage\FrontPage.css                     | CSS                |          0 |          0 |          1 |          1 |
+| e:\Coding\tcg-database-base\tcg-database\src\pages\FrontPage\FrontPage.tsx                     | TypeScript JSX     |         16 |          0 |          2 |         18 |
+| e:\Coding\tcg-database-base\tcg-database\src\pages\NoPage\NoPage.css                           | CSS                |          6 |          0 |          0 |          6 |
+| e:\Coding\tcg-database-base\tcg-database\src\pages\NoPage\NoPage.tsx                           | TypeScript JSX     |         14 |          0 |          2 |         16 |
+| e:\Coding\tcg-database-base\tcg-database\src\pages\SetPage\SetPage.css                         | CSS                |         48 |          1 |          8 |         57 |
+| e:\Coding\tcg-database-base\tcg-database\src\pages\SetPage\SetPage.tsx                         | TypeScript JSX     |         66 |          0 |          4 |         70 |
+| e:\Coding\tcg-database-base\tcg-database\src\pages\SpoilersPage\SpoilersPage.css               | CSS                |          6 |          0 |          0 |          6 |
+| e:\Coding\tcg-database-base\tcg-database\src\pages\SpoilersPage\SpoilersPage.tsx               | TypeScript JSX     |         58 |          0 |         10 |         68 |
+| e:\Coding\tcg-database-base\tcg-database\src\services\gatcg-api.ts                             | TypeScript         |          5 |          1 |          1 |          7 |
+| e:\Coding\tcg-database-base\tcg-database\tsconfig.json                                         | JSON with Comments |         13 |         89 |         10 |        112 |
+| Total                                                                                          |                    |     40,068 |        238 |        525 |     40,831 |
++------------------------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+

@@ -1,5 +1,5 @@
 import './AllCardsPage.css';
-import React, { FC, useState, useEffect }from "react";
+import React, { FC, useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import DB_DOAAlter from '../../../database_sets/DB_DOAAlter.json';
 import DB_DOA1st from '../../../database_sets/DB_DOA1st.json';

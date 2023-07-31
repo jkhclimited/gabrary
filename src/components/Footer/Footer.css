@@ -1,0 +1,33 @@
+.footerArea {
+    background-color: black;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    position: absolute;
+    width: 100%;
+    bottom: 0; left: 0;
+}
+
+.footerText {
+    margin: 0 10px;
+    font-size: 1.2vw;
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.footerLine {
+    margin: 0;
+}
+
+@media (max-width: 1080px) {
+    .footerText { font-size: 2vw; }
+}
+
+@media (max-width: 580px) {
+    .footerText { font-size: 3vw; }
+}

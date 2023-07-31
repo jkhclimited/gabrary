@@ -1,0 +1,15 @@
+.homepage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.homepage-header {
+    font-size: 3vw;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    padding: 5px;
+    margin: 10px;
+}

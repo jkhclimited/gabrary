@@ -3,6 +3,7 @@ import React, { FC, useState, useEffect } from 'react';
 import { BrowserRouter, Route, Routes, } from 'react-router-dom';
 
 import NavBar from './components/NavBar/NavBar';
+import Footer from './components/Footer/Footer';
 // import ToggleDarkMode from './components/ToggleDarkMode/ToggleDarkMode';
 
 import FrontPage from './pages/FrontPage/FrontPage';
@@ -21,10 +22,11 @@ import TerasPage from './pages/CardsPages/TerasPage/TerasPage';
 import NoPage from './pages/NoPage/NoPage';
 import AllCardsPage from './pages/CardsPages/AllCardsPage/AllCardsPage';
 import AltArtsPage from './pages/CardsPages/AltArtsPage/AltArtsPage';
+import SpoilersPage from './pages/SpoilersPage/SpoilersPage';
 
 import ContentCreatorsPage from './pages/ContentCreatorsPage/ContentCreatorsPage';
 import ArticlePage from './pages/ArticlePage/ArticlePage';
-import ArticleIndivPage from './pages/ArticleIndivPages/ArticleIndivPage';
+import ArticleIndivPage from './pages/ArticleIndivPage/ArticleIndivPage';
 
 
 interface AppOverallState {
@@ -90,13 +92,15 @@ const App: FC = () => {
         <Route path='/sets/:id/arcanes' element={<ArcanesPage />}/>
         <Route path='/sets/:id/teras' element={<TerasPage />}/>
         <Route path='/sets/:id/alt-arts' element={<AltArtsPage />}/>
-
+        
+        <Route path='/spoilers' element={<SpoilersPage />}/>
         <Route path='/articles' element={<ArticlePage />}/>
         <Route path='/articles/:id' element={<ArticleIndivPage />}/>
         <Route path='/creators' element={<ContentCreatorsPage />}/>
         <Route path="*" element={<NoPage />}/>
       </Routes>
     </BrowserRouter>
+    <Footer />
   </div>
   </>
 }
