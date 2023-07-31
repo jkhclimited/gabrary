@@ -1,8 +1,12 @@
-.homepage {
+.homepage-main-div {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 0 auto;
+    width: 75vw;
+    text-align: center;
+    padding-bottom: 30px;
 }
 
 .homepage-header {

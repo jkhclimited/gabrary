@@ -5,7 +5,7 @@ import Carousel from '../../components/Carousel/Carousel';
 class FrontPage extends React.Component {
     render() {
         return (
-            <div className="homepage">
+            <div className="homepage-main-div">
                 <p className="homepage-header">Welcome to the Gabrary.</p>
                 <div className='center-div'>
                     <Carousel />
