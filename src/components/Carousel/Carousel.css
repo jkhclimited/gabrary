@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: center;
     width: 50vw;
-    height: 30vw;
+    height: 25vw;
 }
 
 .carouselIMGs {
@@ -62,5 +62,5 @@
 
 
 @media (max-width: 580px) {
-    .carouselMain { width: 85vw; height: 47vw; };
+    .carouselMain { width: 85vw; height: 42vw; };
 }
