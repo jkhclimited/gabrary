@@ -2,16 +2,19 @@
     {
         "name": "",
         "alt": "",
-        "src": "/Carousel_Images/image_1.png"
+        "src": "/Carousel_Images/fractured-crown-1.jpg",
+        "link": "/sets/FTC"
     },
     {
         "name": "",
         "alt": "",
-        "src": "/Carousel_Images/image_2.jpg"
+        "src": "/Carousel_Images/content-creators-1.jpg",
+        "link": "/creators"
     },
     {
         "name": "",
         "alt": "",
-        "src": "/Carousel_Images/image_3.png"
+        "src": "/Carousel_Images/articles-1.jpg",
+        "link": "/articles"
     }
 ]

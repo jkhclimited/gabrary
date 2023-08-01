@@ -6,11 +6,11 @@ html {
 
 .App {
   height: auto !important;
-  min-height: calc(100vh - 100px);
+  min-height: calc(100vh - 12vh);
   font-size: 1.7vw;
   /* margin-bottom: 20px; */
   color: #fff;
-  padding: 0 0 95px;
+  padding: 0 0 12vh;
   position: relative;
 }
 

@@ -21,7 +21,7 @@
 }
   
 .navBarLinks a {
-    line-height: 3rem;
+    line-height: 5rem;
     padding: 0 1rem;
     text-transform: uppercase;
     text-decoration: none;
@@ -48,6 +48,12 @@
 
 .mobileNav {
     display: none;
+}
+
+@media (max-width: 1921px) {
+    .navBarLinks a {
+        line-height: 3rem;
+    }
 }
 
 @media (min-width: 961px) {

@@ -1,5 +1,6 @@
 import './Carousel.css';
 import React, { FC, useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import carouselSlides from '../../database_carousel/carousel_data.json';
 import { BsArrowLeftCircleFill, BsArrowRightCircleFill } from 'react-icons/bs';
 
@@ -41,7 +42,9 @@ const Carousel: FC = () => {
         <BsArrowLeftCircleFill className="arrow arrow-left" onClick={() => prevSlide()}/>
         {slides.length > 0 ?
             slides.map((slide, idx) => (
-                <img className={carouselState.idx === idx ? "carouselIMGs" : "carouselIMGs carouselIMGs-hidden"} src={slide.src} alt={slide.alt} key={idx}/>
+                <Link to={slide.link!}>
+                    <img className={carouselState.idx === idx ? "carouselIMGs" : "carouselIMGs carouselIMGs-hidden"} src={slide.src} alt={slide.alt} key={idx}/>
+                </Link> 
             ))
         : <p>No Slides!</p>}
         <BsArrowRightCircleFill className="arrow arrow-right" onClick={() => nextSlide()}/>
