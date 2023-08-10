@@ -48,6 +48,10 @@ const ContentCreatorsPage: FC = () => <>
             <p className='contentCreatorName'>Creative Shock</p>
             <iframe className='videoArea' src='https://www.youtube.com/embed?listType=playlist&list=UULF9XCeZbyVmWWXaLc2o-KLjg' title='Latest Creative Shock video' allowFullScreen></iframe>
         </div>
+        <div className='contentCreator' id="Champion's Quarters">
+            <p className='contentCreatorName'>Champion's Quarters</p>
+            <iframe className='videoArea' src='https://www.youtube.com/embed?listType=playlist&list=UUL2ppi1lfSxeHhvHUPrNxug' title="Latest Champion's Quarters" allowFullScreen></iframe>
+        </div>
     </div>
 </>
 

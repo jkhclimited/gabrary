@@ -14,14 +14,37 @@
     font-weight: bold;
     text-align: center;
     width: 100%;
-    padding: 5px;
-    margin: 10px;
+    padding: 10px;
+    margin: 3.9vh 10px 10px 10px;
+    border: lightslategray 3px solid;
+    border-radius: 20px;
 }
+
+.latest-articles {
+    margin-top: 5vh;
+}
+
+.latest-article-header {
+    font-size: 2.5vw;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    border: lightslategray 3px solid;
+    border-radius: 20px;
+}
+
+.latest-articleIMG {
+    width: 75vw;
+}
+
 
 @media (max-width: 1080px) {
     .homepage-header { font-size: 4vw; }
+    .latest-article-header { font-size: 3.5vw; }
 }
 
 @media (max-width: 580px) {
     .homepage-header { font-size: 6vw; }
+    .latest-article-header { font-size: 4.5vw; }
 }

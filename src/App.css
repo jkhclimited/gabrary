@@ -100,7 +100,8 @@ a:hover, a:active { text-decoration: none; color:grey }
 
 #lightbox-img {
   margin: 0 auto;
-  height: 70vh;
+  max-width: 90vw;
+  max-height: 60vh;
 }
 
 @media (max-width: 1000px) {
