@@ -4,6 +4,7 @@ import { useParams, BrowserRouter, Route, Routes, } from "react-router-dom";
 
 import Article1 from '../Articles/Article1';
 import Article2 from '../Articles/Article2';
+import Article3 from '../Articles/Article3';
 
 const IndivArticles: FC = () => {
     const { id } = useParams();
@@ -14,6 +15,9 @@ const IndivArticles: FC = () => {
         };
         if (id === "june-ga-discord-tournament-results") {
             return <Article2 />;
+        };
+        if (id === "red-riot-grand-archive-1k") {
+            return <Article3 />;
         }
     }
 
