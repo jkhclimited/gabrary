@@ -53,7 +53,7 @@ const ChampionsPage: FC = () => {
 
     useEffect(() => {
         if (id === "DOA-Alter") {
-            const cardsList = DB_DOAAlter.filter((card: any) => card.types.includes('CHAMPION'));;
+            const cardsList = DB_DOAAlter.filter((card: any) => card.types.includes('CHAMPION'));
             setChampsState({ ...champsState, cards: cardsList, imgSrc: "DOAAlter_Images" });
         }
         if (id === "DOA1st") {

@@ -119,6 +119,9 @@ a:hover, a:active { text-decoration: none; color:grey }
 
 .cardImg { width: 13vw; height: auto; }
 .cardImgBox { width: 13vw; margin: 2px; }
+.text-row-small { font-size: 2vw; }
+.cardImgSmall { width: 12vw; height: auto; }
+.cardImgBoxSmall { width: 12vw; margin: 2px; text-align: center }
 
 .centerText { 
   margin: 0; 

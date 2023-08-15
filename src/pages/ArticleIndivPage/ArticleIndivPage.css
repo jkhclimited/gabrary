@@ -1,12 +1,17 @@
 .indivArticle-main-div {
     margin: 0 auto;
-    width: 70vw;
+    width: 75vw;
     text-align: left;
     align-items: left;
 }
 
 .indivArticle-main-image {
-    width: 70vw;
+    width: 75vw;
+    height: auto;
+}
+
+.indivArticle-embedIMG {
+    max-width: 75vw;
     height: auto;
 }
 

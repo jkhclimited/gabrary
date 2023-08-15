@@ -1,6 +1,6 @@
 [
     {
-        "order": 0,
+        "order": 1,
         "type": "blog",
         "id": "june-19-ban-and-restriction-announcement",
         "title": "June 19th Ban & Restriction Announcement",
@@ -8,5 +8,15 @@
         "author": "Remetic",
         "blurb": "Weebs of the Shore announce a new Ban and Restriction list update!",
         "date": "June 21, 2023"
+    },
+    {
+        "order": 2,
+        "type": "result",
+        "id": "june-ga-discord-tournament-results",
+        "title": "June Grand Archive Discord Tournament Results!",
+        "mainIMG": "june-ga-discord-tournament-embed1.png",
+        "author": "Gabrary",
+        "blurb": "Results and Top 8 Decklists! Interviews and deck techs with both 1st and 2nd players!",
+        "date": "June 13, 2023"
     }
 ]
