@@ -137,6 +137,7 @@ a:hover, a:active { text-decoration: none; color:grey }
 @media (max-width: 1080px) {
   .centerText { font-size: 2.5vw; }
   .cardImg, .cardImgBox, .centerText { width: 23vw; }
+  .cardImgSmall, .cardImgBoxSmall { width: 16vw; }
 }
 
 @media (max-width: 580px) {
