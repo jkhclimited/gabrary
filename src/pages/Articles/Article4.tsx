@@ -29,7 +29,7 @@ const Article4: FC = () => {
     };
 
     return <>
-    <img className='indivArticle-main-image' src={process.env.PUBLIC_URL + `/Articles_Images/aus-regional-tournament-embed1.png`} alt='' />
+    <img className='indivArticle-main-image' src={process.env.PUBLIC_URL + `/Articles_Images/aus-regional-tournament-banner.png`} alt='' />
     <p className='indivArticle-header'>Australia Regionals Top 8 Report</p>
     <div className='indivArticle-author-date-line'>
         <div className='indivArticle-author-date indivArticle-author'>by Limelight</div>
