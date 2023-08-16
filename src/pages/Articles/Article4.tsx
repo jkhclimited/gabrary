@@ -36,6 +36,8 @@ const Article4: FC = () => {
         <div className='indivArticle-author-date indivArticle-date'>August 14th, 2023</div>
     </div>
     <div className='indivArticle-article'>
+        <img className='indivArticle-embedIMG' src={process.env.PUBLIC_URL + `/Articles_Images/aus-regional-tournament-embed1.png`}/>
+        <img className='indivArticle-embedIMG' src={process.env.PUBLIC_URL + `/Articles_Images/aus-regional-tournament-embed2.png`}/>
         1st Place: Michael Yap (BlueskyCandy) - <a target="_blank" rel="noopener noreferrer" href="https://build.silvie.org/@Limelight/22Ipbq8ZSKUsl6CzLaM1">Decklist</a><br/><br/>
         Material Deck<br/>
         <div className="flexCardImgs">

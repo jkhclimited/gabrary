@@ -37,7 +37,8 @@ const Article3: FC = () => {
     <div className='indivArticle-article'>
         Over the weekend Riot Riot Games hosted a Grand Archive 1k in Canada, you can check out Red Riot Games <a target="_blank" rel="noopener noreferrer" href="https://redriotgames.ca/">here</a>. To use any of the decks on TTS please navigate to the deck links in the description. There will be a prompt on silvie.org to allow you to download the deck for TTS.<br/><br/>
         The tournament had 28 players, below is the deck archetype breakdown<br/><br/>
-        <img className='indivArticle-embedIMG' id='embed1' src={process.env.PUBLIC_URL + `/Articles_Images/red-riot-1k-embed2.png`}/>
+        <img className='indivArticle-embedIMG' src={process.env.PUBLIC_URL + `/Articles_Images/red-riot-1k-embed1.png`}/>
+        <img className='indivArticle-embedIMG' src={process.env.PUBLIC_URL + `/Articles_Images/red-riot-1k-embed2.png`}/>
         We also have a short blurb from Steve over at Red Riot:<br/>
         "I want to say thank you to everyone that came out to this event, it means allot to see so many players from all over Toronto coming together for an amazing event at the beginning of a games life cycle! While we had a few hiccups we are working towards growing a strong community and an event stronger tournament structure. With that said we have your tournament deck list and graphs showing what decks represented at this event!"<br/><br/>
         1st Place Winning Deck by Nathan Chin RRG - <a target="_blank" rel="noopener noreferrer" href="https://build.silvie.org/@Dezmu/dg8gcwT40IvxaXLFHe3Y">Decklist</a><br/><br/>
