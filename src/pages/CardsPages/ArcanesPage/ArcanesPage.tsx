@@ -10,7 +10,7 @@ import DB_KSP from '../../../database_sets/DB_KSP.json';
 import DB_P22 from '../../../database_sets/DB_P22.json';
 import DB_SP1 from '../../../database_sets/DB_SP1.json';
 import DB_FTC from '../../../database_sets/DB_FTC.json';
-import DB_FTCA from '../../../database_sets/DB_FTC.json';
+import DB_FTCA from '../../../database_sets/DB_FTCA.json';
 
 import ToggleSwitch from "../../../components/ToggleTextSwitch/ToggleTextSwitch";
 import ElementBar from "../../../components/ElementBar/ElementBar";
@@ -72,11 +72,11 @@ const ArcanesPage: FC = () => {
             setarcanesState({ ...arcanesState, cards: cardsList, imgSrc: "EVP_Images" });
         }
         if (id === "FTC") {
-            const cardsList = DB_FTC;
+            const cardsList = DB_FTC.filter((card: any) => card.element.includes('ARCANE'));;
             setarcanesState({ ...arcanesState, cards: cardsList, imgSrc: "FTC_Images" });
         }
         if (id === "FTCA") {
-            const cardsList = DB_FTCA;
+            const cardsList = DB_FTCA.filter((card: any) => card.element.includes('ARCANE'));;
             setarcanesState({ ...arcanesState, cards: cardsList, imgSrc: "FTCA_Images" });
         }
         if (id == "GVC") {

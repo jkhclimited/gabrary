@@ -56,7 +56,7 @@ const AltArtsPage: FC = () => {
         }
         if (id === "FTC") {
             const cardsList = FTCAlts;
-            setAltArtsState({ ...altArtsState, cards: cardsList, imgSrc: "FTC_Alt_Images" });
+            setAltArtsState({ ...altArtsState, cards: cardsList, imgSrc: "FTCAlt_Images" });
         }
     }, [])
 

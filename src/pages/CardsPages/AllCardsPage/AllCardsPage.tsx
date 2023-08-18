@@ -11,7 +11,7 @@ import DB_KSP from '../../../database_sets/DB_KSP.json';
 import DB_P22 from '../../../database_sets/DB_P22.json';
 import DB_SP1 from '../../../database_sets/DB_SP1.json';
 import DB_FTC from '../../../database_sets/DB_FTC.json';
-import DB_FTCA from '../../../database_sets/DB_FTC.json';
+import DB_FTCA from '../../../database_sets/DB_FTCA.json';
 
 import ToggleSwitch from '../../../components/ToggleTextSwitch/ToggleTextSwitch';
 import ElementBar from "../../../components/ElementBar/ElementBar";
