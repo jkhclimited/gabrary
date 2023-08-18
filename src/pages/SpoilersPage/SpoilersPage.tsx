@@ -58,8 +58,8 @@ const SpoilersPage: FC = () => {
             : <p className="noSpoilersText">No Spoilers!</p>}
         </div> 
         { spoilersState.lightboxDisplay ? 
-        <div id="lightbox">
-            <img id="lightbox-img" onClick={() => hideLightBox()}src={process.env.PUBLIC_URL + `/FTC_Images/${spoilersState.cardToShow}.jpg`}/>
+        <div id="lightbox" onClick={() => hideLightBox()}>
+            <img id="lightbox-img" src={process.env.PUBLIC_URL + `/FTC_Images/${spoilersState.cardToShow}.jpg`}/>
         </div> : '' }
     </div>
     </>
