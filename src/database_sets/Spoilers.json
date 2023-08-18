@@ -1,3 +1,688 @@
 [
-    
+    {
+        "name": "Spirit of Serene Fire",
+        "collector_number": 1,
+        "types": "CHAMPION",
+        "classes": "SPIRIT",
+        "element": "FIRE"
+    },
+    {
+        "name": "Spirit of Serene Water",
+        "collector_number": 2,
+        "types": "CHAMPION",
+        "classes": "SPIRIT",
+        "element": "WATER"
+    },
+    {
+        "name": "Spirit of Serene Wind",
+        "collector_number": 3,
+        "types": "CHAMPION",
+        "classes": "SPIRIT",
+        "element": "WIND"
+    },
+    {
+        "name": "Merlin, Kingslayer",
+        "collector_number": 4,
+        "types": "CHAMPION",
+        "classes": "MAGE,WARRIOR,HUMAN",
+        "element": "FIRE"
+    },
+    {
+        "name": "Merlin, Kingslayer",
+        "collector_number": 4.1,
+        "types": "CHAMPION",
+        "classes": "MAGE,WARRIOR,HUMAN",
+        "element": "FIRE"
+    },
+    {
+        "name": "Merlin, Kingslayer",
+        "collector_number": 4.2,
+        "types": "CHAMPION",
+        "classes": "MAGE,WARRIOR,HUMAN",
+        "element": "FIRE"
+    },
+    {
+        "name": "Azure Protective Trinket",
+        "collector_number": 5,
+        "types": "REGALIA, ITEM",
+        "classes": "CLERIC",
+        "element": "NORM"
+    },
+    {
+        "name": "Crimson Protective Trinket",
+        "collector_number": 6,
+        "types": "REGALIA, ITEM",
+        "classes": "CLERIC",
+        "element": "NORM"
+    },
+    {
+        "name": "Quicksilver Grail",
+        "collector_number": 7,
+        "types": "REGALIA, ITEM",
+        "classes": "CLERIC",
+        "element": "NORM"
+    },
+    {
+        "name": "Tariff Ring",
+        "collector_number": 8,
+        "types": "REGALIA, ITEM",
+        "classes": "GUARDIAN",
+        "element": "NORM"
+    },
+    {
+        "name": "Tithe Proclamation",
+        "collector_number": 9,
+        "types": "REGALIA, ITEM",
+        "classes": "CLERIC",
+        "element": "NORM"
+    },
+    {
+        "name": "Viridian Protective Trinket",
+        "collector_number": 10,
+        "types": "REGALIA, ITEM",
+        "classes": "CLERIC",
+        "element": "NORM"
+    },
+    {
+        "name": "Beastsoul Visage",
+        "collector_number": 11,
+        "types": "REGALIA, ITEM",
+        "classes": "TAMER",
+        "element": "FIRE"
+    },
+    {
+        "name": "Explosive Rune",
+        "collector_number": 12,
+        "types": "REGALIA, ITEM",
+        "classes": "MAGE",
+        "element": "FIRE"
+    },
+    {
+        "name": "Firetongue",
+        "collector_number": 13,
+        "types": "REGALIA, WEAPON",
+        "classes": "WARRIOR, SWORD",
+        "element": "FIRE"
+    },
+    {
+        "name": "Varuckan Soulknife",
+        "collector_number": 14,
+        "types": "REGALIA, WEAPON",
+        "classes": "ASSASSIN, DAGGER",
+        "element": "FIRE"
+    },
+    {
+        "name": "Arondight, Azure Blade",
+        "collector_number": 15,
+        "types": "REGALIA, WEAPON",
+        "classes": "WARRIOR, SWORD",
+        "element": "WATER"
+    },
+    {
+        "name": "Cloak of Stillwater",
+        "collector_number": 16,
+        "types": "REGALIA, ITEM",
+        "classes": "ASSASSIN, ACCESORY",
+        "element": "WATER"
+    },
+    {
+        "name": "Wand of Frost",
+        "collector_number": 17,
+        "types": "REGALIA, ITEM",
+        "classes": "CLERIC, MAGE, WAND",
+        "element": "WATER"
+    },
+    {
+        "name": "Wildheart Lyre",
+        "collector_number": 18,
+        "types": "REGALIA, ITEM",
+        "classes": "TAMER, INSTRUMENT",
+        "element": "WATER"
+    },
+    {
+        "name": "Effigy of Gaia",
+        "collector_number": 19,
+        "types": "REGALIA, ITEM",
+        "classes": "TAMER, BAUBLE",
+        "element": "WIND"
+    },
+    {
+        "name": "Ventus, Staff of Zephyrs",
+        "collector_number": 20,
+        "types": "REGALIA, ITEM",
+        "classes": "MAGE, STAFF",
+        "element": "WIND"
+    },
+    {
+        "name": "Windwalker Boots",
+        "collector_number": 21,
+        "types": "REGALIA, ITEM",
+        "classes": "ASSASSIN, ACCESORY",
+        "element": "WIND"
+    },
+    {
+        "name": "Zephyr's Edge",
+        "collector_number": 22,
+        "types": "REGALIA, WEAPON",
+        "classes": "WARRIOR, SWORD",
+        "element": "WIND"
+    },
+    {
+        "name": "The Majestic Spirit",
+        "collector_number": 23,
+        "types": "REGALIA, ALLY",
+        "classes": "MAGE, BEAST, AVATAR",
+        "element": "CRUX"
+    },
+    {
+        "name": "The Majestic Spirit",
+        "collector_number": 23.1,
+        "types": "REGALIA, ALLY",
+        "classes": "MAGE, BEAST, AVATAR",
+        "element": "CRUX"
+    },
+    {
+        "name": "Fractured Crown",
+        "collector_number": 24,
+        "types": "REGALIA, ITEM",
+        "classes": "WARRIOR, ARTIFACT",
+        "element": "LUXEM"
+    },
+    {
+        "name": "Covenant of Thorns",
+        "collector_number": 25,
+        "types": "REGALIA, ITEM",
+        "classes": "TAMER, ACCESORY",
+        "element": "TERA"
+    },
+    {
+        "name": "Bedivere, Woodland Overseer",
+        "collector_number": 26,
+        "types": "UNIQUE, ALLY",
+        "classes": "TAMER, ANIMAL, HUMAN",
+        "element": "NORM"
+    },
+    {
+        "name": "Bedivere, Woodland Overseer",
+        "collector_number": 26.1,
+        "types": "UNIQUE, ALLY",
+        "classes": "TAMER, ANIMAL, HUMAN",
+        "element": "NORM"
+    },
+    {
+        "name": "Blanche, Sheltering Saint",
+        "collector_number": 27,
+        "types": "UNIQUE, ALLY",
+        "classes": "CLERIC, HUMAN",
+        "element": "NORM"
+    },
+    {
+        "name": "Blanche, Sheltering Saint",
+        "collector_number": 27.1,
+        "types": "UNIQUE, ALLY",
+        "classes": "CLERIC, HUMAN",
+        "element": "NORM"
+    },
+    {
+        "name": "Capricious Lynx",
+        "collector_number": 28,
+        "types": "ALLY",
+        "classes": "TAMER, BEAST, CAT",
+        "element": "NORM"
+    },
+    {
+        "name": "Cunning Broker",
+        "collector_number": 29,
+        "types": "ALLY",
+        "classes": "ASSASSIN, HUMAN",
+        "element": "NORM"
+    },
+    {
+        "name": "Dawn of Ashes",
+        "collector_number": 30,
+        "types": "UNIQUE, DOMAIN",
+        "classes": "CLERIC, CATACLYSM",
+        "element": "NORM"
+    },
+    {
+        "name": "Develop Mana",
+        "collector_number": 31,
+        "types": "ACTION",
+        "classes": "MAGE, SPELL",
+        "element": "NORM"
+    },
+    {
+        "name": "Fast Cure",
+        "collector_number": 32,
+        "types": "ACTION",
+        "classes": "CLERIC, SPELL",
+        "element": "NORM"
+    },
+    {
+        "name": "Fractal of Insight",
+        "collector_number": 33,
+        "types": "PHANTASIA",
+        "classes": "MAGE, FRACTAL",
+        "element": "NORM"
+    },
+    {
+        "name": "Gawain, Chivalrous Thief",
+        "collector_number": 34,
+        "types": "UNIQUE, ALLY",
+        "classes": "ASSASSIN, RANGER, HUMAN",
+        "element": "NORM"
+    },
+    {
+        "name": "Gentle Respite",
+        "collector_number": 35,
+        "types": "ACTION",
+        "classes": "CLERIC, SPELL",
+        "element": "NORM"
+    },
+    {
+        "name": "Imperious Highlander",
+        "collector_number": 36,
+        "types": "ALLY",
+        "classes": "WARRIOR, HUMAN",
+        "element": "NORM"
+    },
+    {
+        "name": "Lancelot, Goliath of Aesa",
+        "collector_number": 37,
+        "types": "UNIQUE, ALLY",
+        "classes": "GUARDIAN, WARRIOR, HUMAN",
+        "element": "NORM"
+    },    
+    {
+        "name": "Lancelot, Goliath of Aesa",
+        "collector_number": 37.1,
+        "types": "UNIQUE, ALLY",
+        "classes": "GUARDIAN, WARRIOR, HUMAN",
+        "element": "NORM"
+    },
+    {
+        "name": "Lurking Assailant",
+        "collector_number": 38,
+        "types": "ALLY",
+        "classes": "ASSASSIN, HUMAN",
+        "element": "NORM"
+    },
+    {
+        "name": "Morgan, Soul Guide",
+        "collector_number": 39,
+        "types": "UNIQUE, ALLY",
+        "classes": "CLERIC, MAGE, HUMAN",
+        "element": "NORM"
+    },
+    {
+        "name": "Morgan, Soul Guide",
+        "collector_number": 39.1,
+        "types": "UNIQUE, ALLY",
+        "classes": "CLERIC, MAGE, HUMAN",
+        "element": "NORM"
+    },
+    {
+        "name": "Ordinary Bear",
+        "collector_number": 40,
+        "types": "ALLY",
+        "classes": "TAMER, BEAST, BEAR",
+        "element": "NORM"
+    },
+    {
+        "name": "Peaceful Reunion",
+        "collector_number": 41,
+        "types": "ACTION",
+        "classes": "CLERIC, SPELL",
+        "element": "NORM"
+    },
+    {
+        "name": "Prismatic Sanctuary",
+        "collector_number": 42,
+        "types": "UNIQUE, DOMAIN",
+        "classes": "MAGE, CASTLE",
+        "element": "NORM"
+    },
+    {
+        "name": "Resolute Stand",
+        "collector_number": 43,
+        "types": "ACTION",
+        "classes": "GUARDIAN, SKILL, REACTION",
+        "element": "NORM"
+    },
+    {
+        "name": "Right of Realm",
+        "collector_number": 44,
+        "types": "ITEM",
+        "classes": "GUARDIAN, ACCESSORY",
+        "element": "NORM"
+    },
+    {
+        "name": "Scavenging Raccoon",
+        "collector_number": 45,
+        "types": "ALLY",
+        "classes": "TAMER, ANIMAL, Raccoon",
+        "element": "NORM"
+    },
+    {
+        "name": "Seeking Shot",
+        "collector_number": 46,
+        "types": "ATTACK",
+        "classes": "RANGER, BOW",
+        "element": "NORM"
+    },
+    {
+        "name": "Stalwart Shieldmate",
+        "collector_number": 47,
+        "types": "ALLY",
+        "classes": "GUARDIAN, HUMAN",
+        "element": "NORM"
+    },
+    {
+        "name": "Steady Verse",
+        "collector_number": 48,
+        "types": "ACTION",
+        "classes": "CLERIC, TAMER, SKILL, MELODY",
+        "element": "NORM"
+    },
+    {
+        "name": "Thieving Cut",
+        "collector_number": 49,
+        "types": "ATTACK",
+        "classes": "ASSASSIN, DAGGER",
+        "element": "NORM"
+    },
+    {
+        "name": "Blazing Bowman",
+        "collector_number": 50,
+        "types": "ALLY",
+        "classes": "RANGER, HUMAN",
+        "element": "FIRE"
+    },
+    {
+        "name": "Corhazi Arsonist",
+        "collector_number": 51,
+        "types": "ALLY",
+        "classes": "ASSASSIN, HUMAN",
+        "element": "FIRE"
+    },
+    {
+        "name": "Flamebreak Chorus",
+        "collector_number": 52,
+        "types": "ALLY",
+        "classes": "TAMER, SKILL, MELODY",
+        "element": "FIRE"
+    },
+    {
+        "name": "Hone by Fire",
+        "collector_number": 53,
+        "types": "ACTION",
+        "classes": "WARRIOR, SWORD, CRAFT",
+        "element": "FIRE"
+    },
+    {
+        "name": "Incendiary Fractal",
+        "collector_number": 54,
+        "types": "PHANTASIA",
+        "classes": "MAGE, FRACTAL",
+        "element": "FIRE"
+    },
+    {
+        "name": "Innervate Fury",
+        "collector_number": 55,
+        "types": "ACTION",
+        "classes": "MAGE, SPELL",
+        "element": "FIRE"
+    },
+    {
+        "name": "Red Slime",
+        "collector_number": 56,
+        "types": "ALLY",
+        "classes": "TAMER, BEAST, SLIME",
+        "element": "FIRE"
+    },
+    {
+        "name": "Varuckan Acolyte",
+        "collector_number": 57,
+        "types": "ALLY",
+        "classes": "MAGE, HUMAN",
+        "element": "FIRE"
+    },
+    {
+        "name": "Corhazi Trapper",
+        "collector_number": 58,
+        "types": "ALLY",
+        "classes": "ASSASSIN, HUMAN",
+        "element": "WATER"
+    },
+    {
+        "name": "Deep Sea Fractal",
+        "collector_number": 59,
+        "types": "PHANTASIA",
+        "classes": "CLERIC, FRACTAL",
+        "element": "WATER"
+    },
+    {
+        "name": "Fractal of Intrusion",
+        "collector_number": 60,
+        "types": "PHANTASIA",
+        "classes": "CLERIC, FRACTAL",
+        "element": "WATER"
+    },
+    {
+        "name": "Fracturize",
+        "collector_number": 61,
+        "types": "ACTION",
+        "classes": "CLERIC, MAGE, SPELL",
+        "element": "WATER"
+    },
+    {
+        "name": "Frostbind",
+        "collector_number": 62,
+        "types": "ACTION",
+        "classes": "CLERIC, SPELL, REACTION",
+        "element": "WATER"
+    },
+    {
+        "name": "Frostbinder Apostle",
+        "collector_number": 63,
+        "types": "ALLY",
+        "classes": "CLERIC, HUMAN",
+        "element": "WATER"
+    },
+    {
+        "name": "Guarded Dissipation",
+        "collector_number": 64,
+        "types": "ALLY",
+        "classes": "WARRIOR, SKILL, REACTION",
+        "element": "WATER"
+    },
+    {
+        "name": "Innervate Knowledge",
+        "collector_number": 65,
+        "types": "ACTION",
+        "classes": "MAGE, SPELL",
+        "element": "WATER"
+    },
+    {
+        "name": "Ocean's Blessing",
+        "collector_number": 66,
+        "types": "PHANTASIA",
+        "classes": "TAMER, SPELL",
+        "element": "WATER"
+    },
+    {
+        "name": "Protective Fractal",
+        "collector_number": 67,
+        "types": "PHANTASIA",
+        "classes": "CLERIC, FRACTAL",
+        "element": "WATER"
+    },
+    {
+        "name": "Refracting Missile",
+        "collector_number": 68,
+        "types": "ACTION",
+        "classes": "MAGE, SPELL",
+        "element": "WATER"
+    },
+    {
+        "name": "Riptide Slash",
+        "collector_number": 69,
+        "types": "ATTACK",
+        "classes": "WARRIOR, SWORD",
+        "element": "WATER"
+    },
+    {
+        "name": "Song of Frost",
+        "collector_number": 70,
+        "types": "ALLY",
+        "classes": "TAMER, SKILL, MELODY",
+        "element": "WATER"
+    },
+    {
+        "name": "Anthem of Vitality",
+        "collector_number": 71,
+        "types": "ALLY",
+        "classes": "MAGE, SPELL",
+        "element": "WIND"
+    },
+    {
+        "name": "Corhazi Outlook",
+        "collector_number": 72,
+        "types": "ALLY",
+        "classes": "ASSASSIN, HUMAN",
+        "element": "WIND"
+    },
+    {
+        "name": "Dematerialize",
+        "collector_number": 73,
+        "types": "ACTION",
+        "classes": "CLERIC, SPELL",
+        "element": "WIND"
+    },
+    {
+        "name": "Displace",
+        "collector_number": 74,
+        "types": "ACTION",
+        "classes": "CLERIC, MAGE, SPELL",
+        "element": "WIND"
+    },
+    {
+        "name": "Green Slime",
+        "collector_number": 75,
+        "types": "ALLY",
+        "classes": "TAMER, BEAST, SLIME",
+        "element": "WIND"
+    },
+    {
+        "name": "Innervate Agility",
+        "collector_number": 76,
+        "types": "ACTION",
+        "classes": "MAGE, SPELL, REACTION",
+        "element": "WIND"
+    },
+    {
+        "name": "Intrepid Spearman",
+        "collector_number": 77,
+        "types": "ALLY",
+        "classes": "WARRIOR, HUMAN",
+        "element": "WIND"
+    },
+    {
+        "name": "Mark of Fervor",
+        "collector_number": 78,
+        "types": "PHANTASIA",
+        "classes": "TAMER, SPELL",
+        "element": "WIND"
+    },
+    {
+        "name": "Parcenet, Royal Maid",
+        "collector_number": 79,
+        "types": "UNIQUE, ALLY",
+        "classes": "ASSASSIN, HUMAN",
+        "element": "WIND"
+    },
+    {
+        "name": "Rally the Peasants",
+        "collector_number": 80,
+        "types": "ACTION",
+        "classes": "WARRIOR, SKILL",
+        "element": "WIND"
+    },
+    {
+        "name": "Scatter Essence",
+        "collector_number": 81,
+        "types": "ACTION",
+        "classes": "CLERIC, SPELL",
+        "element": "WIND"
+    },
+    {
+        "name": "Windrider Invoker",
+        "collector_number": 82,
+        "types": "ALLY",
+        "classes": "MAGE, HUMAN",
+        "element": "WIND"
+    },
+    {
+        "name": "Shock Therapy",
+        "collector_number": 83,
+        "types": "ACTION",
+        "classes": "MAGE, SPELL",
+        "element": "ARCANE"
+    },
+    {
+        "name": "Voltaic Sphere",
+        "collector_number": 84,
+        "types": "ACTION",
+        "classes": "MAGE, SPELL",
+        "element": "ARCANE"
+    },
+    {
+        "name": "Incarnate Majesty",
+        "collector_number": 85,
+        "types": "ACTION",
+        "classes": "MAGE, SPELL",
+        "element": "CRUX"
+    },
+    {
+        "name": "Slay the King",
+        "collector_number": 86,
+        "types": "ATTACK",
+        "classes": "WARRIOR, SWORD",
+        "element": "CRUX"
+    },
+    {
+        "name": "Illuminate Secrets",
+        "collector_number": 87,
+        "types": "ACTION",
+        "classes": "ASSASSIN, MAGE, SPELL",
+        "element": "LUXEM"
+    },
+    {
+        "name": "Uther, Illustrious King",
+        "collector_number": 88,
+        "types": "UNIQUE, ALLY",
+        "classes": "WARRIOR, HUMAN",
+        "element": "LUXEM"
+    },
+    {
+        "name": "Avatar of Gaia",
+        "collector_number": 89,
+        "types": "UNIQUE, ALLY",
+        "classes": "TAMER, AVATAR",
+        "element": "TERA"
+    },
+    {
+        "name": "Kraal, Stonescale Tyrant",
+        "collector_number": 90,
+        "types": "UNIQUE, ALLY",
+        "classes": "TAMER, BEAST, DRAGON",
+        "element": "TERA"
+    },
+    {
+        "name": "Kraal, Stonescale Tyrant",
+        "collector_number": 90.1,
+        "types": "UNIQUE, ALLY",
+        "classes": "TAMER, BEAST, DRAGON",
+        "element": "TERA"
+    }
 ]

@@ -44,13 +44,13 @@ const SpoilersPage: FC = () => {
     
     return <>
     <div> 
-        <ElementBar id={ "spoilers" }/>
+        {/* <ElementBar id={ "spoilers" }/> */}
         <p className="toggleText">Toggle Text <ToggleSwitch name='Toggle Card Text' handleTextToggle={handleTextToggle}/></p> 
         <div className="flexCardImgs">
             {spoilersState.cards.length > 0 ?
                 spoilersState.cards.map(card => (
                     <div className="text-row" key={card["name"].toString()}>                           
-                        <p className="cardImgBox" id={card["name"].toString()}><img className="cardImg" onClick={() => showLightbox(card.collector_number)} src={process.env.PUBLIC_URL + `/${spoilersState.imgSrc}/${parseInt(card.collector_number)}.jpg`} alt="" /></p>
+                        <p className="cardImgBox" id={card["name"].toString()}><img className="cardImg" onClick={() => showLightbox(card.collector_number)} src={process.env.PUBLIC_URL + `/FTC_Images/${card.collector_number}.jpg`} alt="" /></p>
                         <p style={{ display: (spoilersState.showing ? 'block' : 'none' ) }} id={card["collector_number"].toString()} className="centerText">{card.name}</p>
                         <br />
                     </div>
@@ -59,7 +59,7 @@ const SpoilersPage: FC = () => {
         </div> 
         { spoilersState.lightboxDisplay ? 
         <div id="lightbox">
-            <img id="lightbox-img" onClick={() => hideLightBox()}src={process.env.PUBLIC_URL + `/${spoilersState.imgSrc}/${spoilersState.cardToShow}.jpg`}/>
+            <img id="lightbox-img" onClick={() => hideLightBox()}src={process.env.PUBLIC_URL + `/FTC_Images/${spoilersState.cardToShow}.jpg`}/>
         </div> : '' }
     </div>
     </>
