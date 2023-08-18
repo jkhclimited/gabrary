@@ -114,8 +114,8 @@ const ArcanesPage: FC = () => {
             : <p>No Cards!</p>}
         </div>
         { arcanesState.lightboxDisplay ? 
-        <div id="lightbox">
-            <img id="lightbox-img" onClick={() => hideLightBox()}src={process.env.PUBLIC_URL + `/${arcanesState.imgSrc}/${arcanesState.cardToShow}.jpg`}/>
+        <div id="lightbox" onClick={() => hideLightBox()}>
+            <img id="lightbox-img"src={process.env.PUBLIC_URL + `/${arcanesState.imgSrc}/${arcanesState.cardToShow}.jpg`}/>
         </div> : '' }
     </div>
     </>;

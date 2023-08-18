@@ -123,8 +123,8 @@ const ChampionsPage: FC = () => {
             : <p>No Cards!</p>}
         </div> 
         { champsState.lightboxDisplay ? 
-        <div id="lightbox">
-            <img id="lightbox-img" onClick={() => hideLightBox()}src={process.env.PUBLIC_URL + `/${champsState.imgSrc}/${champsState.cardToShow}.jpg`}/>
+        <div id="lightbox" onClick={() => hideLightBox()}>
+            <img id="lightbox-img"src={process.env.PUBLIC_URL + `/${champsState.imgSrc}/${champsState.cardToShow}.jpg`}/>
         </div> : '' }
     </div>
     </>;

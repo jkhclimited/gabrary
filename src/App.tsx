@@ -79,6 +79,7 @@ const App: FC = () => {
         <Route path='/' element={<FrontPage />}/>
 
         <Route path='/sets' element={<SetPage />}/>
+        <Route path='/sets/spoilers' element={<SpoilersPage />}/>
         <Route path='/sets/:id' element={<AllCardsPage />}/>
         <Route path='/sets/:id/champions' element={<ChampionsPage />}/>
         <Route path='/sets/:id/regalias' element={<MaterialsPage />}/>
@@ -93,7 +94,6 @@ const App: FC = () => {
         <Route path='/sets/:id/teras' element={<TerasPage />}/>
         <Route path='/sets/:id/alt-arts' element={<AltArtsPage />}/>
         
-        <Route path='/spoilers' element={<SpoilersPage />}/>
         <Route path='/articles' element={<ArticlePage />}/>
         <Route path='/articles/:id' element={<ArticleIndivPage />}/>
         <Route path='/creators' element={<ContentCreatorsPage />}/>

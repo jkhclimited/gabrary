@@ -114,8 +114,8 @@ const NullsPage: FC = () => {
             : <p>No Cards!</p>}
         </div> 
         { nullsState.lightboxDisplay ? 
-        <div id="lightbox">
-            <img id="lightbox-img" onClick={() => hideLightBox()}src={process.env.PUBLIC_URL + `/${nullsState.imgSrc}/${nullsState.cardToShow}.jpg`}/>
+        <div id="lightbox" onClick={() => hideLightBox()}>
+            <img id="lightbox-img"src={process.env.PUBLIC_URL + `/${nullsState.imgSrc}/${nullsState.cardToShow}.jpg`}/>
         </div> : '' }
     </div>
     </>;
