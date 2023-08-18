@@ -1,7 +1,7 @@
 [
     {
       "name": "Favorable Winds",
-      "collector_number": "001",
+      "collector_number": 1,
       "types": "['ACTION']",
       "classes": "['MAGE']",
       "subtypes": "['MAGE', 'SPELL']",
@@ -28,7 +28,7 @@
     },
     {
       "name": "Empowering Harmony",
-      "collector_number": "002",
+      "collector_number": 2,
       "types": "['ACTION']",
       "classes": "['TAMER']",
       "subtypes": "['TAMER', 'SKILL', 'HARMONY']",
@@ -53,7 +53,7 @@
     },
     {
       "name": "Strategic Planning",
-      "collector_number": "003",
+      "collector_number": 3,
       "types": "['ACTION']",
       "classes": "['ASSASSIN']",
       "subtypes": "['ASSASSIN', 'SKILL']",
