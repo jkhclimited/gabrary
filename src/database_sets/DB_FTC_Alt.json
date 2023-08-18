@@ -1,0 +1,58 @@
+[
+    {
+        "name": "Merlin, Kingslayer",
+        "collector_number": 4,
+        "types": "CHAMPION",
+        "classes": "MAGE,WARRIOR,HUMAN",
+        "element": "FIRE"
+    },
+    {
+        "name": "Merlin, Kingslayer",
+        "collector_number": 5,
+        "types": "CHAMPION",
+        "classes": "MAGE,WARRIOR,HUMAN",
+        "element": "FIRE"
+    },
+    {
+        "name": "The Majestic Spirit",
+        "collector_number": 23,
+        "types": "REGALIA, ALLY",
+        "classes": "MAGE, BEAST, AVATAR",
+        "element": "CRUX"
+    },    
+    {
+        "name": "Bedivere, Woodland Overseer",
+        "collector_number": 26,
+        "types": "UNIQUE, ALLY",
+        "classes": "TAMER, ANIMAL, HUMAN",
+        "element": "NORM"
+    },
+    {
+        "name": "Blanche, Sheltering Saint",
+        "collector_number": 27,
+        "types": "UNIQUE, ALLY",
+        "classes": "CLERIC, HUMAN",
+        "element": "NORM"
+    },
+    {
+        "name": "Lancelot, Goliath of Aesa",
+        "collector_number": 37,
+        "types": "UNIQUE, ALLY",
+        "classes": "GUARDIAN, WARRIOR, HUMAN",
+        "element": "NORM"
+    },
+    {
+        "name": "Morgan, Soul Guide",
+        "collector_number": 39,
+        "types": "UNIQUE, ALLY",
+        "classes": "CLERIC, MAGE, HUMAN",
+        "element": "NORM"
+    },
+    {
+        "name": "Kraal, Stonescale Tyrant",
+        "collector_number": 90,
+        "types": "UNIQUE, ALLY",
+        "classes": "TAMER, BEAST, DRAGON",
+        "element": "TERA"
+    }
+]

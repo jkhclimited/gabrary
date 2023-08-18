@@ -9,6 +9,9 @@ import DB_Isekai from '../../../database_sets/DB_Isekai.json';
 import DB_KSP from '../../../database_sets/DB_KSP.json';
 import DB_P22 from '../../../database_sets/DB_P22.json';
 import DB_SP1 from '../../../database_sets/DB_SP1.json';
+import DB_FTC from '../../../database_sets/DB_FTC.json';
+import DB_FTCA from '../../../database_sets/DB_FTC.json';
+
 import ToggleSwitch from "../../../components/ToggleTextSwitch/ToggleTextSwitch";
 import ElementBar from "../../../components/ElementBar/ElementBar";
 import '../DomainsPage/DomainsPage.css';
@@ -67,6 +70,14 @@ const DomainsPage: FC = () => {
         if (id == "EVP") {
             const cardsList = DB_EVP.filter((card: any) => card.types.includes('DOMAIN'));;
             setdomainState({ ...domainState, cards: cardsList, imgSrc: "EVP_Images" });
+        }
+        if (id === "FTC") {
+            const cardsList = DB_FTC;
+            setdomainState({ ...domainState, cards: cardsList, imgSrc: "FTC_Images" });
+        }
+        if (id === "FTCA") {
+            const cardsList = DB_FTCA;
+            setdomainState({ ...domainState, cards: cardsList, imgSrc: "FTCA_Images" });
         }
         if (id == "GVC") {
             const cardsList = DB_Isekai.filter((card: any) => card.types.includes('DOMAIN'));;

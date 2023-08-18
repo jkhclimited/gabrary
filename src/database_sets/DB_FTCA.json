@@ -1,0 +1,184 @@
+[
+    {
+        "name": "Assassin's Ripper",
+        "collector_number": 1,
+        "types": "REGALIA, WEAPON",
+        "classes": "ASSASSIN, DAGGER",
+        "element": "NORM"
+    },
+    {
+        "name": "Bauble of Abundance",
+        "collector_number": 2,
+        "types": "REGALIA, ITEM",
+        "classes": "CLERIC, BAUBLE",
+        "element": "NORM"
+    },
+    {
+        "name": "Beastbond Boots",
+        "collector_number": 3,
+        "types": "REGALIA, ITEM",
+        "classes": "TAMER, ACCESSORY",
+        "element": "NORM"
+    },
+    {
+        "name": "Beastbond Ears",
+        "collector_number": 4,
+        "types": "REGALIA, ITEM",
+        "classes": "TAMER, ACCESSORY",
+        "element": "NORM"
+    },
+    {
+        "name": "Beastbond Paws",
+        "collector_number": 5,
+        "types": "REGALIA, ITEM",
+        "classes": "TAMER, ACCESSORY",
+        "element": "NORM"
+    },
+    {
+        "name": "Crystal of Empowerment",
+        "collector_number": 6,
+        "types": "REGALIA, ITEM",
+        "classes": "MAGE, CRYSTAL",
+        "element": "NORM"
+    },
+    {
+        "name": "Curved Dagger",
+        "collector_number": 7,
+        "types": "REGALIA, WEAPON",
+        "classes": "ASSASSIN, DAGGER",
+        "element": "NORM"
+    },
+    {
+        "name": "Drawn Blade",
+        "collector_number": 8,
+        "types": "REGALIA, WEAPON",
+        "classes": "WARRIOR, SWORD",
+        "element": "NORM"
+    },
+    {
+        "name": "Endura, Scepter of Ignition",
+        "collector_number": 9,
+        "types": "REGALIA, ITEM",
+        "classes": "MAGE, SCEPTER",
+        "element": "NORM"
+    },
+    {
+        "name": "Fire Resonance Bauble",
+        "collector_number": 10,
+        "types": "REGALIA, ITEM",
+        "classes": "MAGE, BAUBLE",
+        "element": "NORM"
+    },
+    {
+        "name": "Jewel of Enlightenment",
+        "collector_number": 11,
+        "types": "REGALIA, ITEM",
+        "classes": "MAGE, CRYSTAL",
+        "element": "NORM"
+    },
+    {
+        "name": "Mana Limiter",
+        "collector_number": 12,
+        "types": "REGALIA, ITEM",
+        "classes": "MAGE, BAUBLE",
+        "element": "NORM"
+    },
+    {
+        "name": "Melodious Flute",
+        "collector_number": 13,
+        "types": "REGALIA, ITEM",
+        "classes": "TAMER, INSTRUMENT",
+        "element": "NORM"
+    },
+    {
+        "name": "Ornamental Greatsword",
+        "collector_number": 14,
+        "types": "REGALIA, WEAPON",
+        "classes": "GUARDIAN, WARRIOR, SWORD",
+        "element": "NORM"
+    },
+    {
+        "name": "Poisoned Dagger",
+        "collector_number": 15,
+        "types": "REGALIA, ITEM",
+        "classes": "ASSASSIN, DAGGER",
+        "element": "NORM"
+    },
+    {
+        "name": "Quicksilver Grail",
+        "collector_number": 16,
+        "types": "REGALIA, ITEM",
+        "classes": "CLERIC, ARTIFACT",
+        "element": "NORM"
+    },
+    {
+        "name": "Safeguard Amulet",
+        "collector_number": 17,
+        "types": "REGALIA, ITEM",
+        "classes": "CLERIC, ACCESSORY",
+        "element": "NORM"
+    },
+    {
+        "name": "Seer's Sword",
+        "collector_number": 18,
+        "types": "REGALIA, WEAPON",
+        "classes": "WARRIOR, SWORD",
+        "element": "NORM"
+    },
+    {
+        "name": "Sharpening Stone",
+        "collector_number": 19,
+        "types": "REGALIA, ITEM",
+        "classes": "WARRIOR, ACCESSORY",
+        "element": "NORM"
+    },
+    {
+        "name": "SMOKE BOMBS",
+        "collector_number": 20,
+        "types": "REGALIA, ITEM",
+        "classes": "ASSASSIN, BAUBLE",
+        "element": "NORM"
+    },
+    {
+        "name": "Surveillance Stone",
+        "collector_number": 21,
+        "types": "REGALIA, ITEM",
+        "classes": "MAGE, CRYSTAL",
+        "element": "NORM"
+    },
+    {
+        "name": "Sword of Seeking",
+        "collector_number": 22,
+        "types": "REGALIA, WEAPON",
+        "classes": "WARRIOR, SWORD",
+        "element": "NORM"
+    },
+    {
+        "name": "Tome of Knowledge",
+        "collector_number": 23,
+        "types": "REGALIA, ITEM",
+        "classes": "MAGE, BOOK",
+        "element": "NORM"
+    },
+    {
+        "name": "Warrior's Longsword",
+        "collector_number": 24,
+        "types": "REGALIA, WEAPON",
+        "classes": "WARRIOR, SWORD",
+        "element": "NORM"
+    },
+    {
+        "name": "Water Resonance Bauble",
+        "collector_number": 25,
+        "types": "REGALIA, ITEM",
+        "classes": "MAGE, BAUBLE",
+        "element": "NORM"
+    },
+    {
+        "name": "Wind Resonance Bauble",
+        "collector_number": 26,
+        "types": "REGALIA, ITEM",
+        "classes": "MAGE, BAUBLE",
+        "element": "NORM"
+    }
+]
