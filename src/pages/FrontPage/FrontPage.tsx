@@ -2,10 +2,10 @@ import './FrontPage.css';
 import React, { FC } from "react";
 import { Link } from 'react-router-dom';
 import Carousel from '../../components/Carousel/Carousel';
-import Opinion_Articles from '../../database_articles/Opinion_Articles.json'
+import DB_Articles from '../../database_articles/DB_Articles.json'
 
 const FrontPage: FC = () => {
-    const articles = Opinion_Articles;
+    const articles = DB_Articles;
 
     return <>
         <div className='homepage-main-div'>

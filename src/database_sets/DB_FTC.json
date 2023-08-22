@@ -25,7 +25,21 @@
         "collector_number": 4,
         "types": "CHAMPION",
         "classes": "MAGE,WARRIOR,HUMAN",
-        "element": "CRUX"
+        "element": "FIRE"
+    },
+    {
+        "name": "Merlin, Kingslayer",
+        "collector_number": 4.1,
+        "types": "CHAMPION",
+        "classes": "MAGE,WARRIOR,HUMAN",
+        "element": "FIRE"
+    },
+    {
+        "name": "Merlin, Kingslayer",
+        "collector_number": 4.2,
+        "types": "CHAMPION",
+        "classes": "MAGE,WARRIOR,HUMAN",
+        "element": "FIRE"
     },
     {
         "name": "Azure Protective Trinket",
@@ -161,6 +175,13 @@
         "element": "CRUX"
     },
     {
+        "name": "The Majestic Spirit",
+        "collector_number": 23.1,
+        "types": "REGALIA, ALLY",
+        "classes": "MAGE, BEAST, AVATAR",
+        "element": "CRUX"
+    },
+    {
         "name": "Fractured Crown",
         "collector_number": 24,
         "types": "REGALIA, ITEM",
@@ -182,8 +203,22 @@
         "element": "NORM"
     },
     {
+        "name": "Bedivere, Woodland Overseer",
+        "collector_number": 26.1,
+        "types": "UNIQUE, ALLY",
+        "classes": "TAMER, ANIMAL, HUMAN",
+        "element": "NORM"
+    },
+    {
         "name": "Blanche, Sheltering Saint",
         "collector_number": 27,
+        "types": "UNIQUE, ALLY",
+        "classes": "CLERIC, HUMAN",
+        "element": "NORM"
+    },
+    {
+        "name": "Blanche, Sheltering Saint",
+        "collector_number": 27.1,
         "types": "UNIQUE, ALLY",
         "classes": "CLERIC, HUMAN",
         "element": "NORM"
@@ -257,6 +292,13 @@
         "types": "UNIQUE, ALLY",
         "classes": "GUARDIAN, WARRIOR, HUMAN",
         "element": "NORM"
+    },    
+    {
+        "name": "Lancelot, Goliath of Aesa",
+        "collector_number": 37.1,
+        "types": "UNIQUE, ALLY",
+        "classes": "GUARDIAN, WARRIOR, HUMAN",
+        "element": "NORM"
     },
     {
         "name": "Lurking Assailant",
@@ -268,6 +310,13 @@
     {
         "name": "Morgan, Soul Guide",
         "collector_number": 39,
+        "types": "UNIQUE, ALLY",
+        "classes": "CLERIC, MAGE, HUMAN",
+        "element": "NORM"
+    },
+    {
+        "name": "Morgan, Soul Guide",
+        "collector_number": 39.1,
         "types": "UNIQUE, ALLY",
         "classes": "CLERIC, MAGE, HUMAN",
         "element": "NORM"
@@ -628,5 +677,12 @@
         "types": "UNIQUE, ALLY",
         "classes": "TAMER, BEAST, DRAGON",
         "element": "TERA"
-    }    
+    },
+    {
+        "name": "Kraal, Stonescale Tyrant",
+        "collector_number": 90.1,
+        "types": "UNIQUE, ALLY",
+        "classes": "TAMER, BEAST, DRAGON",
+        "element": "TERA"
+    }
 ]

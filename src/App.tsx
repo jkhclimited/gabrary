@@ -27,6 +27,7 @@ import SpoilersPage from './pages/SpoilersPage/SpoilersPage';
 import ContentCreatorsPage from './pages/ContentCreatorsPage/ContentCreatorsPage';
 import ArticlePage from './pages/ArticlePage/ArticlePage';
 import ArticleIndivPage from './pages/ArticleIndivPage/ArticleIndivPage';
+import TournamentReportPage from './pages/TournamentReportsPage/TournamentReports';
 
 
 interface AppOverallState {
@@ -97,6 +98,7 @@ const App: FC = () => {
         <Route path='/articles' element={<ArticlePage />}/>
         <Route path='/articles/:id' element={<ArticleIndivPage />}/>
         <Route path='/creators' element={<ContentCreatorsPage />}/>
+        <Route path='/reports' element={<TournamentReportPage />}/>
         <Route path="*" element={<NoPage />}/>
       </Routes>
     </BrowserRouter>

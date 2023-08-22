@@ -11,6 +11,7 @@ import DB_P22 from '../../../database_sets/DB_P22.json';
 import DB_SP1 from '../../../database_sets/DB_SP1.json';
 import DB_FTC from '../../../database_sets/DB_FTC.json';
 import DB_FTCA from '../../../database_sets/DB_FTCA.json';
+import DB_P23 from '../../../database_sets/DB_P23.json';
 
 import ToggleSwitch from "../../../components/ToggleTextSwitch/ToggleTextSwitch";
 import ElementBar from "../../../components/ElementBar/ElementBar";
@@ -91,6 +92,10 @@ const MaterialsPage: FC = () => {
             const cardsList = DB_P22.filter((card: any) => card.types.includes('REGALIA'));;
             setMatState({ ...matState, cards: cardsList, imgSrc: "P22_Images"});
         }
+        if (id == "P23") {
+            const cardsList = DB_P23.filter((card: any) => card.types.includes('REGALIA'));;
+            setMatState({ ...matState, cards: cardsList, imgSrc: "P23_Images"});
+        }
         if (id == "SP1") {
             const cardsList = DB_SP1.filter((card: any) => card.types.includes('REGALIA'));;
             setMatState({ ...matState, cards: cardsList, imgSrc: "SP1_Images"});
@@ -106,7 +111,7 @@ const MaterialsPage: FC = () => {
             {matState.cards.length > 0 ?
                 matState.cards.map(card => (
                     <div className="text-row" key={card["name"].toString()}>                           
-                        <p className="cardImgBox" id={card["name"].toString()}><img className="cardImg" onClick={() => showLightbox(card.collector_number)} src={process.env.PUBLIC_URL + `/${matState.imgSrc}/${parseInt(card.collector_number)}.jpg`} alt="" /></p>
+                        <p className="cardImgBox" id={card["name"].toString()}><img className="cardImg" onClick={() => showLightbox(card.collector_number)} src={process.env.PUBLIC_URL + `/${matState.imgSrc}/${card.collector_number}.jpg`} alt="" /></p>
                         <p style={{ display: (matState.showing ? 'block' : 'none' ) }} id={card["collector_number"].toString()} className="centerText">{card.name}</p>
                         <br />
                     </div>

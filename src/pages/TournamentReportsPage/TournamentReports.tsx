@@ -1,14 +1,14 @@
-import './ArticlePage.css';
+import './TournamentReports.css';
 import React, { FC } from 'react';
 import { Link } from 'react-router-dom';
 import DB_Articles from '../../database_articles/DB_Articles.json'
 
-const ArticlePage: FC = () => {
-    const articles = DB_Articles;
+const TournamentReportPage: FC = () => {
+    const articles = DB_Articles.filter((article: any) => article.type.includes("result"));
 
     return <>
         <div className='articles-main-div'>
-            <p className='articles-header'>Articles</p>
+            <p className='articles-header'>Tournament Reports</p>
             <p className='articles-subheader'>Listed Below from Newest to Oldest</p>
             {articles.length > 0 ?
                 articles.map(article => (
@@ -25,4 +25,4 @@ const ArticlePage: FC = () => {
     </>
 }
 
-export default ArticlePage;
+export default TournamentReportPage;

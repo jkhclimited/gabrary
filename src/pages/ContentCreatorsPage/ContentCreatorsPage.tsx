@@ -50,7 +50,11 @@ const ContentCreatorsPage: FC = () => <>
         </div>
         <div className='contentCreator' id="Champion's Quarters">
             <p className='contentCreatorName'>Champion's Quarters</p>
-            <iframe className='videoArea' src='https://www.youtube.com/embed?listType=playlist&list=UUL2ppi1lfSxeHhvHUPrNxug' title="Latest Champion's Quarters" allowFullScreen></iframe>
+            <iframe className='videoArea' src='https://www.youtube.com/embed?listType=playlist&list=UUL2ppi1lfSxeHhvHUPrNxug' title="Latest Champion's Quarters video" allowFullScreen></iframe>
+        </div>
+        <div className='contentCreator' id="LeviTCG">
+            <p className='contentCreatorName'>LeviTCG</p>
+            <iframe className='videoArea' src='https://www.youtube.com/embed?listType=playlist&list=UULFmcpT6hkpAo31ztXnfljwUQ' title="Latest LeviTCG video" allowFullScreen></iframe>
         </div>
     </div>
 </>
