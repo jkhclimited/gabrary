@@ -22,6 +22,12 @@ const SetPage: FC = () => {
                 </Link>
             </div>
             <div className='aSet'>
+                <Link to={`/sets/P23`} className='setLink'>
+                    <img className='setIMG' src={process.env.PUBLIC_URL + `/Set_Symbols/P23.jpg`} alt='Promotional 2023' />
+                    Promotional 2023
+                </Link>
+            </div>
+            <div className='aSet'>
                 <Link to={`/sets/SP1`} className='setLink'>
                     <img className='setIMG' src={process.env.PUBLIC_URL + `/Set_Symbols/SP1.jpg`} alt='Supporter Pack 1' />
                     Supporter Pack 1
