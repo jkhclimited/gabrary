@@ -11,13 +11,13 @@ const SetPage: FC = () => {
             <p className='sets-subheader subheader-text'>Listed Below from Newest to Oldest</p>
             <div className='aSet'>
                 <Link to={`/sets/FTCA`} className='setLink'>
-                    <img className='setIMG' src={process.env.PUBLIC_URL + `/Set_Symbols/SP1.jpg`} alt='Supporter Pack 1' />
+                    <img className='setIMG' src={process.env.PUBLIC_URL + `/Set_Symbols/FTC.jpg`} alt='Supporter Pack 1' />
                     Fractured Crown: Armaments
                 </Link>
             </div>
             <div className='aSet'>
                 <Link to={`/sets/FTC`} className='setLink'>
-                    <img className='setIMG' src={process.env.PUBLIC_URL + `/Set_Symbols/SP1.jpg`} alt='Supporter Pack 1' />
+                    <img className='setIMG' src={process.env.PUBLIC_URL + `/Set_Symbols/FTC.jpg`} alt='Supporter Pack 1' />
                     Fractured Crown
                 </Link>
             </div>
