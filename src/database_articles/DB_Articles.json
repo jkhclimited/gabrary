@@ -1,23 +1,13 @@
-[        
+[
     {
-        "order": 1,
+        "order": 4,
         "type": "result",
-        "id": "red-riot-grand-archive-1k",
-        "title": "Red Riot Grand Archive 1K Results!",
-        "mainIMG": "banner-red-riot-games.jpg",
-        "author": "Limelight",
-        "blurb": "Results of the Grand Archive 1K hosted by Steve at Red Riot Games.",
-        "date": "June 12, 2023"
-    },
-    {
-        "order": 2,
-        "type": "result",
-        "id": "june-ga-discord-tournament-results",
-        "title": "June Grand Archive Discord Tournament Results!",
-        "mainIMG": "banner-creative-shock.jpg",
+        "id": "australia-regional-top8-report",
+        "title": "Australia Regionals Top 8 Report",
+        "mainIMG": "aus-regional-tournament-embed1.png",
         "author": "Gabrary",
-        "blurb": "Results and Top 8 Decklists! Interviews and deck techs with both 1st and 2nd players!",
-        "date": "June 13, 2023"
+        "blurb": "Results from down under!",
+        "date": "August 14, 2023"
     },
     {
         "order": 3,
@@ -30,13 +20,23 @@
         "date": "June 21, 2023"
     },
     {
-        "order": 4,
+        "order": 2,
         "type": "result",
-        "id": "australia-regional-top8-report",
-        "title": "Australia Regionals Top 8 Report",
-        "mainIMG": "aus-regional-tournament-embed1.png",
+        "id": "june-ga-discord-tournament-results",
+        "title": "June Grand Archive Discord Tournament Results!",
+        "mainIMG": "banner-creative-shock.jpg",
         "author": "Gabrary",
-        "blurb": "Results from down under!",
-        "date": "August 14, 2023"
+        "blurb": "Results and Top 8 Decklists! Interviews and deck techs with both 1st and 2nd players!",
+        "date": "June 13, 2023"
+    },
+    {
+        "order": 1,
+        "type": "result",
+        "id": "red-riot-grand-archive-1k",
+        "title": "Red Riot Grand Archive 1K Results!",
+        "mainIMG": "banner-red-riot-games.jpg",
+        "author": "Limelight",
+        "blurb": "Results of the Grand Archive 1K hosted by Steve at Red Riot Games.",
+        "date": "June 12, 2023"
     }
 ]
