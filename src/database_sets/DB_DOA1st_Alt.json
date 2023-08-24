@@ -1,7 +1,7 @@
 [
   {
     "name": "Lorraine, Wandering Warrior",
-    "collector_number": "004",
+    "collector_number": 4,
     "types": "['CHAMPION']",
     "classes": "['WARRIOR']",
     "subtypes": "['WARRIOR', 'HUMAN']",
@@ -29,7 +29,7 @@
   },
   {
     "name": "Lorraine, Blademaster",
-    "collector_number": "005",
+    "collector_number": 5,
     "types": "['CHAMPION']",
     "classes": "['WARRIOR']",
     "subtypes": "['WARRIOR', 'HUMAN']",
@@ -58,7 +58,7 @@
   },
   {
     "name": "Lorraine, Spirit Ruler",
-    "collector_number": "006",
+    "collector_number": 6,
     "types": "['CHAMPION']",
     "classes": "['WARRIOR']",
     "subtypes": "['WARRIOR', 'HUMAN']",
@@ -82,7 +82,7 @@
   },
   {
     "name": "Rai, Spellcrafter",
-    "collector_number": "007",
+    "collector_number": 7,
     "types": "['CHAMPION']",
     "classes": "['MAGE']",
     "subtypes": "['MAGE', 'HUMAN']",
@@ -108,7 +108,7 @@
   },
   {
     "name": "Rai, Archmage",
-    "collector_number": "008",
+    "collector_number": 8,
     "types": "['CHAMPION']",
     "classes": "['MAGE']",
     "subtypes": "['MAGE', 'HUMAN']",
@@ -134,7 +134,7 @@
   },
   {
     "name": "Rai, Mana Weaver",
-    "collector_number": "009",
+    "collector_number": 9,
     "types": "['CHAMPION']",
     "classes": "['MAGE']",
     "subtypes": "['MAGE', 'HUMAN']",
@@ -158,7 +158,7 @@
   },
   {
     "name": "Silvie, Wilds Whisperer",
-    "collector_number": "010",
+    "collector_number": 10,
     "types": "['CHAMPION']",
     "classes": "['TAMER']",
     "subtypes": "['TAMER', 'HUMAN']",
@@ -183,7 +183,7 @@
   },
   {
     "name": "Silvie, With the Pack",
-    "collector_number": "011",
+    "collector_number": 11,
     "types": "['CHAMPION']",
     "classes": "['TAMER']",
     "subtypes": "['TAMER', 'HUMAN']",
@@ -208,7 +208,7 @@
   },
   {
     "name": "Silvie, Earth's Tune",
-    "collector_number": "012",
+    "collector_number": 12,
     "types": "['CHAMPION']",
     "classes": "['TAMER']",
     "subtypes": "['TAMER', 'HUMAN']",
@@ -232,7 +232,7 @@
   },
   {
     "name": "Zander, Prepared Scout",
-    "collector_number": "013",
+    "collector_number": 13,
     "types": "['CHAMPION']",
     "classes": "['ASSASSIN']",
     "subtypes": "['ASSASSIN', 'HUMAN']",
@@ -256,7 +256,7 @@
   },
   {
     "name": "Zander, Always Watching",
-    "collector_number": "014",
+    "collector_number": 14,
     "types": "['CHAMPION']",
     "classes": "['ASSASSIN']",
     "subtypes": "['ASSASSIN', 'HUMAN']",
@@ -280,7 +280,7 @@
   },
   {
     "name": "Zander, Corhazi's Chosen",
-    "collector_number": "015",
+    "collector_number": 15,
     "types": "['CHAMPION']",
     "classes": "['ASSASSIN']",
     "subtypes": "['ASSASSIN', 'HUMAN']",
