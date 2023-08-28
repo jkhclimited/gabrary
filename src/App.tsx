@@ -3,6 +3,7 @@ import React, { FC, useState, useEffect } from 'react';
 import { BrowserRouter, Route, Routes, } from 'react-router-dom';
 
 import NavBar from './components/NavBar/NavBar';
+import CardSearch from './components/CardSearch/CardSearch';
 import Footer from './components/Footer/Footer';
 // import ToggleDarkMode from './components/ToggleDarkMode/ToggleDarkMode';
 
@@ -28,6 +29,7 @@ import ContentCreatorsPage from './pages/ContentCreatorsPage/ContentCreatorsPage
 import ArticlePage from './pages/ArticlePage/ArticlePage';
 import ArticleIndivPage from './pages/ArticleIndivPage/ArticleIndivPage';
 import TournamentReportPage from './pages/TournamentReportsPage/TournamentReports';
+import SearchPage from './pages/SearchPage/SearchPage';
 
 
 interface AppOverallState {
@@ -75,6 +77,7 @@ const App: FC = () => {
           <button className='scrollTopButton' onClick={scrollToTop}>⬆</button>
         </div>
       )}
+      <CardSearch />
       {/* <p className="toggleDarkMode">Light Mode <ToggleDarkMode name='Toggle Dark Mode' handleTextToggle={handleToggle}/></p>  */}
       <Routes>
         <Route path='/' element={<FrontPage />}/>
@@ -99,6 +102,7 @@ const App: FC = () => {
         <Route path='/articles/:id' element={<ArticleIndivPage />}/>
         <Route path='/creators' element={<ContentCreatorsPage />}/>
         <Route path='/reports' element={<TournamentReportPage />}/>
+        <Route path='/searchindex' element={<SearchPage />}/>
         <Route path="*" element={<NoPage />}/>
       </Routes>
     </BrowserRouter>

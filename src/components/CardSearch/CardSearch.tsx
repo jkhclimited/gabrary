@@ -1,53 +1,46 @@
 import React, { useEffect, useState, FC } from 'react'
-// import { getCardData } from '../../services/gatcg-api'
+import { Link } from 'react-router-dom';
 import './CardSearch.css'
 
-interface CardSearchProps {
-    name: string,
-    dataArr: Record<string, string | number>[],
+import DB_AllCards from '../../database_sets/DB_AllCards.json';
+
+interface CardSearchState {
+    searchTerm: string,
+    searchResult: (any)[],
 }
 
-const CardSearch: FC<CardSearchProps> = ({name, dataArr}) => {
-    // const handleChange = (e) => {
-    //     this.setState({[e.target.name]: e.target.value})
-    // }
+const initState: CardSearchState = {
+    searchTerm: "",
+    searchResult: [],
+}
 
-    // const handleSubmit = async (e) => {
-    //     e.preventDefault()
-    //     let name = this.state.name
-    //     const getData = await getCardData(name)
-    //     let dataArr
-    //     for (i = 0; i < getData.data.length; i++) {
-    //         dataArr.push(getData.data[i])
-    //     }
-    //     this.setState({dataArr: dataArr, name: ""})
-    // }
+const CardSearch: FC = () => {
+    const [cardSearchState, setcardSearchState] = useState(initState);
+    const allCards = DB_AllCards;
 
-    // const displayCard(card) {
-    //     if (data) {
-    //         return (
-    //             <div>
-    //                 { this.state.data.map(card => (
-    //                     <div className="text-row">
-    //                         <p className="flex">{card.name}</p>
-    //                         <br/>
-    //                     </div>
-    //                 )) }
-    //             </div>
-    //         )
-    //     } else if (data.code) {
-    //         return (
-    //             <p>No card with that name has been found.</p>
-    //         )
-    //     } else {
-    //         return (
-    //             <p>Please search for a card.</p>
-    //         )
-    //     }
-    // }
+    const search = () => {
+        const searchResult = allCards.filter((card: any) => card.name.includes(cardSearchState.searchTerm));
+        setcardSearchState({ ...cardSearchState, searchResult: searchResult });
+    }
+
+    const handleChange = (e: { target: { value: string; }; }) => {
+        setcardSearchState({ ...cardSearchState, searchTerm: e.target.value});
+    };
+
+    const handleClick = () => {
+        <Link 
+            to="/searchindex"
+            state = {{ searchTerm: cardSearchState.searchTerm, searchResult: cardSearchState.searchResult }}
+        
+        ></Link>
+    }
+
 
     return <>
-    
+        <div className="cardSearch-mainDiv">
+            <input className="cardSearch-inputBox" onChange={handleChange} />
+            <Link to="/searchindex"><button className="cardSearch-button" onClick={handleClick} /></Link>
+        </div>
     </>
 }
 
