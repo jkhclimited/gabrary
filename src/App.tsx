@@ -77,7 +77,7 @@ const App: FC = () => {
           <button className='scrollTopButton' onClick={scrollToTop}>⬆</button>
         </div>
       )}
-      <CardSearch />
+      {/* <CardSearch /> */}
       {/* <p className="toggleDarkMode">Light Mode <ToggleDarkMode name='Toggle Dark Mode' handleTextToggle={handleToggle}/></p>  */}
       <Routes>
         <Route path='/' element={<FrontPage />}/>

@@ -6,6 +6,7 @@ import Article1 from '../Articles/Article1';
 import Article2 from '../Articles/Article2';
 import Article3 from '../Articles/Article3';
 import Article4 from '../Articles/Article4';
+import Article5 from '../Articles/Article5';
 
 const IndivArticles: FC = () => {
     const { id } = useParams();
@@ -19,6 +20,8 @@ const IndivArticles: FC = () => {
             return <Article3 />;
         } else if (id === "australia-regional-top8-report") {
             return <Article4 />;
+        } else if (id === "ga-official-discord-ftc-tts-1") {
+            return <Article5 />;
         }
     }
 

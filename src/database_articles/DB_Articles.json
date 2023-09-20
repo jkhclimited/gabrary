@@ -1,5 +1,15 @@
 [
     {
+        "order": 5,
+        "type": "result",
+        "id": "ga-official-discord-ftc-tts-1",
+        "title": "Grand Archive Official Discord - FTC TTS 1",
+        "mainIMG": "ga-official-discord-ftc-tts-1-image1.jpg",
+        "author": "Gabrary",
+        "blurb": "Grand Archive hosts its first official discord tournament! Comments from the winner!",
+        "date": "September 20, 2023"
+    },
+    {
         "order": 4,
         "type": "result",
         "id": "australia-regional-top8-report",
