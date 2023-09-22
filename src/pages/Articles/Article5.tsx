@@ -28,7 +28,7 @@ const Article5: FC = () => {
     };
 
     return <>
-    <img className='indivArticle-main-image' src={process.env.PUBLIC_URL + `/Articles_Images/insert-image-name.jpg`} alt='' />
+    <img className='indivArticle-main-image' src={process.env.PUBLIC_URL + `/Articles_Images/ga-official-discord-ftc-tts-1-image1.jpg`} alt='' />
     <p className='indivArticle-header'>Grand Archive Official Discord - FTC TTS 1</p>
     <div className='indivArticle-author-date-line'>
         <div className='indivArticle-author-date indivArticle-author'>Gabrary</div>
