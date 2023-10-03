@@ -1,49 +1,49 @@
 [
     {
 	    "name": "Gwendolyn, Spirit of Wind",
-        "collector_number": 01,
+        "collector_number": 3001,
         "types": "CHAMPION",
         "classes": "SPIRIT",
         "element": "WIND"
     },    
 	{
 	    "name": "Tithe Proclamation",
-        "collector_number": 02,
+        "collector_number": 3002,
         "types": "REGALIA, ITEM",
         "classes": "CLERIC",
         "element": "NORM"
     },
 	{
 	    "name": "Fast Cure",
-        "collector_number": 03,
+        "collector_number": 3003,
         "types": "ACTION",
         "classes": "CLERIC,SPELL",
         "element": "NORM"
     },
 	{
 	    "name": "Scepter of Lumina",
-        "collector_number": 04,
+        "collector_number": 3004,
         "types": "REGALIA, ITEM",
         "classes": "CLERIC,SCEPTER",
         "element": "WATER"
     },
 	{
 	    "name": "Heavy Swing",
-        "collector_number": 05,
+        "collector_number": 3005,
         "types": "ATTACK",
         "classes": "GUARDIAN,SWORD",
         "element": "NORM"
     },
 	{
 	    "name": "Take Aim",
-        "collector_number": 06,
+        "collector_number": 3006,
         "types": "ACTION",
         "classes": "RANGER,SKILL",
         "element": "NORM"
     },
 	{
 	    "name": "Barter Herbs",
-        "collector_number": 07,
+        "collector_number": 3007,
         "types": "ACTION",
         "classes": "CLERIC,SKILL",
         "element": "NORM"
