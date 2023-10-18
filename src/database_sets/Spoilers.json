@@ -1,6 +1,13 @@
 [
     {
-	    "name": "Gwendolyn, Spirit of Wind",
+	    "name": "Spirit of Water",
+        "collector_number": 2,
+        "types": "CHAMPION",
+        "classes": "SPIRIT",
+        "element": "WATER"
+	 },
+	{
+			"name": "Gwendolyn, Spirit of Wind",
         "collector_number": 3001,
         "types": "CHAMPION",
         "classes": "SPIRIT",
