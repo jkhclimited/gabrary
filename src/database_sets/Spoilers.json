@@ -6,6 +6,20 @@
         "classes": "SPIRIT",
         "element": "WATER"
 	 },
+	 	{
+	    "name": "Tonoris, Genesis Aegis",
+        "collector_number": 12,
+        "types": "CHAMPION",
+        "classes": "GUARDIAN,HUMAN",
+        "element": "NEOS"
+    },
+		{
+	    "name": "Fanatical Devotee",
+        "collector_number": 102,
+        "types": "ALLY",
+        "classes": "CLERIC,TAMER.AUTOMATION",
+        "element": "FIRE"
+    },
 	{
 			"name": "Gwendolyn, Spirit of Wind",
         "collector_number": 3001,
@@ -54,12 +68,6 @@
         "types": "ACTION",
         "classes": "CLERIC,SKILL",
         "element": "NORM"
-    },
-	{
-	    "name": "Tonoris, Genesis Aegis",
-        "collector_number": 12,
-        "types": "CHAMPION",
-        "classes": "GUARDIAN,HUMAN",
-        "element": "NEOS"
     }
+
 ]
