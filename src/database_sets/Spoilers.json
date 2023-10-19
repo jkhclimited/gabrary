@@ -34,6 +34,13 @@
         "classes": "RANGER,HUMAN",
         "element": "NORM"
 	 },
+	 {
+	    "name": "Diana, Deadly Duelist",
+        "collector_number": 9.1,
+        "types": "CHAMPION",
+        "classes": "RANGER,HUMAN",
+        "element": "NORM"
+	 },
 	{
 	    "name": "Tonoris, Lone Mercenary",
         "collector_number": 12,
@@ -132,9 +139,10 @@
         "classes": "CLERIC,SPELL",
         "element": "WATER"
 	 },
+	 
 	 {
 	    "name": "Armored Valkyrie",
-        "collector_number": 2153,
+        "collector_number": 153,
         "types": "Ally",
         "classes": "GUARDIAN,AUTOMATON",
         "element": "WIND"
