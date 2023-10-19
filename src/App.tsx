@@ -23,6 +23,9 @@ import TerasPage from './pages/CardsPages/TerasPage/TerasPage';
 import NoPage from './pages/NoPage/NoPage';
 import AllCardsPage from './pages/CardsPages/AllCardsPage/AllCardsPage';
 import AltArtsPage from './pages/CardsPages/AltArtsPage/AltArtsPage';
+import AstrasPage from './pages/CardsPages/AstrasPage/AstrasPage';
+import NeosPage from './pages/CardsPages/NeosPage/NeosPage';
+import UmbralsPage from './pages/CardsPages/UmbralsPage/UmbralsPage';
 import SpoilersPage from './pages/SpoilersPage/SpoilersPage';
 
 import ContentCreatorsPage from './pages/ContentCreatorsPage/ContentCreatorsPage';
@@ -97,6 +100,9 @@ const App: FC = () => {
         <Route path='/sets/:id/arcanes' element={<ArcanesPage />}/>
         <Route path='/sets/:id/teras' element={<TerasPage />}/>
         <Route path='/sets/:id/alt-arts' element={<AltArtsPage />}/>
+        <Route path='/sets/:id/astras' element={<AstrasPage />}/>
+        <Route path='/sets/:id/neos' element={<NeosPage />}/>
+        <Route path='/sets/:id/umbrals' element={<UmbralsPage />}/>
         
         <Route path='/articles' element={<ArticlePage />}/>
         <Route path='/articles/:id' element={<ArticleIndivPage />}/>
