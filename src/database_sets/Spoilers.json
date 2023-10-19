@@ -63,6 +63,20 @@
         "element": "NORM"
 	 },
 	 {
+	    "name": "Tonoris, Might of Humanity",
+        "collector_number": 13.1,
+        "types": "CHAMPION",
+        "classes": "GUARDIAN,HUMAN",
+        "element": "NORM"
+	 },
+	  {
+	    "name": "Tonoris, Might of Humanity",
+        "collector_number": 13.2,
+        "types": "CHAMPION",
+        "classes": "GUARDIAN,HUMAN",
+        "element": "NORM"
+	 },
+	 {
 	    "name": "Seeker's Rifle",
         "collector_number": 27,
         "types": "REGALIA, WEAPON",
