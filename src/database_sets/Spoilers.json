@@ -6,14 +6,112 @@
         "classes": "SPIRIT",
         "element": "WATER"
 	 },
-	 	{
-	    "name": "Tonoris, Genesis Aegis",
+    {
+	    "name": "Arisanna, Herbalist Prodigy",
+        "collector_number": 4,
+        "types": "CHAMPION",
+        "classes": "CLERIC,HUMAN",
+        "element": "NORM"
+	 },
+	 {
+	    "name": "Arisanna, Master Alchemist",
+        "collector_number": 5,
+        "types": "CHAMPION",
+        "classes": "CLERIC,HUMAN",
+        "element": "NORM"
+	 },
+	 {
+	    "name": "Diana, Keen Huntress",
+        "collector_number": 8,
+        "types": "CHAMPION",
+        "classes": "RANGER,HUMAN",
+        "element": "NORM"
+	 },
+	 {
+	    "name": "Diana, Deadly Duelist",
+        "collector_number": 9,
+        "types": "CHAMPION",
+        "classes": "RANGER,HUMAN",
+        "element": "NORM"
+	 },
+	{
+	    "name": "Tonoris, Lone Mercenary",
         "collector_number": 12,
         "types": "CHAMPION",
         "classes": "GUARDIAN,HUMAN",
-        "element": "NEOS"
-    },
-		{
+        "element": "NORM"
+	 },
+	 {
+	    "name": "Tonoris, Might of Humanity",
+        "collector_number": 13,
+        "types": "CHAMPION",
+        "classes": "GUARDIAN,HUMAN",
+        "element": "NORM"
+	 },
+	 {
+	    "name": "Seeker's Rifle",
+        "collector_number": 27,
+        "types": "REGALIA, WEAPON",
+        "classes": "RANGER,GUN",
+        "element": "NORM"
+	 },
+	  {
+	    "name": "Blightroot",
+        "collector_number": 46,
+        "types": "TOKEN,ITEM",
+        "classes": "CLERIC,HERB,CATALYST,ROOT",
+        "element": "NORM"
+	 },
+	 {
+	    "name": "Fraysia",
+        "collector_number": 56,
+        "types": "TOKEN, ITEM",
+        "classes": "CLERIC,HERB,ADJUVANT,FLOWER",
+        "element": "NORM"
+	 },
+	 {
+	    "name": "Manaroot",
+        "collector_number": 63,
+        "types": "TOKEN,ITEM",
+        "classes": "CLERIC,HERB,ADJUVANT,ROOT",
+        "element": "NORM"
+	 },
+	 {
+	    "name": "Potion of Healing",
+        "collector_number": 69,
+        "types": "ITEM",
+        "classes": "CLERIC,POTION",
+        "element": "NORM"
+	 },
+	 {
+	    "name": "Razorvine",
+        "collector_number": 71,
+        "types": "TOKEN,ITEM",
+        "classes": "CLERIC,HERB,CATALYST,LEAF",
+        "element": "NORM"
+	 },
+	 {
+	    "name": "Silvershinee",
+        "collector_number": 80,
+        "types": "TOKEN,ITEM",
+        "classes": "CLERIC,HERB,CATALYST,FLOWER",
+        "element": "NORM"
+	 },
+	 {
+	    "name": "Supply Drone",
+        "collector_number": 85,
+        "types": "ALLY",
+        "classes": "RANGER,AUTOMATON",
+        "element": "NORM"
+	 },
+	 {
+	    "name": "Airship Engineer",
+        "collector_number": 94,
+        "types": "Ally",
+        "classes": "RANGER,HUMAN",
+        "element": "FIRE"
+	 },
+	 {
 	    "name": "Fanatical Devotee",
         "collector_number": 102,
         "types": "ALLY",
@@ -21,50 +119,162 @@
         "element": "FIRE"
     },
 	{
+	    "name": "Freezing Round",
+        "collector_number": 133,
+        "types": "ITEM",
+        "classes": "RANGER,BULLET",
+        "element": "WATER"
+	 },
+	 {
+	    "name": "Stream of Consciousness",
+        "collector_number": 148,
+        "types": "ACTION",
+        "classes": "CLERIC,SPELL",
+        "element": "WATER"
+	 },
+	 {
+	    "name": "Armored Valkyrie",
+        "collector_number": 2153,
+        "types": "Ally",
+        "classes": "GUARDIAN,AUTOMATON",
+        "element": "WIND"
+	 },
+	 {
+	    "name": "Rapid Reload",
+        "collector_number": 164,
+        "types": "ACTION",
+        "classes": "RANGER,SKILL",
+        "element": "WIND"
+    },
+	{
+	    "name": "Wildgrowth Elixir",
+        "collector_number": 173,
+        "types": "ITEM",
+        "classes": "CLERIC,POTION",
+        "element": "WIND"
+    },
+	 {
+	    "name": "Tonoris, Genesis Aegis",
+        "collector_number": 2012,
+        "types": "CHAMPION",
+        "classes": "GUARDIAN,HUMAN",
+        "element": "NEOS"
+    },
+	{
+	    "name": "Bulwark Sword",
+        "collector_number": 2014,
+        "types": "REGALIA,WEAPON",
+        "classes": "GUARDIAN,SWORD",
+        "element": "NORM"
+    },
+	{
+	    "name": "Heavy Swing",
+        "collector_number": 2047,
+        "types": "ATTACK",
+        "classes": "GUARDIAN,SWORD",
+        "element": "NORM"
+    },
+		{
+	    "name": "Imperial Recruit",
+        "collector_number": 2049,
+        "types": "Ally",
+        "classes": "GUARDIAN,HUMAN",
+        "element": "NORM"
+    },
+	{
+	    "name": "Martial Guard",
+        "collector_number": 2054,
+        "types": "ACTION",
+        "classes": "GUARDIAN,SKILL,REACTION",
+        "element": "NORM"
+    },
+	{
+	    "name": "Take Point",
+        "collector_number": 2068,
+        "types": "ACTION",
+        "classes": "GUARDIAN,SKILL",
+        "element": "NORM"
+    },
+	{
+	    "name": "Recruitment Officer",
+        "collector_number": 2085,
+        "types": "ALLY",
+        "classes": "GUARDIAN,HUMAN",
+        "element": "WIND"
+    },
+	{
+	    "name": "Scale of Souls",
+        "collector_number": 3027,
+        "types": "REGALIA,ITEM",
+        "classes": "CLERIC,ACCESSORY",
+        "element": "NORM"
+    },
+	{
+	    "name": "Essence of Blizzards",
+        "collector_number": 3075,
+        "types": "ITEM",
+        "classes": "CLERIC,POTION",
+        "element": "WATER"
+    },
+		{
+	    "name": "Potion Infusion: Frostbite",
+        "collector_number": 3081,
+        "types": "ACTION",
+        "classes": "CLERIC,SPELL",
+        "element": "WATER"
+    },
+	{
+	    "name": "Plated Bullet",
+        "collector_number": 4022,
+        "types": "REGALIA,ITEM",
+        "classes": "RANGER,BULLET",
+        "element": "NORM"
+    },
+	{
+	    "name": "Evasive Manuevers",
+        "collector_number": 4043,
+        "types": "ACTION",
+        "classes": "RANGER,SKILL,REACTION",
+        "element": "NORM"
+    },
+	{
+	    "name": "Imperial Rifleman",
+        "collector_number": 4050,
+        "types": "ALLY",
+        "classes": "RANGER,HUMAN",
+        "element": "NORM"
+    },
+	{
 			"name": "Gwendolyn, Spirit of Wind",
-        "collector_number": 3001,
+        "collector_number": 6001,
         "types": "CHAMPION",
         "classes": "SPIRIT",
         "element": "WIND"
     },    
 	{
 	    "name": "Tithe Proclamation",
-        "collector_number": 3002,
+        "collector_number": 6002,
         "types": "REGALIA, ITEM",
         "classes": "CLERIC",
         "element": "NORM"
     },
 	{
 	    "name": "Fast Cure",
-        "collector_number": 3003,
+        "collector_number": 6003,
         "types": "ACTION",
         "classes": "CLERIC,SPELL",
         "element": "NORM"
     },
 	{
-	    "name": "Scepter of Lumina",
-        "collector_number": 3004,
-        "types": "REGALIA, ITEM",
-        "classes": "CLERIC,SCEPTER",
-        "element": "WATER"
-    },
-	{
-	    "name": "Heavy Swing",
-        "collector_number": 3005,
-        "types": "ATTACK",
-        "classes": "GUARDIAN,SWORD",
-        "element": "NORM"
-    },
-	{
 	    "name": "Take Aim",
-        "collector_number": 3006,
+        "collector_number": 6006,
         "types": "ACTION",
         "classes": "RANGER,SKILL",
         "element": "NORM"
     },
 	{
 	    "name": "Barter Herbs",
-        "collector_number": 3007,
+        "collector_number": 6007,
         "types": "ACTION",
         "classes": "CLERIC,SKILL",
         "element": "NORM"
