@@ -10,7 +10,11 @@ const ContentCreatorsPage: FC = () => <>
         </div>
         <div className='contentCreator' id='maindeck'>
             <p className='contentCreatorName'>Maindeck</p>
-            <iframe className='videoArea' src='https://www.youtube.com/embed?listType=playlist&list=UULFgdCrVrpiH9XZUfamvuSOHA' title='Latest Maindeck video' allowFullScreen></iframe>
+            <iframe className='videoArea' src='https://www.youtube.com/playlist?list=PLulixabBEemsvfL3d5275Gl8X4uew9CNO' title='Latest Maindeck video' allowFullScreen></iframe>
+        </div>
+		<div className='contentCreator' id="Raravin">
+            <p className='contentCreatorName'>Raravin</p>
+            <iframe className='videoArea' src='https://www.youtube.com/embed?listType=playlist&list=UUtLbnQsVL4Zw5UpTgDVkLZQ' title="Latest Raravin video" allowFullScreen></iframe>
         </div>
         <div className='contentCreator' id='tm32'>
             <p className='contentCreatorName'>TM32</p>
@@ -55,6 +59,30 @@ const ContentCreatorsPage: FC = () => <>
         <div className='contentCreator' id="LeviTCG">
             <p className='contentCreatorName'>LeviTCG</p>
             <iframe className='videoArea' src='https://www.youtube.com/embed?listType=playlist&list=UULFmcpT6hkpAo31ztXnfljwUQ' title="Latest LeviTCG video" allowFullScreen></iframe>
+        </div>
+		<div className='contentCreator' id="Storm Tyrant's Guys">
+            <p className='contentCreatorName'>Storm Tyrant's Guys</p>
+            <iframe className='videoArea' src='https://www.youtube.com/embed?listType=playlist&list=UUMT0ihKh_NktOG8jMM3LRvg' title="Latest Storm Tyrant's Guys video" allowFullScreen></iframe>
+        </div>
+		<div className='contentCreator' id="Pranks TCG">
+            <p className='contentCreatorName'>Pranks TCG</p>
+            <iframe className='videoArea' src='https://www.youtube.com/embed?listType=playlist&list=UU1WkHwWkJak3YcrElYxLsHA' title="Latest Pranks TCG video" allowFullScreen></iframe>
+        </div>
+		<div className='contentCreator' id="Biefall">
+            <p className='contentCreatorName'>Biefall</p>
+            <iframe className='videoArea' src='https://www.youtube.com/embed?listType=playlist&list=UUJzaZ3MSOXHxpjSUOF0Pocw' title="Latest Biefall video" allowFullScreen></iframe>
+        </div>
+		<div className='contentCreator' id="SolarGames">
+            <p className='contentCreatorName'>SolarGames</p>
+            <iframe className='videoArea' src='https://www.youtube.com/embed?listType=playlist&list=UUMZ0zLuKtKJ6nXTmP___HTw' title="Latest SolarGames video" allowFullScreen></iframe>
+        </div>
+		<div className='contentCreator' id="Tomoya Ch.">
+            <p className='contentCreatorName'>Tomoya Ch.</p>
+            <iframe className='videoArea' src='https://www.youtube.com/embed?listType=playlist&list=UUrJWs9LeZ0LcnHfRxi8OKPQ' title="Latest Tomoya Ch. video" allowFullScreen></iframe>
+        </div>
+		<div className='contentCreator' id="TT Plays.">
+            <p className='contentCreatorName'>TT Plays</p>
+            <iframe className='videoArea' src='https://www.youtube.com/embed?listType=playlist&list=UUUvIrAXik6nGSLzoBrLfoqA' title="Latest TT Plays video" allowFullScreen></iframe>
         </div>
     </div>
 </>
