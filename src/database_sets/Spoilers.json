@@ -34,6 +34,20 @@
         "classes": "RANGER,HUMAN",
         "element": "NORM"
 	 },
+	 {
+	    "name": "Diana, Deadly Duelist",
+        "collector_number": 9.1,
+        "types": "CHAMPION",
+        "classes": "RANGER,HUMAN",
+        "element": "NORM"
+	 },
+	 {
+	    "name": "Diana, Deadly Duelist",
+        "collector_number": 9.2,
+        "types": "CHAMPION",
+        "classes": "RANGER,HUMAN",
+        "element": "NORM"
+	 },
 	{
 	    "name": "Tonoris, Lone Mercenary",
         "collector_number": 12,
@@ -44,6 +58,20 @@
 	 {
 	    "name": "Tonoris, Might of Humanity",
         "collector_number": 13,
+        "types": "CHAMPION",
+        "classes": "GUARDIAN,HUMAN",
+        "element": "NORM"
+	 },
+	 {
+	    "name": "Tonoris, Might of Humanity",
+        "collector_number": 13.1,
+        "types": "CHAMPION",
+        "classes": "GUARDIAN,HUMAN",
+        "element": "NORM"
+	 },
+	  {
+	    "name": "Tonoris, Might of Humanity",
+        "collector_number": 13.2,
         "types": "CHAMPION",
         "classes": "GUARDIAN,HUMAN",
         "element": "NORM"
@@ -95,6 +123,13 @@
         "collector_number": 80,
         "types": "TOKEN,ITEM",
         "classes": "CLERIC,HERB,CATALYST,FLOWER",
+        "element": "NORM"
+	 },
+	 	 {
+	    "name": "Springleaf",
+        "collector_number": 81,
+        "types": "TOKEN,ITEM",
+        "classes": "CLERIC,HERB,ADJUVANT,LEAF",
         "element": "NORM"
 	 },
 	 {
