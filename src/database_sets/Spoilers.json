@@ -20,6 +20,13 @@
         "classes": "CLERIC,HUMAN",
         "element": "NORM"
 	 },
+	 	 {
+	    "name": "Arisanna, Master Alchemist",
+        "collector_number": 5.1,
+        "types": "CHAMPION",
+        "classes": "CLERIC,HUMAN",
+        "element": "NORM"
+	 },
 	 {
 	    "name": "Diana, Keen Huntress",
         "collector_number": 8,
