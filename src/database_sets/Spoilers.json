@@ -13,6 +13,13 @@
         "classes": "CLERIC,HUMAN",
         "element": "NORM"
 	 },
+	     {
+	    "name": "Arisanna, Herbalist Prodigy",
+        "collector_number": 4.1,
+        "types": "CHAMPION",
+        "classes": "CLERIC,HUMAN",
+        "element": "NORM"
+	 },
 	 {
 	    "name": "Arisanna, Master Alchemist",
         "collector_number": 5,
