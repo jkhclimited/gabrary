@@ -331,5 +331,12 @@
       ],
       "slug": "orb-of-glitter",
       "durability": ""
+    },
+		{
+	    "name": "Fast Cure",
+        "collector_number": 18,
+        "types": "ACTION",
+        "classes": "CLERIC,SPELL",
+        "element": "NORM"
     }
   ]
