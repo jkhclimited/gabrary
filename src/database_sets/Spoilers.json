@@ -337,13 +337,6 @@
         "element": "NORM"
     },
 	{
-	    "name": "Fast Cure",
-        "collector_number": 6003,
-        "types": "ACTION",
-        "classes": "CLERIC,SPELL",
-        "element": "NORM"
-    },
-	{
 	    "name": "Take Aim",
         "collector_number": 6006,
         "types": "ACTION",
