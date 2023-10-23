@@ -10,7 +10,7 @@ const ContentCreatorsPage: FC = () => <>
         </div>
         <div className='contentCreator' id='maindeck'>
             <p className='contentCreatorName'>Maindeck</p>
-            <iframe className='videoArea' src='https://www.youtube.com/playlist?list=PLulixabBEemsvfL3d5275Gl8X4uew9CNO' title='Latest Maindeck video' allowFullScreen></iframe>
+            <iframe className='videoArea' src='https://www.youtube.com/embed?listType=playlist&list=UULFmcpT6hkpAo31ztXnfljwUQ'' title='Latest Maindeck video' allowFullScreen></iframe>
         </div>
 		<div className='contentCreator' id="Raravin">
             <p className='contentCreatorName'>Raravin</p>
