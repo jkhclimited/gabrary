@@ -140,6 +140,13 @@
         "element": "NORM"
 	 },
 	 {
+	    "name": "Sidestep",
+        "collector_number": 79,
+        "types": "ACTION",
+        "classes": "ASSASSIN,SKILL,REACTION",
+        "element": "NORM"
+	 },
+	 {
 	    "name": "Silvershinee",
         "collector_number": 80,
         "types": "TOKEN,ITEM",
@@ -165,6 +172,20 @@
         "collector_number": 94,
         "types": "Ally",
         "classes": "RANGER,HUMAN",
+        "element": "FIRE"
+	 },
+	 {
+	    "name": "Crimson Tear",
+        "collector_number": 99,
+        "types": "Ally",
+        "classes": "ASSASSIN,AUTOMATON",
+        "element": "FIRE"
+	 },
+	 	 {
+	    "name": "Crimson Tear",
+        "collector_number": 99.1,
+        "types": "Ally",
+         "classes": "ASSASSIN,AUTOMATON",
         "element": "FIRE"
 	 },
 	 {
