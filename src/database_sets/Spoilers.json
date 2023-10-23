@@ -177,14 +177,14 @@
 	 {
 	    "name": "Crimson Tear",
         "collector_number": 99,
-        "types": "Ally",
+        "types": "ALLY",
         "classes": "ASSASSIN,AUTOMATON",
         "element": "FIRE"
 	 },
-	 	 {
+	 {
 	    "name": "Crimson Tear",
         "collector_number": 99.1,
-        "types": "Ally",
+        "types": "AlLLY",
          "classes": "ASSASSIN,AUTOMATON",
         "element": "FIRE"
 	 },
