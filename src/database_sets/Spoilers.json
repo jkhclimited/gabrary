@@ -125,6 +125,13 @@
         "classes": "CLERIC,HERB,ADJUVANT,ROOT",
         "element": "NORM"
 	 },
+	 	{
+	    "name": "Navigate the Streets",
+        "collector_number": 64,
+        "types": "ACTION",
+        "classes": "RANGER,SKILL",
+        "element": "NORM"
+	 },
 	 {
 	    "name": "Potion of Healing",
         "collector_number": 69,
@@ -201,6 +208,20 @@
         "types": "ACTION",
         "classes": "CLERIC,SPELL",
         "element": "FIRE"
+    },
+	{
+	    "name": "Dahlia, Idyllic Dreamer",
+        "collector_number": 128,
+        "types": "ALLY",
+        "classes": "RANGER,AUTOMATON",
+        "element": "WATER"
+    },
+	{
+	    "name": "Dahlia, Idyllic Dreamer",
+        "collector_number": 128.1,
+        "types": "ALLY",
+        "classes": "RANGER,AUTOMATON",
+        "element": "WATER"
     },
 	{
 	    "name": "Freezing Round",
