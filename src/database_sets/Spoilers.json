@@ -196,6 +196,13 @@
         "element": "FIRE"
     },
 	{
+	    "name": "Tether in Flames",
+        "collector_number": 119,
+        "types": "ACTION",
+        "classes": "CLERIC,SPELL",
+        "element": "FIRE"
+    },
+	{
 	    "name": "Freezing Round",
         "collector_number": 133,
         "types": "ITEM",
@@ -255,7 +262,7 @@
 		{
 	    "name": "Imperial Recruit",
         "collector_number": 2049,
-        "types": "Ally",
+        "types": "ALLY",
         "classes": "GUARDIAN,HUMAN",
         "element": "NORM"
     },
