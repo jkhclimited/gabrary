@@ -330,6 +330,13 @@
         "element": "NORM"
     },
 	{
+	    "name": "Novice Mechanist",
+        "collector_number": 2056,
+        "types": "ALLY",
+        "classes": "GUARDIAN,HUMAN",
+        "element": "NORM"
+    },
+	{
 	    "name": "Stalwart Shieldmate",
         "collector_number": 2064,
         "types": "ALLY",
