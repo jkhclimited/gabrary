@@ -153,6 +153,13 @@
         "classes": "CLERIC,HERB,CATALYST,LEAF",
         "element": "NORM"
 	 },
+	 	{
+	    "name": "Reconstructive Surgery",
+        "collector_number": 72,
+        "types": "ACTION",
+        "classes": "CLERIC,SKILL",
+        "element": "NORM"
+	 },
 	 {
 	    "name": "Sanctum of Esoteric Truth",
         "collector_number": 74,
