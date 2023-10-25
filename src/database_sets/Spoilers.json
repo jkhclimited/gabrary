@@ -119,6 +119,13 @@
         "element": "NORM"
 	 },
 	 {
+	    "name": "Into the Fray",
+        "collector_number": 60,
+        "types": "ACTION",
+        "classes": "GUARDIAN,SKILL",
+        "element": "NORM"
+	 },
+	 {
 	    "name": "Manaroot",
         "collector_number": 63,
         "types": "TOKEN,ITEM",
@@ -243,6 +250,27 @@
         "collector_number": 153,
         "types": "Ally",
         "classes": "GUARDIAN,AUTOMATON",
+        "element": "WIND"
+	 },
+	 {
+	    "name": "Cyclonic Strike",
+        "collector_number": 155,
+        "types": "ATTACK",
+        "classes": "GUARDIAN,SWORD",
+        "element": "WIND"
+	 },
+	 {
+	    "name": "Rose, Eternal Paragon",
+        "collector_number": 166,
+        "types": "ALLY",
+        "classes": "GUARDIAN,WARRIOR,AUTOMATON",
+        "element": "WIND"
+	 },	 
+	 {
+	    "name": "Rose, Eternal Paragon",
+        "collector_number": 166.1,
+        "types": "ALLY",
+        "classes": "GUARDIAN,WARRIOR,AUTOMATON",
         "element": "WIND"
 	 },
 	 {
