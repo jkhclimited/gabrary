@@ -378,6 +378,13 @@
         "classes": "CLERIC,POTION",
         "element": "WATER"
     },
+	{
+	    "name": "Hypothermia",
+        "collector_number": 3077,
+        "types": "ACTION",
+        "classes": "CLERIC,SPELL",
+        "element": "WATER"
+    },
 		{
 	    "name": "Potion Infusion: Frostbite",
         "collector_number": 3081,
