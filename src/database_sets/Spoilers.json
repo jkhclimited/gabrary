@@ -287,6 +287,13 @@
         "classes": "CLERIC,POTION",
         "element": "WIND"
     },
+	{
+	    "name": "Spirit of Wind",
+        "collector_number": 2003,
+        "types": "CHAMPION",
+        "classes": "SPIRIT",
+        "element": "WIND"
+    },
 	 {
 	    "name": "Tonoris, Genesis Aegis",
         "collector_number": 2012,
@@ -323,6 +330,13 @@
         "element": "NORM"
     },
 	{
+	    "name": "Stalwart Shieldmate",
+        "collector_number": 2064,
+        "types": "ALLY",
+        "classes": "GUARDIAN,HUMAN",
+        "element": "NORM"
+    },
+	{
 	    "name": "Take Point",
         "collector_number": 2068,
         "types": "ACTION",
@@ -337,10 +351,24 @@
         "element": "WIND"
     },
 	{
+	    "name": "Life Essence Amulet",
+        "collector_number": 3020,
+        "types": "REGALIA,ITEM",
+        "classes": "MAGE,BAUBLE",
+        "element": "NORM"
+    },
+	{
 	    "name": "Scale of Souls",
         "collector_number": 3027,
         "types": "REGALIA,ITEM",
         "classes": "CLERIC,ACCESSORY",
+        "element": "NORM"
+    },
+	{
+	    "name": "Idle Thoughts",
+        "collector_number": 3048,
+        "types": "ACTION",
+        "classes": "MAGE,SKILL",
         "element": "NORM"
     },
 	{
@@ -356,6 +384,13 @@
         "types": "ACTION",
         "classes": "CLERIC,SPELL",
         "element": "WATER"
+    },
+	{
+	    "name": "Spirit of Fire",
+        "collector_number": 40011,
+        "types": "CHAMPION",
+        "classes": "SPIRIT",
+        "element": "FIRE"
     },
 	{
 	    "name": "Plated Bullet",
