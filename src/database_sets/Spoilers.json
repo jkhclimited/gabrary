@@ -337,6 +337,13 @@
         "element": "NORM"
     },
 	{
+	    "name": "Reposition",
+        "collector_number": 2059,
+        "types": "ACTION",
+        "classes": "RANGER,SKILL",
+        "element": "NORM"
+    },
+	{
 	    "name": "Stalwart Shieldmate",
         "collector_number": 2064,
         "types": "ALLY",
