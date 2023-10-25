@@ -252,6 +252,13 @@
         "element": "WATER"
 	 },
 	 {
+	    "name": "Reconnaissance Field",
+        "collector_number": 142,
+        "types": "PHANTASIA",
+        "classes": "RANGER,SKILL",
+        "element": "WATER"
+	 },
+	 {
 	    "name": "Stream of Consciousness",
         "collector_number": 148,
         "types": "ACTION",
