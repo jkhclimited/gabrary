@@ -196,6 +196,13 @@
         "element": "NORM"
 	 },
 	 {
+	    "name": "Unearth Revelations",
+        "collector_number": 91,
+        "types": "ACTION",
+        "classes": "CLERIC,SKILL",
+        "element": "NORM"
+	 },
+	 {
 	    "name": "Airship Engineer",
         "collector_number": 94,
         "types": "Ally",
@@ -231,6 +238,13 @@
         "element": "FIRE"
     },
 	{
+	    "name": "Conjure Downpour",
+        "collector_number": 126,
+        "types": "ACTION",
+        "classes": "CLERIC,SPELL",
+        "element": "WATER"
+    },
+	{
 	    "name": "Dahlia, Idyllic Dreamer",
         "collector_number": 128,
         "types": "ALLY",
@@ -249,6 +263,13 @@
         "collector_number": 133,
         "types": "ITEM",
         "classes": "RANGER,BULLET",
+        "element": "WATER"
+	 },
+	 {
+	    "name": "Perfect REpulsion",
+        "collector_number": 139,
+        "types": "ACTION",
+        "classes": "CLERIC,SPELL,REACTION",
         "element": "WATER"
 	 },
 	 {
