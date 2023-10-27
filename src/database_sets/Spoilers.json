@@ -112,6 +112,13 @@
         "element": "NORM"
 	 },
 	 {
+	    "name": "Escape the Wreckage",
+        "collector_number": 53,
+        "types": "ACTION",
+        "classes": "RANGER,SKILL",
+        "element": "NORM"
+	 },
+	 {
 	    "name": "Fraysia",
         "collector_number": 56,
         "types": "TOKEN, ITEM",
@@ -266,10 +273,17 @@
         "element": "WATER"
 	 },
 	 {
-	    "name": "Perfect REpulsion",
+	    "name": "Perfect Repulsion",
         "collector_number": 139,
         "types": "ACTION",
         "classes": "CLERIC,SPELL,REACTION",
+        "element": "WATER"
+	 },
+	 {
+	    "name": "Potion Infusion: Clarity",
+        "collector_number": 140,
+        "types": "ACTION",
+        "classes": "CLERIC,SPELL",
         "element": "WATER"
 	 },
 	 {
@@ -286,7 +300,13 @@
         "classes": "CLERIC,SPELL",
         "element": "WATER"
 	 },
-	 
+	 {
+	    "name": "Torrential Blast",
+        "collector_number": 150,
+        "types": "ACTION",
+        "classes": "CLERIC,SPELL",
+        "element": "WATER"
+	 },
 	 {
 	    "name": "Armored Valkyrie",
         "collector_number": 153,
