@@ -1,12 +1,5 @@
 [
-    {
-	    "name": "Spirit of Water",
-        "collector_number": 2,
-        "types": "CHAMPION",
-        "classes": "SPIRIT",
-        "element": "WATER"
-	 },
-    {
+{
 	    "name": "Arisanna, Herbalist Prodigy",
         "collector_number": 4,
         "types": "CHAMPION",
@@ -350,6 +343,20 @@
         "element": "WIND"
     },
 	{
+	    "name": "Spirit of Fire",
+        "collector_number": 4001,
+        "types": "CHAMPION",
+        "classes": "SPIRIT",
+        "element": "FIRE"
+    },
+	  {
+	    "name": "Spirit of Water",
+        "collector_number": 3002,
+        "types": "CHAMPION",
+        "classes": "SPIRIT",
+        "element": "WATER"
+	 },
+	{
 	    "name": "Spirit of Wind",
         "collector_number": 2003,
         "types": "CHAMPION",
@@ -371,6 +378,34 @@
         "element": "NORM"
     },
 	{
+	    "name": "Life Essence Amulet",
+        "collector_number": 3020,
+        "types": "REGALIA,ITEM",
+        "classes": "MAGE,BAUBLE",
+        "element": "NORM"
+    },
+		{
+	    "name": "Plated Bullet",
+        "collector_number": 4022,
+        "types": "REGALIA,ITEM",
+        "classes": "RANGER,BULLET",
+        "element": "NORM"
+    },
+	{
+	    "name": "Scale of Souls",
+        "collector_number": 3027,
+        "types": "REGALIA,ITEM",
+        "classes": "CLERIC,ACCESSORY",
+        "element": "NORM"
+    },
+	{
+	    "name": "Evasive Manuevers",
+        "collector_number": 4043,
+        "types": "ACTION",
+        "classes": "RANGER,SKILL,REACTION",
+        "element": "NORM"
+    },
+	{
 	    "name": "Heavy Swing",
         "collector_number": 2047,
         "types": "ATTACK",
@@ -378,10 +413,24 @@
         "element": "NORM"
     },
 		{
+	    "name": "Idle Thoughts",
+        "collector_number": 3048,
+        "types": "ACTION",
+        "classes": "MAGE,SKILL",
+        "element": "NORM"
+    },
+		{
 	    "name": "Imperial Recruit",
         "collector_number": 2049,
         "types": "ALLY",
         "classes": "GUARDIAN,HUMAN",
+        "element": "NORM"
+    },
+	{
+	    "name": "Imperial Rifleman",
+        "collector_number": 4050,
+        "types": "ALLY",
+        "classes": "RANGER,HUMAN",
         "element": "NORM"
     },
 	{
@@ -419,35 +468,7 @@
         "classes": "GUARDIAN,SKILL",
         "element": "NORM"
     },
-	{
-	    "name": "Recruitment Officer",
-        "collector_number": 2085,
-        "types": "ALLY",
-        "classes": "GUARDIAN,HUMAN",
-        "element": "WIND"
-    },
-	{
-	    "name": "Life Essence Amulet",
-        "collector_number": 3020,
-        "types": "REGALIA,ITEM",
-        "classes": "MAGE,BAUBLE",
-        "element": "NORM"
-    },
-	{
-	    "name": "Scale of Souls",
-        "collector_number": 3027,
-        "types": "REGALIA,ITEM",
-        "classes": "CLERIC,ACCESSORY",
-        "element": "NORM"
-    },
-	{
-	    "name": "Idle Thoughts",
-        "collector_number": 3048,
-        "types": "ACTION",
-        "classes": "MAGE,SKILL",
-        "element": "NORM"
-    },
-	{
+		{
 	    "name": "Essence of Blizzards",
         "collector_number": 3075,
         "types": "ITEM",
@@ -460,8 +481,8 @@
         "types": "ACTION",
         "classes": "CLERIC,SPELL",
         "element": "WATER"
-    },
-		{
+    },		
+	{
 	    "name": "Potion Infusion: Frostbite",
         "collector_number": 3081,
         "types": "ACTION",
@@ -469,32 +490,11 @@
         "element": "WATER"
     },
 	{
-	    "name": "Spirit of Fire",
-        "collector_number": 4001,
-        "types": "CHAMPION",
-        "classes": "SPIRIT",
-        "element": "FIRE"
-    },
-	{
-	    "name": "Plated Bullet",
-        "collector_number": 4022,
-        "types": "REGALIA,ITEM",
-        "classes": "RANGER,BULLET",
-        "element": "NORM"
-    },
-	{
-	    "name": "Evasive Manuevers",
-        "collector_number": 4043,
-        "types": "ACTION",
-        "classes": "RANGER,SKILL,REACTION",
-        "element": "NORM"
-    },
-	{
-	    "name": "Imperial Rifleman",
-        "collector_number": 4050,
+	    "name": "Recruitment Officer",
+        "collector_number": 2085,
         "types": "ALLY",
-        "classes": "RANGER,HUMAN",
-        "element": "NORM"
+        "classes": "GUARDIAN,HUMAN",
+        "element": "WIND"
     },
 	{
 			"name": "Gwendolyn, Spirit of Wind",

@@ -345,5 +345,12 @@
         "types": "ACTION",
         "classes": "CLERIC,SPELL",
         "element": "NORM"
+    },
+		{
+	    "name": "Creative Shock",
+        "collector_number": 19,
+        "types": "ACTION",
+        "classes": "MAGE,SPELL",
+        "element": "FIRE"
     }
   ]
