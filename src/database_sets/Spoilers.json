@@ -212,14 +212,14 @@
 	 {
 	    "name": "Crimson Tear",
         "collector_number": 99,
-        "types": "ALLY",
+        "types": "UNIQUE,ALLY",
         "classes": "ASSASSIN,AUTOMATON",
         "element": "FIRE"
 	 },
 	 {
 	    "name": "Crimson Tear",
         "collector_number": 99.1,
-        "types": "AlLLY",
+        "types": "UNIQUE,ALLY",
          "classes": "ASSASSIN,AUTOMATON",
         "element": "FIRE"
 	 },
@@ -228,6 +228,20 @@
         "collector_number": 102,
         "types": "ALLY",
         "classes": "CLERIC,TAMER.AUTOMATION",
+        "element": "FIRE"
+    },
+		 {
+	    "name": "Firworks Display",
+        "collector_number": 107,
+        "types": "ACTION",
+        "classes": "RANGER,SKILL",
+        "element": "FIRE"
+    },
+	{
+	    "name": "Rococo,Explosive Maven",
+        "collector_number": 118,
+        "types": "UNIQUE,ALLY",
+        "classes": "RANGER,AUTOMATON",
         "element": "FIRE"
     },
 	{
@@ -247,14 +261,14 @@
 	{
 	    "name": "Dahlia, Idyllic Dreamer",
         "collector_number": 128,
-        "types": "ALLY",
+        "types": "UNIQUE,ALLY",
         "classes": "RANGER,AUTOMATON",
         "element": "WATER"
     },
 	{
 	    "name": "Dahlia, Idyllic Dreamer",
         "collector_number": 128.1,
-        "types": "ALLY",
+        "types": "UNIQUE,ALLY",
         "classes": "RANGER,AUTOMATON",
         "element": "WATER"
     },
@@ -317,14 +331,14 @@
 	 {
 	    "name": "Rose, Eternal Paragon",
         "collector_number": 166,
-        "types": "ALLY",
+        "types": "UNIQUE,ALLY",
         "classes": "GUARDIAN,WARRIOR,AUTOMATON",
         "element": "WIND"
 	 },	 
 	 {
 	    "name": "Rose, Eternal Paragon",
         "collector_number": 166.1,
-        "types": "ALLY",
+        "types": "UNIQUE,ALLY",
         "classes": "GUARDIAN,WARRIOR,AUTOMATON",
         "element": "WIND"
 	 },

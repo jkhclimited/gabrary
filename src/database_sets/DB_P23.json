@@ -352,5 +352,12 @@
         "types": "ACTION",
         "classes": "MAGE,SPELL",
         "element": "FIRE"
+    },
+			{
+	    "name": "Creative Shock",
+        "collector_number": 19.1,
+        "types": "ACTION",
+        "classes": "MAGE,SPELL",
+        "element": "FIRE"
     }
   ]
