@@ -328,6 +328,13 @@
         "classes": "GUARDIAN,SWORD",
         "element": "WIND"
 	 },
+	  {
+	    "name": "Perse, Relentless Raptor",
+        "collector_number": 163,
+        "types": "UNIQUE,ALLY",
+        "classes": "RANGER,HUMAN",
+        "element": "WIND"
+	 },	 
 	 {
 	    "name": "Rose, Eternal Paragon",
         "collector_number": 166,
