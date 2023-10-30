@@ -238,6 +238,20 @@
         "element": "FIRE"
     },
 	{
+	    "name": "Gloamspire, Black Market",
+        "collector_number": 111,
+        "types": "UNIQUE,DOMAIN",
+        "classes": "ASSASSIN,MARKET",
+        "element": "FIRE"
+    },
+	{
+	    "name": "Meltdown",
+        "collector_number": 115,
+        "types": "ACTION",
+        "classes": "CLERIC,SPELL",
+        "element": "FIRE"
+    },
+	{
 	    "name": "Rococo,Explosive Maven",
         "collector_number": 118,
         "types": "UNIQUE,ALLY",
@@ -251,6 +265,13 @@
         "classes": "CLERIC,SPELL",
         "element": "FIRE"
     },
+		{
+	    "name": "Awakened Frostguard",
+        "collector_number": 124,
+        "types": "ALLY",
+        "classes": "GUARDIAN,AUTOMATION",
+        "element": "WATER"
+    },
 	{
 	    "name": "Conjure Downpour",
         "collector_number": 126,
@@ -258,6 +279,7 @@
         "classes": "CLERIC,SPELL",
         "element": "WATER"
     },
+
 	{
 	    "name": "Dahlia, Idyllic Dreamer",
         "collector_number": 128,
@@ -272,6 +294,20 @@
         "classes": "RANGER,AUTOMATON",
         "element": "WATER"
     },
+	{
+	    "name": "Dormant Sacrifical Altar",
+        "collector_number": 130,
+        "types": "DOMAIN",
+        "classes": "CLERIC,CROSSROADS",
+        "element": "WATER"
+	 },
+	 {
+	    "name": "Fractal of Snow",
+        "collector_number": 132,
+        "types": "PHANTASIA",
+        "classes": "CLERIC,FRACTAL",
+        "element": "WATER"
+	 },
 	{
 	    "name": "Freezing Round",
         "collector_number": 133,
