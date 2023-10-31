@@ -104,6 +104,13 @@
         "classes": "CLERIC,HERB,CATALYST,ROOT",
         "element": "NORM"
 	 },
+	 	{
+	    "name": "Dusklight Communion",
+        "collector_number": 50,
+        "types": "UNIQUE,PHANTASIA",
+        "classes": "CLERIC,SPELL",
+        "element": "NORM"
+	 },
 	 {
 	    "name": "Escape the Wreckage",
         "collector_number": 53,
@@ -299,6 +306,13 @@
         "collector_number": 130,
         "types": "DOMAIN",
         "classes": "CLERIC,CROSSROADS",
+        "element": "WATER"
+	 },
+	 {
+	    "name": "Flash Freeze",
+        "collector_number": 131,
+        "types": "ACTION",
+        "classes": "CLERIC,SPELL,REACTION",
         "element": "WATER"
 	 },
 	 {
