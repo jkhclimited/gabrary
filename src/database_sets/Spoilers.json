@@ -217,10 +217,17 @@
         "element": "FIRE"
 	 },
 	 {
+	    "name": "Automaton Bomber",
+        "collector_number": 96,
+        "types": "ALLY",
+        "classes": "ASSASSIN,AUTOMATON",
+        "element": "FIRE"
+	 },
+	 {
 	    "name": "Crimson Tear",
         "collector_number": 99,
         "types": "UNIQUE,ALLY",
-        "classes": "ASSASSIN,AUTOMATON",
+        "classes": "RANGER,AUTOMATON",
         "element": "FIRE"
 	 },
 	 {
@@ -263,6 +270,13 @@
         "collector_number": 118,
         "types": "UNIQUE,ALLY",
         "classes": "RANGER,AUTOMATON",
+        "element": "FIRE"
+    },
+		{
+	    "name": "Rocket Jump",
+        "collector_number": 117,
+        "types": "ACTION",
+        "classes": "RANGER,SKILL,REACTION",
         "element": "FIRE"
     },
 	{
