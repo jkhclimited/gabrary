@@ -97,6 +97,13 @@
         "classes": "RANGER,GUN",
         "element": "NORM"
 	 },
+	 {
+	    "name": "Forgelight Scepter",
+        "collector_number": 32,
+        "types": "REGALIA,ITEM",
+        "classes": "CLERIC,SCEPTER",
+        "element": "FIRE"
+	 },
 	  {
 	    "name": "Blightroot",
         "collector_number": 46,
@@ -244,7 +251,7 @@
         "classes": "CLERIC,TAMER.AUTOMATION",
         "element": "FIRE"
     },
-		 {
+	{
 	    "name": "Firworks Display",
         "collector_number": 107,
         "types": "ACTION",
@@ -252,10 +259,24 @@
         "element": "FIRE"
     },
 	{
+	    "name": "Forgelight Shieldmaiden",
+        "collector_number": 110,
+        "types": "ALLY",
+        "classes": "GUARDIAN,HUMAN",
+        "element": "FIRE"
+    },
+	{
 	    "name": "Gloamspire, Black Market",
         "collector_number": 111,
         "types": "UNIQUE,DOMAIN",
         "classes": "ASSASSIN,MARKET",
+        "element": "FIRE"
+    },
+		{
+	    "name": "Inzali, Unshackled Blaze",
+        "collector_number": 112,
+        "types": "UNIQUE,ALLY",
+        "classes": "CLERIC,AUTOMATON",
         "element": "FIRE"
     },
 	{
