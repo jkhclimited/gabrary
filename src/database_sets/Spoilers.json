@@ -93,7 +93,7 @@
 	 {
 	    "name": "Orb of Hubris",
         "collector_number": 24,
-        "types": "REGALIA, ITEM,
+        "types": "REGALIA, ITEM",
         "classes": "CLERIC,BAUBLE",
         "element": "NORM"
 	 },	 {
