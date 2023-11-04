@@ -91,6 +91,19 @@
         "element": "NORM"
 	 },
 	 {
+	    "name": "Orb of Hubris",
+        "collector_number": 24,
+        "types": "REGALIA, ITEM,
+        "classes": "CLERIC,BAUBLE",
+        "element": "NORM"
+	 },	 {
+	    "name": "Seeker's Rifle",
+        "collector_number": 27,
+        "types": "REGALIA, WEAPON",
+        "classes": "RANGER,GUN",
+        "element": "NORM"
+	 },
+	 {
 	    "name": "Seeker's Rifle",
         "collector_number": 27,
         "types": "REGALIA, WEAPON",
@@ -103,6 +116,13 @@
         "types": "REGALIA,ITEM",
         "classes": "CLERIC,SCEPTER",
         "element": "FIRE"
+	 },
+	 {
+	    "name": "Academy Guide",
+        "collector_number": 42,
+        "types": "ALLY",
+        "classes": "CLERIC,ANIMAL,HUMAN",
+        "element": "NORM"
 	 },
 	  {
 	    "name": "Blightroot",
