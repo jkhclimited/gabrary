@@ -6,7 +6,7 @@
         "classes": "CLERIC,HUMAN",
         "element": "NORM"
 	 },
-	     {
+	    {
 	    "name": "Arisanna, Herbalist Prodigy",
         "collector_number": 4.1,
         "types": "CHAMPION",
@@ -225,7 +225,7 @@
 	 {
 	    "name": "Study the Fables",
         "collector_number": 83,
-        "types": "ACTION,
+        "types": "ACTION",
         "classes": "CLERIC,SKILL",
         "element": "NORM"
 	 },
