@@ -215,11 +215,18 @@
         "classes": "CLERIC,HERB,CATALYST,FLOWER",
         "element": "NORM"
 	 },
-	 	 {
+	 {
 	    "name": "Springleaf",
         "collector_number": 81,
         "types": "TOKEN,ITEM",
         "classes": "CLERIC,HERB,ADJUVANT,LEAF",
+        "element": "NORM"
+	 },
+	 {
+	    "name": "Study the Fables",
+        "collector_number": 83,
+        "types": "ACTION,
+        "classes": "CLERIC,SKILL",
         "element": "NORM"
 	 },
 	 {
@@ -467,6 +474,20 @@
         "types": "ITEM",
         "classes": "CLERIC,POTION",
         "element": "WIND"
+    },
+	{
+	    "name": "Astarte, Celestial Dawn",
+        "collector_number": 178,
+        "types": "UNIQUE,ALLY",
+        "classes": "CLERIC,HUMAN",
+        "element": "ASTRA"
+    },
+	{
+	    "name": "Astarte, Celestial Dawn",
+        "collector_number": 178.1,
+        "types": "UNIQUE,ALLY",
+        "classes": "CLERIC,HUMAN",
+        "element": "ASTRA"
     },
 	{
 	    "name": "Spirit of Fire",
