@@ -173,6 +173,13 @@
         "classes": "RANGER,SKILL",
         "element": "NORM"
 	 },
+     {
+	    "name": "Plea for Peace",
+        "collector_number": 68,
+        "types": "ACTION",
+        "classes": "GUARDIAN,SKILL",
+        "element": "NORM"
+	 },
 	 {
 	    "name": "Potion of Healing",
         "collector_number": 69,
@@ -334,6 +341,13 @@
         "classes": "CLERIC,SPELL",
         "element": "FIRE"
     },
+    {
+	    "name": "Awakened Deacon",
+        "collector_number": 123,
+        "types": "ALLY",
+        "classes": "CLERIC,AUTOMATON",
+        "element": "WATER"
+    },
 		{
 	    "name": "Awakened Frostguard",
         "collector_number": 124,
@@ -410,6 +424,13 @@
         "collector_number": 142,
         "types": "PHANTASIA",
         "classes": "RANGER,SKILL",
+        "element": "WATER"
+	 },
+     {
+	    "name": "Seasprite Diver",
+        "collector_number": 145,
+        "types": "ALLY",
+        "classes": "RANGER,AUTOMATON",
         "element": "WATER"
 	 },
 	 {
