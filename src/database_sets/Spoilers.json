@@ -531,6 +531,13 @@
         "classes": "SPIRIT",
         "element": "WIND"
     },
+    {
+	    "name": "Diana, Duskstalker",
+        "collector_number": 4009,
+        "types": "CHAMPION",
+        "classes": "RANGER,HUMAN",
+        "element": "UMBRA"
+    },
 	 {
 	    "name": "Tonoris, Genesis Aegis",
         "collector_number": 2012,
