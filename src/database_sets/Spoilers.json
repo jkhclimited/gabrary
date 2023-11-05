@@ -124,6 +124,13 @@
         "classes": "CLERIC,ANIMAL,HUMAN",
         "element": "NORM"
 	 },
+     {
+	    "name": "Automaton Drone",
+        "collector_number": 44,
+        "types": "TOKEN, ALLY",
+        "classes": "GUARDIAN,AUTOMATION",
+        "element": "NORM"
+	 },
 	  {
 	    "name": "Blightroot",
         "collector_number": 46,
@@ -468,6 +475,13 @@
         "classes": "RANGER,HUMAN",
         "element": "WIND"
 	 },	 
+     {
+	    "name": "Perse, Relentless Raptor",
+        "collector_number": 163.1,
+        "types": "UNIQUE,ALLY",
+        "classes": "RANGER,HUMAN",
+        "element": "WIND"
+	 },	 
 	 {
 	    "name": "Rose, Eternal Paragon",
         "collector_number": 166,
@@ -684,6 +698,13 @@
         "types": "ACTION",
         "classes": "RANGER,SKILL",
         "element": "NORM"
+    },
+{
+	    "name": "Geni, Gifted Mechanist",
+        "collector_number": 6008,
+        "types": "UNIQUE,ALLY",
+        "classes": "CLERIC,HUMAN",
+        "element": "WATER"
     },
 	{
 	    "name": "Barter Herbs",
