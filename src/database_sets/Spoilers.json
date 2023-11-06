@@ -181,6 +181,13 @@
         "element": "NORM"
 	 },
      {
+	    "name": "Organize the Alliance",
+        "collector_number": 66,
+        "types": "ACTION",
+        "classes": "GUARDIAN,SKILL",
+        "element": "NORM"
+	 },
+     {
 	    "name": "Plea for Peace",
         "collector_number": 68,
         "types": "ACTION",
@@ -213,6 +220,13 @@
         "collector_number": 74,
         "types": "DOMAIN",
         "classes": "CLERIC,THRONE",
+        "element": "NORM"
+	 },
+     {
+	    "name": "Seasoned Shieldmaster",
+        "collector_number": 77,
+        "types": "ALLY",
+        "classes": "GUARDIAN,HUMAN",
         "element": "NORM"
 	 },
 	 {
@@ -269,6 +283,13 @@
         "collector_number": 96,
         "types": "ALLY",
         "classes": "ASSASSIN,AUTOMATON",
+        "element": "FIRE"
+	 },
+     {
+	    "name": "Blazing Charge",
+        "collector_number": 97,
+        "types": "ATTACK",
+        "classes": "GUARDIAN,SWORD",
         "element": "FIRE"
 	 },
 	 {
