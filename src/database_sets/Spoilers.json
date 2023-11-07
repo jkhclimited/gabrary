@@ -567,6 +567,13 @@
         "element": "WIND"
     },
     {
+	    "name": "Arisanna, Astral Zenith",
+        "collector_number": 3006,
+        "types": "CHAMPION",
+        "classes": "CLERIC,HUMAN",
+        "element": "ASTRA"
+    },
+    {
 	    "name": "Diana, Duskstalker",
         "collector_number": 4009,
         "types": "CHAMPION",
