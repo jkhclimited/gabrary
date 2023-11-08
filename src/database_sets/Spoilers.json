@@ -104,13 +104,6 @@
         "element": "NORM"
 	 },
 	 {
-	    "name": "Seeker's Rifle",
-        "collector_number": 27,
-        "types": "REGALIA, WEAPON",
-        "classes": "RANGER,GUN",
-        "element": "NORM"
-	 },
-	 {
 	    "name": "Forgelight Scepter",
         "collector_number": 32,
         "types": "REGALIA,ITEM",
