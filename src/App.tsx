@@ -82,6 +82,11 @@ const App: FC = () => {
       )}
       {/* <CardSearch /> */}
       {/* <p className="toggleDarkMode">Light Mode <ToggleDarkMode name='Toggle Dark Mode' handleTextToggle={handleToggle}/></p>  */}
+
+      <meta http-equiv='cache-control' content='no-cache'/>
+      <meta http-equiv='expires' content='0'/>
+      <meta http-equiv='pragma' content='no-cache'/>
+      
       <Routes>
         <Route path='/' element={<FrontPage />}/>
 
