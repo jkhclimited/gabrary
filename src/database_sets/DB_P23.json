@@ -353,11 +353,18 @@
         "classes": "MAGE,SPELL",
         "element": "FIRE"
     },
-			{
+	{
 	    "name": "Creative Shock",
         "collector_number": 19.1,
         "types": "ACTION",
         "classes": "MAGE,SPELL",
         "element": "FIRE"
+    },
+	{
+	    "name": "Sabrina, Spirit of Water",
+        "collector_number": 20,
+        "types": "CHAMPION",
+        "classes": "SPIRIT",
+        "element": "WATER"
     }
   ]
