@@ -706,13 +706,6 @@
         "classes": "GUARDIAN,HUMAN",
         "element": "WIND"
     },
-	{
-			"name": "Gwendolyn, Spirit of Wind",
-        "collector_number": 6001,
-        "types": "CHAMPION",
-        "classes": "SPIRIT",
-        "element": "WIND"
-    },    
 {
 	    "name": "Take Aim",
         "collector_number": 6006,
