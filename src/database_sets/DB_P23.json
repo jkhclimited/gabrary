@@ -339,6 +339,13 @@
         "classes": "SPIRIT",
         "element": "WIND"
     },
+    {
+	    "name": "Ordinary. Bear",
+        "collector_number": 17,
+        "types": "ALLY",
+        "classes": "TAMER,BEAST,BEAR",
+        "element": "NORM"
+    },
 	{
 	    "name": "Tithe Proclamation",
         "collector_number": 17,
