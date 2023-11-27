@@ -341,7 +341,7 @@
     },
     {
 	    "name": "Ordinary. Bear",
-        "collector_number": 17,
+        "collector_number": 16,
         "types": "ALLY",
         "classes": "TAMER,BEAST,BEAR",
         "element": "NORM"
