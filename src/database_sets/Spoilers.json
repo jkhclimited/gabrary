@@ -96,7 +96,8 @@
         "types": "REGALIA, ITEM",
         "classes": "CLERIC,BAUBLE",
         "element": "NORM"
-	 },	 {
+	 },	 
+     {
 	    "name": "Seeker's Rifle",
         "collector_number": 27,
         "types": "REGALIA, WEAPON",

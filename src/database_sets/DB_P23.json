@@ -380,5 +380,19 @@
         "types": "CHAMPION",
         "classes": "SPIRIT",
         "element": "WATER"
+    },
+    {
+	    "name": "Frostbind",
+        "collector_number": 43,
+        "types": "ACTION",
+        "classes": "CLERIC,SPELL,REACTION",
+        "element": "WATER"
+    },
+    {
+	    "name": "Frostbind",
+        "collector_number": 43.1,
+        "types": "ACTION",
+        "classes": "CLERIC,SPELL,REACTION",
+        "element": "WATER"
     }
   ]
