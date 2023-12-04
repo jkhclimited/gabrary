@@ -90,6 +90,13 @@
         "classes": "GUARDIAN,HUMAN",
         "element": "NORM"
 	 },
+     {
+	    "name": "Vanitas, Convergent Ruin",
+        "collector_number": 19,
+        "types": "CHAMPION",
+        "classes": "CLERIC,HUMAN",
+        "element": "WIND"
+	 },
 	 {
 	    "name": "Orb of Hubris",
         "collector_number": 24,
