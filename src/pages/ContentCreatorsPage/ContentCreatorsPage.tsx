@@ -1,6 +1,6 @@
 import './ContentCreatorsPage.css';
 import React, { FC } from 'react';
-
+## 'https://www.youtube.com/embed?listType=playlist&list=UUgdCrVrpiH9XZUfamvuSOHA'
 const ContentCreatorsPage: FC = () => <>
     <div className='contentCreatorsMainDiv'>
         <h2 className='creators-header'>Content Creators</h2>
@@ -10,7 +10,7 @@ const ContentCreatorsPage: FC = () => <>
         </div>
         <div className='contentCreator' id='maindeck'>
             <p className='contentCreatorName'>Maindeck</p>
-            <iframe className='videoArea' src='https://www.youtube.com/embed?listType=playlist&list=UUgdCrVrpiH9XZUfamvuSOHA' title='Latest Maindeck video' allowFullScreen></iframe>
+            <iframe className='videoArea' src='https://www.youtube.com/embed/videoseries?si=9aCwQXuVbgs5H57B&amp;list=PLulixabBEemsvfL3d5275Gl8X4uew9CNO' title='Latest Maindeck video' allowFullScreen></iframe>
         </div>
 		<div className='contentCreator' id="Raravin">
             <p className='contentCreatorName'>Raravin</p>
