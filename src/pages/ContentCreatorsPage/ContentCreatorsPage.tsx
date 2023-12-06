@@ -1,6 +1,6 @@
 import './ContentCreatorsPage.css';
 import React, { FC } from 'react';
-## 'https://www.youtube.com/embed?listType=playlist&list=UUgdCrVrpiH9XZUfamvuSOHA'
+
 const ContentCreatorsPage: FC = () => <>
     <div className='contentCreatorsMainDiv'>
         <h2 className='creators-header'>Content Creators</h2>
