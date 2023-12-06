@@ -490,6 +490,13 @@
         "classes": "GUARDIAN,SWORD",
         "element": "WIND"
 	 },
+     {
+	    "name": "Dominating Strike",
+        "collector_number": 156,
+        "types": "ATTACK",
+        "classes": "CLERIC,FIST",
+        "element": "WIND"
+	 },
 	  {
 	    "name": "Perse, Relentless Raptor",
         "collector_number": 163,
