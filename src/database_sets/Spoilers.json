@@ -111,12 +111,26 @@
         "classes": "RANGER,GUN",
         "element": "NORM"
 	 },
+     {
+	    "name": "Temporal Spectrometer",
+        "collector_number": 29,
+        "types": "REGALIA, ITEM",
+        "classes": "CLERIC,ARTIFACT",
+        "element": "NORM"
+	 },
 	 {
 	    "name": "Forgelight Scepter",
         "collector_number": 32,
         "types": "REGALIA,ITEM",
         "classes": "CLERIC,SCEPTER",
         "element": "FIRE"
+	 },
+     {
+	    "name": "Magebane Lash",
+        "collector_number": 36,
+        "types": "REGALIA,WEAPON",
+        "classes": "GUARDIAN,LASH",
+        "element": "WATER"
 	 },
 	 {
 	    "name": "Academy Guide",
@@ -158,6 +172,13 @@
         "collector_number": 56,
         "types": "TOKEN, ITEM",
         "classes": "CLERIC,HERB,ADJUVANT,FLOWER",
+        "element": "NORM"
+	 },
+     {
+	    "name": "Freydis, Master Tactician",
+        "collector_number": 57,
+        "types": "UNIQUE,ALLY",
+        "classes": "RANGER,HUMAN",
         "element": "NORM"
 	 },
 	 {
@@ -265,6 +286,13 @@
         "classes": "RANGER,AUTOMATON",
         "element": "NORM"
 	 },
+     {
+	    "name": "Swooping Talons",
+        "collector_number": 86,
+        "types": "ACTION",
+        "classes": "RANGER,SKILL",
+        "element": "NORM"
+	 },
 	 {
 	    "name": "Unearth Revelations",
         "collector_number": 91,
@@ -340,6 +368,13 @@
         "collector_number": 112,
         "types": "UNIQUE,ALLY",
         "classes": "CLERIC,AUTOMATON",
+        "element": "FIRE"
+    },
+    {
+	    "name": "Manic Zealot",
+        "collector_number": 114,
+        "types": "ALLY",
+        "classes": "ASSASSIN,AUTOMATON",
         "element": "FIRE"
     },
 	{
@@ -456,10 +491,24 @@
         "element": "WATER"
 	 },
      {
+	    "name": "Rimesoul Bishop",
+        "collector_number": 144,
+        "types": "ALLY",
+        "classes": "CLERIC,HUMAN",
+        "element": "WATER"
+	 },
+     {
 	    "name": "Seasprite Diver",
         "collector_number": 145,
         "types": "ALLY",
         "classes": "RANGER,AUTOMATON",
+        "element": "WATER"
+	 },
+     {
+	    "name": "Shatterfall Keep",
+        "collector_number": 146,
+        "types": "UNIQUE,DOMAIN",
+        "classes": "CLERIC,CATACLYSM",
         "element": "WATER"
 	 },
 	 {
@@ -553,6 +602,13 @@
         "classes": "CLERIC,HUMAN",
         "element": "ASTRA"
     },
+    {
+	    "name": "Provoke Obstinance",
+        "collector_number": 199,
+        "types": "ACTION",
+        "classes": "GUARDIAN,SPELL,REACTION",
+        "element": "NEOS"
+    },
 	{
 	    "name": "Spirit of Fire",
         "collector_number": 4001,
@@ -573,6 +629,12 @@
         "types": "CHAMPION",
         "classes": "SPIRIT",
         "element": "WIND"
+    },    {
+	    "name": "Arisanna, Astral Zenith",
+        "collector_number": 3006.1,
+        "types": "CHAMPION",
+        "classes": "CLERIC,HUMAN",
+        "element": "ASTRA"
     },
     {
 	    "name": "Arisanna, Astral Zenith",
@@ -583,12 +645,26 @@
     },
     {
 	    "name": "Diana, Duskstalker",
+        "collector_number": 4009.1,
+        "types": "CHAMPION",
+        "classes": "RANGER,HUMAN",
+        "element": "UMBRA"
+    }, 
+    {
+	    "name": "Diana, Duskstalker",
         "collector_number": 4009,
         "types": "CHAMPION",
         "classes": "RANGER,HUMAN",
         "element": "UMBRA"
+    },   
+    {
+	    "name": "Tonoris, Genesis Aegis",
+        "collector_number": 2012.1,
+        "types": "CHAMPION",
+        "classes": "GUARDIAN,HUMAN",
+        "element": "NEOS"
     },
-	 {
+    {
 	    "name": "Tonoris, Genesis Aegis",
         "collector_number": 2012,
         "types": "CHAMPION",
@@ -623,6 +699,27 @@
         "classes": "CLERIC,ACCESSORY",
         "element": "NORM"
     },
+    {
+	    "name": "Cosmic Astroscope",
+        "collector_number": 20333,
+        "types": "REGALIA,ITEM",
+        "classes": "CLERIC,STAFF",
+        "element": "ASTRA"
+    },
+    {
+	    "name": "Archon Broadsword",
+        "collector_number": 2034,
+        "types": "REGALIA,WEAPON",
+        "classes": "GUARDIAN,SWORD",
+        "element": "NEOS"
+    },
+    {
+	    "name": "Shadow's Twin",
+        "collector_number": 4036,
+        "types": "REGALIA,WEAPON",
+        "classes": "RANGER,GUN",
+        "element": "UMBRA"
+    }, 
 	{
 	    "name": "Evasive Manuevers",
         "collector_number": 4043,
@@ -721,6 +818,112 @@
         "classes": "GUARDIAN,HUMAN",
         "element": "WIND"
     },
+    {
+	    "name": "Cometfall",
+        "collector_number": 2090,
+        "types": "ACTION",
+        "classes": "CLERIC,SPELL",
+        "element": "ASTRA"
+    },
+    {
+	    "name": "Condensed Supernova",
+        "collector_number": 2091,
+        "types": "ITEM",
+        "classes": "CLERIC,POTION",
+        "element": "ASTRA"
+    },
+    {
+	    "name": "Cosmic Bolt",
+        "collector_number": 2092,
+        "types": "ACTION",
+        "classes": "CLERIC,PSPELL",
+        "element": "ASTRA"
+    },
+    {
+	    "name": "Potion Infusion: Starlight",
+        "collector_number": 2093,
+        "types": "ACTION",
+        "classes": "CLERIC,SPELL",
+        "element": "ASTRA"
+    },
+    {
+	    "name": "Spellshield: Astra",
+        "collector_number": 2094,
+        "types": "ACTION",
+        "classes": "CLERIC,SPELL,REACTION",
+        "element": "ASTRA"
+    },
+    {
+	    "name": "Obelisk of Armaments",
+        "collector_number": 2098,
+        "types": "UNIQUE,TOKEN,DOMAIN",
+        "classes": "GUARDIAN,OBELISK",
+        "element": "NEOS"
+    },
+    {
+	    "name": "Obelisk of Fabrication",
+        "collector_number": 2099,
+        "types": "UNIQUE,TOKEN,DOMAIN",
+        "classes": "GUARDIAN,OBELISK",
+        "element": "NEOS"
+    },
+    {
+	    "name": "Obelisk of Protection",
+        "collector_number": 2100,
+        "types": "UNIQUE,TOKEN,DOMAIN",
+        "classes": "GUARDIAN,OBELISK",
+        "element": "NEOS"
+    },
+    {
+	    "name": "Smash with Obelisk",
+        "collector_number": 2101,
+        "types": "ATTACK",
+        "classes": "GUARDIAN,OBELISK",
+        "element": "NEOS"
+    },
+    {
+	    "name": "Summon Sentinels",
+        "collector_number": 2102,
+        "types": "ACTION",
+        "classes": "GUARDIAN,SKILL",
+        "element": "NEOS"
+    },
+    {
+	    "name": "Anathema's End",
+        "collector_number": 4103,
+        "types": "ITEM",
+        "classes": "RANGER,BULLET",
+        "element": "UMBRA"
+    },  
+    {
+	    "name": "Creeping Torment",
+        "collector_number": 4104,
+        "types": "PHANTASIA",
+        "classes": "CLERIC,CURSE,SPELL",
+        "element": "UMBRA"
+    },  
+    {
+	    "name": "Mindbreak Bullet",
+        "collector_number": 4105,
+        "types": "ITEM",
+        "classes": "RANGER,BULLET",
+        "element": "UMBRA"
+    },   
+    {
+	    "name": "Umbral Tithe",
+        "collector_number": 4107,
+        "types": "ACTION",
+        "classes": "CLERIC,SPELL",
+        "element": "UMBRA"
+    },     
+    {
+	    "name": "Violet Haze",
+        "collector_number": 4108,
+        "types": "ACTION",
+        "classes": "RANGER,CURSE,SPELL",
+        "element": "UMBRA"
+    },    
+    
 {
 	    "name": "Take Aim",
         "collector_number": 6006,
