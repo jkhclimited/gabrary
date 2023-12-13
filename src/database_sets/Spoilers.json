@@ -834,7 +834,7 @@
     },
     {
 	    "name": "Cosmic Bolt",
-        "collector_number": 32092,
+        "collector_number": 3092,
         "types": "ACTION",
         "classes": "CLERIC,PSPELL",
         "element": "ASTRA"
