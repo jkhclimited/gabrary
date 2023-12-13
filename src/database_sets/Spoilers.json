@@ -701,7 +701,7 @@
     },
     {
 	    "name": "Cosmic Astroscope",
-        "collector_number": 2033,
+        "collector_number": 3033,
         "types": "REGALIA,ITEM",
         "classes": "CLERIC,STAFF",
         "element": "ASTRA"
