@@ -701,7 +701,7 @@
     },
     {
 	    "name": "Cosmic Astroscope",
-        "collector_number": 20333,
+        "collector_number": 2033,
         "types": "REGALIA,ITEM",
         "classes": "CLERIC,STAFF",
         "element": "ASTRA"
@@ -820,35 +820,35 @@
     },
     {
 	    "name": "Cometfall",
-        "collector_number": 2090,
+        "collector_number": 3090,
         "types": "ACTION",
         "classes": "CLERIC,SPELL",
         "element": "ASTRA"
     },
     {
 	    "name": "Condensed Supernova",
-        "collector_number": 2091,
+        "collector_number": 3091,
         "types": "ITEM",
         "classes": "CLERIC,POTION",
         "element": "ASTRA"
     },
     {
 	    "name": "Cosmic Bolt",
-        "collector_number": 2092,
+        "collector_number": 32092,
         "types": "ACTION",
         "classes": "CLERIC,PSPELL",
         "element": "ASTRA"
     },
     {
 	    "name": "Potion Infusion: Starlight",
-        "collector_number": 2093,
+        "collector_number": 3093,
         "types": "ACTION",
         "classes": "CLERIC,SPELL",
         "element": "ASTRA"
     },
     {
 	    "name": "Spellshield: Astra",
-        "collector_number": 2094,
+        "collector_number": 3094,
         "types": "ACTION",
         "classes": "CLERIC,SPELL,REACTION",
         "element": "ASTRA"
