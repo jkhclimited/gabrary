@@ -91,6 +91,27 @@
         "element": "NORM"
 	 },
      {
+	    "name": "Polkhawk, Bombastic Shot",
+        "collector_number": 16,
+        "types": "CHAMPION",
+        "classes": "RANGER,HUMAN",
+        "element": "FIRE"
+	 },
+     {
+	    "name": "Nico, Whiplash Allure",
+        "collector_number": 17,
+        "types": "CHAMPION",
+        "classes": "GUARDIAN,HUMAN",
+        "element": "WATER"
+	 },
+     {
+	    "name": "Vanitas, Obliviate Schemer",
+        "collector_number": 18,
+        "types": "CHAMPION",
+        "classes": "CLERIC,HUMAN",
+        "element": "WIND"
+	 },
+     {
 	    "name": "Vanitas, Convergent Ruin",
         "collector_number": 19,
         "types": "CHAMPION",
@@ -153,6 +174,13 @@
         "classes": "CLERIC,HERB,CATALYST,ROOT",
         "element": "NORM"
 	 },
+     {
+	    "name": "Caretaker Drone",
+        "collector_number": 47,
+        "types": "ALLY",
+        "classes": "CLERIC,AUTOMATON",
+        "element": "NORM"
+	 },
 	 	{
 	    "name": "Dusklight Communion",
         "collector_number": 50,
@@ -167,6 +195,13 @@
         "classes": "RANGER,SKILL",
         "element": "NORM"
 	 },
+     {
+	    "name": "Exalted Dorumegian Throne",
+        "collector_number": 54,
+        "types": "UNIQUE,DOMAIN",
+        "classes": "GUARDIAN,THRONE",
+        "element": "NORM"
+	 },
 	 {
 	    "name": "Fraysia",
         "collector_number": 56,
@@ -179,6 +214,13 @@
         "collector_number": 57,
         "types": "UNIQUE,ALLY",
         "classes": "RANGER,HUMAN",
+        "element": "NORM"
+	 },
+     {
+	    "name": "Healing Aura",
+        "collector_number": 59,
+        "types": "PHANTASIA",
+        "classes": "CLERIC,SPELL",
         "element": "NORM"
 	 },
 	 {
@@ -207,6 +249,13 @@
         "collector_number": 66,
         "types": "ACTION",
         "classes": "GUARDIAN,SKILL",
+        "element": "NORM"
+	 },
+     {
+	    "name": "Palatial Concourse",
+        "collector_number": 67,
+        "types": "DOMAIN",
+        "classes": "MAGE,CROSSROADS",
         "element": "NORM"
 	 },
      {
@@ -546,6 +595,13 @@
         "classes": "CLERIC,FIST",
         "element": "WIND"
 	 },
+     {
+	    "name": "Imperial Alchemist",
+        "collector_number": 162,
+        "types": "ALLY",
+        "classes": "CLERIC,HUMAN",
+        "element": "WIND"
+	 },	 
 	  {
 	    "name": "Perse, Relentless Raptor",
         "collector_number": 163,
@@ -586,6 +642,13 @@
         "collector_number": 173,
         "types": "ITEM",
         "classes": "CLERIC,POTION",
+        "element": "WIND"
+    },
+    {
+	    "name": "Winds of Retribution",
+        "collector_number": 176,
+        "types": "ACTION",
+        "classes": "GUARDIAN,SKILL",
         "element": "WIND"
     },
 	{
