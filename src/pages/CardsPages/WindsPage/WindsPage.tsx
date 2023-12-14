@@ -12,6 +12,7 @@ import DB_SP1 from '../../../database_sets/DB_SP1.json';
 import DB_FTC from '../../../database_sets/DB_FTC.json';
 import DB_FTCA from '../../../database_sets/DB_FTCA.json';
 import DB_P23 from '../../../database_sets/DB_P23.json';
+import DB_Spoilers from '../../../database_sets/Spoilers.json';
 
 import ToggleSwitch from "../../../components/ToggleTextSwitch/ToggleTextSwitch";
 import ElementBar from "../../../components/ElementBar/ElementBar";
@@ -98,6 +99,10 @@ const WindsPage: FC = () => {
         if (id === "SP1") {
             const cardsList = DB_SP1.filter((card: any) => card.element.includes('WIND'));;
             setwindsState({ ...windsState, cards: cardsList, imgSrc: "SP1_Images"});
+        }
+        if (id === "spoilers") {
+            const cardsList = DB_Spoilers.filter((card: any) => card.element.includes('WIND'));;
+            setwindsState({ ...windsState, cards: cardsList, imgSrc: "Spoilers_Images"});
         }
     }, [])
 

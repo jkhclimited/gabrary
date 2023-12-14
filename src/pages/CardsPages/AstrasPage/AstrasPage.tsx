@@ -13,6 +13,7 @@ import DB_SP1 from '../../../database_sets/DB_SP1.json';
 import DB_FTC from '../../../database_sets/DB_FTC.json';
 import DB_FTCA from '../../../database_sets/DB_FTCA.json';
 import DB_P23 from '../../../database_sets/DB_P23.json';
+import DB_Spoilers from '../../../database_sets/Spoilers.json';
 
 import ToggleSwitch from '../../../components/ToggleTextSwitch/ToggleTextSwitch';
 import ElementBar from "../../../components/ElementBar/ElementBar";
@@ -57,57 +58,61 @@ const AstrasPage: FC = () => {
 
     useEffect(() => {
         if (id === "DOA-Alter") {
-            const cardsList = DB_DOAAlter.filter((card: any) => card.types.includes('ASTRA'));
+            const cardsList = DB_DOAAlter.filter((card: any) => card.element.includes('ASTRA'));
             setAstrasState({ ...astrasState, cards: cardsList, imgSrc: "DOAAlter_Images" });
         }
         if (id === "DOA1st") {
-            const champsList = DB_DOA1st.filter((card: any) => card.types.includes('ASTRA'));
+            const champsList = DB_DOA1st.filter((card: any) => card.element.includes('ASTRA'));
             setAstrasState({ ...astrasState, cards: champsList, imgSrc: "DOA1st_Images"});
         }
         if (id === "DOAp") {
-            const cardsList = DB_DOAp.filter((card: any) => card.types.includes('ASTRA'));;
+            const cardsList = DB_DOAp.filter((card: any) => card.element.includes('ASTRA'));;
             setAstrasState({ ...astrasState, cards: cardsList, imgSrc: "DOAp_Images" });
         }
         if (id === "DOASD") {
-            const cardsList = DB_DOASD.filter((card: any) => card.types.includes('ASTRA'));;
+            const cardsList = DB_DOASD.filter((card: any) => card.element.includes('ASTRA'));;
             setAstrasState({ ...astrasState, cards: cardsList, imgSrc: "DOASD_Images" });
         }
         if (id === "EVP") {
-            const cardsList = DB_EVP.filter((card: any) => card.types.includes('ASTRA'));;
+            const cardsList = DB_EVP.filter((card: any) => card.element.includes('ASTRA'));;
             setAstrasState({ ...astrasState, cards: cardsList, imgSrc: "EVP_Images" });
         }
         if (id === "FTC") {
-            const cardsList = DB_FTC.filter((card: any) => card.types.includes('ASTRA'));;
+            const cardsList = DB_FTC.filter((card: any) => card.element.includes('ASTRA'));;
             setAstrasState({ ...astrasState, cards: cardsList, imgSrc: "FTC_Images" });
         }
         if (id === "FTCA") {
-            const cardsList = DB_FTCA.filter((card: any) => card.types.includes('ASTRA'));;
+            const cardsList = DB_FTCA.filter((card: any) => card.element.includes('ASTRA'));;
             setAstrasState({ ...astrasState, cards: cardsList, imgSrc: "FTCA_Images" });
         }
         if (id === "GVC") {
-            const cardsList = DB_Isekai.filter((card: any) => card.types.includes('ASTRA'));;
+            const cardsList = DB_Isekai.filter((card: any) => card.element.includes('ASTRA'));;
             setAstrasState({ ...astrasState, cards: cardsList, imgSrc: "GVC_Images" });
         }
         if (id === "KSP") {
-            const cardsList = DB_KSP.filter((card: any) => card.types.includes('ASTRA'));;
+            const cardsList = DB_KSP.filter((card: any) => card.element.includes('ASTRA'));;
             setAstrasState({ ...astrasState, cards: cardsList, imgSrc: "KSP_Images" });
         }
         if (id === "P22") {
-            const cardsList = DB_P22.filter((card: any) => card.types.includes('ASTRA'));;
+            const cardsList = DB_P22.filter((card: any) => card.element.includes('ASTRA'));;
             setAstrasState({ ...astrasState, cards: cardsList, imgSrc: "P22_Images"});
         }
         if (id === "P23") {
-            const cardsList = DB_P23.filter((card: any) => card.types.includes('ASTRA'));;
+            const cardsList = DB_P23.filter((card: any) => card.element.includes('ASTRA'));;
             setAstrasState({ ...astrasState, cards: cardsList, imgSrc: "P23_Images"});
         }
         if (id === "SP1") {
-            const cardsList = DB_SP1.filter((card: any) => card.types.includes('ASTRA'));;
+            const cardsList = DB_SP1.filter((card: any) => card.element.includes('ASTRA'));;
             setAstrasState({ ...astrasState, cards: cardsList, imgSrc: "SP1_Images"});
+        }
+        if (id == "spoilers") {
+            const cardsList = DB_Spoilers.filter((card: any) => card.element.includes('ASTRA'));;
+            setAstrasState({ ...astrasState, cards: cardsList, imgSrc: "Spoilers_Images"});
         }
         // const fixedID = id?.replace("-", " ");
         // getSetData(fixedID!!).then((cards) => {
         //     console.log(cards);
-        //     const champsList = cards.filter((card: any) => card.types.includes('ASTRA'));
+        //     const champsList = cards.filter((card: any) => card.element.includes('ASTRA'));
         //     setAstrasState({ ...astrasState, cards: champsList });
         // })
     }, [])

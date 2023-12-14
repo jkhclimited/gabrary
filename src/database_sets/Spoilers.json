@@ -711,14 +711,14 @@
         "collector_number": 4009.1,
         "types": "CHAMPION",
         "classes": "RANGER,HUMAN",
-        "element": "UMBRA"
+        "element": "UMBRAL"
     }, 
     {
 	    "name": "Diana, Duskstalker",
         "collector_number": 4009,
         "types": "CHAMPION",
         "classes": "RANGER,HUMAN",
-        "element": "UMBRA"
+        "element": "UMBRAL"
     },   
     {
 	    "name": "Tonoris, Genesis Aegis",
@@ -781,7 +781,7 @@
         "collector_number": 4036,
         "types": "REGALIA,WEAPON",
         "classes": "RANGER,GUN",
-        "element": "UMBRA"
+        "element": "UMBRAL"
     }, 
 	{
 	    "name": "Evasive Manuevers",
@@ -956,35 +956,35 @@
         "collector_number": 4103,
         "types": "ITEM",
         "classes": "RANGER,BULLET",
-        "element": "UMBRA"
+        "element": "UMBRAL"
     },  
     {
 	    "name": "Creeping Torment",
         "collector_number": 4104,
         "types": "PHANTASIA",
         "classes": "CLERIC,CURSE,SPELL",
-        "element": "UMBRA"
+        "element": "UMBRAL"
     },  
     {
 	    "name": "Mindbreak Bullet",
         "collector_number": 4105,
         "types": "ITEM",
         "classes": "RANGER,BULLET",
-        "element": "UMBRA"
+        "element": "UMBRAL"
     },   
     {
-	    "name": "Umbral Tithe",
+	    "name": "UMBRALl Tithe",
         "collector_number": 4107,
         "types": "ACTION",
         "classes": "CLERIC,SPELL",
-        "element": "UMBRA"
+        "element": "UMBRAL"
     },     
     {
 	    "name": "Violet Haze",
         "collector_number": 4108,
         "types": "ACTION",
         "classes": "RANGER,CURSE,SPELL",
-        "element": "UMBRA"
+        "element": "UMBRAL"
     },    
     
 {

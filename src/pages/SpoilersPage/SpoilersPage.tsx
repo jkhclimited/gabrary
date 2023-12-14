@@ -44,7 +44,7 @@ const SpoilersPage: FC = () => {
     
     return <>
     <div> 
-        {/* <ElementBar id={ "spoilers" }/> */}
+        <ElementBar id={ "spoilers" }/>
         <p className="toggleText">Toggle Text <ToggleSwitch name='Toggle Card Text' handleTextToggle={handleTextToggle}/></p> 
         <div className="flexCardImgs">
             {spoilersState.cards.length > 0 ?

@@ -33,6 +33,7 @@ import ArticlePage from './pages/ArticlePage/ArticlePage';
 import ArticleIndivPage from './pages/ArticleIndivPage/ArticleIndivPage';
 import TournamentReportPage from './pages/TournamentReportsPage/TournamentReports';
 import SearchPage from './pages/SearchPage/SearchPage';
+import CalendarPage from './pages/CalendarPage/CalendarPage';
 
 
 interface AppOverallState {
@@ -91,7 +92,7 @@ const App: FC = () => {
         <Route path='/' element={<FrontPage />}/>
 
         <Route path='/sets' element={<SetPage />}/>
-        <Route path='/sets/spoilers' element={<SpoilersPage />}/>
+        {/* <Route path='/sets/spoilers' element={<SpoilersPage />}/> */}
         <Route path='/sets/:id' element={<AllCardsPage />}/>
         <Route path='/sets/:id/champions' element={<ChampionsPage />}/>
         <Route path='/sets/:id/regalias' element={<MaterialsPage />}/>
@@ -114,6 +115,7 @@ const App: FC = () => {
         <Route path='/creators' element={<ContentCreatorsPage />}/>
         <Route path='/reports' element={<TournamentReportPage />}/>
         <Route path='/searchindex' element={<SearchPage />}/>
+        <Route path='/calendar' element={<CalendarPage />}/>
         <Route path="*" element={<NoPage />}/>
       </Routes>
     </BrowserRouter>

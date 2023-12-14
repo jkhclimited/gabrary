@@ -13,6 +13,7 @@ import DB_SP1 from '../../../database_sets/DB_SP1.json';
 import DB_FTC from '../../../database_sets/DB_FTC.json';
 import DB_FTCA from '../../../database_sets/DB_FTCA.json';
 import DB_P23 from '../../../database_sets/DB_P23.json';
+import Spoilers from '../../../database_sets/Spoilers.json';
 
 import ToggleSwitch from '../../../components/ToggleTextSwitch/ToggleTextSwitch';
 import ElementBar from "../../../components/ElementBar/ElementBar";
@@ -99,6 +100,10 @@ const AllCardsPage: FC = () => {
         if (id === "SP1") {
             const cardsList = DB_SP1;
             setallCardsState({ ...allCardsState, cards: cardsList, imgSrc: "SP1_Images"});
+        }
+        if (id === "spoilers") {
+            const cardsList = Spoilers;
+            setallCardsState({ ...allCardsState, cards: cardsList, imgSrc: "Spoilers_Images"});
         }
     }, [])
 

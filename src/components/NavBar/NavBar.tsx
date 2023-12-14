@@ -29,9 +29,7 @@ const NavBar: FC = () => {
                 <Link to="/sets" className="navItem">Sets</Link>
                 <Link to="/creators" className="navItem">Content Creators</Link>
                 <Link to="/sets/spoilers" className="navItem">Spoilers</Link>
-                <Link to="/articles" className="navItem">Articles</Link>
-                <Link to="/reports" className="navItem">Tournament Report</Link>
-                <Link to="https://luxerasmap.com/" target="_blank" rel="noopener noreferrer" className="navItem">LuxerasMap</Link>
+                <Link to="/calendar" className="navItem">Calendar</Link>
             </div>
             <div className="toggleDark">
 

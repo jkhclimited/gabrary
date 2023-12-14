@@ -12,13 +12,13 @@ const FrontPage: FC = () => {
             <p className='homepage-header'>Welcome to the Gabrary.</p>
             <div className='center-div'>
                 <Carousel />
-                <div className='latest-articles'>
+                {/* <div className='latest-articles'>
                     <p className='latest-article-header'>Check out the latest article below!</p>
                     <Link to={`/articles/${articles[articles.length - 1].id}`} className='latest-articleLink'>
-                        <img className='latest-articleIMG' src={process.env.PUBLIC_URL + `/Articles_Images/${articles[articles.length - 1].mainIMG}`} alt=''></img>
+                        <img className='latest-articleIMG' src={process.env.PUBLIC_URL + `/Articles_Images/${articles[articles.length - 1].mainIMG}`} alt=''></img><br></br>
                         {`${articles[articles.length - 1].title}`}
                     </Link>
-                </div>
+                </div> */}
             </div>
         </div>
     </>

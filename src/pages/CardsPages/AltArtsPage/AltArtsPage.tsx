@@ -4,6 +4,7 @@ import { FC } from "react";
 import DOAAlterAlts from '../../../database_sets/DB_DOAAlter_Alt.json';
 import DOA1stAlts from '../../../database_sets/DB_DOA1st_Alt.json';
 import FTCAlts from '../../../database_sets/DB_FTC_Alt.json';
+import Spoilers from '../../../database_sets/Spoilers.json';
 import ToggleSwitch from '../../../components/ToggleTextSwitch/ToggleTextSwitch';
 import ElementBar from "../../../components/ElementBar/ElementBar";
 import '../AltArtsPage/AltArtsPage.css';
@@ -57,6 +58,10 @@ const AltArtsPage: FC = () => {
         if (id === "FTC") {
             const cardsList = FTCAlts;
             setAltArtsState({ ...altArtsState, cards: cardsList, imgSrc: "FTCAlt_Images" });
+        }
+        if (id === "spoilers") {
+            const cardsList = Spoilers;
+            setAltArtsState({ ...altArtsState, cards: cardsList, imgSrc: "Spoilers_Images" });
         }
     }, [])
 
