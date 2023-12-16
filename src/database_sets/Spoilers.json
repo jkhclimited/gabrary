@@ -217,6 +217,13 @@
         "element": "NORM"
 	 },
      {
+	    "name": "Harvest Herbs",
+        "collector_number": 58,
+        "types": "ACTION",
+        "classes": "CLERIC,SKILL",
+        "element": "NORM"
+	 },
+     {
 	    "name": "Healing Aura",
         "collector_number": 59,
         "types": "PHANTASIA",
