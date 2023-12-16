@@ -666,6 +666,13 @@
         "element": "ASTRA"
     },
     {
+	    "name": "Astral Seal",
+        "collector_number": 180,
+        "types": "ACTION",
+        "classes": "CLERIC,SPELL",
+        "element": "ASTRA"
+    },
+    {
 	    "name": "Provoke Obstinance",
         "collector_number": 199,
         "types": "ACTION",
@@ -711,14 +718,14 @@
         "collector_number": 4009.1,
         "types": "CHAMPION",
         "classes": "RANGER,HUMAN",
-        "element": "UMBRAL"
+        "element": "UMBRA"
     }, 
     {
 	    "name": "Diana, Duskstalker",
         "collector_number": 4009,
         "types": "CHAMPION",
         "classes": "RANGER,HUMAN",
-        "element": "UMBRAL"
+        "element": "UMBRA"
     },   
     {
 	    "name": "Tonoris, Genesis Aegis",
@@ -781,7 +788,7 @@
         "collector_number": 4036,
         "types": "REGALIA,WEAPON",
         "classes": "RANGER,GUN",
-        "element": "UMBRAL"
+        "element": "UMBRA"
     }, 
 	{
 	    "name": "Evasive Manuevers",
@@ -917,6 +924,13 @@
         "element": "ASTRA"
     },
     {
+	    "name": "Aurosteel Greatsword",
+        "collector_number": 2096,
+        "types": "TOKEN,WEAPON",
+        "classes": "GUARDIAN,SWORD",
+        "element": "NEOS"
+    },
+    {
 	    "name": "Obelisk of Armaments",
         "collector_number": 2098,
         "types": "UNIQUE,TOKEN,DOMAIN",
@@ -956,35 +970,35 @@
         "collector_number": 4103,
         "types": "ITEM",
         "classes": "RANGER,BULLET",
-        "element": "UMBRAL"
+        "element": "UMBRA"
     },  
     {
 	    "name": "Creeping Torment",
         "collector_number": 4104,
         "types": "PHANTASIA",
         "classes": "CLERIC,CURSE,SPELL",
-        "element": "UMBRAL"
+        "element": "UMBRA"
     },  
     {
 	    "name": "Mindbreak Bullet",
         "collector_number": 4105,
         "types": "ITEM",
         "classes": "RANGER,BULLET",
-        "element": "UMBRAL"
+        "element": "UMBRA"
     },   
     {
-	    "name": "UMBRALl Tithe",
+	    "name": "Umbral Tithe",
         "collector_number": 4107,
         "types": "ACTION",
         "classes": "CLERIC,SPELL",
-        "element": "UMBRAL"
+        "element": "UMBRA"
     },     
     {
 	    "name": "Violet Haze",
         "collector_number": 4108,
         "types": "ACTION",
         "classes": "RANGER,CURSE,SPELL",
-        "element": "UMBRAL"
+        "element": "UMBRA"
     },    
     
 {
