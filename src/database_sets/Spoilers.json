@@ -714,6 +714,13 @@
         "classes": "GUARDIAN,SPELL,REACTION",
         "element": "NEOS"
     },
+    {
+	    "name": "Shadecursed Hunter",
+        "collector_number": 211,
+        "types": "ALLY",
+        "classes": "RANGER,CURSE,HUMAN",
+        "element": "UMBRA"
+    },
 	{
 	    "name": "Spirit of Fire",
         "collector_number": 4001,
