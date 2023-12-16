@@ -34,6 +34,13 @@
         "classes": "CLERIC,HUMAN",
         "element": "NORM"
 	 },
+     {
+	    "name": "Arisana, Lucent Arbiter",
+        "collector_number": 7.1,
+        "types": "CHAMPION",
+        "classes": "CLERIC,HUMAN",
+        "element": "ASTRA"
+	 },
 	 {
 	    "name": "Diana, Keen Huntress",
         "collector_number": 8,
@@ -103,6 +110,13 @@
         "types": "CHAMPION",
         "classes": "GUARDIAN,HUMAN",
         "element": "NORM"
+	 },
+     {
+	    "name": "Tonoris, Creation's Will",
+        "collector_number": 14.1,
+        "types": "CHAMPION",
+        "classes": "GUARDIAN,HUMAN",
+        "element": "NEOS"
 	 },
      {
 	    "name": "Polkhawk, Bombastic Shot",
