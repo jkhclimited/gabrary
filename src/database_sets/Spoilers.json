@@ -62,6 +62,20 @@
         "classes": "RANGER,HUMAN",
         "element": "NORM"
 	 },
+     {
+	    "name": "Diana, Cursebreaker",
+        "collector_number": 10,
+        "types": "CHAMPION",
+        "classes": "RANGER,HUMAN",
+        "element": "UMBRA"
+	 },
+     {
+	    "name": "Diana, Cursebreaker",
+        "collector_number": 10.1,
+        "types": "CHAMPION",
+        "classes": "RANGER,HUMAN",
+        "element": "UMBRA"
+	 },
 	{
 	    "name": "Tonoris, Lone Mercenary",
         "collector_number": 12,
