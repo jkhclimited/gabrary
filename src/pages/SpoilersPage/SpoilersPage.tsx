@@ -46,12 +46,13 @@ const SpoilersPage: FC = () => {
         <div> 
             <ElementBar id={ "spoilers" }/>
             <p className="toggleText">Toggle Text <ToggleSwitch name='Toggle Card Text' handleTextToggle={handleTextToggle}/></p> 
+            <p className="centerText">Card of the Day</p>
 
             <div className="cotd">
-                <div className="cotd-text">                           
-                    <p className="cotdImgBox"><img className="cotdImg" src={process.env.PUBLIC_URL + `/Spoilers_Images/10.jpg`} alt="cotd" /></p>
+                <div className="text-row">
+                    <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('10')} src={process.env.PUBLIC_URL + `/Spoilers_Images/10.jpg`} alt="cotd" /></p>
                     <p style={{ display: (spoilersState.showing ? 'block' : 'none' ) }} id='cotdImgText' className="centerText">Diana, Cursebreaker</p>
-                </div>
+                </div>                          
             </div>
             
             <div className="flexCardImgs">
