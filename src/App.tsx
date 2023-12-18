@@ -93,6 +93,7 @@ const App: FC = () => {
 
         <Route path='/sets' element={<SetPage />}/>
         {/* <Route path='/sets/spoilers' element={<SpoilersPage />}/> */}
+        <Route path='/sets/spoilers' element={<SpoilersPage />}/>
         <Route path='/sets/:id' element={<AllCardsPage />}/>
         <Route path='/sets/:id/champions' element={<ChampionsPage />}/>
         <Route path='/sets/:id/regalias' element={<MaterialsPage />}/>

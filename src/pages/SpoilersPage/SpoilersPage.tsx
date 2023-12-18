@@ -48,10 +48,9 @@ const SpoilersPage: FC = () => {
             <p className="toggleText">Toggle Text <ToggleSwitch name='Toggle Card Text' handleTextToggle={handleTextToggle}/></p> 
 
             <div className="cotd">
-                <p>Text here testing.</p>
                 <div className="cotd-text">                           
-                    <p className="cotdImgBox"><img src={process.env.PUBLIC_URL + `/Spoilers_Images/10.jpg`} alt="cotd" /></p>
-                    <p className="centerText">Diana, Cursebreaker</p>
+                    <p className="cotdImgBox"><img className="cotdImg" src={process.env.PUBLIC_URL + `/Spoilers_Images/10.jpg`} alt="cotd" /></p>
+                    <p style={{ display: (spoilersState.showing ? 'block' : 'none' ) }} id='cotdImgText' className="centerText">Diana, Cursebreaker</p>
                 </div>
             </div>
             

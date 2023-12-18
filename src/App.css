@@ -124,7 +124,7 @@ a:hover, a:active { text-decoration: none; color:grey }
 .cardImgBoxSmall { width: 12vw; margin: 2px; text-align: center }
 
 .centerText { 
-  margin: 0; 
+  margin: auto; 
   text-align: center; 
   font-size: 1.7vw; 
   width: 13vw; 
