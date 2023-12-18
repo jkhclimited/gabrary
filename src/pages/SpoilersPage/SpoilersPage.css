@@ -4,3 +4,11 @@
     text-align: center;
     font-weight: bold;
 }
+
+.cotd {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    max-width: 75vw;
+    margin: 10px auto;
+}

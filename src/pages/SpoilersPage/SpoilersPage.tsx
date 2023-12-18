@@ -43,25 +43,35 @@ const SpoilersPage: FC = () => {
     }, [])
     
     return <>
-    <div> 
-        <ElementBar id={ "spoilers" }/>
-        <p className="toggleText">Toggle Text <ToggleSwitch name='Toggle Card Text' handleTextToggle={handleTextToggle}/></p> 
-        <div className="flexCardImgs">
-            {spoilersState.cards.length > 0 ?
-                spoilersState.cards.map(card => (
-                    <div className="text-row" key={card["name"].toString()}>                           
-                        <p className="cardImgBox" id={card["name"].toString()}><img className="cardImg" onClick={() => showLightbox(card.collector_number)} src={process.env.PUBLIC_URL + `/Spoilers_Images/${card.collector_number}.jpg`} alt="" /></p>
-                        <p style={{ display: (spoilersState.showing ? 'block' : 'none' ) }} id={card["collector_number"].toString()} className="centerText">{card.name}</p>
-                        <br />
-                    </div>
-                ))
-            : <p className="noSpoilersText">No Spoilers!</p>}
-        </div> 
-        { spoilersState.lightboxDisplay ? 
-        <div id="lightbox" onClick={() => hideLightBox()}>
-            <img id="lightbox-img" src={process.env.PUBLIC_URL + `/Spoilers_Images/${spoilersState.cardToShow}.jpg`}/>
-        </div> : '' }
-    </div>
+        <div> 
+            <ElementBar id={ "spoilers" }/>
+            <p className="toggleText">Toggle Text <ToggleSwitch name='Toggle Card Text' handleTextToggle={handleTextToggle}/></p> 
+
+            <div className="cotd">
+                <p>Text here testing.</p>
+                <div className="cotd-text">                           
+                    <p className="cotdImgBox"><img src={process.env.PUBLIC_URL + `/Spoilers_Images/10.jpg`} alt="cotd" /></p>
+                    <p className="centerText">Diana, Cursebreaker</p>
+                </div>
+            </div>
+            
+            <div className="flexCardImgs">
+                {spoilersState.cards.length > 0 ?
+                    spoilersState.cards.map(card => (
+                        <div className="text-row" key={card["name"].toString()}>                           
+                            <p className="cardImgBox" id={card["name"].toString()}><img className="cardImg" onClick={() => showLightbox(card.collector_number)} src={process.env.PUBLIC_URL + `/Spoilers_Images/${card.collector_number}.jpg`} alt="" /></p>
+                            <p style={{ display: (spoilersState.showing ? 'block' : 'none' ) }} id={card["collector_number"].toString()} className="centerText">{card.name}</p>
+                            <br />
+                        </div>
+                    ))
+                : <p className="noSpoilersText">No Spoilers!</p>}
+            </div> 
+            
+            { spoilersState.lightboxDisplay ? 
+            <div id="lightbox" onClick={() => hideLightBox()}>
+                <img id="lightbox-img" src={process.env.PUBLIC_URL + `/Spoilers_Images/${spoilersState.cardToShow}.jpg`}/>
+            </div> : '' }
+        </div>
     </>
 }
 
