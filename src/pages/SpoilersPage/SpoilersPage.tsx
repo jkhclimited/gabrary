@@ -50,29 +50,9 @@ const SpoilersPage: FC = () => {
 
             <div className="cotd">
                 <div className="text-row">
-                    <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('7.1')} src={process.env.PUBLIC_URL + `/Spoilers_Images/7.1.jpg`} alt="cotd" /></p>
-                    <p style={{ display: (spoilersState.showing ? 'block' : 'none' ) }} id='cotdImgText' className="centerText">Arisanna, Lucent Arbiter</p>
-                </div> 
-                <div className="text-row">
-                    <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('10.1')} src={process.env.PUBLIC_URL + `/Spoilers_Images/10.1.jpg`} alt="cotd" /></p>
-                    <p style={{ display: (spoilersState.showing ? 'block' : 'none' ) }} id='cotdImgText' className="centerText">Diana, Cursebreaker</p>
-                </div>    
-                <div className="text-row">
-                    <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('14.1')} src={process.env.PUBLIC_URL + `/Spoilers_Images/14.1.jpg`} alt="cotd" /></p>
-                    <p style={{ display: (spoilersState.showing ? 'block' : 'none' ) }} id='cotdImgText' className="centerText">Tonoris, Creation's Will</p>
-                </div>    
-                <div className="text-row">
-                    <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('58')} src={process.env.PUBLIC_URL + `/Spoilers_Images/58.jpg`} alt="cotd" /></p>
-                    <p style={{ display: (spoilersState.showing ? 'block' : 'none' ) }} id='cotdImgText' className="centerText">Harvest Herbs</p>
-                </div>    
-                <div className="text-row">
-                    <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('180')} src={process.env.PUBLIC_URL + `/Spoilers_Images/180.jpg`} alt="cotd" /></p>
-                    <p style={{ display: (spoilersState.showing ? 'block' : 'none' ) }} id='cotdImgText' className="centerText">Astral Seal</p>
-                </div>         
-                <div className="text-row">
-                    <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('211')} src={process.env.PUBLIC_URL + `/Spoilers_Images/211.jpg`} alt="cotd" /></p>
-                    <p style={{ display: (spoilersState.showing ? 'block' : 'none' ) }} id='cotdImgText' className="centerText">Shadecursed Hunter</p>
-                </div>                 
+                    <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('89')} src={process.env.PUBLIC_URL + `/Spoilers_Images/89.jpg`} alt="cotd" /></p>
+                    <p style={{ display: (spoilersState.showing ? 'block' : 'none' ) }} id='cotdImgText' className="centerText">The Eternal Kingdom</p>
+                </div>               
             </div>
             
             <div className="flexCardImgs">
