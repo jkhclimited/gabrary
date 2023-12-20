@@ -377,6 +377,13 @@
         "classes": "RANGER,SKILL",
         "element": "NORM"
 	 },
+     {
+	    "name": "The ETernal Kingdom",
+        "collector_number": 89,
+        "types": "UNIQUE,DOMAIN",
+        "classes": "GUARDIAN,CASTLE",
+        "element": "NORM"
+	 },
 	 {
 	    "name": "Unearth Revelations",
         "collector_number": 91,
@@ -670,6 +677,13 @@
         "collector_number": 164,
         "types": "ACTION",
         "classes": "RANGER,SKILL",
+        "element": "WIND"
+    },
+    {
+	    "name": "Spellshield: Wind",
+        "collector_number": 169,
+        "types": "ACTION",
+        "classes": "CLERIC,SPELL,REACTION",
         "element": "WIND"
     },
 	{
