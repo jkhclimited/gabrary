@@ -722,6 +722,13 @@
         "element": "ASTRA"
     },
     {
+	    "name": "Neos Elemental",
+        "collector_number": 194,
+        "types": "ALLY",
+        "classes": "GUARDIAN,ELEMENTAL",
+        "element": "NEOS"
+    },
+    {
 	    "name": "Provoke Obstinance",
         "collector_number": 199,
         "types": "ACTION",
