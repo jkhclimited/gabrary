@@ -391,6 +391,13 @@
         "classes": "CLERIC,SKILL",
         "element": "NORM"
 	 },
+     {
+	    "name": "Vanish from Sight",
+        "collector_number": 92,
+        "types": "ACTION",
+        "classes": "ASSASSIN,SKILL,REACTION",
+        "element": "NORM"
+	 },
 	 {
 	    "name": "Airship Engineer",
         "collector_number": 94,
