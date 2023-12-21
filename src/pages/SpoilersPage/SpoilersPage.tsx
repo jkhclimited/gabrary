@@ -50,13 +50,9 @@ const SpoilersPage: FC = () => {
 
             <div className="cotd">
                 <div className="text-row">
-                    <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('89')} src={process.env.PUBLIC_URL + `/Spoilers_Images/89.jpg`} alt="cotd" /></p>
-                    <p style={{ display: (spoilersState.showing ? 'block' : 'none' ) }} id='cotdImgText' className="centerText">The Eternal Kingdom</p>
+                    <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('92')} src={process.env.PUBLIC_URL + `/Spoilers_Images/92.jpg`} alt="cotd" /></p>
+                    <p style={{ display: (spoilersState.showing ? 'block' : 'none' ) }} id='cotdImgText' className="centerText">Vanish from Sight</p>
                 </div>       
-                <div className="text-row">
-                    <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('194')} src={process.env.PUBLIC_URL + `/Spoilers_Images/194.jpg`} alt="cotd" /></p>
-                    <p style={{ display: (spoilersState.showing ? 'block' : 'none' ) }} id='cotdImgText' className="centerText">Neos Elemental</p>
-                </div>         
             </div>
             
             <div className="flexCardImgs">
