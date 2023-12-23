@@ -727,6 +727,13 @@
         "types": "ACTION",
         "classes": "CLERIC,SPELL",
         "element": "ASTRA"
+    },    
+    {
+	    "name": "The Constellatory Spirel",
+        "collector_number": 188,
+        "types": "DOMAIN",
+        "classes": "CLERIC,SPIRE",
+        "element": "ASTRA"
     },
     {
 	    "name": "Neos Elemental",
