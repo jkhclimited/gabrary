@@ -181,6 +181,13 @@
         "classes": "GUARDIAN,LASH",
         "element": "WATER"
 	 },
+     {
+	    "name": "Magebane Lash",
+        "collector_number": 39,
+        "types": "REGALIA,ITEM",
+        "classes": "CLERIC,ARTIFACT",
+        "element": "ASTRA"
+	 },
 	 {
 	    "name": "Academy Guide",
         "collector_number": 42,
@@ -728,6 +735,13 @@
         "classes": "CLERIC,SPELL",
         "element": "ASTRA"
     },    
+    {
+	    "name": "Scry the Stars",
+        "collector_number": 186,
+        "types": "ACTION",
+        "classes": "CLERIC,SPELL",
+        "element": "ASTRA"
+    },   
     {
 	    "name": "The Constellatory Spirel",
         "collector_number": 188,
