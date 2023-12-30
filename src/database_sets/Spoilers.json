@@ -1112,6 +1112,27 @@
         "types": "ACTION",
         "classes": "CLERIC,SKILL",
         "element": "NORM"
-    }
+    },
+    {
+	    "name": "Ingredient Pouch - Promo",
+        "collector_number": 90007,
+        "types": "REGALIA,ITEM",
+        "classes": "CLERIC,ACCESSORY",
+        "element": "NORM"
+	 },
+     {
+	    "name": "Prototype Pistol - Promo",
+        "collector_number": 900012,
+        "types": "REGALIA,WEAPON",
+        "classes": "RANGER,GUN",
+        "element": "NORM"
+	 },
+     {
+	    "name": "Worn Gearblade - Promo",
+        "collector_number": 900018,
+        "types": "REGALIA,WEAPON",
+        "classes": "GUARDIAN,SWORD",
+        "element": "NORM"
+	 }
 
 ]
