@@ -314,6 +314,13 @@
         "classes": "CLERIC,POTION",
         "element": "NORM"
 	 },
+     {
+	    "name": "Raze the Land",
+        "collector_number": 70,
+        "types": "ITEM",
+        "classes": "GUARDIAN,SKILL",
+        "element": "NORM"
+	 },
 	 {
 	    "name": "Razorvine",
         "collector_number": 71,
@@ -630,11 +637,25 @@
         "classes": "CLERIC,SPELL",
         "element": "WATER"
 	 },
+     {
+	    "name": "Vaporjet Shieldbearer",
+        "collector_number": 151,
+        "types": "ALLY",
+        "classes": "GUARDIAN,AUTOMATION",
+        "element": "WATER"
+	 },
 	 {
 	    "name": "Armored Valkyrie",
         "collector_number": 153,
         "types": "Ally",
         "classes": "GUARDIAN,AUTOMATON",
+        "element": "WIND"
+	 },
+     {
+	    "name": "Battlefield Spotter",
+        "collector_number": 154,
+        "types": "Ally",
+        "classes": "RANGER,HUMAN",
         "element": "WIND"
 	 },
 	 {
@@ -1113,6 +1134,20 @@
         "classes": "CLERIC,SKILL",
         "element": "NORM"
     },
+    {
+	    "name": "Spark Alight - Promo",
+        "collector_number": 90004,
+        "types": "ACTION",
+        "classes": "MAGE,SPELL",
+        "element": "FIRE"
+	 },
+     {
+	    "name": "Idle THoughts - Promo",
+        "collector_number": 90005,
+        "types": "ACTION",
+        "classes": "MAGE,SKILL",
+        "element": "NORM"
+	 },
     {
 	    "name": "Ingredient Pouch - Promo",
         "collector_number": 90007,
