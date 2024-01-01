@@ -74,5 +74,19 @@
       ],
       "slug": "strategic-planning",
       "durability": ""
-    }
+    },
+    {
+	    "name": "Spark Alight",
+        "collector_number": 90004,
+        "types": "ACTION",
+        "classes": "MAGE,SPELL",
+        "element": "FIRE"
+	 },
+    {
+	    "name": "Idle Thoughts ",
+        "collector_number": 5,
+        "types": "ACTION",
+        "classes": "MAGE,SKILL",
+        "element": "NORM"
+	 }
 ]
