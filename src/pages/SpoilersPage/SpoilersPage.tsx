@@ -50,25 +50,25 @@ const SpoilersPage: FC = () => {
 
             <div className="cotd">
                 <div className="text-row">
-                    <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('39')} src={process.env.PUBLIC_URL + `/Spoilers_Images/39.jpg`} alt="cotd" /></p>
-                    <p style={{ display: (spoilersState.showing ? 'block' : 'none' ) }} id='cotdImgText' className="centerText">The Elysian Astrolabe</p>
+                    <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('151')} src={process.env.PUBLIC_URL + `/Spoilers_Images/151.jpg`} alt="cotd" /></p>
+                    <p style={{ display: (spoilersState.showing ? 'block' : 'none' ) }} id='cotdImgText' className="centerText">Vaporjet Shieldbearer</p>
                 </div>       
                 <div className="text-row">
-                    <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('186')} src={process.env.PUBLIC_URL + `/Spoilers_Images/186.jpg`} alt="cotd" /></p>
-                    <p style={{ display: (spoilersState.showing ? 'block' : 'none' ) }} id='cotdImgText' className="centerText">Scry the Stars</p>
+                    <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('154')} src={process.env.PUBLIC_URL + `/Spoilers_Images/154.jpg`} alt="cotd" /></p>
+                    <p style={{ display: (spoilersState.showing ? 'block' : 'none' ) }} id='cotdImgText' className="centerText">Battlefield Spotter</p>
                 </div>    
                 <div className="text-row">
-                    <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('90007')} src={process.env.PUBLIC_URL + `/Spoilers_Images/90007.jpg`} alt="cotd" /></p>
-                    <p style={{ display: (spoilersState.showing ? 'block' : 'none' ) }} id='cotdImgText' className="centerText">Ingredient Pouch</p>
+                    <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('70')} src={process.env.PUBLIC_URL + `/Spoilers_Images/70.jpg`} alt="cotd" /></p>
+                    <p style={{ display: (spoilersState.showing ? 'block' : 'none' ) }} id='cotdImgText' className="centerText">Raze the Land</p>
                 </div>  
                 <div className="text-row">
-                    <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('900012')} src={process.env.PUBLIC_URL + `/Spoilers_Images/900012.jpg`} alt="cotd" /></p>
-                    <p style={{ display: (spoilersState.showing ? 'block' : 'none' ) }} id='cotdImgText' className="centerText">Prototype Pistol</p>
+                    <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('90004')} src={process.env.PUBLIC_URL + `/Spoilers_Images/90004.jpg`} alt="cotd" /></p>
+                    <p style={{ display: (spoilersState.showing ? 'block' : 'none' ) }} id='cotdImgText' className="centerText">Spark Alight</p>
                 </div>  
                 <div className="text-row">
-                    <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('900018')} src={process.env.PUBLIC_URL + `/Spoilers_Images/900018.jpg`} alt="cotd" /></p>
-                    <p style={{ display: (spoilersState.showing ? 'block' : 'none' ) }} id='cotdImgText' className="centerText">Worn Gearblade</p>
-                </div>     
+                    <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('90005')} src={process.env.PUBLIC_URL + `/Spoilers_Images/90005.jpg`} alt="cotd" /></p>
+                    <p style={{ display: (spoilersState.showing ? 'block' : 'none' ) }} id='cotdImgText' className="centerText">Idle Thoughts</p>
+                </div> 
             </div>
             
             <div className="flexCardImgs">
