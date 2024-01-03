@@ -50,25 +50,9 @@ const SpoilersPage: FC = () => {
 
             <div className="cotd">
                 <div className="text-row">
-                    <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('151')} src={process.env.PUBLIC_URL + `/Spoilers_Images/151.jpg`} alt="cotd" /></p>
-                    <p style={{ display: (spoilersState.showing ? 'block' : 'none' ) }} id='cotdImgText' className="centerText">Vaporjet Shieldbearer</p>
+                    <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('93')} src={process.env.PUBLIC_URL + `/Spoilers_Images/93.jpg`} alt="cotd" /></p>
+                    <p style={{ display: (spoilersState.showing ? 'block' : 'none' ) }} id='cotdImgText' className="centerText">Airship Cannoneer</p>
                 </div>       
-                <div className="text-row">
-                    <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('154')} src={process.env.PUBLIC_URL + `/Spoilers_Images/154.jpg`} alt="cotd" /></p>
-                    <p style={{ display: (spoilersState.showing ? 'block' : 'none' ) }} id='cotdImgText' className="centerText">Battlefield Spotter</p>
-                </div>    
-                <div className="text-row">
-                    <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('70')} src={process.env.PUBLIC_URL + `/Spoilers_Images/70.jpg`} alt="cotd" /></p>
-                    <p style={{ display: (spoilersState.showing ? 'block' : 'none' ) }} id='cotdImgText' className="centerText">Raze the Land</p>
-                </div>  
-                <div className="text-row">
-                    <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('90004')} src={process.env.PUBLIC_URL + `/Spoilers_Images/90004.jpg`} alt="cotd" /></p>
-                    <p style={{ display: (spoilersState.showing ? 'block' : 'none' ) }} id='cotdImgText' className="centerText">Spark Alight</p>
-                </div>  
-                <div className="text-row">
-                    <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('90005')} src={process.env.PUBLIC_URL + `/Spoilers_Images/90005.jpg`} alt="cotd" /></p>
-                    <p style={{ display: (spoilersState.showing ? 'block' : 'none' ) }} id='cotdImgText' className="centerText">Idle Thoughts</p>
-                </div> 
             </div>
             
             <div className="flexCardImgs">
