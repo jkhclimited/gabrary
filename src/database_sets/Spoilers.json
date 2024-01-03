@@ -412,6 +412,13 @@
         "classes": "ASSASSIN,SKILL,REACTION",
         "element": "NORM"
 	 },
+     {
+	    "name": "Airship Cannoneer",
+        "collector_number": 93,
+        "types": "ACTION",
+        "classes": "RANGER,HUMAN",
+        "element": "FIRE"
+	 },
 	 {
 	    "name": "Airship Engineer",
         "collector_number": 94,
