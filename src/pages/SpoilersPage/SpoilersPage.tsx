@@ -50,9 +50,17 @@ const SpoilersPage: FC = () => {
 
             <div className="cotd">
                 <div className="text-row">
-                    <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('93')} src={process.env.PUBLIC_URL + `/Spoilers_Images/93.jpg`} alt="cotd" /></p>
-                    <p style={{ display: (spoilersState.showing ? 'block' : 'none' ) }} id='cotdImgText' className="centerText">Airship Cannoneer</p>
+                    <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('88')} src={process.env.PUBLIC_URL + `/Spoilers_Images/88.jpg`} alt="cotd" /></p>
+                    <p style={{ display: (spoilersState.showing ? 'block' : 'none' ) }} id='cotdImgText' className="centerText">Take Cover</p>
                 </div>       
+                <div className="text-row">
+                    <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('2015')} src={process.env.PUBLIC_URL + `/Spoilers_Images/2015.jpg`} alt="cotd" /></p>
+                    <p style={{ display: (spoilersState.showing ? 'block' : 'none' ) }} id='cotdImgText' className="centerText">Charged Manaplate</p>
+                </div>    
+                <div className="text-row">
+                    <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('4039')} src={process.env.PUBLIC_URL + `/Spoilers_Images/4039.jpg`} alt="cotd" /></p>
+                    <p style={{ display: (spoilersState.showing ? 'block' : 'none' ) }} id='cotdImgText' className="centerText">Backstep</p>
+                </div>          
             </div>
             
             <div className="flexCardImgs">
