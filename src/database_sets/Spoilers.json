@@ -209,6 +209,13 @@
         "classes": "GUARDIAN,AUTOMATION",
         "element": "NORM"
 	 },
+     {
+	    "name": "Barter Herbs",
+        "collector_number": 45,
+        "types": "ALLY",
+        "classes": "CLERIC,SKILL",
+        "element": "NORM"
+	 },
 	  {
 	    "name": "Blightroot",
         "collector_number": 46,
@@ -694,6 +701,13 @@
         "element": "WIND"
 	 },
      {
+	    "name": "Fertile Grounds",
+        "collector_number": 161,
+        "types": "Phantasia",
+        "classes": "CLERIC,SPELL",
+        "element": "WIND"
+	 },	 
+     {
 	    "name": "Imperial Alchemist",
         "collector_number": 162,
         "types": "ALLY",
@@ -754,6 +768,13 @@
         "collector_number": 176,
         "types": "ACTION",
         "classes": "GUARDIAN,SKILL",
+        "element": "WIND"
+    },
+    {
+	    "name": "young Peacekeeper",
+        "collector_number": 177,
+        "types": "ALLY",
+        "classes": "GUARDIAN,HUMAN",
         "element": "WIND"
     },
 	{
@@ -931,10 +952,24 @@
         "element": "ASTRA"
     },
     {
+	    "name": "Deployment Beacon",
+        "collector_number": 2032,
+        "types": "REGALIA,ITEM",
+        "classes": "GUARDIAN,DEVICE",
+        "element": "WIND"
+    },
+    {
 	    "name": "Archon Broadsword",
         "collector_number": 2034,
         "types": "REGALIA,WEAPON",
         "classes": "GUARDIAN,SWORD",
+        "element": "NEOS"
+    },
+    {
+	    "name": "Sentinel Fabricator",
+        "collector_number": 2035,
+        "types": "REGALIA,ITEM",
+        "classes": "GUARDIAN,DEVICE",
         "element": "NEOS"
     },
     {
