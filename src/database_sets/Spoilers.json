@@ -778,6 +778,20 @@
         "element": "ASTRA"
     },    
     {
+	    "name": "Celestial Calling",
+        "collector_number": 181,
+        "types": "ACTION",
+        "classes": "CLERIC,SPELL",
+        "element": "ASTRA"
+    },    
+    {
+	    "name": "Claude, Fated Visionary",
+        "collector_number": 182,
+        "types": "UNIQUE,ALLY",
+        "classes": "CLERIC,HUMAN",
+        "element": "ASTRA"
+    },    
+    {
 	    "name": "Scry the Stars",
         "collector_number": 186,
         "types": "ACTION",
