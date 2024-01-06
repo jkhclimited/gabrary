@@ -1211,13 +1211,6 @@
         "classes": "CLERIC,HUMAN",
         "element": "WATER"
     },
-	{
-	    "name": "Barter Herbs",
-        "collector_number": 6007,
-        "types": "ACTION",
-        "classes": "CLERIC,SKILL",
-        "element": "NORM"
-    },
     {
 	    "name": "Spark Alight - Promo",
         "collector_number": 90004,
