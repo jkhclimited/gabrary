@@ -64,11 +64,11 @@ const SpoilersPage: FC = () => {
                 <div className="text-row">
                     <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('181')} src={process.env.PUBLIC_URL + `/Spoilers_Images/181.jpg`} alt="cotd" /></p>
                     <p style={{ display: (spoilersState.showing ? 'block' : 'none' ) }} id='cotdImgText' className="centerText">Celestial Calling</p>
-                </div>                     <div className="text-row">
+                </div>                     
+                <div className="text-row">
                     <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('182')} src={process.env.PUBLIC_URL + `/Spoilers_Images/182.jpg`} alt="cotd" /></p>
                     <p style={{ display: (spoilersState.showing ? 'block' : 'none' ) }} id='cotdImgText' className="centerText">Claude, Fated Visionary</p>
                 </div>     
-            </div>
             </div>
             
             <div className="flexCardImgs">
