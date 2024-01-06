@@ -1,5 +1,12 @@
 [
-{
+    {
+	    "name": "Spirit of Water",
+        "collector_number": 3002,
+        "types": "CHAMPION",
+        "classes": "SPIRIT",
+        "element": "WATER"
+	 },
+    {
 	    "name": "Arisanna, Herbalist Prodigy",
         "collector_number": 4,
         "types": "CHAMPION",
@@ -389,6 +396,13 @@
         "collector_number": 86,
         "types": "ACTION",
         "classes": "RANGER,SKILL",
+        "element": "NORM"
+	 },
+     {
+	    "name": "Take Cover",
+        "collector_number": 88,
+        "types": "ACTION",
+        "classes": "RANGER,SKILL,REACTION",
         "element": "NORM"
 	 },
      {
@@ -867,6 +881,13 @@
         "classes": "GUARDIAN,SWORD",
         "element": "NORM"
     },
+    {
+	    "name": "Charged Manaplate",
+        "collector_number": 2015,
+        "types": "REGALIA,ITEM",
+        "classes": "GUARDIAN,ARMOR",
+        "element": "NORM"
+    },
 	{
 	    "name": "Life Essence Amulet",
         "collector_number": 3020,
@@ -909,6 +930,13 @@
         "classes": "RANGER,GUN",
         "element": "UMBRA"
     }, 
+    {
+	    "name": "Backstep",
+        "collector_number": 4039,
+        "types": "ACTION",
+        "classes": "RANGER,SKILL",
+        "element": "NORM"
+    },
 	{
 	    "name": "Evasive Manuevers",
         "collector_number": 4043,
