@@ -827,6 +827,13 @@
         "element": "ASTRA"
     },
     {
+	    "name": "Fractal of Creation",
+        "collector_number": 192,
+        "types": "PHANTASIA",
+        "classes": "MAGE,FRACTAL",
+        "element": "NEOS"
+    },
+    {
 	    "name": "Neos Elemental",
         "collector_number": 194,
         "types": "ALLY",
