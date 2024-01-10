@@ -848,6 +848,20 @@
         "element": "NEOS"
     },
     {
+	    "name": "Carter, Synthetic Reaper",
+        "collector_number": 203,
+        "types": "UNIQUE,ALLY",
+        "classes": "GUARDIAN,RANGER,HUMAN",
+        "element": "UMBRA"
+    },
+    {
+	    "name": "Relentless Hexchaser",
+        "collector_number": 210,
+        "types": "ALLY",
+        "classes": "RANGER,HUMAN",
+        "element": "UMBRA"
+    },
+    {
 	    "name": "Shadecursed Hunter",
         "collector_number": 211,
         "types": "ALLY",
