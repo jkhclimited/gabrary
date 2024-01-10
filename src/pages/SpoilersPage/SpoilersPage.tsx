@@ -50,9 +50,13 @@ const SpoilersPage: FC = () => {
 
             <div className="cotd">
                 <div className="text-row">
-                    <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('193')} src={process.env.PUBLIC_URL + `/Spoilers_Images/193.jpg`} alt="cotd" /></p>
-                    <p style={{ display: (spoilersState.showing ? 'block' : 'none' ) }} id='cotdImgText' className="centerText">Fractal of Creation</p>
+                    <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('203')} src={process.env.PUBLIC_URL + `/Spoilers_Images/203.jpg`} alt="cotd" /></p>
+                    <p style={{ display: (spoilersState.showing ? 'block' : 'none' ) }} id='cotdImgText' className="centerText">Carter, Synthetic Reaper</p>
                 </div>       
+                <div className="text-row">
+                    <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('210')} src={process.env.PUBLIC_URL + `/Spoilers_Images/210.jpg`} alt="cotd" /></p>
+                    <p style={{ display: (spoilersState.showing ? 'block' : 'none' ) }} id='cotdImgText' className="centerText">Relentless Hexchaser</p>
+                </div>      
             </div>
             
             <div className="flexCardImgs">
