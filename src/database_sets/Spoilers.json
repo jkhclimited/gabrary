@@ -189,6 +189,13 @@
         "element": "WATER"
 	 },
      {
+	    "name": "Brewing Kit",
+        "collector_number": 37,
+        "types": "REGALIA,ITEM",
+        "classes": "CLERIC,ACCESSORY",
+        "element": "WATER"
+	 },
+     {
 	    "name": "Magebane Lash",
         "collector_number": 39,
         "types": "REGALIA,ITEM",
@@ -242,6 +249,13 @@
         "collector_number": 53,
         "types": "ACTION",
         "classes": "RANGER,SKILL",
+        "element": "NORM"
+	 },
+     {
+	    "name": "Exorcise Curses",
+        "collector_number": 55,
+        "types": "ACTION",
+        "classes": "CLERIC,SPELL",
         "element": "NORM"
 	 },
      {
@@ -958,11 +972,25 @@
         "classes": "GUARDIAN,ARMOR",
         "element": "NORM"
     },
+    {
+	    "name": "Crest of the Alliance",
+        "collector_number": 2017,
+        "types": "REGALIA,ITEM",
+        "classes": "GUARDIAN,ACCESSORY",
+        "element": "NORM"
+    },
 	{
 	    "name": "Life Essence Amulet",
         "collector_number": 3020,
         "types": "REGALIA,ITEM",
         "classes": "MAGE,BAUBLE",
+        "element": "NORM"
+    },
+    {
+	    "name": "Necklace of Foresight",
+        "collector_number": 2021,
+        "types": "REGALIA,ITEM",
+        "classes": "CLERIC,ACCESSORY",
         "element": "NORM"
     },
 		{
