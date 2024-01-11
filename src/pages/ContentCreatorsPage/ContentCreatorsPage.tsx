@@ -24,9 +24,9 @@ const ContentCreatorsPage: FC = () => <>
             <p className='contentCreatorName'>Adventure Co. Gaming</p>
             <iframe className='videoArea' src='https://www.youtube.com/embed?listType=playlist&list=UULF19n08j8gULeRiYlbyOUibg' title='Latest AdventureCo. Gaming video' allowFullScreen></iframe>
         </div>
-        <div className='contentCreator' id='gazimus'>
-            <p className='contentCreatorName'>Gazimus</p>
-            <iframe className='videoArea' src='https://www.youtube.com/embed?listType=playlist&list=UULFT3IDqrPuTjnBP7pJWNDUdg' title='Latest Gazimus video' allowFullScreen></iframe>
+        <div className='contentCreator' id='talkga'>
+            <p className='contentCreatorName'>TalkGA</p>
+            <iframe className='videoArea' src='https://www.youtube.com/embed?listType=playlist&list=UUT2Qizj1z9Vw7yul0WwXTYg' title='Latest TalkGA video' allowFullScreen></iframe>
         </div>
         <div className='contentCreator' id='trueChampionGaming'>
             <p className='contentCreatorName'>True Champion Gaming</p>
