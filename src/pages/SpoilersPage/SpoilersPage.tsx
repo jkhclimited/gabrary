@@ -57,6 +57,22 @@ const SpoilersPage: FC = () => {
                     <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('210')} src={process.env.PUBLIC_URL + `/Spoilers_Images/210.jpg`} alt="cotd" /></p>
                     <p style={{ display: (spoilersState.showing ? 'block' : 'none' ) }} id='cotdImgText' className="centerText">Relentless Hexchaser</p>
                 </div>      
+                <div className="text-row">
+                    <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('4026')} src={process.env.PUBLIC_URL + `/Spoilers_Images/4026.jpg`} alt="cotd" /></p>
+                    <p style={{ display: (spoilersState.showing ? 'block' : 'none' ) }} id='cotdImgText' className="centerText">Quickdraw Piercer</p>
+                </div>   
+                <div className="text-row">
+                    <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('4029')} src={process.env.PUBLIC_URL + `/Spoilers_Images/4029.jpg`} alt="cotd" /></p>
+                    <p style={{ display: (spoilersState.showing ? 'block' : 'none' ) }} id='cotdImgText' className="centerText">Tasershot</p>
+                </div>       
+                <div className="text-row">
+                    <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('149')} src={process.env.PUBLIC_URL + `/Spoilers_Images/149.jpg`} alt="cotd" /></p>
+                    <p style={{ display: (spoilersState.showing ? 'block' : 'none' ) }} id='cotdImgText' className="centerText">Tactical Retreat</p>
+                </div>        
+                <div className="text-row">
+                    <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('205')} src={process.env.PUBLIC_URL + `/Spoilers_Images/205.jpg`} alt="cotd" /></p>
+                    <p style={{ display: (spoilersState.showing ? 'block' : 'none' ) }} id='cotdImgText' className="centerText">Demon's Aim</p>
+                </div>      
             </div>
             
             <div className="flexCardImgs">
