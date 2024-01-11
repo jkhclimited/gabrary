@@ -658,6 +658,13 @@
         "classes": "CLERIC,SPELL",
         "element": "WATER"
 	 },
+     {
+	    "name": "Tactical Retreat",
+        "collector_number": 149,
+        "types": "ACTION",
+        "classes": "RANGER,SKILL,REACTION",
+        "element": "WATER"
+	 },
 	 {
 	    "name": "Torrential Blast",
         "collector_number": 150,
@@ -855,6 +862,13 @@
         "element": "UMBRA"
     },
     {
+	    "name": "Demon's Aim",
+        "collector_number": 205,
+        "types": "ACTION",
+        "classes": "RANGER,CURSE,SPELL",
+        "element": "UMBRA"
+    },
+    {
 	    "name": "Relentless Hexchaser",
         "collector_number": 210,
         "types": "ALLY",
@@ -958,11 +972,25 @@
         "classes": "RANGER,BULLET",
         "element": "NORM"
     },
+    {
+	    "name": "Quickdraw Piercer",
+        "collector_number": 4026,
+        "types": "REGALIA,WEAPON",
+        "classes": "RANGER,GUN",
+        "element": "NORM"
+    },
 	{
 	    "name": "Scale of Souls",
         "collector_number": 3027,
         "types": "REGALIA,ITEM",
         "classes": "CLERIC,ACCESSORY",
+        "element": "NORM"
+    },
+    {
+	    "name": "Tasershot",
+        "collector_number": 4029,
+        "types": "REGALIA,ITEM",
+        "classes": "RANGER,BULLET",
         "element": "NORM"
     },
     {
