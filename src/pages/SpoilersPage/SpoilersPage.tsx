@@ -72,7 +72,23 @@ const SpoilersPage: FC = () => {
                 <div className="text-row">
                     <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('205')} src={process.env.PUBLIC_URL + `/Spoilers_Images/205.jpg`} alt="cotd" /></p>
                     <p style={{ display: (spoilersState.showing ? 'block' : 'none' ) }} id='cotdImgText' className="centerText">Demon's Aim</p>
-                </div>      
+                </div>     
+                <div className="text-row">
+                    <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('37')} src={process.env.PUBLIC_URL + `/Spoilers_Images/37.jpg`} alt="cotd" /></p>
+                    <p style={{ display: (spoilersState.showing ? 'block' : 'none' ) }} id='cotdImgText' className="centerText">Brewing Kit</p>
+                </div>   
+                <div className="text-row">
+                    <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('2017')} src={process.env.PUBLIC_URL + `/Spoilers_Images/2017.jpg`} alt="cotd" /></p>
+                    <p style={{ display: (spoilersState.showing ? 'block' : 'none' ) }} id='cotdImgText' className="centerText">Crest of the Alliance</p>
+                </div>
+                <div className="text-row">
+                    <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('3021')} src={process.env.PUBLIC_URL + `/Spoilers_Images/3021.jpg`} alt="cotd" /></p>
+                    <p style={{ display: (spoilersState.showing ? 'block' : 'none' ) }} id='cotdImgText' className="centerText">Necklace of Foresight</p>
+                </div>    
+                <div className="text-row">
+                    <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('55')} src={process.env.PUBLIC_URL + `/Spoilers_Images/55.jpg`} alt="cotd" /></p>
+                    <p style={{ display: (spoilersState.showing ? 'block' : 'none' ) }} id='cotdImgText' className="centerText">Exorcise Curses</p>
+                </div>  
             </div>
             
             <div className="flexCardImgs">
