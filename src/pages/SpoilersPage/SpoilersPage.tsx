@@ -89,8 +89,21 @@ const SpoilersPage: FC = () => {
                     <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('55')} src={process.env.PUBLIC_URL + `/Spoilers_Images/55.jpg`} alt="cotd" /></p>
                     <p style={{ display: (spoilersState.showing ? 'block' : 'none' ) }} id='cotdImgText' className="centerText">Exorcise Curses</p>
                 </div>  
+                <div className="text-row">
+                    <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('2097')} src={process.env.PUBLIC_URL + `/Spoilers_Images/2097.jpg`} alt="cotd" /></p>
+                    <p style={{ display: (spoilersState.showing ? 'block' : 'none' ) }} id='cotdImgText' className="centerText">Neos Sight</p>
+                </div>  
+                <div className="text-row">
+                    <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('3089')} src={process.env.PUBLIC_URL + `/Spoilers_Images/3089.jpg`} alt="cotd" /></p>
+                    <p style={{ display: (spoilersState.showing ? 'block' : 'none' ) }} id='cotdImgText' className="centerText">Astra Sight</p>
+                </div>  
+                <div className="text-row">
+                    <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('4106')} src={process.env.PUBLIC_URL + `/Spoilers_Images/4106.jpg`} alt="cotd" /></p>
+                    <p style={{ display: (spoilersState.showing ? 'block' : 'none' ) }} id='cotdImgText' className="centerText">Umbra Sight</p>
+                </div>  
             </div>
-            
+
+        
             <div className="flexCardImgs">
                 {spoilersState.cards.length > 0 ?
                     spoilersState.cards.map(card => (
