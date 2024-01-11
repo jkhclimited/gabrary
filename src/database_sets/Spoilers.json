@@ -1162,6 +1162,13 @@
         "element": "WIND"
     },
     {
+	    "name": "Astra Sight",
+        "collector_number": 3089,
+        "types": "ACTION",
+        "classes": "CLERIC,SPELL",
+        "element": "ASTRA"
+    },
+    {
 	    "name": "Cometfall",
         "collector_number": 3090,
         "types": "ACTION",
@@ -1201,6 +1208,13 @@
         "collector_number": 2096,
         "types": "TOKEN,WEAPON",
         "classes": "GUARDIAN,SWORD",
+        "element": "NEOS"
+    },
+    {
+	    "name": "Neos Sight",
+        "collector_number": 2097,
+        "types": "ACTION",
+        "classes": "MAGE,SPELL",
         "element": "NEOS"
     },
     {
@@ -1257,6 +1271,13 @@
         "collector_number": 4105,
         "types": "ITEM",
         "classes": "RANGER,BULLET",
+        "element": "UMBRA"
+    },   
+    {
+	    "name": "Umbra Sight",
+        "collector_number": 4106,
+        "types": "ACTION",
+        "classes": "CLERIC,CURSE,SPELL",
         "element": "UMBRA"
     },   
     {
