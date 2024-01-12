@@ -10,14 +10,26 @@ const SetPage: FC = () => {
             <p className='sets-header header-text'>Sets</p>
             <p className='sets-subheader subheader-text'>Listed Below from Newest to Oldest</p>
             <div className='aSet'>
+                <Link to={`/sets/ALC`} className='setLink'>
+                    <img className='setIMG' src={process.env.PUBLIC_URL + `/Set_Symbols/ALC.jpg`} alt='Alchemical Revolution' />
+                    Alchemical Revolution
+                </Link>
+            </div>
+            <div className='aSet'>
+                <Link to={`/sets/P24`} className='setLink'>
+                    <img className='setIMG' src={process.env.PUBLIC_URL + `/Set_Symbols/P24.jpg`} alt='Promotional 2024' />
+                    Promotional 2024
+                </Link>
+            </div>
+            <div className='aSet'>
                 <Link to={`/sets/FTCA`} className='setLink'>
-                    <img className='setIMG' src={process.env.PUBLIC_URL + `/Set_Symbols/FTC.jpg`} alt='Supporter Pack 1' />
+                    <img className='setIMG' src={process.env.PUBLIC_URL + `/Set_Symbols/FTC.jpg`} alt='Fractured Crown Armaments' />
                     Fractured Crown: Armaments
                 </Link>
             </div>
             <div className='aSet'>
                 <Link to={`/sets/FTC`} className='setLink'>
-                    <img className='setIMG' src={process.env.PUBLIC_URL + `/Set_Symbols/FTC.jpg`} alt='Supporter Pack 1' />
+                    <img className='setIMG' src={process.env.PUBLIC_URL + `/Set_Symbols/FTC.jpg`} alt='Fractured Crown' />
                     Fractured Crown
                 </Link>
             </div>
