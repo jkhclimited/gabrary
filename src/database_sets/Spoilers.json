@@ -174,11 +174,18 @@
         "classes": "CLERIC,ARTIFACT",
         "element": "NORM"
 	 },
+     {
+	    "name": "Bombard Flarecannon",
+        "collector_number": 31,
+        "types": "REGALIA, WEAPON",
+        "classes": "CLERIC,ARTIFACT",
+        "element": "NORM"
+	 },
 	 {
 	    "name": "Forgelight Scepter",
         "collector_number": 32,
         "types": "REGALIA,ITEM",
-        "classes": "CLERIC,SCEPTER",
+        "classes": "RANGER,GUN",
         "element": "FIRE"
 	 },
      {
