@@ -104,19 +104,19 @@ const AstrasPage: FC = () => {
             setAstrasState({ ...astrasState, cards: cardsList, imgSrc: "P23_Images"});
         }
         if (id === "P24") {
-            const cardsList = DB_P24.filter((card: any) => card.element.includes('ARCANE'));
+            const cardsList = DB_P24.filter((card: any) => card.element.includes('ASTRA'));
             setAstrasState({ ...astrasState, cards: cardsList, imgSrc: "P24_Images"});
         }
         if (id === "ALC") {
-            const cardsList = DB_ALC.filter((card: any) => card.element.includes('ARCANE'));
+            const cardsList = DB_ALC.filter((card: any) => card.element.includes('ASTRA'));
             setAstrasState({ ...astrasState, cards: cardsList, imgSrc: "ALC_Images"});
         }
         if (id === "SP1") {
-            const cardsList = DB_SP1.filter((card: any) => card.element.includes('ARCANE'));;
+            const cardsList = DB_SP1.filter((card: any) => card.element.includes('ASTRA'));;
             setAstrasState({ ...astrasState, cards: cardsList, imgSrc: "SP1_Images"});
         }
         if (id == "spoilers") {
-            const cardsList = DB_Spoilers.filter((card: any) => card.element.includes('ARCANE'));;
+            const cardsList = DB_Spoilers.filter((card: any) => card.element.includes('ASTRA'));;
             setAstrasState({ ...astrasState, cards: cardsList, imgSrc: "Spoilers_Images"});
         }
         // const fixedID = id?.replace("-", " ");
