@@ -1,5 +1,24 @@
 [
     {
-        
+        "name": "Coming Soon",
+        "collector_number": 1,
+        "types": "['PLACEHOLDER']",
+        "classes": "['PLACEHOLDER']",
+        "subtypes": "['PLACEHOLDER']",
+        "element": "NORM",
+        "effect": "This is a placeholder, please check again later!",
+        "flavor_text": "Look, a placeholder!",
+        "cost_memory": "",
+        "cost_reserve": 0,
+        "level": "",
+        "power": 0,
+        "life": 0,
+        "speed": "",
+        "legality": "",
+        "editions": [
+        "Placeholder Edition"
+        ],
+        "slug": "placeholder-card",
+        "durability": ""
     }
 ]
