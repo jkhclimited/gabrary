@@ -1,5 +1,6 @@
 import React, { useState, useEffect, FC } from "react";
 import { useParams } from "react-router-dom";
+import DB_ALC from '../../../database_sets/DB_ALC.json';
 import DB_DOAAlter from '../../../database_sets/DB_DOAAlter.json';
 import DB_DOA1st from '../../../database_sets/DB_DOA1st.json';
 import DB_DOAp from '../../../database_sets/DB_DOAp.json';
@@ -12,6 +13,7 @@ import DB_SP1 from '../../../database_sets/DB_SP1.json';
 import DB_FTC from '../../../database_sets/DB_FTC.json';
 import DB_FTCA from '../../../database_sets/DB_FTCA.json';
 import DB_P23 from '../../../database_sets/DB_P23.json';
+import DB_P24 from '../../../database_sets/DB_P24.json';
 import DB_Spoilers from '../../../database_sets/Spoilers.json';
 
 import ToggleSwitch from "../../../components/ToggleTextSwitch/ToggleTextSwitch";
@@ -53,6 +55,10 @@ const ArcanesPage: FC = () => {
     };
 
     useEffect(() => {
+        if (id === "ALC") {
+            const cardsList = DB_ALC.filter((card: any) => card.element.includes('ARCANE'));
+            setarcanesState({ ...arcanesState, cards: cardsList, imgSrc: "ALC_Images"});
+        }
         if (id == "DOA-Alter") {
             const cardsList = DB_DOAAlter.filter((card: any) => card.element.includes('ARCANE'));;
             setarcanesState({ ...arcanesState, cards: cardsList, imgSrc: "DOAAlter_Images" });
@@ -66,43 +72,48 @@ const ArcanesPage: FC = () => {
             setarcanesState({ ...arcanesState, cards: cardsList, imgSrc: "DOAp_Images" });
         }
         if (id == "DOASD") {
-            const cardsList = DB_DOASD.filter((card: any) => card.element.includes('ARCANE'));;
+            const cardsList = DB_DOASD.filter((card: any) => card.element.includes('ARCANE'));
             setarcanesState({ ...arcanesState, cards: cardsList, imgSrc: "DOASD_Images" });
         }
         if (id == "EVP") {
-            const cardsList = DB_EVP.filter((card: any) => card.element.includes('ARCANE'));;
+            const cardsList = DB_EVP.filter((card: any) => card.element.includes('ARCANE'));
             setarcanesState({ ...arcanesState, cards: cardsList, imgSrc: "EVP_Images" });
         }
         if (id === "FTC") {
-            const cardsList = DB_FTC.filter((card: any) => card.element.includes('ARCANE'));;
+            const cardsList = DB_FTC.filter((card: any) => card.element.includes('ARCANE'));
             setarcanesState({ ...arcanesState, cards: cardsList, imgSrc: "FTC_Images" });
         }
         if (id === "FTCA") {
-            const cardsList = DB_FTCA.filter((card: any) => card.element.includes('ARCANE'));;
+            const cardsList = DB_FTCA.filter((card: any) => card.element.includes('ARCANE'));
             setarcanesState({ ...arcanesState, cards: cardsList, imgSrc: "FTCA_Images" });
         }
         if (id == "GVC") {
-            const cardsList = DB_Isekai.filter((card: any) => card.element.includes('ARCANE'));;
+            const cardsList = DB_Isekai.filter((card: any) => card.element.includes('ARCANE'));
             setarcanesState({ ...arcanesState, cards: cardsList, imgSrc: "GVC_Images" });
         }
         if (id == "KSP") {
-            const cardsList = DB_KSP.filter((card: any) => card.element.includes('ARCANE'));;
+            const cardsList = DB_KSP.filter((card: any) => card.element.includes('ARCANE'));
             setarcanesState({ ...arcanesState, cards: cardsList, imgSrc: "KSP_Images" });
         }
         if (id == "P22") {
-            const cardsList = DB_P22.filter((card: any) => card.element.includes('ARCANE'));;
+            const cardsList = DB_P22.filter((card: any) => card.element.includes('ARCANE'));
             setarcanesState({ ...arcanesState, cards: cardsList, imgSrc: "P22_Images"});
         }
         if (id == "P23") {
-            const cardsList = DB_P23.filter((card: any) => card.element.includes('ARCANE'));;
+            const cardsList = DB_P23.filter((card: any) => card.element.includes('ARCANE'));
             setarcanesState({ ...arcanesState, cards: cardsList, imgSrc: "P23_Images"});
         }
+        if (id === "P24") {
+            const cardsList = DB_P24.filter((card: any) => card.element.includes('ARCANE'));
+            setarcanesState({ ...arcanesState, cards: cardsList, imgSrc: "P24_Images"});
+        }
+
         if (id == "SP1") {
-            const cardsList = DB_SP1.filter((card: any) => card.element.includes('ARCANE'));;
+            const cardsList = DB_SP1.filter((card: any) => card.element.includes('ARCANE'));
             setarcanesState({ ...arcanesState, cards: cardsList, imgSrc: "SP1_Images"});
         }
         if (id == "spoilers") {
-            const cardsList = DB_Spoilers.filter((card: any) => card.element.includes('ARCANE'));;
+            const cardsList = DB_Spoilers.filter((card: any) => card.element.includes('ARCANE'));
             setarcanesState({ ...arcanesState, cards: cardsList, imgSrc: "Spoilers_Images"});
         }
     }, [])

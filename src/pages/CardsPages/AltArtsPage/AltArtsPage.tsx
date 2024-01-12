@@ -1,6 +1,7 @@
 import React, { useState, useEffect }from "react";
 import { useParams } from "react-router-dom";
 import { FC } from "react";
+import ALCAlts from '../../../database_sets/DB_ALC_Alt.json';
 import DOAAlterAlts from '../../../database_sets/DB_DOAAlter_Alt.json';
 import DOA1stAlts from '../../../database_sets/DB_DOA1st_Alt.json';
 import FTCAlts from '../../../database_sets/DB_FTC_Alt.json';
@@ -47,6 +48,10 @@ const AltArtsPage: FC = () => {
     };
 
     useEffect(() => {
+        if (id === "ALC") {
+            const cardsList = ALCAlts;
+            setAltArtsState({ ...altArtsState, cards: cardsList, imgSrc: "ALC_Alt_Images"});
+        }
         if (id === "DOA-Alter") {
             const cardsList = DOAAlterAlts;
             setAltArtsState({ ...altArtsState, cards: cardsList, imgSrc: "DOAAlter_Alt_Images" });

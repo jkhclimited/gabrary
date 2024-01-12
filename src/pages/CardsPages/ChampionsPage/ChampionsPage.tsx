@@ -13,6 +13,8 @@ import DB_SP1 from '../../../database_sets/DB_SP1.json';
 import DB_FTC from '../../../database_sets/DB_FTC.json';
 import DB_FTCA from '../../../database_sets/DB_FTCA.json';
 import DB_P23 from '../../../database_sets/DB_P23.json';
+import DB_P24 from '../../../database_sets/DB_P24.json';
+import DB_ALC from '../../../database_sets/DB_ALC.json';
 import DB_Spoilers from '../../../database_sets/Spoilers.json';
 
 import ToggleSwitch from '../../../components/ToggleTextSwitch/ToggleTextSwitch';
@@ -100,6 +102,14 @@ const ChampionsPage: FC = () => {
         if (id === "P23") {
             const cardsList = DB_P23.filter((card: any) => card.types.includes('CHAMPION'));;
             setChampsState({ ...champsState, cards: cardsList, imgSrc: "P23_Images"});
+        }
+        if (id === "P24") {
+            const cardsList = DB_P24.filter((card: any) => card.types.includes('CHAMPION'));;
+            setChampsState({ ...champsState, cards: cardsList, imgSrc: "P24_Images"});
+        }
+        if (id === "ALC") {
+            const cardsList = DB_ALC.filter((card: any) => card.types.includes('CHAMPION'));;
+            setChampsState({ ...champsState, cards: cardsList, imgSrc: "ALC_Images"});
         }
         if (id === "SP1") {
             const cardsList = DB_SP1.filter((card: any) => card.types.includes('CHAMPION'));;
