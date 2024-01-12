@@ -200,7 +200,7 @@
         "collector_number": 37,
         "types": "REGALIA,ITEM",
         "classes": "CLERIC,ACCESSORY",
-        "element": "WATER"
+        "element": "WIND"
 	 },
      {
 	    "name": "Magebane Lash",
@@ -756,6 +756,13 @@
         "classes": "RANGER,HUMAN",
         "element": "WIND"
 	 },	 
+     {
+	    "name": "Rapid Reload",
+        "collector_number": 164,
+        "types": "ACTION",
+        "classes": "RANGER,SKILL",
+        "element": "WIND"
+    },
 	 {
 	    "name": "Rose, Eternal Paragon",
         "collector_number": 166,
@@ -771,10 +778,10 @@
         "element": "WIND"
 	 },
 	 {
-	    "name": "Rapid Reload",
-        "collector_number": 164,
-        "types": "ACTION",
-        "classes": "RANGER,SKILL",
+	    "name": "Shimmercloak Assassin",
+        "collector_number": 168,
+        "types": "ALLY",
+        "classes": "ASSASSIN,AUTOMATON",
         "element": "WIND"
     },
     {
