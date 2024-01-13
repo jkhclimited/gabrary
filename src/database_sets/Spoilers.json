@@ -700,6 +700,13 @@
         "classes": "GUARDIAN,AUTOMATION",
         "element": "WATER"
 	 },
+     {
+	    "name": "Waverider Protector",
+        "collector_number": 152,
+        "types": "ALLY",
+        "classes": "GUARDIAN,HUMANN",
+        "element": "WATER"
+	 },
 	 {
 	    "name": "Armored Valkyrie",
         "collector_number": 153,
