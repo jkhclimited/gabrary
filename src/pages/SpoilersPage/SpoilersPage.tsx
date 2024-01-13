@@ -52,7 +52,11 @@ const SpoilersPage: FC = () => {
                 <div className="text-row">
                     <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('168')} src={process.env.PUBLIC_URL + `/Spoilers_Images/168.jpg`} alt="cotd" /></p>
                     <p style={{ display: (spoilersState.showing ? 'block' : 'none' ) }} id='cotdImgText' className="centerText">Shimmercloak Assassin</p>
-                </div>       
+                </div>      
+                <div className="text-row">
+                    <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('152')} src={process.env.PUBLIC_URL + `/Spoilers_Images/152.jpg`} alt="cotd" /></p>
+                    <p style={{ display: (spoilersState.showing ? 'block' : 'none' ) }} id='cotdImgText' className="centerText">Waverider Protector</p>
+                </div>   
             </div>
 
         
