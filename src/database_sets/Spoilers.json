@@ -482,6 +482,13 @@
         "classes": "GUARDIAN,SWORD",
         "element": "FIRE"
 	 },
+     {
+	    "name": "Bottled Forgelight",
+        "collector_number": 98,
+        "types": "ITEM",
+        "classes": "CLERIC,POTION",
+        "element": "FIRE"
+	 },
 	 {
 	    "name": "Crimson Tear",
         "collector_number": 99,
@@ -587,7 +594,13 @@
         "classes": "CLERIC,SPELL",
         "element": "WATER"
     },
-
+	{
+	    "name": "Convalescent Tonic",
+        "collector_number": 127,
+        "types": "ITEM",
+        "classes": "CLERIC,POTION",
+        "element": "WATER"
+    },
 	{
 	    "name": "Dahlia, Idyllic Dreamer",
         "collector_number": 128,
@@ -733,6 +746,13 @@
         "collector_number": 156,
         "types": "ATTACK",
         "classes": "CLERIC,FIST",
+        "element": "WIND"
+	 },
+     {
+	    "name": "Draught of Stamina",
+        "collector_number": 157,
+        "types": "ITEM",
+        "classes": "CLERIC,POTION",
         "element": "WIND"
 	 },
      {
