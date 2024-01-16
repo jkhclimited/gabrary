@@ -189,6 +189,13 @@
         "element": "FIRE"
 	 },
      {
+	    "name": "Cascading Round",
+        "collector_number": 34,
+        "types": "REGALIA,ITEM",
+        "classes": "RANGER,BULLET",
+        "element": "WATER"
+	 },
+     {
 	    "name": "Magebane Lash",
         "collector_number": 36,
         "types": "REGALIA,WEAPON",
@@ -369,6 +376,13 @@
         "types": "ACTION",
         "classes": "CLERIC,SKILL",
         "element": "NORM"
+	 },
+     {
+	    "name": "Incendiary Shot",
+        "collector_number": 73,
+        "types": "ITEM",
+        "classes": "RANGER,BULLET",
+        "element": "FIRE"
 	 },
 	 {
 	    "name": "Sanctum of Esoteric Truth",
@@ -816,6 +830,13 @@
         "collector_number": 169,
         "types": "ACTION",
         "classes": "CLERIC,SPELL,REACTION",
+        "element": "WIND"
+    },
+    {
+	    "name": "Vanishing Shot",
+        "collector_number": 170,
+        "types": "ITEM",
+        "classes": "RANGER,BULLET",
         "element": "WIND"
     },
 	{
