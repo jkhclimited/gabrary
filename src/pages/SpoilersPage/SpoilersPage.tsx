@@ -50,12 +50,16 @@ const SpoilersPage: FC = () => {
 
             <div className="cotd">
                 <div className="text-row">
-                    <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('168')} src={process.env.PUBLIC_URL + `/Spoilers_Images/168.jpg`} alt="cotd" /></p>
-                    <p style={{ display: (spoilersState.showing ? 'block' : 'none' ) }} id='cotdImgText' className="centerText">Shimmercloak Assassin</p>
+                    <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('98')} src={process.env.PUBLIC_URL + `/Spoilers_Images/98.jpg`} alt="cotd" /></p>
+                    <p style={{ display: (spoilersState.showing ? 'block' : 'none' ) }} id='cotdImgText' className="centerText">Bottled Forelight</p>
                 </div>      
                 <div className="text-row">
-                    <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('152')} src={process.env.PUBLIC_URL + `/Spoilers_Images/152.jpg`} alt="cotd" /></p>
-                    <p style={{ display: (spoilersState.showing ? 'block' : 'none' ) }} id='cotdImgText' className="centerText">Waverider Protector</p>
+                    <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('127')} src={process.env.PUBLIC_URL + `/Spoilers_Images/127.jpg`} alt="cotd" /></p>
+                    <p style={{ display: (spoilersState.showing ? 'block' : 'none' ) }} id='cotdImgText' className="centerText">Convalescent Tonic</p>
+                </div>   
+                <div className="text-row">
+                    <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('157')} src={process.env.PUBLIC_URL + `/Spoilers_Images/157.jpg`} alt="cotd" /></p>
+                    <p style={{ display: (spoilersState.showing ? 'block' : 'none' ) }} id='cotdImgText' className="centerText">Draught of Stamina</p>
                 </div>   
             </div>
 
