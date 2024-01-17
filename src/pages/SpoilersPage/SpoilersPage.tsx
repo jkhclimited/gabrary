@@ -50,7 +50,7 @@ const SpoilersPage: FC = () => {
 
             <div className="cotd">
                 <div className="text-row">
-                    <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('109')} src={process.env.PUBLIC_URL + `/Spoilers_Images/109.jpg`} alt="cotd" /></p>
+                    <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('109')} src={process.env.PUBLIC_URL + `/Spoilers_Images/4072.jpg`} alt="cotd" /></p>
                     <p style={{ display: (spoilersState.showing ? 'block' : 'none' ) }} id='cotdImgText' className="centerText">Force Load</p>
                 </div>      
                 <div className="text-row">
