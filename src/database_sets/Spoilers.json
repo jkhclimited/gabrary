@@ -553,6 +553,13 @@
         "element": "FIRE"
     },
     {
+	    "name": "Lavaheated Brew",
+        "collector_number": 113,
+        "types": "ACTION",
+        "classes": "CLERIC,SKILL",
+        "element": "FIRE"
+    },
+    {
 	    "name": "Manic Zealot",
         "collector_number": 114,
         "types": "ALLY",
@@ -788,6 +795,13 @@
         "collector_number": 157,
         "types": "ITEM",
         "classes": "CLERIC,POTION",
+        "element": "WIND"
+	 },
+     {
+	    "name": "Enhance Potency",
+        "collector_number": 160,
+        "types": "ACTION",
+        "classes": "CLERIC,SPELL",
         "element": "WIND"
 	 },
      {
@@ -1258,6 +1272,13 @@
         "classes": "CLERIC,SPELL",
         "element": "WATER"
     },		
+    {
+	    "name": "Krustallan Distiller",
+        "collector_number": 4078,
+        "types": "ALLY",
+        "classes": "CLERIC,HUMAN",
+        "element": "WATER"
+    },	
 	{
 	    "name": "Potion Infusion: Frostbite",
         "collector_number": 3081,
