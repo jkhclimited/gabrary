@@ -61,6 +61,18 @@ const SpoilersPage: FC = () => {
                     <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('4055')} src={process.env.PUBLIC_URL + `/Spoilers_Images/4055.jpg`} alt="cotd" /></p>
                     <p style={{ display: (spoilersState.showing ? 'block' : 'none' ) }} id='cotdImgText' className="centerText">Force Load</p>
                 </div>   
+                <div className="text-row">
+                    <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('160')} src={process.env.PUBLIC_URL + `/Spoilers_Images/160.jpg`} alt="cotd" /></p>
+                    <p style={{ display: (spoilersState.showing ? 'block' : 'none' ) }} id='cotdImgText' className="centerText">Enhance Potency</p>
+                </div>  
+                <div className="text-row">
+                    <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('113')} src={process.env.PUBLIC_URL + `/Spoilers_Images/113.jpg`} alt="cotd" /></p>
+                    <p style={{ display: (spoilersState.showing ? 'block' : 'none' ) }} id='cotdImgText' className="centerText">Lavaheated Brew</p>
+                </div>  
+                <div className="text-row">
+                    <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('3078')} src={process.env.PUBLIC_URL + `/Spoilers_Images/3078.jpg`} alt="cotd" /></p>
+                    <p style={{ display: (spoilersState.showing ? 'block' : 'none' ) }} id='cotdImgText' className="centerText">Krustallan Distiller</p>
+                </div> 
             </div>
 
         
