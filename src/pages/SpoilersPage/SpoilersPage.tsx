@@ -82,7 +82,7 @@ const SpoilersPage: FC = () => {
                     <p style={{ display: (spoilersState.showing ? 'block' : 'none' ) }} id='cotdImgText' className="centerText">Frigid Bash</p>
                 </div>  
                 <div className="text-row">
-                    <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('167)} src={process.env.PUBLIC_URL + `/Spoilers_Images/167.jpg`} alt="cotd" /></p>
+                    <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('167')} src={process.env.PUBLIC_URL + `/Spoilers_Images/167.jpg`} alt="cotd" /></p>
                     <p style={{ display: (spoilersState.showing ? 'block' : 'none' ) }} id='cotdImgText' className="centerText">Rousing Slam</p>
                 </div>  
             </div>
