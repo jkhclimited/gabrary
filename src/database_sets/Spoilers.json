@@ -531,13 +531,6 @@
         "classes": "RANGER,SKILL",
         "element": "FIRE"
     },
-    {
-	    "name": "Force Load",
-        "collector_number": 109,
-        "types": "ACTION",
-        "classes": "RANGER,SKILL",
-        "element": "FIRE"
-    },
 	{
 	    "name": "Forgelight Shieldmaiden",
         "collector_number": 110,
@@ -1206,7 +1199,7 @@
 	    "name": "Materialize Munitions",
         "collector_number": 4055,
         "types": "ACTION",
-        "classes": "RANGER,SKILL",
+        "classes": "RANGER,SKIL",
         "element": "NORM"
     },
 	{
@@ -1236,6 +1229,13 @@
         "types": "ACTION",
         "classes": "GUARDIAN,SKILL",
         "element": "NORM"
+    },
+    {
+	    "name": "Force Load",
+        "collector_number": 4072,
+        "types": "ACTION",
+        "classes": "RANGER,SKILL",
+        "element": "FIRE"
     },
     {
 	    "name": "Incendiary Shot",
