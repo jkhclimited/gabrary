@@ -377,13 +377,6 @@
         "classes": "CLERIC,SKILL",
         "element": "NORM"
 	 },
-     {
-	    "name": "Incendiary Shot",
-        "collector_number": 73,
-        "types": "ITEM",
-        "classes": "RANGER,BULLET",
-        "element": "FIRE"
-	 },
 	 {
 	    "name": "Sanctum of Esoteric Truth",
         "collector_number": 74,
@@ -566,18 +559,25 @@
         "classes": "CLERIC,SPELL",
         "element": "FIRE"
     },
+    {
+	    "name": "Rocket Jump",
+        "collector_number": 117,
+        "types": "ACTION",
+        "classes": "RANGER,SKILL,REACTION",
+        "element": "FIRE"
+    },
+    {
+	    "name": "Rocket Jump",
+        "collector_number": 116,
+        "types": "ATTACK",
+        "classes": "GUARDIAN,HAMMER",
+        "element": "FIRE"
+    },
 	{
 	    "name": "Rococo,Explosive Maven",
         "collector_number": 118,
         "types": "UNIQUE,ALLY",
         "classes": "RANGER,AUTOMATON",
-        "element": "FIRE"
-    },
-		{
-	    "name": "Rocket Jump",
-        "collector_number": 117,
-        "types": "ACTION",
-        "classes": "RANGER,SKILL,REACTION",
         "element": "FIRE"
     },
 	{
@@ -655,6 +655,13 @@
         "collector_number": 133,
         "types": "ITEM",
         "classes": "RANGER,BULLET",
+        "element": "WATER"
+	 },
+     {
+	    "name": "Freezing Round",
+        "collector_number": 134,
+        "types": "ATTACK",
+        "classes": "GUARDIAN,SHIELD",
         "element": "WATER"
 	 },
 	 {
@@ -816,6 +823,13 @@
         "collector_number": 166.1,
         "types": "UNIQUE,ALLY",
         "classes": "GUARDIAN,WARRIOR,AUTOMATON",
+        "element": "WIND"
+	 },
+     {
+	    "name": "Rousing Slam",
+        "collector_number": 167,
+        "types": "ATTACK",
+        "classes": "GUARDIAN,SWORD",
         "element": "WIND"
 	 },
 	 {
@@ -1195,6 +1209,13 @@
         "classes": "GUARDIAN,SKILL",
         "element": "NORM"
     },
+    {
+	    "name": "Incendiary Shot",
+        "collector_number": 4073,
+        "types": "ITEM",
+        "classes": "RANGER,BULLET",
+        "element": "FIRE"
+	 },
 		{
 	    "name": "Essence of Blizzards",
         "collector_number": 3075,
