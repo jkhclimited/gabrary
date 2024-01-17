@@ -531,6 +531,13 @@
         "classes": "RANGER,SKILL",
         "element": "FIRE"
     },
+    {
+	    "name": "Force Load",
+        "collector_number": 109,
+        "types": "ACTION",
+        "classes": "RANGER,SKILL",
+        "element": "FIRE"
+    },
 	{
 	    "name": "Forgelight Shieldmaiden",
         "collector_number": 110,
@@ -689,6 +696,13 @@
 	    "name": "Reconnaissance Field",
         "collector_number": 142,
         "types": "PHANTASIA",
+        "classes": "RANGER,SKILL",
+        "element": "WATER"
+	 },
+     {
+	    "name": "Refresh Chamber",
+        "collector_number": 143,
+        "types": "ACTION",
         "classes": "RANGER,SKILL",
         "element": "WATER"
 	 },
@@ -1186,6 +1200,13 @@
         "collector_number": 2054,
         "types": "ACTION",
         "classes": "GUARDIAN,SKILL,REACTION",
+        "element": "NORM"
+    },
+    {
+	    "name": "Materialize Munitions",
+        "collector_number": 4055,
+        "types": "ACTION",
+        "classes": "RANGER,SKILL",
         "element": "NORM"
     },
 	{
