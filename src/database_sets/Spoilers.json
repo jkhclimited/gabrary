@@ -161,6 +161,13 @@
         "element": "NORM"
 	 },	 
      {
+	    "name": "Rusted Warshield",
+        "collector_number": 26,
+        "types": "REGALIA,ITEM",
+        "classes": "GUARDIAN,SHIELD",
+        "element": "NORM"
+	 },
+     {
 	    "name": "Seeker's Rifle",
         "collector_number": 27,
         "types": "REGALIA, WEAPON",
