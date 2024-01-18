@@ -1062,6 +1062,13 @@
         "classes": "GUARDIAN,HUMAN",
         "element": "NEOS"
     },
+    {
+	    "name": "Blastshot Pump",
+        "collector_number": 4013,
+        "types": "REGALIA,WEAPON",
+        "classes": "RANGER,GUN",
+        "element": "NORM"
+    },
 	{
 	    "name": "Bulwark Sword",
         "collector_number": 2014,
