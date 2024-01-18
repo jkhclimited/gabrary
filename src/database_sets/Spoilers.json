@@ -153,6 +153,13 @@
         "classes": "CLERIC,HUMAN",
         "element": "WIND"
 	 },
+     {
+	    "name": "Alchemist's Kit",
+        "collector_number": 20,
+        "types": "REGALIA,ITEM",
+        "classes": "CLERIC,ACCESSORY",
+        "element": "NORM"
+	 },
 	 {
 	    "name": "Orb of Hubris",
         "collector_number": 24,
@@ -1209,6 +1216,13 @@
         "classes": "RANGER,SKILL,REACTION",
         "element": "NORM"
     },
+    {
+	    "name": "Foraging Servant",
+        "collector_number": 3044,
+        "types": "ACTION",
+        "classes": "CLERIC,AUTOMATON",
+        "element": "NORM"
+    },
 	{
 	    "name": "Heavy Swing",
         "collector_number": 2047,
@@ -1216,6 +1230,7 @@
         "classes": "GUARDIAN,SWORD",
         "element": "NORM"
     },
+
 		{
 	    "name": "Idle Thoughts",
         "collector_number": 3048,
@@ -1263,6 +1278,13 @@
         "collector_number": 2059,
         "types": "ACTION",
         "classes": "RANGER,SKILL",
+        "element": "NORM"
+    },
+    {
+	    "name": "Serum of Wisdom",
+        "collector_number": 3061,
+        "types": "ITEM",
+        "classes": "CLERIC,POTION",
         "element": "NORM"
     },
 	{
