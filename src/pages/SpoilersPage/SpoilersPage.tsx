@@ -73,6 +73,10 @@ const SpoilersPage: FC = () => {
                     <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('3078')} src={process.env.PUBLIC_URL + `/Spoilers_Images/3078.jpg`} alt="cotd" /></p>
                     <p style={{ display: (spoilersState.showing ? 'block' : 'none' ) }} id='cotdImgText' className="centerText">Krustallan Distiller</p>
                 </div> 
+                <div className="text-row">
+                    <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('4013')} src={process.env.PUBLIC_URL + `/Spoilers_Images/4013.jpg`} alt="cotd" /></p>
+                    <p style={{ display: (spoilersState.showing ? 'block' : 'none' ) }} id='cotdImgText' className="centerText">Blastshot Pump</p>
+                </div> 
             </div>
 
         
