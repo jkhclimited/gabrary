@@ -156,8 +156,15 @@
 	 {
 	    "name": "Orb of Hubris",
         "collector_number": 24,
-        "types": "REGALIA, ITEM",
+        "types": "REGALIA,ITEM",
         "classes": "CLERIC,BAUBLE",
+        "element": "NORM"
+	 },	 
+     {
+	    "name": "Resplendent Kite Shield",
+        "collector_number": 25,
+        "types": "REGALIA,ITEM",
+        "classes": "GUARDIAN,SHIELD",
         "element": "NORM"
 	 },	 
      {
