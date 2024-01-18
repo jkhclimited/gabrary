@@ -53,6 +53,19 @@ const SpoilersPage: FC = () => {
                     <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('25')} src={process.env.PUBLIC_URL + `/Spoilers_Images/25.jpg`} alt="cotd" /></p>
                     <p style={{ display: (spoilersState.showing ? 'block' : 'none' ) }} id='cotdImgText' className="centerText">Resplendent Kite Shield</p>
                 </div>      
+                <div className="text-row">
+                    <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('189')} src={process.env.PUBLIC_URL + `/Spoilers_Images/189.jpg`} alt="cotd" /></p>
+                    <p style={{ display: (spoilersState.showing ? 'block' : 'none' ) }} id='cotdImgText' className="centerText">Amorphous Strike</p>
+                </div>   
+                <div className="text-row">
+                    <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('190')} src={process.env.PUBLIC_URL + `/Spoilers_Images/190.jpg`} alt="cotd" /></p>
+                    <p style={{ display: (spoilersState.showing ? 'block' : 'none' ) }} id='cotdImgText' className="centerText">Assemble the Ancients</p>
+                </div>  
+                <div className="text-row">
+                    <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('192')} src={process.env.PUBLIC_URL + `/Spoilers_Images/192.jpg`} alt="cotd" /></p>
+                    <p style={{ display: (spoilersState.showing ? 'block' : 'none' ) }} id='cotdImgText' className="centerText">Clockwork Amalgam</p>
+                </div>  
+                
 
                 
             </div>
