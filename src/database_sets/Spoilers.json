@@ -959,6 +959,27 @@
         "element": "ASTRA"
     },
     {
+	    "name": "Amorphous Strike",
+        "collector_number": 189,
+        "types": "ATTACK",
+        "classes": "GUARDIAN,SWORD",
+        "element": "NEOS"
+    },
+    {
+	    "name": "Assemble the Ancients",
+        "collector_number": 190,
+        "types": "ACTION",
+        "classes": "GUARDIAN,SPELL",
+        "element": "NEOS"
+    },
+    {
+	    "name": "Clockwork Amalgam",
+        "collector_number": 192,
+        "types": "PHANTASIA",
+        "classes": "GUARDIAN,TAMER,SPELL",
+        "element": "NEOS"
+    },
+    {
 	    "name": "Fractal of Creation",
         "collector_number": 193,
         "types": "PHANTASIA",
@@ -1106,7 +1127,7 @@
     },
     {
 	    "name": "Necklace of Foresight",
-        "collector_number": 2021,
+        "collector_number": 3021,
         "types": "REGALIA,ITEM",
         "classes": "CLERIC,ACCESSORY",
         "element": "NORM"
@@ -1288,7 +1309,7 @@
     },		
     {
 	    "name": "Krustallan Distiller",
-        "collector_number": 4078,
+        "collector_number": 3078,
         "types": "ALLY",
         "classes": "CLERIC,HUMAN",
         "element": "WATER"
@@ -1463,7 +1484,7 @@
         "element": "FIRE"
 	 },
      {
-	    "name": "Idle THoughts - Promo",
+	    "name": "Idle Thoughts - Promo",
         "collector_number": 90005,
         "types": "ACTION",
         "classes": "MAGE,SKILL",
