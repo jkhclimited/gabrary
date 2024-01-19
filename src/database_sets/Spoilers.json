@@ -153,13 +153,34 @@
         "classes": "CLERIC,HUMAN",
         "element": "WIND"
 	 },
+     {
+	    "name": "Alchemist's Kit",
+        "collector_number": 20,
+        "types": "REGALIA,ITEM",
+        "classes": "CLERIC,ACCESSORY",
+        "element": "NORM"
+	 },
 	 {
 	    "name": "Orb of Hubris",
         "collector_number": 24,
-        "types": "REGALIA, ITEM",
+        "types": "REGALIA,ITEM",
         "classes": "CLERIC,BAUBLE",
         "element": "NORM"
 	 },	 
+     {
+	    "name": "Resplendent Kite Shield",
+        "collector_number": 25,
+        "types": "REGALIA,ITEM",
+        "classes": "GUARDIAN,SHIELD",
+        "element": "NORM"
+	 },	 
+     {
+	    "name": "Rusted Warshield",
+        "collector_number": 26,
+        "types": "REGALIA,ITEM",
+        "classes": "GUARDIAN,SHIELD",
+        "element": "NORM"
+	 },
      {
 	    "name": "Seeker's Rifle",
         "collector_number": 27,
@@ -189,6 +210,13 @@
         "element": "FIRE"
 	 },
      {
+	    "name": "Cascading Round",
+        "collector_number": 34,
+        "types": "REGALIA,ITEM",
+        "classes": "RANGER,BULLET",
+        "element": "WATER"
+	 },
+     {
 	    "name": "Magebane Lash",
         "collector_number": 36,
         "types": "REGALIA,WEAPON",
@@ -200,7 +228,7 @@
         "collector_number": 37,
         "types": "REGALIA,ITEM",
         "classes": "CLERIC,ACCESSORY",
-        "element": "WATER"
+        "element": "WIND"
 	 },
      {
 	    "name": "Magebane Lash",
@@ -208,6 +236,13 @@
         "types": "REGALIA,ITEM",
         "classes": "CLERIC,ARTIFACT",
         "element": "ASTRA"
+	 },
+     {
+	    "name": "Gloamspire Lance",
+        "collector_number": 40,
+        "types": "REGALIA,WEAPON",
+        "classes": "RANGER,GUN",
+        "element": "UMBRA"
 	 },
 	 {
 	    "name": "Academy Guide",
@@ -482,6 +517,13 @@
         "classes": "GUARDIAN,SWORD",
         "element": "FIRE"
 	 },
+     {
+	    "name": "Bottled Forgelight",
+        "collector_number": 98,
+        "types": "ITEM",
+        "classes": "CLERIC,POTION",
+        "element": "FIRE"
+	 },
 	 {
 	    "name": "Crimson Tear",
         "collector_number": 99,
@@ -532,6 +574,13 @@
         "element": "FIRE"
     },
     {
+	    "name": "Lavaheated Brew",
+        "collector_number": 113,
+        "types": "ACTION",
+        "classes": "CLERIC,SKILL",
+        "element": "FIRE"
+    },
+    {
 	    "name": "Manic Zealot",
         "collector_number": 114,
         "types": "ALLY",
@@ -545,18 +594,25 @@
         "classes": "CLERIC,SPELL",
         "element": "FIRE"
     },
+    {
+	    "name": "Rocket Jump",
+        "collector_number": 117,
+        "types": "ACTION",
+        "classes": "RANGER,SKILL,REACTION",
+        "element": "FIRE"
+    },
+    {
+	    "name": "Rocket Jump",
+        "collector_number": 116,
+        "types": "ATTACK",
+        "classes": "GUARDIAN,HAMMER",
+        "element": "FIRE"
+    },
 	{
 	    "name": "Rococo,Explosive Maven",
         "collector_number": 118,
         "types": "UNIQUE,ALLY",
         "classes": "RANGER,AUTOMATON",
-        "element": "FIRE"
-    },
-		{
-	    "name": "Rocket Jump",
-        "collector_number": 117,
-        "types": "ACTION",
-        "classes": "RANGER,SKILL,REACTION",
         "element": "FIRE"
     },
 	{
@@ -587,7 +643,13 @@
         "classes": "CLERIC,SPELL",
         "element": "WATER"
     },
-
+	{
+	    "name": "Convalescent Tonic",
+        "collector_number": 127,
+        "types": "ITEM",
+        "classes": "CLERIC,POTION",
+        "element": "WATER"
+    },
 	{
 	    "name": "Dahlia, Idyllic Dreamer",
         "collector_number": 128,
@@ -630,6 +692,13 @@
         "classes": "RANGER,BULLET",
         "element": "WATER"
 	 },
+     {
+	    "name": "Freezing Round",
+        "collector_number": 134,
+        "types": "ATTACK",
+        "classes": "GUARDIAN,SHIELD",
+        "element": "WATER"
+	 },
 	 {
 	    "name": "Perfect Repulsion",
         "collector_number": 139,
@@ -648,6 +717,13 @@
 	    "name": "Reconnaissance Field",
         "collector_number": 142,
         "types": "PHANTASIA",
+        "classes": "RANGER,SKILL",
+        "element": "WATER"
+	 },
+     {
+	    "name": "Refresh Chamber",
+        "collector_number": 143,
+        "types": "ACTION",
         "classes": "RANGER,SKILL",
         "element": "WATER"
 	 },
@@ -700,6 +776,13 @@
         "classes": "GUARDIAN,AUTOMATION",
         "element": "WATER"
 	 },
+     {
+	    "name": "Waverider Protector",
+        "collector_number": 152,
+        "types": "ALLY",
+        "classes": "GUARDIAN,HUMANN",
+        "element": "WATER"
+	 },
 	 {
 	    "name": "Armored Valkyrie",
         "collector_number": 153,
@@ -726,6 +809,20 @@
         "collector_number": 156,
         "types": "ATTACK",
         "classes": "CLERIC,FIST",
+        "element": "WIND"
+	 },
+     {
+	    "name": "Draught of Stamina",
+        "collector_number": 157,
+        "types": "ITEM",
+        "classes": "CLERIC,POTION",
+        "element": "WIND"
+	 },
+     {
+	    "name": "Enhance Potency",
+        "collector_number": 160,
+        "types": "ACTION",
+        "classes": "CLERIC,SPELL",
         "element": "WIND"
 	 },
      {
@@ -756,6 +853,13 @@
         "classes": "RANGER,HUMAN",
         "element": "WIND"
 	 },	 
+     {
+	    "name": "Rapid Reload",
+        "collector_number": 164,
+        "types": "ACTION",
+        "classes": "RANGER,SKILL",
+        "element": "WIND"
+    },
 	 {
 	    "name": "Rose, Eternal Paragon",
         "collector_number": 166,
@@ -770,11 +874,18 @@
         "classes": "GUARDIAN,WARRIOR,AUTOMATON",
         "element": "WIND"
 	 },
+     {
+	    "name": "Rousing Slam",
+        "collector_number": 167,
+        "types": "ATTACK",
+        "classes": "GUARDIAN,SWORD",
+        "element": "WIND"
+	 },
 	 {
-	    "name": "Rapid Reload",
-        "collector_number": 164,
-        "types": "ACTION",
-        "classes": "RANGER,SKILL",
+	    "name": "Shimmercloak Assassin",
+        "collector_number": 168,
+        "types": "ALLY",
+        "classes": "ASSASSIN,AUTOMATON",
         "element": "WIND"
     },
     {
@@ -782,6 +893,13 @@
         "collector_number": 169,
         "types": "ACTION",
         "classes": "CLERIC,SPELL,REACTION",
+        "element": "WIND"
+    },
+    {
+	    "name": "Vanishing Shot",
+        "collector_number": 170,
+        "types": "ITEM",
+        "classes": "RANGER,BULLET",
         "element": "WIND"
     },
 	{
@@ -855,8 +973,29 @@
         "element": "ASTRA"
     },
     {
-	    "name": "Fractal of Creation",
+	    "name": "Amorphous Strike",
+        "collector_number": 189,
+        "types": "ATTACK",
+        "classes": "GUARDIAN,SWORD",
+        "element": "NEOS"
+    },
+    {
+	    "name": "Assemble the Ancients",
+        "collector_number": 190,
+        "types": "ACTION",
+        "classes": "GUARDIAN,SPELL",
+        "element": "NEOS"
+    },
+    {
+	    "name": "Clockwork Amalgam",
         "collector_number": 192,
+        "types": "PHANTASIA",
+        "classes": "GUARDIAN,TAMER,SPELL",
+        "element": "NEOS"
+    },
+    {
+	    "name": "Fractal of Creation",
+        "collector_number": 193,
         "types": "PHANTASIA",
         "classes": "MAGE,FRACTAL",
         "element": "NEOS"
@@ -887,6 +1026,20 @@
         "collector_number": 205,
         "types": "ACTION",
         "classes": "RANGER,CURSE,SPELL",
+        "element": "UMBRA"
+    },
+    {
+	    "name": "False Step",
+        "collector_number": 206,
+        "types": "ACTION",
+        "classes": "RANGER,SKILL,REACTION",
+        "element": "UMBRA"
+    },
+    {
+	    "name": "Gloamspire Wraith",
+        "collector_number": 207,
+        "types": "ALLY",
+        "classes": "RANGER,HUMAN",
         "element": "UMBRA"
     },
     {
@@ -965,6 +1118,13 @@
         "classes": "GUARDIAN,HUMAN",
         "element": "NEOS"
     },
+    {
+	    "name": "Blastshot Pump",
+        "collector_number": 4013,
+        "types": "REGALIA,WEAPON",
+        "classes": "RANGER,GUN",
+        "element": "NORM"
+    },
 	{
 	    "name": "Bulwark Sword",
         "collector_number": 2014,
@@ -995,7 +1155,7 @@
     },
     {
 	    "name": "Necklace of Foresight",
-        "collector_number": 2021,
+        "collector_number": 3021,
         "types": "REGALIA,ITEM",
         "classes": "CLERIC,ACCESSORY",
         "element": "NORM"
@@ -1077,6 +1237,13 @@
         "classes": "RANGER,SKILL,REACTION",
         "element": "NORM"
     },
+    {
+	    "name": "Foraging Servant",
+        "collector_number": 3044,
+        "types": "ACTION",
+        "classes": "CLERIC,AUTOMATON",
+        "element": "NORM"
+    },
 	{
 	    "name": "Heavy Swing",
         "collector_number": 2047,
@@ -1084,6 +1251,7 @@
         "classes": "GUARDIAN,SWORD",
         "element": "NORM"
     },
+
 		{
 	    "name": "Idle Thoughts",
         "collector_number": 3048,
@@ -1112,6 +1280,13 @@
         "classes": "GUARDIAN,SKILL,REACTION",
         "element": "NORM"
     },
+    {
+	    "name": "Materialize Munitions",
+        "collector_number": 4055,
+        "types": "ACTION",
+        "classes": "RANGER,SKIL",
+        "element": "NORM"
+    },
 	{
 	    "name": "Novice Mechanist",
         "collector_number": 2056,
@@ -1124,6 +1299,13 @@
         "collector_number": 2059,
         "types": "ACTION",
         "classes": "RANGER,SKILL",
+        "element": "NORM"
+    },
+    {
+	    "name": "Serum of Wisdom",
+        "collector_number": 3061,
+        "types": "ITEM",
+        "classes": "CLERIC,POTION",
         "element": "NORM"
     },
 	{
@@ -1140,6 +1322,20 @@
         "classes": "GUARDIAN,SKILL",
         "element": "NORM"
     },
+    {
+	    "name": "Force Load",
+        "collector_number": 4072,
+        "types": "ACTION",
+        "classes": "RANGER,SKILL",
+        "element": "FIRE"
+    },
+    {
+	    "name": "Incendiary Shot",
+        "collector_number": 4073,
+        "types": "ITEM",
+        "classes": "RANGER,BULLET",
+        "element": "FIRE"
+	 },
 		{
 	    "name": "Essence of Blizzards",
         "collector_number": 3075,
@@ -1154,6 +1350,13 @@
         "classes": "CLERIC,SPELL",
         "element": "WATER"
     },		
+    {
+	    "name": "Krustallan Distiller",
+        "collector_number": 3078,
+        "types": "ALLY",
+        "classes": "CLERIC,HUMAN",
+        "element": "WATER"
+    },	
 	{
 	    "name": "Potion Infusion: Frostbite",
         "collector_number": 3081,
@@ -1324,7 +1527,7 @@
         "element": "FIRE"
 	 },
      {
-	    "name": "Idle THoughts - Promo",
+	    "name": "Idle Thoughts - Promo",
         "collector_number": 90005,
         "types": "ACTION",
         "classes": "MAGE,SKILL",
