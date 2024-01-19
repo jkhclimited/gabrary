@@ -77,7 +77,18 @@ const SpoilersPage: FC = () => {
                     <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('3061')} src={process.env.PUBLIC_URL + `/Spoilers_Images/3061.jpg`} alt="cotd" /></p>
                     <p style={{ display: (spoilersState.showing ? 'block' : 'none' ) }} id='cotdImgText' className="centerText">Serum of Wisdom</p>
                 </div> 
-                
+                <div className="text-row">
+                    <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('207')} src={process.env.PUBLIC_URL + `/Spoilers_Images/207.jpg`} alt="cotd" /></p>
+                    <p style={{ display: (spoilersState.showing ? 'block' : 'none' ) }} id='cotdImgText' className="centerText">Gloamspire Wraith</p>
+                </div> 
+                <div className="text-row">
+                    <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('40')} src={process.env.PUBLIC_URL + `/Spoilers_Images/40.jpg`} alt="cotd" /></p>
+                    <p style={{ display: (spoilersState.showing ? 'block' : 'none' ) }} id='cotdImgText' className="centerText">Gloamspire Lance</p>
+                </div> 
+                <div className="text-row">
+                    <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('206')} src={process.env.PUBLIC_URL + `/Spoilers_Images/206.jpg`} alt="cotd" /></p>
+                    <p style={{ display: (spoilersState.showing ? 'block' : 'none' ) }} id='cotdImgText' className="centerText">False Step</p>
+                </div> 
 
                 
             </div>
