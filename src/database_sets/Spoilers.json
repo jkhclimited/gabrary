@@ -237,6 +237,13 @@
         "classes": "CLERIC,ARTIFACT",
         "element": "ASTRA"
 	 },
+     {
+	    "name": "Gloamspire Lance",
+        "collector_number": 40,
+        "types": "REGALIA,WEAPON",
+        "classes": "RANGER,GUN",
+        "element": "UMBRA"
+	 },
 	 {
 	    "name": "Academy Guide",
         "collector_number": 42,
@@ -1019,6 +1026,20 @@
         "collector_number": 205,
         "types": "ACTION",
         "classes": "RANGER,CURSE,SPELL",
+        "element": "UMBRA"
+    },
+    {
+	    "name": "False Step",
+        "collector_number": 206,
+        "types": "ACTION",
+        "classes": "RANGER,SKILL,REACTION",
+        "element": "UMBRA"
+    },
+    {
+	    "name": "Gloamspire Wraith",
+        "collector_number": 207,
+        "types": "ALLY",
+        "classes": "RANGER,HUMAN",
         "element": "UMBRA"
     },
     {
