@@ -77,7 +77,7 @@
     },
     {
 	    "name": "Spark Alight",
-        "collector_number": 90004,
+        "collector_number": 4,
         "types": "ACTION",
         "classes": "MAGE,SPELL",
         "element": "FIRE"

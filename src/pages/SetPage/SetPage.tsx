@@ -16,6 +16,12 @@ const SetPage: FC = () => {
                 </Link>
             </div>
             <div className='aSet'>
+                <Link to={`/sets/ALCSD`} className='setLink'>
+                    <img className='setIMG' src={process.env.PUBLIC_URL + `/Set_Symbols/ALC.jpg`} alt='Alchemical Revolution Starter Deck' />
+                    Alchemical Revolution Starter Deck
+                </Link>
+            </div>
+            <div className='aSet'>
                 <Link to={`/sets/P24`} className='setLink'>
                     <img className='setIMG' src={process.env.PUBLIC_URL + `/Set_Symbols/P24.jpg`} alt='Promotional 2024' />
                     Promotional 2024
