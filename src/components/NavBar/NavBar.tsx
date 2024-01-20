@@ -28,7 +28,7 @@ const NavBar: FC = () => {
                 <Link to="/" className="navItem">Home</Link>
                 <Link to="/sets" className="navItem">Sets</Link>
                 <Link to="/creators" className="navItem">Content Creators</Link>
-                <Link to="/sets/spoilers" className="navItem">Spoilers</Link>
+                <Link to="/sets/Spoilers/All" className="navItem">Spoilers</Link>
                 <Link to="/calendar" className="navItem">Calendar</Link>
             </div>
             <div className="toggleDark">

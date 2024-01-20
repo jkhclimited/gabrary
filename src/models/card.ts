@@ -2,7 +2,8 @@ export interface Card {
     name: string,                   
     collector_number: number,     
     types: string,                  
-    classes: string,                
+    classes: string,       
+    subtypes: string,         
     element: string,
     effect: string,
     flavor_text: string,
@@ -14,6 +15,8 @@ export interface Card {
     speed: string,
     legality: string,
     editions: Record<string, string | number>[],
+    slug: string,
+    durability: string,
 }
 
 export interface SetGA {

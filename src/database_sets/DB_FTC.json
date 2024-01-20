@@ -1,688 +1,2187 @@
 [
-    {
-        "name": "Spirit of Serene Fire",
-        "collector_number": 1,
-        "types": "CHAMPION",
-        "classes": "SPIRIT",
-        "element": "FIRE"
-    },
-    {
-        "name": "Spirit of Serene Water",
-        "collector_number": 2,
-        "types": "CHAMPION",
-        "classes": "SPIRIT",
-        "element": "WATER"
-    },
-    {
-        "name": "Spirit of Serene Wind",
-        "collector_number": 3,
-        "types": "CHAMPION",
-        "classes": "SPIRIT",
-        "element": "WIND"
-    },
-    {
-        "name": "Merlin, Kingslayer",
-        "collector_number": 4,
-        "types": "CHAMPION",
-        "classes": "MAGE,WARRIOR,HUMAN",
-        "element": "FIRE"
-    },
-    {
-        "name": "Merlin, Kingslayer",
-        "collector_number": 4.1,
-        "types": "CHAMPION",
-        "classes": "MAGE,WARRIOR,HUMAN",
-        "element": "FIRE"
-    },
-    {
-        "name": "Merlin, Kingslayer",
-        "collector_number": 4.2,
-        "types": "CHAMPION",
-        "classes": "MAGE,WARRIOR,HUMAN",
-        "element": "FIRE"
-    },
-    {
-        "name": "Azure Protective Trinket",
-        "collector_number": 5,
-        "types": "REGALIA, ITEM",
-        "classes": "CLERIC",
-        "element": "NORM"
-    },
-    {
-        "name": "Crimson Protective Trinket",
-        "collector_number": 6,
-        "types": "REGALIA, ITEM",
-        "classes": "CLERIC",
-        "element": "NORM"
-    },
-    {
-        "name": "Quicksilver Grail",
-        "collector_number": 7,
-        "types": "REGALIA, ITEM",
-        "classes": "CLERIC",
-        "element": "NORM"
-    },
-    {
-        "name": "Tariff Ring",
-        "collector_number": 8,
-        "types": "REGALIA, ITEM",
-        "classes": "GUARDIAN",
-        "element": "NORM"
-    },
-    {
-        "name": "Tithe Proclamation",
-        "collector_number": 9,
-        "types": "REGALIA, ITEM",
-        "classes": "CLERIC",
-        "element": "NORM"
-    },
-    {
-        "name": "Viridian Protective Trinket",
-        "collector_number": 10,
-        "types": "REGALIA, ITEM",
-        "classes": "CLERIC",
-        "element": "NORM"
-    },
-    {
-        "name": "Beastsoul Visage",
-        "collector_number": 11,
-        "types": "REGALIA, ITEM",
-        "classes": "TAMER",
-        "element": "FIRE"
-    },
-    {
-        "name": "Explosive Rune",
-        "collector_number": 12,
-        "types": "REGALIA, ITEM",
-        "classes": "MAGE",
-        "element": "FIRE"
-    },
-    {
-        "name": "Firetongue",
-        "collector_number": 13,
-        "types": "REGALIA, WEAPON",
-        "classes": "WARRIOR, SWORD",
-        "element": "FIRE"
-    },
-    {
-        "name": "Varuckan Soulknife",
-        "collector_number": 14,
-        "types": "REGALIA, WEAPON",
-        "classes": "ASSASSIN, DAGGER",
-        "element": "FIRE"
-    },
-    {
-        "name": "Arondight, Azure Blade",
-        "collector_number": 15,
-        "types": "REGALIA, WEAPON",
-        "classes": "WARRIOR, SWORD",
-        "element": "WATER"
-    },
-    {
-        "name": "Cloak of Stillwater",
-        "collector_number": 16,
-        "types": "REGALIA, ITEM",
-        "classes": "ASSASSIN, ACCESORY",
-        "element": "WATER"
-    },
-    {
-        "name": "Wand of Frost",
-        "collector_number": 17,
-        "types": "REGALIA, ITEM",
-        "classes": "CLERIC, MAGE, WAND",
-        "element": "WATER"
-    },
-    {
-        "name": "Wildheart Lyre",
-        "collector_number": 18,
-        "types": "REGALIA, ITEM",
-        "classes": "TAMER, INSTRUMENT",
-        "element": "WATER"
-    },
-    {
-        "name": "Effigy of Gaia",
-        "collector_number": 19,
-        "types": "REGALIA, ITEM",
-        "classes": "TAMER, BAUBLE",
-        "element": "WIND"
-    },
-    {
-        "name": "Ventus, Staff of Zephyrs",
-        "collector_number": 20,
-        "types": "REGALIA, ITEM",
-        "classes": "MAGE, STAFF",
-        "element": "WIND"
-    },
-    {
-        "name": "Windwalker Boots",
-        "collector_number": 21,
-        "types": "REGALIA, ITEM",
-        "classes": "ASSASSIN, ACCESORY",
-        "element": "WIND"
-    },
-    {
-        "name": "Zephyr's Edge",
-        "collector_number": 22,
-        "types": "REGALIA, WEAPON",
-        "classes": "WARRIOR, SWORD",
-        "element": "WIND"
-    },
-    {
-        "name": "The Majestic Spirit",
-        "collector_number": 23,
-        "types": "REGALIA, ALLY",
-        "classes": "MAGE, BEAST, AVATAR",
-        "element": "CRUX"
-    },
-    {
-        "name": "The Majestic Spirit",
-        "collector_number": 23.1,
-        "types": "REGALIA, ALLY",
-        "classes": "MAGE, BEAST, AVATAR",
-        "element": "CRUX"
-    },
-    {
-        "name": "Fractured Crown",
-        "collector_number": 24,
-        "types": "REGALIA, ITEM",
-        "classes": "WARRIOR, ARTIFACT",
-        "element": "LUXEM"
-    },
-    {
-        "name": "Covenant of Thorns",
-        "collector_number": 25,
-        "types": "REGALIA, ITEM",
-        "classes": "TAMER, ACCESORY",
-        "element": "TERA"
-    },
-    {
-        "name": "Bedivere, Woodland Overseer",
-        "collector_number": 26,
-        "types": "UNIQUE, ALLY",
-        "classes": "TAMER, ANIMAL, HUMAN",
-        "element": "NORM"
-    },
-    {
-        "name": "Bedivere, Woodland Overseer",
-        "collector_number": 26.1,
-        "types": "UNIQUE, ALLY",
-        "classes": "TAMER, ANIMAL, HUMAN",
-        "element": "NORM"
-    },
-    {
-        "name": "Blanche, Sheltering Saint",
-        "collector_number": 27,
-        "types": "UNIQUE, ALLY",
-        "classes": "CLERIC, HUMAN",
-        "element": "NORM"
-    },
-    {
-        "name": "Blanche, Sheltering Saint",
-        "collector_number": 27.1,
-        "types": "UNIQUE, ALLY",
-        "classes": "CLERIC, HUMAN",
-        "element": "NORM"
-    },
-    {
-        "name": "Capricious Lynx",
-        "collector_number": 28,
-        "types": "ALLY",
-        "classes": "TAMER, BEAST, CAT",
-        "element": "NORM"
-    },
-    {
-        "name": "Cunning Broker",
-        "collector_number": 29,
-        "types": "ALLY",
-        "classes": "ASSASSIN, HUMAN",
-        "element": "NORM"
-    },
-    {
-        "name": "Dawn of Ashes",
-        "collector_number": 30,
-        "types": "UNIQUE, DOMAIN",
-        "classes": "CLERIC, CATACLYSM",
-        "element": "NORM"
-    },
-    {
-        "name": "Develop Mana",
-        "collector_number": 31,
-        "types": "ACTION",
-        "classes": "MAGE, SPELL",
-        "element": "NORM"
-    },
-    {
-        "name": "Fast Cure",
-        "collector_number": 32,
-        "types": "ACTION",
-        "classes": "CLERIC, SPELL",
-        "element": "NORM"
-    },
-    {
-        "name": "Fractal of Insight",
-        "collector_number": 33,
-        "types": "PHANTASIA",
-        "classes": "MAGE, FRACTAL",
-        "element": "NORM"
-    },
-    {
-        "name": "Gawain, Chivalrous Thief",
-        "collector_number": 34,
-        "types": "UNIQUE, ALLY",
-        "classes": "ASSASSIN, RANGER, HUMAN",
-        "element": "NORM"
-    },
-    {
-        "name": "Gentle Respite",
-        "collector_number": 35,
-        "types": "ACTION",
-        "classes": "CLERIC, SPELL",
-        "element": "NORM"
-    },
-    {
-        "name": "Imperious Highlander",
-        "collector_number": 36,
-        "types": "ALLY",
-        "classes": "WARRIOR, HUMAN",
-        "element": "NORM"
-    },
-    {
-        "name": "Lancelot, Goliath of Aesa",
-        "collector_number": 37,
-        "types": "UNIQUE, ALLY",
-        "classes": "GUARDIAN, WARRIOR, HUMAN",
-        "element": "NORM"
-    },    
-    {
-        "name": "Lancelot, Goliath of Aesa",
-        "collector_number": 37.1,
-        "types": "UNIQUE, ALLY",
-        "classes": "GUARDIAN, WARRIOR, HUMAN",
-        "element": "NORM"
-    },
-    {
-        "name": "Lurking Assailant",
-        "collector_number": 38,
-        "types": "ALLY",
-        "classes": "ASSASSIN, HUMAN",
-        "element": "NORM"
-    },
-    {
-        "name": "Morgan, Soul Guide",
-        "collector_number": 39,
-        "types": "UNIQUE, ALLY",
-        "classes": "CLERIC, MAGE, HUMAN",
-        "element": "NORM"
-    },
-    {
-        "name": "Morgan, Soul Guide",
-        "collector_number": 39.1,
-        "types": "UNIQUE, ALLY",
-        "classes": "CLERIC, MAGE, HUMAN",
-        "element": "NORM"
-    },
-    {
-        "name": "Ordinary Bear",
-        "collector_number": 40,
-        "types": "ALLY",
-        "classes": "TAMER, BEAST, BEAR",
-        "element": "NORM"
-    },
-    {
-        "name": "Peaceful Reunion",
-        "collector_number": 41,
-        "types": "ACTION",
-        "classes": "CLERIC, SPELL",
-        "element": "NORM"
-    },
-    {
-        "name": "Prismatic Sanctuary",
-        "collector_number": 42,
-        "types": "UNIQUE, DOMAIN",
-        "classes": "MAGE, CASTLE",
-        "element": "NORM"
-    },
-    {
-        "name": "Resolute Stand",
-        "collector_number": 43,
-        "types": "ACTION",
-        "classes": "GUARDIAN, SKILL, REACTION",
-        "element": "NORM"
-    },
-    {
-        "name": "Right of Realm",
-        "collector_number": 44,
-        "types": "ITEM",
-        "classes": "GUARDIAN, ACCESSORY",
-        "element": "NORM"
-    },
-    {
-        "name": "Scavenging Raccoon",
-        "collector_number": 45,
-        "types": "ALLY",
-        "classes": "TAMER, ANIMAL, Raccoon",
-        "element": "NORM"
-    },
-    {
-        "name": "Seeking Shot",
-        "collector_number": 46,
-        "types": "ATTACK",
-        "classes": "RANGER, BOW",
-        "element": "NORM"
-    },
-    {
-        "name": "Stalwart Shieldmate",
-        "collector_number": 47,
-        "types": "ALLY",
-        "classes": "GUARDIAN, HUMAN",
-        "element": "NORM"
-    },
-    {
-        "name": "Steady Verse",
-        "collector_number": 48,
-        "types": "ACTION",
-        "classes": "CLERIC, TAMER, SKILL, MELODY",
-        "element": "NORM"
-    },
-    {
-        "name": "Thieving Cut",
-        "collector_number": 49,
-        "types": "ATTACK",
-        "classes": "ASSASSIN, DAGGER",
-        "element": "NORM"
-    },
-    {
-        "name": "Blazing Bowman",
-        "collector_number": 50,
-        "types": "ALLY",
-        "classes": "RANGER, HUMAN",
-        "element": "FIRE"
-    },
-    {
-        "name": "Corhazi Arsonist",
-        "collector_number": 51,
-        "types": "ALLY",
-        "classes": "ASSASSIN, HUMAN",
-        "element": "FIRE"
-    },
-    {
-        "name": "Flamebreak Chorus",
-        "collector_number": 52,
-        "types": "ALLY",
-        "classes": "TAMER, SKILL, MELODY",
-        "element": "FIRE"
-    },
-    {
-        "name": "Hone by Fire",
-        "collector_number": 53,
-        "types": "ACTION",
-        "classes": "WARRIOR, SWORD, CRAFT",
-        "element": "FIRE"
-    },
-    {
-        "name": "Incendiary Fractal",
-        "collector_number": 54,
-        "types": "PHANTASIA",
-        "classes": "MAGE, FRACTAL",
-        "element": "FIRE"
-    },
-    {
-        "name": "Innervate Fury",
-        "collector_number": 55,
-        "types": "ACTION",
-        "classes": "MAGE, SPELL",
-        "element": "FIRE"
-    },
-    {
-        "name": "Red Slime",
-        "collector_number": 56,
-        "types": "ALLY",
-        "classes": "TAMER, BEAST, SLIME",
-        "element": "FIRE"
-    },
-    {
-        "name": "Varuckan Acolyte",
-        "collector_number": 57,
-        "types": "ALLY",
-        "classes": "MAGE, HUMAN",
-        "element": "FIRE"
-    },
-    {
-        "name": "Corhazi Trapper",
-        "collector_number": 58,
-        "types": "ALLY",
-        "classes": "ASSASSIN, HUMAN",
-        "element": "WATER"
-    },
-    {
-        "name": "Deep Sea Fractal",
-        "collector_number": 59,
-        "types": "PHANTASIA",
-        "classes": "CLERIC, FRACTAL",
-        "element": "WATER"
-    },
-    {
-        "name": "Fractal of Intrusion",
-        "collector_number": 60,
-        "types": "PHANTASIA",
-        "classes": "CLERIC, FRACTAL",
-        "element": "WATER"
-    },
-    {
-        "name": "Fracturize",
-        "collector_number": 61,
-        "types": "ACTION",
-        "classes": "CLERIC, MAGE, SPELL",
-        "element": "WATER"
-    },
-    {
-        "name": "Frostbind",
-        "collector_number": 62,
-        "types": "ACTION",
-        "classes": "CLERIC, SPELL, REACTION",
-        "element": "WATER"
-    },
-    {
-        "name": "Frostbinder Apostle",
-        "collector_number": 63,
-        "types": "ALLY",
-        "classes": "CLERIC, HUMAN",
-        "element": "WATER"
-    },
-    {
-        "name": "Guarded Dissipation",
-        "collector_number": 64,
-        "types": "ALLY",
-        "classes": "WARRIOR, SKILL, REACTION",
-        "element": "WATER"
-    },
-    {
-        "name": "Innervate Knowledge",
-        "collector_number": 65,
-        "types": "ACTION",
-        "classes": "MAGE, SPELL",
-        "element": "WATER"
-    },
-    {
-        "name": "Ocean's Blessing",
-        "collector_number": 66,
-        "types": "PHANTASIA",
-        "classes": "TAMER, SPELL",
-        "element": "WATER"
-    },
-    {
-        "name": "Protective Fractal",
-        "collector_number": 67,
-        "types": "PHANTASIA",
-        "classes": "CLERIC, FRACTAL",
-        "element": "WATER"
-    },
-    {
-        "name": "Refracting Missile",
-        "collector_number": 68,
-        "types": "ACTION",
-        "classes": "MAGE, SPELL",
-        "element": "WATER"
-    },
-    {
-        "name": "Riptide Slash",
-        "collector_number": 69,
-        "types": "ATTACK",
-        "classes": "WARRIOR, SWORD",
-        "element": "WATER"
-    },
-    {
-        "name": "Song of Frost",
-        "collector_number": 70,
-        "types": "ALLY",
-        "classes": "TAMER, SKILL, MELODY",
-        "element": "WATER"
-    },
-    {
-        "name": "Anthem of Vitality",
-        "collector_number": 71,
-        "types": "ALLY",
-        "classes": "MAGE, SPELL",
-        "element": "WIND"
-    },
-    {
-        "name": "Corhazi Outlook",
-        "collector_number": 72,
-        "types": "ALLY",
-        "classes": "ASSASSIN, HUMAN",
-        "element": "WIND"
-    },
-    {
-        "name": "Dematerialize",
-        "collector_number": 73,
-        "types": "ACTION",
-        "classes": "CLERIC, SPELL",
-        "element": "WIND"
-    },
-    {
-        "name": "Displace",
-        "collector_number": 74,
-        "types": "ACTION",
-        "classes": "CLERIC, MAGE, SPELL",
-        "element": "WIND"
-    },
-    {
-        "name": "Green Slime",
-        "collector_number": 75,
-        "types": "ALLY",
-        "classes": "TAMER, BEAST, SLIME",
-        "element": "WIND"
-    },
-    {
-        "name": "Innervate Agility",
-        "collector_number": 76,
-        "types": "ACTION",
-        "classes": "MAGE, SPELL, REACTION",
-        "element": "WIND"
-    },
-    {
-        "name": "Intrepid Spearman",
-        "collector_number": 77,
-        "types": "ALLY",
-        "classes": "WARRIOR, HUMAN",
-        "element": "WIND"
-    },
-    {
-        "name": "Mark of Fervor",
-        "collector_number": 78,
-        "types": "PHANTASIA",
-        "classes": "TAMER, SPELL",
-        "element": "WIND"
-    },
-    {
-        "name": "Parcenet, Royal Maid",
-        "collector_number": 79,
-        "types": "UNIQUE, ALLY",
-        "classes": "ASSASSIN, HUMAN",
-        "element": "WIND"
-    },
-    {
-        "name": "Rally the Peasants",
-        "collector_number": 80,
-        "types": "ACTION",
-        "classes": "WARRIOR, SKILL",
-        "element": "WIND"
-    },
-    {
-        "name": "Scatter Essence",
-        "collector_number": 81,
-        "types": "ACTION",
-        "classes": "CLERIC, SPELL",
-        "element": "WIND"
-    },
-    {
-        "name": "Windrider Invoker",
-        "collector_number": 82,
-        "types": "ALLY",
-        "classes": "MAGE, HUMAN",
-        "element": "WIND"
-    },
-    {
-        "name": "Shock Therapy",
-        "collector_number": 83,
-        "types": "ACTION",
-        "classes": "MAGE, SPELL",
-        "element": "ARCANE"
-    },
-    {
-        "name": "Voltaic Sphere",
-        "collector_number": 84,
-        "types": "ACTION",
-        "classes": "MAGE, SPELL",
-        "element": "ARCANE"
-    },
-    {
-        "name": "Incarnate Majesty",
-        "collector_number": 85,
-        "types": "ACTION",
-        "classes": "MAGE, SPELL",
-        "element": "CRUX"
-    },
-    {
-        "name": "Slay the King",
-        "collector_number": 86,
-        "types": "ATTACK",
-        "classes": "WARRIOR, SWORD",
-        "element": "CRUX"
-    },
-    {
-        "name": "Illuminate Secrets",
-        "collector_number": 87,
-        "types": "ACTION",
-        "classes": "ASSASSIN, MAGE, SPELL",
-        "element": "LUXEM"
-    },
-    {
-        "name": "Uther, Illustrious King",
-        "collector_number": 88,
-        "types": "UNIQUE, ALLY",
-        "classes": "WARRIOR, HUMAN",
-        "element": "LUXEM"
-    },
-    {
-        "name": "Avatar of Gaia",
-        "collector_number": 89,
-        "types": "UNIQUE, ALLY",
-        "classes": "TAMER, AVATAR",
-        "element": "TERA"
-    },
-    {
-        "name": "Kraal, Stonescale Tyrant",
-        "collector_number": 90,
-        "types": "UNIQUE, ALLY",
-        "classes": "TAMER, BEAST, DRAGON",
-        "element": "TERA"
-    },
-    {
-        "name": "Kraal, Stonescale Tyrant",
-        "collector_number": 90.1,
-        "types": "UNIQUE, ALLY",
-        "classes": "TAMER, BEAST, DRAGON",
-        "element": "TERA"
-    }
+  {
+    "name": "Spirit of Serene Fire",
+    "collector_number": 1,
+    "types": "['CHAMPION']",
+    "classes": "['SPIRIT']",
+    "subtypes": "['SPIRIT']",
+    "element": "FIRE",
+    "effect": "b\"On Enter: Glimpse 6. Draw six cards.\\r\\nLineage Release \\xe2\\x80\\x94 Recover 6. (Activate this ability by banishing this card from your champion's inner lineage.)",
+    "flavor_text": "b'Searing insight found within all-consuming flame.'",
+    "cost_memory": 0,
+    "cost_reserve": "",
+    "level": 0,
+    "power": "",
+    "life": 15,
+    "speed": "",
+    "legality": "",
+    "editions": [
+      "Fractured Crown 5 b'\\xe9\\x81\\x93\\xe6\\xbc\\xab'"
+    ],
+    "slug": "spirit-of-serene-fire",
+    "durability": ""
+  },
+  {
+    "name": "Spirit of Serene Water",
+    "collector_number": 2,
+    "types": "['CHAMPION']",
+    "classes": "['SPIRIT']",
+    "subtypes": "['SPIRIT']",
+    "element": "WATER",
+    "effect": "b\"On Enter: Glimpse 6. Draw six cards. \\nLineage Release \\xe2\\x80\\x94 Recover 6. (Activate this ability by banishing this card from your champion's inner lineage.)",
+    "flavor_text": "b'Overflowing visions immersed within the waves.'",
+    "cost_memory": 0,
+    "cost_reserve": "",
+    "level": 0,
+    "power": "",
+    "life": 15,
+    "speed": "",
+    "legality": "",
+    "editions": [
+      "Fractured Crown 5 b'\\xe9\\x81\\x93\\xe6\\xbc\\xab'"
+    ],
+    "slug": "spirit-of-serene-water",
+    "durability": ""
+  },
+  {
+    "name": "Spirit of Serene Wind",
+    "collector_number": 3,
+    "types": "['CHAMPION']",
+    "classes": "['SPIRIT']",
+    "subtypes": "['SPIRIT']",
+    "element": "WIND",
+    "effect": "b\"On Enter: Glimpse 6. Draw six cards. \\nLineage Release \\xe2\\x80\\x94 Recover 6. (Activate this ability by banishing this card from your champion's inner lineage.)",
+    "flavor_text": "b\"Cunning intuition trapped within the vortex's eye.",
+    "cost_memory": 0,
+    "cost_reserve": "",
+    "level": 0,
+    "power": "",
+    "life": 15,
+    "speed": "",
+    "legality": "",
+    "editions": [
+      "Fractured Crown 5 b'\\xe9\\x81\\x93\\xe6\\xbc\\xab'"
+    ],
+    "slug": "spirit-of-serene-wind",
+    "durability": ""
+  },
+  {
+    "name": "Merlin, Kingslayer",
+    "collector_number": 4,
+    "types": "['CHAMPION']",
+    "classes": "['MAGE', 'WARRIOR']",
+    "subtypes": "['MAGE', 'WARRIOR', 'HUMAN']",
+    "element": "CRUX",
+    "effect": "b\"Merlin Lineage\\nAt the beginning of your recollection phase, put a level counter on Merlin. Then, if there's an even amount of level counters on Merlin, draw a card and Merlin's attacks get +2 power until end of turn.",
+    "flavor_text": "",
+    "cost_memory": 3,
+    "cost_reserve": "",
+    "level": 3,
+    "power": "",
+    "life": 28,
+    "speed": "",
+    "legality": "",
+    "editions": [
+      "Fractured Crown 4 b'Hori'",
+      "Fractured Crown 7 b'Hori'",
+      "Fractured Crown 7 b'Hori'"
+    ],
+    "slug": "merlin-kingslayer",
+    "durability": ""
+  },
+  {
+    "name": "Merlin, Kingslayer",
+    "collector_number": 4.1,
+    "types": "['CHAMPION']",
+    "classes": "['MAGE', 'WARRIOR']",
+    "subtypes": "['MAGE', 'WARRIOR', 'HUMAN']",
+    "element": "CRUX",
+    "effect": "b\"Merlin Lineage\\nAt the beginning of your recollection phase, put a level counter on Merlin. Then, if there's an even amount of level counters on Merlin, draw a card and Merlin's attacks get +2 power until end of turn.",
+    "flavor_text": "",
+    "cost_memory": 3,
+    "cost_reserve": "",
+    "level": 3,
+    "power": "",
+    "life": 28,
+    "speed": "",
+    "legality": "",
+    "editions": [
+      "Fractured Crown 4 b'Hori'",
+      "Fractured Crown 7 b'Hori'",
+      "Fractured Crown 7 b'Hori'"
+    ],
+    "slug": "merlin-kingslayer",
+    "durability": ""
+  },
+  {
+    "name": "Merlin, Kingslayer",
+    "collector_number": 4.2,
+    "types": "['CHAMPION']",
+    "classes": "['MAGE', 'WARRIOR']",
+    "subtypes": "['MAGE', 'WARRIOR', 'HUMAN']",
+    "element": "CRUX",
+    "effect": "b\"Merlin Lineage\\nAt the beginning of your recollection phase, put a level counter on Merlin. Then, if there's an even amount of level counters on Merlin, draw a card and Merlin's attacks get +2 power until end of turn.",
+    "flavor_text": "",
+    "cost_memory": 3,
+    "cost_reserve": "",
+    "level": 3,
+    "power": "",
+    "life": 28,
+    "speed": "",
+    "legality": "",
+    "editions": [
+      "Fractured Crown 4 b'Hori'",
+      "Fractured Crown 7 b'Hori'",
+      "Fractured Crown 7 b'Hori'"
+    ],
+    "slug": "merlin-kingslayer",
+    "durability": ""
+  },
+  {
+    "name": "Azure Protective Trinket",
+    "collector_number": 5,
+    "types": "['REGALIA', 'ITEM']",
+    "classes": "['CLERIC']",
+    "subtypes": "['CLERIC', 'ACCESSORY']",
+    "element": "NORM",
+    "effect": "b'Banish Azure Protective Trinket: Banish up to three target fire element cards from a single graveyard.'",
+    "flavor_text": "b'An enchanted pendant that provides soothing relief from the scorching summer heat.'",
+    "cost_memory": 0,
+    "cost_reserve": "",
+    "level": "",
+    "power": "",
+    "life": "",
+    "speed": "",
+    "legality": "",
+    "editions": [
+      "Fractured Crown 2 b'\\xe9\\x81\\x93\\xe6\\xbc\\xab'"
+    ],
+    "slug": "azure-protective-trinket",
+    "durability": ""
+  },
+  {
+    "name": "Crimson Protective Trinket",
+    "collector_number": 6,
+    "types": "['REGALIA', 'ITEM']",
+    "classes": "['CLERIC']",
+    "subtypes": "['CLERIC', 'ACCESSORY']",
+    "element": "NORM",
+    "effect": "b'Banish Crimson Protective Trinket: Target opponent reveals two cards at random from their memory. Banish each wind element card revealed this way.'",
+    "flavor_text": "b'A magical armlet that channels and disperses galestorm winds into a pleasant puff of air.'",
+    "cost_memory": 1,
+    "cost_reserve": "",
+    "level": "",
+    "power": "",
+    "life": "",
+    "speed": "",
+    "legality": "",
+    "editions": [
+      "Fractured Crown 2 b'\\xe9\\x81\\x93\\xe6\\xbc\\xab'"
+    ],
+    "slug": "crimson-protective-trinket",
+    "durability": ""
+  },
+  {
+    "name": "Quicksilver Grail",
+    "collector_number": 7,
+    "types": "['REGALIA', 'ITEM']",
+    "classes": "['CLERIC']",
+    "subtypes": "['CLERIC', 'ARTIFACT']",
+    "element": "NORM",
+    "effect": "b'Divine Relic (You can only have one card with this keyword in your material deck.)\\nOn Enter: Banish a non-champion card from your material deck face down.\\nBanish Quicksilver Grail: You may play the banished card. (You still pay for its costs.)'",
+    "flavor_text": "",
+    "cost_memory": 0,
+    "cost_reserve": "",
+    "level": "",
+    "power": "",
+    "life": "",
+    "speed": "",
+    "legality": "",
+    "editions": [
+      "Fractured Crown 5 b'\\xe9\\x81\\x93\\xe6\\xbc\\xab'",
+      "Fractured Crown: Armaments 5 b'\\xe9\\x81\\x93\\xe6\\xbc\\xab'"
+    ],
+    "slug": "quicksilver-grail",
+    "durability": ""
+  },
+  {
+    "name": "Tariff Ring",
+    "collector_number": 8,
+    "types": "['REGALIA', 'ITEM']",
+    "classes": "['GUARDIAN']",
+    "subtypes": "['GUARDIAN', 'ACCESSORY']",
+    "element": "NORM",
+    "effect": "b\"Banish Tariff Ring: Until end of turn, players can't declare attacks unless they pay 2for each attack declaration. Activate this ability only during an opponent's recollection phase.",
+    "flavor_text": "b'If profits are to be made, bring enough to share.'",
+    "cost_memory": 0,
+    "cost_reserve": "",
+    "level": "",
+    "power": "",
+    "life": "",
+    "speed": "",
+    "legality": "",
+    "editions": [
+      "Fractured Crown 1 b'\\xe9\\x81\\x93\\xe6\\xbc\\xab'"
+    ],
+    "slug": "tariff-ring",
+    "durability": ""
+  },
+  {
+    "name": "Tithe Proclamation",
+    "collector_number": 9,
+    "types": "['REGALIA', 'ITEM']",
+    "classes": "['CLERIC']",
+    "subtypes": "['CLERIC', 'SCRIPTURE']",
+    "element": "NORM",
+    "effect": "b\"On Enter: Draw a card.\\nEach player can't draw more than three cards each turn unless it's their first turn of the game.",
+    "flavor_text": "b'Wealth can only be amassed up to a certain point before the church of Aesa takes an interest. '",
+    "cost_memory": 1,
+    "cost_reserve": "",
+    "level": "",
+    "power": "",
+    "life": "",
+    "speed": "",
+    "legality": "",
+    "editions": [
+      "Fractured Crown 1 b'\\xe9\\x81\\x93\\xe6\\xbc\\xab'",
+      "Promotional 2023 6 b'\\xe9\\x81\\x93\\xe6\\xbc\\xab'"
+    ],
+    "slug": "tithe-proclamation",
+    "durability": ""
+  },
+  {
+    "name": "Viridian Protective Trinket",
+    "collector_number": 10,
+    "types": "['REGALIA', 'ITEM']",
+    "classes": "['CLERIC']",
+    "subtypes": "['CLERIC', 'ACCESSORY']",
+    "element": "NORM",
+    "effect": "b'During your turn, water element cards your opponents activate cost 2 more to activate.'",
+    "flavor_text": "b'A charmed ring that funnels and tapers torrential downpours into a revitalizing mist.'",
+    "cost_memory": 0,
+    "cost_reserve": "",
+    "level": "",
+    "power": "",
+    "life": "",
+    "speed": "",
+    "legality": "",
+    "editions": [
+      "Fractured Crown 2 b'\\xe9\\x81\\x93\\xe6\\xbc\\xab'"
+    ],
+    "slug": "viridian-protective-trinket",
+    "durability": ""
+  },
+  {
+    "name": "Beastsoul Visage",
+    "collector_number": 11,
+    "types": "['REGALIA', 'ITEM']",
+    "classes": "['TAMER']",
+    "subtypes": "['TAMER', 'ACCESSORY']",
+    "element": "FIRE",
+    "effect": "b'Ally Link (This object enters the field linked to target ally. If the link is broken, sacrifice this object.)\\nLinked ally gets +2 power, has pride 3, and is a Beast in addition to its other types.'",
+    "flavor_text": "b'Even a small mutt can be made to look like a ferocious beast.'",
+    "cost_memory": 0,
+    "cost_reserve": "",
+    "level": "",
+    "power": "",
+    "life": "",
+    "speed": "",
+    "legality": "",
+    "editions": [
+      "Fractured Crown 3 b'\\xe9\\x81\\x93\\xe6\\xbc\\xab'"
+    ],
+    "slug": "beastsoul-visage",
+    "durability": ""
+  },
+  {
+    "name": "Explosive Rune",
+    "collector_number": 12,
+    "types": "['REGALIA', 'ITEM']",
+    "classes": "['MAGE']",
+    "subtypes": "['MAGE', 'ARTIFACT']",
+    "element": "FIRE",
+    "effect": "b'Banish Explosive Rune: Deal 1 damage to target ally. Class Bonus: If that ally is attacking, deal 2 damage to it instead.'",
+    "flavor_text": "b'The labrynthine catacombs of Varuck are littered with both inventions and victims of mad wizards.'",
+    "cost_memory": 0,
+    "cost_reserve": "",
+    "level": "",
+    "power": "",
+    "life": "",
+    "speed": "",
+    "legality": "",
+    "editions": [
+      "Fractured Crown 3 b'\\xe9\\x81\\x93\\xe6\\xbc\\xab'"
+    ],
+    "slug": "explosive-rune",
+    "durability": ""
+  },
+  {
+    "name": "Firetongue",
+    "collector_number": 13,
+    "types": "['REGALIA', 'WEAPON']",
+    "classes": "['WARRIOR']",
+    "subtypes": "['WARRIOR', 'SWORD']",
+    "element": "FIRE",
+    "effect": "b'[Class Bonus] On Attack: You may banish a fire element card from your graveyard. If you do, put a durability counter on Firetongue.'",
+    "flavor_text": "b\"A serrated blade forged from a dragon's fang. Only dragonsbreath can maintain its edge.",
+    "cost_memory": 1,
+    "cost_reserve": "",
+    "level": "",
+    "power": 2,
+    "life": "",
+    "speed": "",
+    "legality": "",
+    "editions": [
+      "Fractured Crown 3 b'Dragonart Chu'"
+    ],
+    "slug": "firetongue",
+    "durability": 1
+  },
+  {
+    "name": "Varuckan Soulknife",
+    "collector_number": 14,
+    "types": "['REGALIA', 'WEAPON']",
+    "classes": "['ASSASSIN']",
+    "subtypes": "['ASSASSIN', 'DAGGER']",
+    "element": "FIRE",
+    "effect": "b'[Class Bonus] [Element Bonus] You may banish three fire element cards from your graveyard to activate this card from your material deck.\\n[Class Bonus] On Kill: Put a card named Varuckan Soulknife from your banishment into your material deck.'",
+    "flavor_text": "",
+    "cost_memory": 0,
+    "cost_reserve": "",
+    "level": "",
+    "power": 1,
+    "life": "",
+    "speed": "",
+    "legality": "",
+    "editions": [
+      "Fractured Crown 4 b'\\xe9\\x81\\x93\\xe6\\xbc\\xab'"
+    ],
+    "slug": "varuckan-soulknife",
+    "durability": 1
+  },
+  {
+    "name": "Arondight, Azure Blade",
+    "collector_number": 15,
+    "types": "['REGALIA', 'WEAPON']",
+    "classes": "['WARRIOR']",
+    "subtypes": "['WARRIOR', 'SWORD']",
+    "element": "WATER",
+    "effect": "b'[Class Bonus] On Enter: You may banish any amount of cards with floating memory from your graveyard. For each card banished this way, put a refinement counter on Arondight. \\nArondight gets +2 power for each refinement counter on it.'",
+    "flavor_text": "",
+    "cost_memory": 1,
+    "cost_reserve": "",
+    "level": "",
+    "power": 1,
+    "life": "",
+    "speed": "",
+    "legality": "",
+    "editions": [
+      "Fractured Crown 4 b'\\xe9\\x81\\x93\\xe6\\xbc\\xab'"
+    ],
+    "slug": "arondight-azure-blade",
+    "durability": 2
+  },
+  {
+    "name": "Cloak of Stillwater",
+    "collector_number": 16,
+    "types": "['REGALIA', 'ITEM']",
+    "classes": "['ASSASSIN']",
+    "subtypes": "['ASSASSIN', 'ACCESSORY']",
+    "element": "WATER",
+    "effect": "b'[Class Bonus] On Enter: Draw a card. \\nREST, Banish a card with floating memory from your graveyard: Prevent the next 3 damage that would be dealt to your champion this turn.'",
+    "flavor_text": "b'Weaved with the illusory gossamer of Stillwater.'",
+    "cost_memory": 1,
+    "cost_reserve": "",
+    "level": "",
+    "power": "",
+    "life": "",
+    "speed": "",
+    "legality": "",
+    "editions": [
+      "Fractured Crown 3 b'\\xe9\\x81\\x93\\xe6\\xbc\\xab'"
+    ],
+    "slug": "cloak-of-stillwater",
+    "durability": ""
+  },
+  {
+    "name": "Wand of Frost",
+    "collector_number": 17,
+    "types": "['REGALIA', 'ITEM']",
+    "classes": "['CLERIC', 'MAGE']",
+    "subtypes": "['CLERIC', 'MAGE', 'WAND']",
+    "element": "WATER",
+    "effect": "b\"[Class Bonus] On Enter: Draw a card.\\nBanish Wand of Frost: Target unit's attacks get -3 power until end of turn.",
+    "flavor_text": "b'Wielded by the apostles of the Lumina Sanctuary, this wand chills even the most heated of threats.'",
+    "cost_memory": 1,
+    "cost_reserve": "",
+    "level": "",
+    "power": "",
+    "life": "",
+    "speed": "",
+    "legality": "",
+    "editions": [
+      "Fractured Crown 3 b'\\xe9\\x81\\x93\\xe6\\xbc\\xab'"
+    ],
+    "slug": "wand-of-frost",
+    "durability": ""
+  },
+  {
+    "name": "Wildheart Lyre",
+    "collector_number": 18,
+    "types": "['REGALIA', 'ITEM']",
+    "classes": "['TAMER']",
+    "subtypes": "['TAMER', 'INSTRUMENT']",
+    "element": "WATER",
+    "effect": "b'Reservable (While paying for a reserve cost, you may rest this object to pay for 1 of that cost.) \\n[Class Bonus] Whenever you rest Wildheart Lyre to pay for the reserve cost of a Harmony or Melody activation, put a buff counter on an Animal or Beast ally you control.'",
+    "flavor_text": "",
+    "cost_memory": 1,
+    "cost_reserve": "",
+    "level": "",
+    "power": "",
+    "life": "",
+    "speed": "",
+    "legality": "",
+    "editions": [
+      "Fractured Crown 3 b'\\xe9\\x81\\x93\\xe6\\xbc\\xab'"
+    ],
+    "slug": "wildheart-lyre",
+    "durability": ""
+  },
+  {
+    "name": "Effigy of Gaia",
+    "collector_number": 19,
+    "types": "['REGALIA', 'ITEM']",
+    "classes": "['TAMER']",
+    "subtypes": "['TAMER', 'BAUBLE']",
+    "element": "WIND",
+    "effect": "b'[Class Bonus] Your champion gets +1 level as long as you control an Animal or Beast ally.\\nWhenever an opponent activates an attack card with cleave, Animal and Beast allies you control get +2 life until end of turn. '",
+    "flavor_text": "",
+    "cost_memory": 0,
+    "cost_reserve": "",
+    "level": "",
+    "power": "",
+    "life": "",
+    "speed": "",
+    "legality": "",
+    "editions": [
+      "Fractured Crown 4 b'\\xe9\\x81\\x93\\xe6\\xbc\\xab'"
+    ],
+    "slug": "effigy-of-gaia",
+    "durability": ""
+  },
+  {
+    "name": "Ventus, Staff of Zephyrs",
+    "collector_number": 20,
+    "types": "['REGALIA', 'ITEM']",
+    "classes": "['MAGE']",
+    "subtypes": "['MAGE', 'STAFF']",
+    "element": "WIND",
+    "effect": "b'Whenever you activate a wind element Mage Spell, put a refinement counter on Ventus. \\nREST, Remove a refinement counter from Ventus: Put an enlighten counter on your champion. \\nREST, Remove three refinement counters from Ventus: Suppress target ally.'",
+    "flavor_text": "",
+    "cost_memory": 0,
+    "cost_reserve": "",
+    "level": "",
+    "power": "",
+    "life": "",
+    "speed": "",
+    "legality": "",
+    "editions": [
+      "Fractured Crown 4 b'Dragonart Tris'"
+    ],
+    "slug": "ventus-staff-of-zephyrs",
+    "durability": ""
+  },
+  {
+    "name": "Windwalker Boots",
+    "collector_number": 21,
+    "types": "['REGALIA', 'ITEM']",
+    "classes": "['ASSASSIN']",
+    "subtypes": "['ASSASSIN', 'ACCESSORY']",
+    "element": "WIND",
+    "effect": "b'[Class Bonus] At the beginning of your end phase, if your champion is awake, put a preparation counter on them.\\nBanish Windwalker Boots: Draw a card. Activate this ability only if your champion has five or more preparation counters on them.'",
+    "flavor_text": "",
+    "cost_memory": 0,
+    "cost_reserve": "",
+    "level": "",
+    "power": "",
+    "life": "",
+    "speed": "",
+    "legality": "",
+    "editions": [
+      "Fractured Crown 3 b'\\xe9\\x81\\x93\\xe6\\xbc\\xab'"
+    ],
+    "slug": "windwalker-boots",
+    "durability": ""
+  },
+  {
+    "name": "Zephyr's Edge",
+    "collector_number": 22,
+    "types": "['REGALIA', 'WEAPON']",
+    "classes": "['WARRIOR']",
+    "subtypes": "['WARRIOR', 'SWORD']",
+    "element": "WIND",
+    "effect": "b\"[Class Bonus] On Enter: If it's not your materialize phase, Zephyr's Edge gets +1 power until end of turn.",
+    "flavor_text": "b'Lighter than the breeze, swifter than the wind.'",
+    "cost_memory": 0,
+    "cost_reserve": "",
+    "level": "",
+    "power": 1,
+    "life": "",
+    "speed": "",
+    "legality": "",
+    "editions": [
+      "Fractured Crown 3 b'\\xe9\\x81\\x93\\xe6\\xbc\\xab'"
+    ],
+    "slug": "zephyrs-edge",
+    "durability": 2
+  },
+  {
+    "name": "The Majestic Spirit",
+    "collector_number": 23,
+    "types": "['REGALIA', 'ALLY']",
+    "classes": "['MAGE']",
+    "subtypes": "['MAGE', 'BEAST', 'AVATAR']",
+    "element": "CRUX",
+    "effect": "b'Intercept, True Sight, Vigor\\nChampions you control have spellshroud.\\nIf another crux element unit you control would take damage, prevent half of that damage, rounded up.'",
+    "flavor_text": "",
+    "cost_memory": 12,
+    "cost_reserve": "",
+    "level": "",
+    "power": 4,
+    "life": 10,
+    "speed": "",
+    "legality": "",
+    "editions": [
+      "Fractured Crown 5 b'Dragonart Antilous'",
+      "Fractured Crown 7 b'Dragonart Antilous'"
+    ],
+    "slug": "the-majestic-spirit",
+    "durability": ""
+  },
+  {
+    "name": "The Majestic Spirit",
+    "collector_number": 23.1,
+    "types": "['REGALIA', 'ALLY']",
+    "classes": "['MAGE']",
+    "subtypes": "['MAGE', 'BEAST', 'AVATAR']",
+    "element": "CRUX",
+    "effect": "b'Intercept, True Sight, Vigor\\nChampions you control have spellshroud.\\nIf another crux element unit you control would take damage, prevent half of that damage, rounded up.'",
+    "flavor_text": "",
+    "cost_memory": 12,
+    "cost_reserve": "",
+    "level": "",
+    "power": 4,
+    "life": 10,
+    "speed": "",
+    "legality": "",
+    "editions": [
+      "Fractured Crown 5 b'Dragonart Antilous'",
+      "Fractured Crown 7 b'Dragonart Antilous'"
+    ],
+    "slug": "the-majestic-spirit",
+    "durability": ""
+  },
+  {
+    "name": "Fractured Crown",
+    "collector_number": 24,
+    "types": "['REGALIA', 'ITEM']",
+    "classes": "['WARRIOR']",
+    "subtypes": "['WARRIOR', 'ARTIFACT']",
+    "element": "LUXEM",
+    "effect": "b\"Champion Link (This object enters the field linked to target champion. If the link is broken, sacrifice this object.)\\nLinked champion's first attack each turn gets +2 power. Class Bonus: That champion also gets +2 life for each unique ally card in your graveyard.",
+    "flavor_text": "",
+    "cost_memory": 0,
+    "cost_reserve": "",
+    "level": "",
+    "power": "",
+    "life": "",
+    "speed": "",
+    "legality": "",
+    "editions": [
+      "Fractured Crown 5 b'Dragonart Tris'"
+    ],
+    "slug": "fractured-crown",
+    "durability": ""
+  },
+  {
+    "name": "Covenant of Thorns",
+    "collector_number": 25,
+    "types": "['REGALIA', 'ITEM']",
+    "classes": "['TAMER']",
+    "subtypes": "['TAMER', 'ACCESSORY']",
+    "element": "TERA",
+    "effect": "b'[Class Bonus] This card costs 1 less to materialize.\\nAlly Link (This object enters the field linked to target ally. If the link is broken, sacrifice this object.)\\nIf damage would be dealt to your champion, that damage is dealt to linked ally instead.'",
+    "flavor_text": "",
+    "cost_memory": 1,
+    "cost_reserve": "",
+    "level": "",
+    "power": "",
+    "life": "",
+    "speed": "",
+    "legality": "",
+    "editions": [
+      "Fractured Crown 3 b'\\xe9\\x81\\x93\\xe6\\xbc\\xab'"
+    ],
+    "slug": "covenant-of-thorns",
+    "durability": ""
+  },
+  {
+    "name": "Bedivere, Woodland Overseer",
+    "collector_number": 26,
+    "types": "['UNIQUE', 'ALLY']",
+    "classes": "['TAMER']",
+    "subtypes": "['TAMER', 'ANIMAL', 'HUMAN']",
+    "element": "NORM",
+    "effect": "b'Bedivere has taunt as long as you control another Animal or Beast ally.\\n[Class Bonus] [Level 3+] On Death: Put a buff counter on each Animal and/or Beast ally you control.'",
+    "flavor_text": "b'\"Who dares to threaten the wilds?\"'",
+    "cost_memory": "",
+    "cost_reserve": 3,
+    "level": "",
+    "power": 1,
+    "life": 4,
+    "speed": "",
+    "legality": "",
+    "editions": [
+      "Fractured Crown 4 b'Kumai'",
+      "Fractured Crown 7 b'Kumai'"
+    ],
+    "slug": "bedivere-woodland-overseer",
+    "durability": ""
+  },
+  {
+    "name": "Bedivere, Woodland Overseer",
+    "collector_number": 26.1,
+    "types": "['UNIQUE', 'ALLY']",
+    "classes": "['TAMER']",
+    "subtypes": "['TAMER', 'ANIMAL', 'HUMAN']",
+    "element": "NORM",
+    "effect": "b'Bedivere has taunt as long as you control another Animal or Beast ally.\\n[Class Bonus] [Level 3+] On Death: Put a buff counter on each Animal and/or Beast ally you control.'",
+    "flavor_text": "b'\"Who dares to threaten the wilds?\"'",
+    "cost_memory": "",
+    "cost_reserve": 3,
+    "level": "",
+    "power": 1,
+    "life": 4,
+    "speed": "",
+    "legality": "",
+    "editions": [
+      "Fractured Crown 4 b'Kumai'",
+      "Fractured Crown 7 b'Kumai'"
+    ],
+    "slug": "bedivere-woodland-overseer",
+    "durability": ""
+  },
+  {
+    "name": "Blanche, Sheltering Saint",
+    "collector_number": 27,
+    "types": "['UNIQUE', 'ALLY']",
+    "classes": "['CLERIC']",
+    "subtypes": "['CLERIC', 'HUMAN']",
+    "element": "NORM",
+    "effect": "b'[Level 2+] Fast Activation (You may activate this card at fast speed.)\\nIf another unit you control would be dealt non-attack damage, prevent an amount of that damage equal to the amount of cards in your memory.'",
+    "flavor_text": "",
+    "cost_memory": "",
+    "cost_reserve": 2,
+    "level": "",
+    "power": 1,
+    "life": 2,
+    "speed": "",
+    "legality": "",
+    "editions": [
+      "Fractured Crown 4 b'\\xe4\\xbb\\xa3\\xe3\\x80\\x85'",
+      "Fractured Crown 7 b'\\xe4\\xbb\\xa3\\xe3\\x80\\x85'"
+    ],
+    "slug": "blanche-sheltering-saint",
+    "durability": ""
+  },
+  {
+    "name": "Blanche, Sheltering Saint",
+    "collector_number": 27.1,
+    "types": "['UNIQUE', 'ALLY']",
+    "classes": "['CLERIC']",
+    "subtypes": "['CLERIC', 'HUMAN']",
+    "element": "NORM",
+    "effect": "b'[Level 2+] Fast Activation (You may activate this card at fast speed.)\\nIf another unit you control would be dealt non-attack damage, prevent an amount of that damage equal to the amount of cards in your memory.'",
+    "flavor_text": "",
+    "cost_memory": "",
+    "cost_reserve": 2,
+    "level": "",
+    "power": 1,
+    "life": 2,
+    "speed": "",
+    "legality": "",
+    "editions": [
+      "Fractured Crown 4 b'\\xe4\\xbb\\xa3\\xe3\\x80\\x85'",
+      "Fractured Crown 7 b'\\xe4\\xbb\\xa3\\xe3\\x80\\x85'"
+    ],
+    "slug": "blanche-sheltering-saint",
+    "durability": ""
+  },
+  {
+    "name": "Capricious Lynx",
+    "collector_number": 28,
+    "types": "['ALLY']",
+    "classes": "['TAMER']",
+    "subtypes": "['TAMER', 'BEAST', 'CAT']",
+    "element": "NORM",
+    "effect": "b\"Pride 4 (This ally won't obey you unless your champion is level 4 or higher.)\\n[Class Bonus] On Enter: Capricious Lynx loses all abilities until end of turn.",
+    "flavor_text": "b'Quick to action, quicker to defiance.'",
+    "cost_memory": "",
+    "cost_reserve": 3,
+    "level": "",
+    "power": 3,
+    "life": 3,
+    "speed": "",
+    "legality": "",
+    "editions": [
+      "Fractured Crown 1 b'\\xe9\\x81\\x93\\xe6\\xbc\\xab'"
+    ],
+    "slug": "capricious-lynx",
+    "durability": ""
+  },
+  {
+    "name": "Cunning Broker",
+    "collector_number": 29,
+    "types": "['ALLY']",
+    "classes": "['ASSASSIN']",
+    "subtypes": "['ASSASSIN', 'HUMAN']",
+    "element": "NORM",
+    "effect": "b\"Stealth(This unit can't be targeted by attacks unless permitted by true sight.)\\nREST, Remove two preparation counters from your champion: Draw a card.",
+    "flavor_text": "b'Handling coins is but second nature.'",
+    "cost_memory": "",
+    "cost_reserve": 2,
+    "level": "",
+    "power": 0,
+    "life": 3,
+    "speed": "",
+    "legality": "",
+    "editions": [
+      "Fractured Crown 1 b'Hanh Chu'"
+    ],
+    "slug": "cunning-broker",
+    "durability": ""
+  },
+  {
+    "name": "Dawn of Ashes",
+    "collector_number": 30,
+    "types": "['UNIQUE', 'DOMAIN']",
+    "classes": "['CLERIC']",
+    "subtypes": "['CLERIC', 'CATACLYSM']",
+    "element": "NORM",
+    "effect": "b'Upkeep \\xe2\\x80\\x94 At the beginning of your recollection phase, reveal a card at random from your memory. If that card is not norm element, sacrifice Dawn of Ashes.\\nNon-norm element cards cost 1 more to activate.'",
+    "flavor_text": "",
+    "cost_memory": "",
+    "cost_reserve": 3,
+    "level": "",
+    "power": "",
+    "life": "",
+    "speed": "",
+    "legality": "",
+    "editions": [
+      "Fractured Crown 4 b'\\xe5\\x8c\\x97\\xe9\\xa3\\x9e\\xe9\\xa3\\x9e'"
+    ],
+    "slug": "dawn-of-ashes",
+    "durability": ""
+  },
+  {
+    "name": "Develop Mana",
+    "collector_number": 31,
+    "types": "['ACTION']",
+    "classes": "['MAGE']",
+    "subtypes": "['MAGE', 'SPELL']",
+    "element": "NORM",
+    "effect": "b'Put a level counter on your champion. (Champions get +1 level for each level counter on them.)'",
+    "flavor_text": "b'From enlightenment comes transcendance.'",
+    "cost_memory": "",
+    "cost_reserve": 3,
+    "level": "",
+    "power": "",
+    "life": "",
+    "speed": "False",
+    "legality": "",
+    "editions": [
+      "Fractured Crown 1 b'\\xe9\\x81\\x93\\xe6\\xbc\\xab'"
+    ],
+    "slug": "develop-mana",
+    "durability": ""
+  },
+  {
+    "name": "Fast Cure",
+    "collector_number": 32,
+    "types": "['ACTION']",
+    "classes": "['CLERIC']",
+    "subtypes": "['CLERIC', 'SPELL']",
+    "element": "NORM",
+    "effect": "b\"If target opponent's influence is greater than yours, recover 4. (A player's influence is equal to the total amount of cards in their hand and memory.)\\nFloating Memory",
+    "flavor_text": "b'A brief respite in dire times may give enough focus to birth a plan.'",
+    "cost_memory": "",
+    "cost_reserve": 2,
+    "level": "",
+    "power": "",
+    "life": "",
+    "speed": "True",
+    "legality": "",
+    "editions": [
+      "Fractured Crown 1 b'\\xe9\\x81\\x93\\xe6\\xbc\\xab'",
+      "Promotional 2023 6 b'\\xe9\\x81\\x93\\xe6\\xbc\\xab'"
+    ],
+    "slug": "fast-cure",
+    "durability": ""
+  },
+  {
+    "name": "Fractal of Insight",
+    "collector_number": 33,
+    "types": "['PHANTASIA']",
+    "classes": "['MAGE']",
+    "subtypes": "['MAGE', 'FRACTAL']",
+    "element": "NORM",
+    "effect": "b'On Enter: You may rest Fractal of Insight. If you do, glimpse 2.\\nReservable (While paying for a reserve cost, you may rest this object to pay for 1 of that cost.) '",
+    "flavor_text": "b'An enigma that defies, and yet, shapes reality.'",
+    "cost_memory": "",
+    "cost_reserve": 2,
+    "level": "",
+    "power": "",
+    "life": "",
+    "speed": "",
+    "legality": "",
+    "editions": [
+      "Fractured Crown 1 b'\\xe9\\x81\\x93\\xe6\\xbc\\xab'"
+    ],
+    "slug": "fractal-of-insight",
+    "durability": ""
+  },
+  {
+    "name": "Gawain, Chivalrous Thief",
+    "collector_number": 34,
+    "types": "['UNIQUE', 'ALLY']",
+    "classes": "['ASSASSIN', 'RANGER']",
+    "subtypes": "['ASSASSIN', 'RANGER', 'HUMAN']",
+    "element": "NORM",
+    "effect": "b\"[Level 2+] True Sight\\n[Class Bonus] On Champion Hit: You may sacrifice Gawain. If you do, look at that opponent's memory and discard a card from it.",
+    "flavor_text": "b'A master spy and notorious thief who never misses.'",
+    "cost_memory": "",
+    "cost_reserve": 2,
+    "level": "",
+    "power": 1,
+    "life": 1,
+    "speed": "",
+    "legality": "",
+    "editions": [
+      "Fractured Crown 4 b'ZERONEXT'",
+      "Event Packs 7 b'Dragonart Chu'"
+    ],
+    "slug": "gawain-chivalrous-thief",
+    "durability": ""
+  },
+  {
+    "name": "Gentle Respite",
+    "collector_number": 35,
+    "types": "['ACTION']",
+    "classes": "['CLERIC']",
+    "subtypes": "['CLERIC', 'ACTION']",
+    "element": "NORM",
+    "effect": "b\"If target opponent's influence is greater than yours, draw a card into your memory. (A player's influence is equal to the total amount of cards in their hand and memory.)\\nFloating Memory",
+    "flavor_text": "",
+    "cost_memory": "",
+    "cost_reserve": 3,
+    "level": "",
+    "power": "",
+    "life": "",
+    "speed": "False",
+    "legality": "",
+    "editions": [
+      "Fractured Crown 3 b'\\xe9\\x81\\x93\\xe6\\xbc\\xab'"
+    ],
+    "slug": "gentle-respite",
+    "durability": ""
+  },
+  {
+    "name": "Imperious Highlander",
+    "collector_number": 36,
+    "types": "['ALLY']",
+    "classes": "['WARRIOR']",
+    "subtypes": "['WARRIOR', 'HUMAN']",
+    "element": "NORM",
+    "effect": "b'On Enter: Imperious Highlander gets +X power until end of turn where X is the amount of allies target opponent controls more than you control.'",
+    "flavor_text": "b'Against all odds and against an insurmountable front, there can be only one answer.'",
+    "cost_memory": "",
+    "cost_reserve": 3,
+    "level": "",
+    "power": 2,
+    "life": 2,
+    "speed": "",
+    "legality": "",
+    "editions": [
+      "Fractured Crown 1 b'Taki'",
+      "Promotional 2023 6 b'Taki'"
+    ],
+    "slug": "imperious-highlander",
+    "durability": ""
+  },
+  {
+    "name": "Lancelot, Goliath of Aesa",
+    "collector_number": 37,
+    "types": "['UNIQUE', 'ALLY']",
+    "classes": "['GUARDIAN', 'WARRIOR']",
+    "subtypes": "['GUARDIAN', 'WARRIOR', 'HUMAN']",
+    "element": "NORM",
+    "effect": "b'Hindered (This ally enters the field rested.) \\n[Class Bonus] [Level 2+] Lancelot gets +2 life.\\nOn Attack: You may pay 3. If you do, Lancelot gets +3 power until end of turn.'",
+    "flavor_text": "b'\"I greet the burden of a thousand lives...\"'",
+    "cost_memory": "",
+    "cost_reserve": 4,
+    "level": "",
+    "power": 2,
+    "life": 3,
+    "speed": "",
+    "legality": "",
+    "editions": [
+      "Fractured Crown 4 b'D Lam'",
+      "Fractured Crown 7 b'D Lam'"
+    ],
+    "slug": "lancelot-goliath-of-aesa",
+    "durability": ""
+  },
+  {
+    "name": "Lancelot, Goliath of Aesa",
+    "collector_number": 37.1,
+    "types": "['UNIQUE', 'ALLY']",
+    "classes": "['GUARDIAN', 'WARRIOR']",
+    "subtypes": "['GUARDIAN', 'WARRIOR', 'HUMAN']",
+    "element": "NORM",
+    "effect": "b'Hindered (This ally enters the field rested.) \\n[Class Bonus] [Level 2+] Lancelot gets +2 life.\\nOn Attack: You may pay 3. If you do, Lancelot gets +3 power until end of turn.'",
+    "flavor_text": "b'\"I greet the burden of a thousand lives...\"'",
+    "cost_memory": "",
+    "cost_reserve": 4,
+    "level": "",
+    "power": 2,
+    "life": 3,
+    "speed": "",
+    "legality": "",
+    "editions": [
+      "Fractured Crown 4 b'D Lam'",
+      "Fractured Crown 7 b'D Lam'"
+    ],
+    "slug": "lancelot-goliath-of-aesa",
+    "durability": ""
+  },
+  {
+    "name": "Lurking Assailant",
+    "collector_number": 38,
+    "types": "['ALLY']",
+    "classes": "['ASSASSIN']",
+    "subtypes": "['ASSASSIN', 'HUMAN']",
+    "element": "NORM",
+    "effect": "b\"Lurking Assailant has stealth as long as it's awake.\\n[Level 1+] Lurking Assailant may retaliate against attackers while not defending. ",
+    "flavor_text": "b'Some assassins prove their skill with a dagger, others prove it with a glib tongue and twisted schemes.'",
+    "cost_memory": "",
+    "cost_reserve": 3,
+    "level": "",
+    "power": 2,
+    "life": 3,
+    "speed": "",
+    "legality": "",
+    "editions": [
+      "Fractured Crown 1 b'\\xe6\\xaa\\xb8\\xe6\\xaa\\xac\\xe5\\xa4\\xbe\\xe5\\xbf\\x83\\xe9\\xa4\\x85'"
+    ],
+    "slug": "lurking-assailant",
+    "durability": ""
+  },
+  {
+    "name": "Morgan, Soul Guide",
+    "collector_number": 39,
+    "types": "['UNIQUE', 'ALLY']",
+    "classes": "['CLERIC', 'MAGE']",
+    "subtypes": "['CLERIC', 'MAGE', 'HUMAN']",
+    "element": "NORM",
+    "effect": "b\"[Level 1+] Prevent all non-attack damage that would be dealt to Morgan.\\n[Level 2+] Your opponents can't recover.\\n[Class Bonus] At the beginning of your recollection phase, you may glimpse 1. If you don't, recover 1.",
+    "flavor_text": "",
+    "cost_memory": "",
+    "cost_reserve": 2,
+    "level": "",
+    "power": 1,
+    "life": 3,
+    "speed": "",
+    "legality": "",
+    "editions": [
+      "Fractured Crown 4 b'\\xe5\\x9d\\x8a\\xe6\\xa9\\x8b\\xe5\\xa4\\x9c\\xe6\\xb3\\x8a'",
+      "Fractured Crown 7 b'\\xe5\\x9d\\x8a\\xe6\\xa9\\x8b\\xe5\\xa4\\x9c\\xe6\\xb3\\x8a'"
+    ],
+    "slug": "morgan-soul-guide",
+    "durability": ""
+  },
+  {
+    "name": "Morgan, Soul Guide",
+    "collector_number": 39.1,
+    "types": "['UNIQUE', 'ALLY']",
+    "classes": "['CLERIC', 'MAGE']",
+    "subtypes": "['CLERIC', 'MAGE', 'HUMAN']",
+    "element": "NORM",
+    "effect": "b\"[Level 1+] Prevent all non-attack damage that would be dealt to Morgan.\\n[Level 2+] Your opponents can't recover.\\n[Class Bonus] At the beginning of your recollection phase, you may glimpse 1. If you don't, recover 1.",
+    "flavor_text": "",
+    "cost_memory": "",
+    "cost_reserve": 2,
+    "level": "",
+    "power": 1,
+    "life": 3,
+    "speed": "",
+    "legality": "",
+    "editions": [
+      "Fractured Crown 4 b'\\xe5\\x9d\\x8a\\xe6\\xa9\\x8b\\xe5\\xa4\\x9c\\xe6\\xb3\\x8a'",
+      "Fractured Crown 7 b'\\xe5\\x9d\\x8a\\xe6\\xa9\\x8b\\xe5\\xa4\\x9c\\xe6\\xb3\\x8a'"
+    ],
+    "slug": "morgan-soul-guide",
+    "durability": ""
+  },
+  {
+    "name": "Ordinary Bear",
+    "collector_number": 40,
+    "types": "['ALLY']",
+    "classes": "['TAMER']",
+    "subtypes": "['TAMER', 'BEAST', 'BEAR']",
+    "element": "NORM",
+    "effect": "b\"Pride 2 (This ally won't obey you unless your champion is level 2 or higher.)\\n[Class Bonus] Floating Memory (While paying for a memory cost, you may banish this card from your graveyard to pay for 1 of that cost.)",
+    "flavor_text": "",
+    "cost_memory": "",
+    "cost_reserve": 3,
+    "level": "",
+    "power": 2,
+    "life": 3,
+    "speed": "",
+    "legality": "",
+    "editions": [
+      "Fractured Crown 1 b'\\xe9\\x81\\x93\\xe6\\xbc\\xab'",
+      "Promotional 2023 6 b'\\xe9\\x81\\x93\\xe6\\xbc\\xab'"
+    ],
+    "slug": "ordinary-bear",
+    "durability": ""
+  },
+  {
+    "name": "Peaceful Reunion",
+    "collector_number": 41,
+    "types": "['ACTION']",
+    "classes": "['CLERIC']",
+    "subtypes": "['CLERIC', 'SPELL']",
+    "element": "NORM",
+    "effect": "b\"Activate this card only if you have not declared an attack this turn.\\nUntil the beginning of your next turn, you and target player can't declare attacks. Banish Peaceful Reunion.",
+    "flavor_text": "",
+    "cost_memory": "",
+    "cost_reserve": 4,
+    "level": "",
+    "power": "",
+    "life": "",
+    "speed": "False",
+    "legality": "",
+    "editions": [
+      "Fractured Crown 1 b'Dragonart Tris'"
+    ],
+    "slug": "peaceful-reunion",
+    "durability": ""
+  },
+  {
+    "name": "Prismatic Sanctuary",
+    "collector_number": 42,
+    "types": "['UNIQUE', 'DOMAIN']",
+    "classes": "['MAGE']",
+    "subtypes": "['MAGE', 'CASTLE']",
+    "element": "NORM",
+    "effect": "b'Upkeep \\xe2\\x80\\x94 At the beginning of your recollection phase, reveal a card at random from your memory. If that card is not fire, water, nor wind element, sacrifice Prismatic Sanctuary.\\nFire, water, and wind elements are enabled for you.'",
+    "flavor_text": "",
+    "cost_memory": "",
+    "cost_reserve": 3,
+    "level": "",
+    "power": "",
+    "life": "",
+    "speed": "",
+    "legality": "",
+    "editions": [
+      "Fractured Crown 4 b'\\xe5\\x8c\\x97\\xe9\\xa3\\x9e\\xe9\\xa3\\x9e'"
+    ],
+    "slug": "prismatic-sanctuary",
+    "durability": ""
+  },
+  {
+    "name": "Resolute Stand",
+    "collector_number": 43,
+    "types": "['ACTION']",
+    "classes": "['GUARDIAN']",
+    "subtypes": "['GUARDIAN', 'SKILL', 'REACTION']",
+    "element": "NORM",
+    "effect": "b'[Level 2+] You may activate this card without paying its reserve cost. If you do, skip your next draw phase.\\nIf target unit would be dealt attack damage this turn, prevent 3 of that damage.'",
+    "flavor_text": "b'\"...with boundless resolve and forsakenness.\"'",
+    "cost_memory": "",
+    "cost_reserve": 3,
+    "level": "",
+    "power": "",
+    "life": "",
+    "speed": "True",
+    "legality": "",
+    "editions": [
+      "Fractured Crown 2 b'D Lam'"
+    ],
+    "slug": "resolute-stand",
+    "durability": ""
+  },
+  {
+    "name": "Right of Realm",
+    "collector_number": 44,
+    "types": "['ITEM']",
+    "classes": "['GUARDIAN']",
+    "subtypes": "['GUARDIAN', 'ACCESSORY']",
+    "element": "NORM",
+    "effect": "b'Whenever you activate a domain card, you may sacrifice Right of Realm. If you do, that domain enters the field without any of its upkeep abilities.\\nFloating Memory (While paying for a memory cost, you may banish this card from your graveyard to pay for 1 of that cost.)'",
+    "flavor_text": "",
+    "cost_memory": "",
+    "cost_reserve": 3,
+    "level": "",
+    "power": "",
+    "life": "",
+    "speed": "",
+    "legality": "",
+    "editions": [
+      "Fractured Crown 5 b'\\xe9\\x81\\x93\\xe6\\xbc\\xab'"
+    ],
+    "slug": "right-of-realm",
+    "durability": ""
+  },
+  {
+    "name": "Scavenging Raccoon",
+    "collector_number": 45,
+    "types": "['ALLY']",
+    "classes": "['TAMER']",
+    "subtypes": "['TAMER', 'ANIMAL', 'RACCOON']",
+    "element": "NORM",
+    "effect": "b'On Enter: Banish up to two target cards from a single graveyard.'",
+    "flavor_text": "b'Looters have conditioned these diligent creatures to scavenge the battlefield for any source of glint or glitter in exchange for a treat.'",
+    "cost_memory": "",
+    "cost_reserve": 2,
+    "level": "",
+    "power": 1,
+    "life": 1,
+    "speed": "",
+    "legality": "",
+    "editions": [
+      "Fractured Crown 1 b'\\xe9\\x81\\x93\\xe6\\xbc\\xab'",
+      "Promotional 2023 6 b'\\xe9\\x81\\x93\\xe6\\xbc\\xab'"
+    ],
+    "slug": "scavenging-raccoon",
+    "durability": ""
+  },
+  {
+    "name": "Seeking Shot",
+    "collector_number": 46,
+    "types": "['ATTACK']",
+    "classes": "['RANGER']",
+    "subtypes": "['RANGER', 'BOW']",
+    "element": "NORM",
+    "effect": "b\"[Level 2+] True Sight\\n[Class Bonus] Seeking Shot can't be retaliated.\\nAs long as the attacker is attacking a Human ally, Seeking Shot gets +3 power.",
+    "flavor_text": "b'Those hit seldom kow where the shot came from.'",
+    "cost_memory": "",
+    "cost_reserve": 1,
+    "level": "",
+    "power": 1,
+    "life": "",
+    "speed": "",
+    "legality": "",
+    "editions": [
+      "Fractured Crown 1 b'\\xe9\\x81\\x93\\xe6\\xbc\\xab'"
+    ],
+    "slug": "seeking-shot",
+    "durability": ""
+  },
+  {
+    "name": "Stalwart Shieldmate",
+    "collector_number": 47,
+    "types": "['ALLY']",
+    "classes": "['GUARDIAN']",
+    "subtypes": "['GUARDIAN', 'HUMAN']",
+    "element": "NORM",
+    "effect": "b\"Taunt (While awake, this ally must be targeted before other units you control during your oppent's attack declarations if able.)\\nFloating Memory (While paying for a memory cost, you may banish this card from your graveyard to pay for 1 of that cost.)",
+    "flavor_text": "",
+    "cost_memory": "",
+    "cost_reserve": 2,
+    "level": "",
+    "power": 0,
+    "life": 2,
+    "speed": "",
+    "legality": "",
+    "editions": [
+      "Alchemical Revolution Starter Decks 1 b'Rachel Liu'",
+      "Fractured Crown 1 b'\\xe7\\xa0\\x82\\xe6\\x9c\\xa8\\xe7\\x83\\x9f'",
+      "Promotional 2024 6 b'Rachel Liu'"
+    ],
+    "slug": "stalwart-shieldmate",
+    "durability": ""
+  },
+  {
+    "name": "Steady Verse",
+    "collector_number": 48,
+    "types": "['ACTION']",
+    "classes": "['CLERIC', 'TAMER']",
+    "subtypes": "['CLERIC', 'TAMER', 'SKILL', 'MELODY']",
+    "element": "NORM",
+    "effect": "b'[Class Bonus] The next Harmony action card you activate this turn costs 1 less to activate. \\nDraw a card into your memory.'",
+    "flavor_text": "b'A rousing allegro before the crescendo.'",
+    "cost_memory": "",
+    "cost_reserve": 2,
+    "level": "",
+    "power": "",
+    "life": "",
+    "speed": "False",
+    "legality": "",
+    "editions": [
+      "Fractured Crown 1 b'\\xe9\\x81\\x93\\xe6\\xbc\\xab'"
+    ],
+    "slug": "steady-verse",
+    "durability": ""
+  },
+  {
+    "name": "Thieving Cut",
+    "collector_number": 49,
+    "types": "['ATTACK']",
+    "classes": "['ASSASSIN']",
+    "subtypes": "['ASSASSIN', 'DAGGER']",
+    "element": "NORM",
+    "effect": "b'Prepare 1 (You may remove a preparation counter from your champion as you activate this card.)\\nOn Hit: If Thieving Cut was prepared, draw a card.'",
+    "flavor_text": "b\"What's yours is mine.",
+    "cost_memory": "",
+    "cost_reserve": 2,
+    "level": "",
+    "power": 3,
+    "life": "",
+    "speed": "",
+    "legality": "",
+    "editions": [
+      "Fractured Crown 1 b'ZERONEXT'"
+    ],
+    "slug": "thieving-cut",
+    "durability": ""
+  },
+  {
+    "name": "Blazing Bowman",
+    "collector_number": 50,
+    "types": "['ALLY']",
+    "classes": "['RANGER']",
+    "subtypes": "['RANGER', 'HUMAN']",
+    "element": "FIRE",
+    "effect": "b\"Blazing Bowman's attacks can't be retaliated.\\nOn Enter: You may banish a fire element card from your graveyard. If you do, Blazing Bowman gets +2 power until end of turn.",
+    "flavor_text": "",
+    "cost_memory": "",
+    "cost_reserve": 3,
+    "level": "",
+    "power": 2,
+    "life": 1,
+    "speed": "",
+    "legality": "",
+    "editions": [
+      "Fractured Crown 1 b'Dragonart \\xe7\\x99\\xbd\\xe9\\x9c\\x9c\\xe6\\x90\\xbd'"
+    ],
+    "slug": "blazing-bowman",
+    "durability": ""
+  },
+  {
+    "name": "Corhazi Arsonist",
+    "collector_number": 51,
+    "types": "['ALLY']",
+    "classes": "['ASSASSIN']",
+    "subtypes": "['ASSASSIN', 'HUMAN']",
+    "element": "FIRE",
+    "effect": "b'Remove a preparation counter from your champion: Corhazi Arsonist gains stealth until end of turn.\\nIf a unit hit by Corhazi Arsonist this turn would die, banish it instead.'",
+    "flavor_text": "",
+    "cost_memory": "",
+    "cost_reserve": 3,
+    "level": "",
+    "power": 2,
+    "life": 2,
+    "speed": "",
+    "legality": "",
+    "editions": [
+      "Fractured Crown 2 b'\\xe6\\xaa\\xb8\\xe6\\xaa\\xac\\xe5\\xa4\\xbe\\xe5\\xbf\\x83\\xe9\\xa4\\x85'"
+    ],
+    "slug": "corhazi-arsonist",
+    "durability": ""
+  },
+  {
+    "name": "Flamebreak Chorus",
+    "collector_number": 52,
+    "types": "['ACTION']",
+    "classes": "['TAMER']",
+    "subtypes": "['TAMER', 'SKILL', 'MELODY']",
+    "element": "FIRE",
+    "effect": "b\"[Class Bonus] Fast Activation (You may activate this card at fast speed.)\\r\\nTarget ally gets +2 power until end of turn. If it's defending, wake it up, and it gets an additional +LV power until end of turn.",
+    "flavor_text": "",
+    "cost_memory": "",
+    "cost_reserve": 2,
+    "level": "",
+    "power": "",
+    "life": "",
+    "speed": "False",
+    "legality": "",
+    "editions": [
+      "Fractured Crown 1 b'\\xe9\\x81\\x93\\xe6\\xbc\\xab'"
+    ],
+    "slug": "flamebreak-chorus",
+    "durability": ""
+  },
+  {
+    "name": "Hone by Fire",
+    "collector_number": 53,
+    "types": "['ACTION']",
+    "classes": "['WARRIOR']",
+    "subtypes": "['WARRIOR', 'SWORD', 'CRAFT']",
+    "element": "FIRE",
+    "effect": "b'Target Sword weapon you control gets +2 power until end of turn. Class Bonus: Put a durability counter on it.'",
+    "flavor_text": "b'Enwreathed and tempered in flame.'",
+    "cost_memory": "",
+    "cost_reserve": 2,
+    "level": "",
+    "power": "",
+    "life": "",
+    "speed": "True",
+    "legality": "",
+    "editions": [
+      "Fractured Crown 1 b'\\xe9\\x81\\x93\\xe6\\xbc\\xab'"
+    ],
+    "slug": "hone-by-fire",
+    "durability": ""
+  },
+  {
+    "name": "Incendiary Fractal",
+    "collector_number": 54,
+    "types": "['PHANTASIA']",
+    "classes": "['MAGE']",
+    "subtypes": "['MAGE', 'FRACTAL']",
+    "element": "FIRE",
+    "effect": "b\"On Enter: Deal 2 damage to target ally you don't control. Class Bonus: Deal 4 damage to that ally instead.\\nReservable (While paying for a reserve cost, you may rest this object to pay for 1 of that cost.)",
+    "flavor_text": "",
+    "cost_memory": "",
+    "cost_reserve": 4,
+    "level": "",
+    "power": "",
+    "life": "",
+    "speed": "",
+    "legality": "",
+    "editions": [
+      "Fractured Crown 1 b'\\xe9\\x81\\x93\\xe6\\xbc\\xab'"
+    ],
+    "slug": "incendiary-fractal",
+    "durability": ""
+  },
+  {
+    "name": "Innervate Fury",
+    "collector_number": 55,
+    "types": "['ACTION']",
+    "classes": "['MAGE']",
+    "subtypes": "['MAGE', 'SPELL']",
+    "element": "FIRE",
+    "effect": "b\"As an additional cost to activate this card, delevel your champion and recover 5. (To delevel your champion, return the top card of its lineage to its owner's material deck.)\\nDeal 7 damage split among any amount of target allies.",
+    "flavor_text": "",
+    "cost_memory": "",
+    "cost_reserve": 3,
+    "level": "",
+    "power": "",
+    "life": "",
+    "speed": "False",
+    "legality": "",
+    "editions": [
+      "Fractured Crown 3 b'\\xe9\\x81\\x93\\xe6\\xbc\\xab'"
+    ],
+    "slug": "innervate-fury",
+    "durability": ""
+  },
+  {
+    "name": "Red Slime",
+    "collector_number": 56,
+    "types": "['ALLY']",
+    "classes": "['TAMER']",
+    "subtypes": "['TAMER', 'BEAST', 'SLIME']",
+    "element": "FIRE",
+    "effect": "b\"Pride 3 (This ally won't obey you unless your champion is level 3 or higher.)\\n[Class Bonus] On Death: Deal damage to all allies equal to Red Slime's power. (Apply this effect only if your champion's class matches this card's class.)",
+    "flavor_text": "",
+    "cost_memory": "",
+    "cost_reserve": 3,
+    "level": "",
+    "power": 3,
+    "life": 2,
+    "speed": "",
+    "legality": "",
+    "editions": [
+      "Fractured Crown 2 b'\\xe9\\x81\\x93\\xe6\\xbc\\xab'"
+    ],
+    "slug": "red-slime",
+    "durability": ""
+  },
+  {
+    "name": "Varuckan Acolyte",
+    "collector_number": 57,
+    "types": "['ALLY']",
+    "classes": "['MAGE']",
+    "subtypes": "['MAGE', 'HUMAN']",
+    "element": "FIRE",
+    "effect": "b'On Enter: Destroy target regalia with memory cost 0. \\n[Level 3+] Varuckan Acolyte gets +3 power.'",
+    "flavor_text": "b'Some of the cabalistic rituals practiced among the mad cultists require material sacrifice.'",
+    "cost_memory": "",
+    "cost_reserve": 3,
+    "level": "",
+    "power": 0,
+    "life": 1,
+    "speed": "",
+    "legality": "",
+    "editions": [
+      "Fractured Crown 2 b'Dragonart Chu'"
+    ],
+    "slug": "varuckan-acolyte",
+    "durability": ""
+  },
+  {
+    "name": "Corhazi Trapper",
+    "collector_number": 58,
+    "types": "['ALLY']",
+    "classes": "['ASSASSIN']",
+    "subtypes": "['ASSASSIN', 'HUMAN']",
+    "element": "WATER",
+    "effect": "b\"On Enter: Put a preparation counter on your champion.\\nREST, Remove a preparation counter from your champion: Target unit's attacks get -3 power until end of turn.",
+    "flavor_text": "b'Well-placed traps to turn the tide.'",
+    "cost_memory": "",
+    "cost_reserve": 3,
+    "level": "",
+    "power": 1,
+    "life": 3,
+    "speed": "",
+    "legality": "",
+    "editions": [
+      "Fractured Crown 2 b'Hanh Chu'"
+    ],
+    "slug": "corhazi-trapper",
+    "durability": ""
+  },
+  {
+    "name": "Deep Sea Fractal",
+    "collector_number": 59,
+    "types": "['PHANTASIA']",
+    "classes": "['CLERIC']",
+    "subtypes": "['CLERIC', 'FRACTAL']",
+    "element": "WATER",
+    "effect": "b'Hindered (This object enters the field rested.) \\nOn Enter: Each player puts the top card of their deck into their graveyard.\\nReservable (While paying for a reserve cost, you may rest this object to pay for 1 of that cost.) '",
+    "flavor_text": "",
+    "cost_memory": "",
+    "cost_reserve": 2,
+    "level": "",
+    "power": "",
+    "life": "",
+    "speed": "",
+    "legality": "",
+    "editions": [
+      "Fractured Crown 1 b'\\xe9\\x81\\x93\\xe6\\xbc\\xab'"
+    ],
+    "slug": "deep-sea-fractal",
+    "durability": ""
+  },
+  {
+    "name": "Fractal of Intrusion",
+    "collector_number": 60,
+    "types": "['PHANTASIA']",
+    "classes": "['CLERIC']",
+    "subtypes": "['CLERIC', 'FRACTAL']",
+    "element": "WATER",
+    "effect": "b\"On Enter: You may banish a card with floating memory from your graveyard. When you do, look at target opponent's memory and discard a card from it.\\nReservable (While paying for a reserve cost, you may rest this object to pay for 1 of that cost.) ",
+    "flavor_text": "",
+    "cost_memory": "",
+    "cost_reserve": 3,
+    "level": "",
+    "power": "",
+    "life": "",
+    "speed": "",
+    "legality": "",
+    "editions": [
+      "Fractured Crown 3 b'\\xe9\\x81\\x93\\xe6\\xbc\\xab'"
+    ],
+    "slug": "fractal-of-intrusion",
+    "durability": ""
+  },
+  {
+    "name": "Fracturize",
+    "collector_number": 61,
+    "types": "['ACTION']",
+    "classes": "['CLERIC', 'MAGE']",
+    "subtypes": "['CLERIC', 'MAGE', 'SPELL']",
+    "element": "WATER",
+    "effect": "b'Target item or weapon becomes a Cleric Fractal phantasia with reservable and loses all other abilities. (This effect lasts indefinitely.)\\nFloating Memory'",
+    "flavor_text": "b'\"You\\'d stand a better chance fighting without them.\"'",
+    "cost_memory": "",
+    "cost_reserve": 2,
+    "level": "",
+    "power": "",
+    "life": "",
+    "speed": "True",
+    "legality": "",
+    "editions": [
+      "Fractured Crown 3 b'\\xe9\\x81\\x93\\xe6\\xbc\\xab'"
+    ],
+    "slug": "fracturize",
+    "durability": ""
+  },
+  {
+    "name": "Frostbind",
+    "collector_number": 62,
+    "types": "['ACTION']",
+    "classes": "['CLERIC']",
+    "subtypes": "['CLERIC', 'SPELL', 'REACTION']",
+    "element": "WATER",
+    "effect": "b'Negate target card activation unless its controller pays 2. Banish the card that had its activation negated this way.'",
+    "flavor_text": "b'\"O\\'Lumina who shelters us, bind those who seek us harm in frost. Grant us peace under your blessing.\"'",
+    "cost_memory": "",
+    "cost_reserve": 2,
+    "level": "",
+    "power": "",
+    "life": "",
+    "speed": "True",
+    "legality": "",
+    "editions": [
+      "Fractured Crown 2 b'\\xe9\\x81\\x93\\xe6\\xbc\\xab'"
+    ],
+    "slug": "frostbind",
+    "durability": ""
+  },
+  {
+    "name": "Frostbinder Apostle",
+    "collector_number": 63,
+    "types": "['ALLY']",
+    "classes": "['CLERIC']",
+    "subtypes": "['CLERIC', 'HUMAN']",
+    "element": "WATER",
+    "effect": "b\"Intercept (Whenever your champion is attacked while this ally is awake, you may redirect that attack to this ally.)\\n[Level 2+] On Enter: Target rested ally you don't control gets -4 life until end of turn.",
+    "flavor_text": "",
+    "cost_memory": "",
+    "cost_reserve": 3,
+    "level": "",
+    "power": 0,
+    "life": 2,
+    "speed": "",
+    "legality": "",
+    "editions": [
+      "Fractured Crown 2 b'Dragonart Chu'"
+    ],
+    "slug": "frostbinder-apostle",
+    "durability": ""
+  },
+  {
+    "name": "Guarded Dissipation",
+    "collector_number": 64,
+    "types": "['ACTION']",
+    "classes": "['WARRIOR']",
+    "subtypes": "['WARRIOR', 'SKILL', 'REACTION']",
+    "element": "WATER",
+    "effect": "b'Prevent the next X damage that would be dealt to target unit this turn where X is the greatest power among Sword weapons you control. \\n[Level 1+] Draw a card.'",
+    "flavor_text": "b'An impeccible parry to nullify any assault.'",
+    "cost_memory": "",
+    "cost_reserve": 2,
+    "level": "",
+    "power": "",
+    "life": "",
+    "speed": "True",
+    "legality": "",
+    "editions": [
+      "Fractured Crown 2 b'Hanh Chu'"
+    ],
+    "slug": "guarded-dissipation",
+    "durability": ""
+  },
+  {
+    "name": "Innervate Knowledge",
+    "collector_number": 65,
+    "types": "['ACTION']",
+    "classes": "['MAGE']",
+    "subtypes": "['MAGE', 'SPELL']",
+    "element": "WATER",
+    "effect": "b\"As an additional cost to activate this card, delevel your champion and recover 5. (To delevel your champion, return the top card of its lineage to its owner's material deck.)\\nDraw two cards.",
+    "flavor_text": "",
+    "cost_memory": "",
+    "cost_reserve": 4,
+    "level": "",
+    "power": "",
+    "life": "",
+    "speed": "False",
+    "legality": "",
+    "editions": [
+      "Fractured Crown 3 b'\\xe9\\x81\\x93\\xe6\\xbc\\xab'"
+    ],
+    "slug": "innervate-knowledge",
+    "durability": ""
+  },
+  {
+    "name": "Ocean's Blessing",
+    "collector_number": 66,
+    "types": "['PHANTASIA']",
+    "classes": "['TAMER']",
+    "subtypes": "['TAMER', 'SPELL']",
+    "element": "WATER",
+    "effect": "b'Ally Link (This object enters the field linked to target ally. If the link is broken, sacrifice this object.)\\nLinked ally gets +1 life and has taunt.\\n[Class Bonus] Floating Memory'",
+    "flavor_text": "",
+    "cost_memory": "",
+    "cost_reserve": 2,
+    "level": "",
+    "power": "",
+    "life": "",
+    "speed": "",
+    "legality": "",
+    "editions": [
+      "Fractured Crown 2 b'\\xe9\\x81\\x93\\xe6\\xbc\\xab'"
+    ],
+    "slug": "oceans-blessing",
+    "durability": ""
+  },
+  {
+    "name": "Protective Fractal",
+    "collector_number": 67,
+    "types": "['PHANTASIA']",
+    "classes": "['CLERIC']",
+    "subtypes": "['CLERIC', 'FRACTAL']",
+    "element": "WATER",
+    "effect": "b'Reservable (While paying for a reserve cost, you may rest this object to pay for 1 of that cost.) \\nREST: Prevent the next 1 damage that would be dealt to target champion this turn.'",
+    "flavor_text": "",
+    "cost_memory": "",
+    "cost_reserve": 4,
+    "level": "",
+    "power": "",
+    "life": "",
+    "speed": "",
+    "legality": "",
+    "editions": [
+      "Fractured Crown 1 b'\\xe9\\x81\\x93\\xe6\\xbc\\xab'"
+    ],
+    "slug": "protective-fractal",
+    "durability": ""
+  },
+  {
+    "name": "Refracting Missile",
+    "collector_number": 68,
+    "types": "['ACTION']",
+    "classes": "['MAGE']",
+    "subtypes": "['MAGE', 'SPELL']",
+    "element": "WATER",
+    "effect": "b'Deal damage to target unit equal to the amount of Fractals you control plus 1.\\nFloating Memory (While paying for a memory cost, you may banish this card from your graveyard to pay for 1 of that cost.)'",
+    "flavor_text": "",
+    "cost_memory": "",
+    "cost_reserve": 3,
+    "level": "",
+    "power": "",
+    "life": "",
+    "speed": "True",
+    "legality": "",
+    "editions": [
+      "Fractured Crown 2 b'\\xe9\\x81\\x93\\xe6\\xbc\\xab'"
+    ],
+    "slug": "refracting-missile",
+    "durability": ""
+  },
+  {
+    "name": "Riptide Slash",
+    "collector_number": 69,
+    "types": "['ATTACK']",
+    "classes": "['WARRIOR']",
+    "subtypes": "['WARRIOR', 'SWORD']",
+    "element": "WATER",
+    "effect": "b'[Class Bonus] On Attack: Glimpse 2. (To glimpse, look at that many cards from the top of your deck. Put those cards back on the top or on the bottom of your deck in any order.)\\nOn Kill: You may put the top card of your deck into your graveyard.'",
+    "flavor_text": "",
+    "cost_memory": "",
+    "cost_reserve": 2,
+    "level": "",
+    "power": 2,
+    "life": "",
+    "speed": "",
+    "legality": "",
+    "editions": [
+      "Fractured Crown 1 b'\\xe9\\x81\\x93\\xe6\\xbc\\xab'"
+    ],
+    "slug": "riptide-slash",
+    "durability": ""
+  },
+  {
+    "name": "Song of Frost",
+    "collector_number": 70,
+    "types": "['ACTION']",
+    "classes": "['TAMER']",
+    "subtypes": "['TAMER', 'SKILL', 'MELODY']",
+    "element": "WATER",
+    "effect": "b\"[Class Bonus] You may banish a card with floating memory from your graveyard rather than pay this card's reserve cost.\\nIf a unit is attacking, end the combat phase. (As a phase ends, banish all triggers, activations, and materializations on the effects stack.)",
+    "flavor_text": "",
+    "cost_memory": "",
+    "cost_reserve": 2,
+    "level": "",
+    "power": "",
+    "life": "",
+    "speed": "True",
+    "legality": "",
+    "editions": [
+      "Fractured Crown 1 b'Hanh Chu'"
+    ],
+    "slug": "song-of-frost",
+    "durability": ""
+  },
+  {
+    "name": "Anthem of Vitality",
+    "collector_number": 71,
+    "types": "['ACTION']",
+    "classes": "['TAMER']",
+    "subtypes": "['TAMER', 'SKILL', 'HARMONY']",
+    "element": "WIND",
+    "effect": "b\"Target Animal or Beast ally gets +3 life and gains spellshroud until end of turn.\\nHarmonize \\xe2\\x80\\x94 If you've activated a Melody card this turn, put two buff counters on an Animal or Beast ally you control.",
+    "flavor_text": "b\"Gaia's anthem invigorates the woodland.",
+    "cost_memory": "",
+    "cost_reserve": 2,
+    "level": "",
+    "power": "",
+    "life": "",
+    "speed": "True",
+    "legality": "",
+    "editions": [
+      "Fractured Crown 1 b'\\xe9\\x81\\x93\\xe6\\xbc\\xab'"
+    ],
+    "slug": "anthem-of-vitality",
+    "durability": ""
+  },
+  {
+    "name": "Corhazi Outlook",
+    "collector_number": 72,
+    "types": "['ALLY']",
+    "classes": "['ASSASSIN']",
+    "subtypes": "['ASSASSIN', 'HUMAN']",
+    "element": "WIND",
+    "effect": "b\"On Enter: Put a preparation counter on your champion.\\n[Class Bonus] Remove a preparation counter from your champion: Opponents can't activate cards this turn. Glimpse 1. Activate this ability only during your turn.",
+    "flavor_text": "",
+    "cost_memory": "",
+    "cost_reserve": 2,
+    "level": "",
+    "power": 1,
+    "life": 3,
+    "speed": "",
+    "legality": "",
+    "editions": [
+      "Fractured Crown 2 b'\\xe6\\xaa\\xb8\\xe6\\xaa\\xac\\xe5\\xa4\\xbe\\xe5\\xbf\\x83\\xe9\\xa4\\x85'"
+    ],
+    "slug": "corhazi-outlook",
+    "durability": ""
+  },
+  {
+    "name": "Dematerialize",
+    "collector_number": 73,
+    "types": "['ACTION']",
+    "classes": "['CLERIC']",
+    "subtypes": "['CLERIC', 'SPELL']",
+    "element": "WIND",
+    "effect": "b\"Return target regalia to its owner's material deck.",
+    "flavor_text": "b\"Things worn and torn need not be spurned\\r\\nto ash and dust. They'll be returned\\r\\nwith new life and purpose earned.",
+    "cost_memory": "",
+    "cost_reserve": 3,
+    "level": "",
+    "power": "",
+    "life": "",
+    "speed": "False",
+    "legality": "",
+    "editions": [
+      "Fractured Crown 1 b'\\xe9\\x81\\x93\\xe6\\xbc\\xab'"
+    ],
+    "slug": "dematerialize",
+    "durability": ""
+  },
+  {
+    "name": "Displace",
+    "collector_number": 74,
+    "types": "['ACTION']",
+    "classes": "['CLERIC', 'MAGE']",
+    "subtypes": "['CLERIC', 'MAGE', 'SPELL']",
+    "element": "WIND",
+    "effect": "b\"Banish target ally, then return it to the field under its owner's control rested.\\n[Class Bonus] Put an enlighten counter on your champion.",
+    "flavor_text": "b'\"Oh my. Be careful where you land.\"'",
+    "cost_memory": "",
+    "cost_reserve": 2,
+    "level": "",
+    "power": "",
+    "life": "",
+    "speed": "True",
+    "legality": "",
+    "editions": [
+      "Fractured Crown 3 b'\\xe5\\x9d\\x8a\\xe6\\xa9\\x8b\\xe5\\xa4\\x9c\\xe6\\xb3\\x8a'"
+    ],
+    "slug": "displace",
+    "durability": ""
+  },
+  {
+    "name": "Green Slime",
+    "collector_number": 75,
+    "types": "['ALLY']",
+    "classes": "['TAMER']",
+    "subtypes": "['TAMER', 'BEAST', 'SLIME']",
+    "element": "WIND",
+    "effect": "b\"Pride 3 (This ally won't obey you unless your champion is level 3 or higher.)On Enter: Put two buff counters on Green Slime.\\n[Class Bonus] On Leave: Put the buff counters that were on Green Slime on target ally you control.",
+    "flavor_text": "",
+    "cost_memory": "",
+    "cost_reserve": 3,
+    "level": "",
+    "power": 0,
+    "life": 1,
+    "speed": "",
+    "legality": "",
+    "editions": [
+      "Fractured Crown 2 b'\\xe9\\x81\\x93\\xe6\\xbc\\xab'"
+    ],
+    "slug": "green-slime",
+    "durability": ""
+  },
+  {
+    "name": "Innervate Agility",
+    "collector_number": 76,
+    "types": "['ACTION']",
+    "classes": "['MAGE']",
+    "subtypes": "['MAGE', 'SPELL', 'REACTION']",
+    "element": "WIND",
+    "effect": "b\"As an additional cost to activate this card, delevel your champion and recover 5. (To delevel your champion, return the top card of its lineage to its owner's material deck.)\\nUnits you control gain your choice of stealth or spellshroud until end of turn.",
+    "flavor_text": "",
+    "cost_memory": "",
+    "cost_reserve": 2,
+    "level": "",
+    "power": "",
+    "life": "",
+    "speed": "True",
+    "legality": "",
+    "editions": [
+      "Fractured Crown 3 b'\\xe9\\x81\\x93\\xe6\\xbc\\xab'"
+    ],
+    "slug": "innervate-agility",
+    "durability": ""
+  },
+  {
+    "name": "Intrepid Spearman",
+    "collector_number": 77,
+    "types": "['ALLY']",
+    "classes": "['WARRIOR']",
+    "subtypes": "['WARRIOR', 'HUMAN']",
+    "element": "WIND",
+    "effect": "b'[Level 1+] If attack damage would be dealt to Intrepid Spearman, reveal a card at random from your memory. If that card is wind element, prevent 3 of that damage. Apply this replacement effect only once per turn.'",
+    "flavor_text": "b'A master lancer, trained to deflect even projectiles.'",
+    "cost_memory": "",
+    "cost_reserve": 4,
+    "level": "",
+    "power": 2,
+    "life": 2,
+    "speed": "",
+    "legality": "",
+    "editions": [
+      "Fractured Crown 1 b'\\xe6\\xaa\\xb8\\xe6\\xaa\\xac\\xe5\\xa4\\xbe\\xe5\\xbf\\x83\\xe9\\xa4\\x85'"
+    ],
+    "slug": "intrepid-spearman",
+    "durability": ""
+  },
+  {
+    "name": "Mark of Fervor",
+    "collector_number": 78,
+    "types": "['PHANTASIA']",
+    "classes": "['TAMER']",
+    "subtypes": "['TAMER', 'SPELL']",
+    "element": "WIND",
+    "effect": "b'Ally Link (This object enters the field linked to target ally. If the link is broken, sacrifice this object.)\\nLinked ally gets +1 power and +1 life, and has vigor.'",
+    "flavor_text": "b\"Through powerful bonds, one's inner strength can freely flourish.",
+    "cost_memory": "",
+    "cost_reserve": 2,
+    "level": "",
+    "power": "",
+    "life": "",
+    "speed": "",
+    "legality": "",
+    "editions": [
+      "Fractured Crown 1 b'\\xe9\\x81\\x93\\xe6\\xbc\\xab'"
+    ],
+    "slug": "mark-of-fervor",
+    "durability": ""
+  },
+  {
+    "name": "Parcenet, Royal Maid",
+    "collector_number": 79,
+    "types": "['UNIQUE', 'ALLY']",
+    "classes": "['ASSASSIN']",
+    "subtypes": "['ASSASSIN', 'HUMAN']",
+    "element": "WIND",
+    "effect": "b\"[Level 2+] Stealth (This unit can't be targeted by attacks unless permitted by true sight.)\\nREST: Glimpse 1. Reveal the top card of your deck. When you reveal a wind element card this way, another target ally you control gains stealth until end of turn.",
+    "flavor_text": "",
+    "cost_memory": "",
+    "cost_reserve": 2,
+    "level": "",
+    "power": 1,
+    "life": 3,
+    "speed": "",
+    "legality": "",
+    "editions": [
+      "Fractured Crown 3 b'Faicha'",
+      "Event Packs 7 b'Faicha'"
+    ],
+    "slug": "parcenet-royal-maid",
+    "durability": ""
+  },
+  {
+    "name": "Rally the Peasants",
+    "collector_number": 80,
+    "types": "['ACTION']",
+    "classes": "['WARRIOR']",
+    "subtypes": "['WARRIOR', 'SKILL']",
+    "element": "WIND",
+    "effect": "b'[Class Bonus] This card costs 3 less to activate if an opponent controls three or more allies.\\nLook at the top six cards of your deck. You may reveal a Human card from among them and put it into your hand. Put the rest on the bottom of your deck in any order.'",
+    "flavor_text": "",
+    "cost_memory": "",
+    "cost_reserve": 3,
+    "level": "",
+    "power": "",
+    "life": "",
+    "speed": "False",
+    "legality": "",
+    "editions": [
+      "Fractured Crown 2 b'\\xe9\\x81\\x93\\xe6\\xbc\\xab'"
+    ],
+    "slug": "rally-the-peasants",
+    "durability": ""
+  },
+  {
+    "name": "Scatter Essence",
+    "collector_number": 81,
+    "types": "['ACTION']",
+    "classes": "['CLERIC']",
+    "subtypes": "['CLERIC', 'SPELL']",
+    "element": "WIND",
+    "effect": "b'Destroy target phantasia.\\nFloating Memory (While paying for a memory cost, you may banish this card from your graveyard to pay for 1 of that cost.)'",
+    "flavor_text": "b'\"Invasive hexes will not be tolerated within this castle.\"'",
+    "cost_memory": "",
+    "cost_reserve": 2,
+    "level": "",
+    "power": "",
+    "life": "",
+    "speed": "False",
+    "legality": "",
+    "editions": [
+      "Fractured Crown 2 b'\\xe9\\x81\\x93\\xe6\\xbc\\xab'"
+    ],
+    "slug": "scatter-essence",
+    "durability": ""
+  },
+  {
+    "name": "Windrider Invoker",
+    "collector_number": 82,
+    "types": "['ALLY']",
+    "classes": "['MAGE']",
+    "subtypes": "['MAGE', 'HUMAN']",
+    "element": "WIND",
+    "effect": "b'On Enter: You may remove two enlighten counters from your champion. If you do, draw a card and Windrider Invoker gets +3 power until end of turn.'",
+    "flavor_text": "b'A burst of wind to dash through the battlefield. Another to take down the enemy.'",
+    "cost_memory": "",
+    "cost_reserve": 3,
+    "level": "",
+    "power": 1,
+    "life": 2,
+    "speed": "",
+    "legality": "",
+    "editions": [
+      "Fractured Crown 2 b'\\xe6\\xaa\\xb8\\xe6\\xaa\\xac\\xe5\\xa4\\xbe\\xe5\\xbf\\x83\\xe9\\xa4\\x85'"
+    ],
+    "slug": "windrider-invoker",
+    "durability": ""
+  },
+  {
+    "name": "Shock Therapy",
+    "collector_number": 83,
+    "types": "['ACTION']",
+    "classes": "['MAGE']",
+    "subtypes": "['MAGE', 'SPELL']",
+    "element": "ARCANE",
+    "effect": "b'[Class Bonus] [Element Bonus] Whenever this card is banished from your memory, put an enlighten counter on your champion.\\nDeal an amount of damage to target ally equal to the amount of enlighten counters on your champion.'",
+    "flavor_text": "",
+    "cost_memory": "",
+    "cost_reserve": 2,
+    "level": "",
+    "power": "",
+    "life": "",
+    "speed": "True",
+    "legality": "",
+    "editions": [
+      "Fractured Crown 3 b'\\xe9\\x81\\x93\\xe6\\xbc\\xab'"
+    ],
+    "slug": "shock-therapy",
+    "durability": ""
+  },
+  {
+    "name": "Voltaic Sphere",
+    "collector_number": 84,
+    "types": "['ACTION']",
+    "classes": "['MAGE']",
+    "subtypes": "['MAGE', 'SPELL']",
+    "element": "ARCANE",
+    "effect": "b'Deal 3 damage to target unit. If that unit is an ally, deal 5 damage to it instead. \\n[Class Bonus] Banish Voltaic Sphere from your graveyard: The next arcane element Spell card you activate this turn costs 1 less to activate.'",
+    "flavor_text": "",
+    "cost_memory": "",
+    "cost_reserve": 2,
+    "level": "",
+    "power": "",
+    "life": "",
+    "speed": "False",
+    "legality": "",
+    "editions": [
+      "Fractured Crown 4 b'\\xe9\\x81\\x93\\xe6\\xbc\\xab'"
+    ],
+    "slug": "voltaic-sphere",
+    "durability": ""
+  },
+  {
+    "name": "Incarnate Majesty",
+    "collector_number": 85,
+    "types": "['ACTION']",
+    "classes": "['MAGE']",
+    "subtypes": "['MAGE', 'SPELL']",
+    "element": "CRUX",
+    "effect": "b'[Class Bonus] EfficiencyThe Majestic Spirit from your material deck or banishment onto the field.'",
+    "flavor_text": "",
+    "cost_memory": "",
+    "cost_reserve": 12,
+    "level": "",
+    "power": "",
+    "life": "",
+    "speed": "False",
+    "legality": "",
+    "editions": [
+      "Fractured Crown 4 b'Hori'"
+    ],
+    "slug": "incarnate-majesty",
+    "durability": ""
+  },
+  {
+    "name": "Slay the King",
+    "collector_number": 86,
+    "types": "['ATTACK']",
+    "classes": "['WARRIOR']",
+    "subtypes": "['WARRIOR', 'SWORD']",
+    "element": "CRUX",
+    "effect": "b'[Class Bonus] On Attack: You may banish a card from your material deck. If you do, Slay the King gains \"On Kill: You may play the banished card.\"'",
+    "flavor_text": "b'Treachery strikes deadliest in the heart.'",
+    "cost_memory": "",
+    "cost_reserve": 2,
+    "level": "",
+    "power": 4,
+    "life": "",
+    "speed": "",
+    "legality": "",
+    "editions": [
+      "Fractured Crown 3 b'\\xe9\\x81\\x93\\xe6\\xbc\\xab'"
+    ],
+    "slug": "slay-the-king",
+    "durability": ""
+  },
+  {
+    "name": "Illuminate Secrets",
+    "collector_number": 87,
+    "types": "['ACTION']",
+    "classes": "['ASSASSIN', 'MAGE']",
+    "subtypes": "['ASSASSIN', 'MAGE', 'SPELL']",
+    "element": "LUXEM",
+    "effect": "b\"Deal an amount of damage to target unit equal to its owner's influence minus your influence. (A player's influence is equal to the total amount of cards in their hand and memory.)",
+    "flavor_text": "b'The light protects those unjustly oppressed.'",
+    "cost_memory": "",
+    "cost_reserve": 2,
+    "level": "",
+    "power": "",
+    "life": "",
+    "speed": "True",
+    "legality": "",
+    "editions": [
+      "Fractured Crown 3 b'\\xe9\\x81\\x93\\xe6\\xbc\\xab'"
+    ],
+    "slug": "illuminate-secrets",
+    "durability": ""
+  },
+  {
+    "name": "Uther, Illustrious King",
+    "collector_number": 88,
+    "types": "['UNIQUE', 'ALLY']",
+    "classes": "['WARRIOR']",
+    "subtypes": "['WARRIOR', 'HUMAN']",
+    "element": "LUXEM",
+    "effect": "b\"Intercept, Vigor\\nOn Enter: You may rest Uther. When you do, banish another target non-champion object.\\nOn Leave: Return the banished object to the field under its owner's control rested.",
+    "flavor_text": "",
+    "cost_memory": "",
+    "cost_reserve": 4,
+    "level": "",
+    "power": 4,
+    "life": 4,
+    "speed": "",
+    "legality": "",
+    "editions": [
+      "Fractured Crown 4 b'Hanh Chu'",
+      "Event Packs 7 b'Hanh Chu'"
+    ],
+    "slug": "uther-illustrious-king",
+    "durability": ""
+  },
+  {
+    "name": "Avatar of Gaia",
+    "collector_number": 89,
+    "types": "['UNIQUE', 'ALLY']",
+    "classes": "['TAMER']",
+    "subtypes": "['TAMER', 'AVATAR']",
+    "element": "TERA",
+    "effect": "b'Ally Link (This object enters the field linked to target ally. If the link is broken, sacrifice this object.)\\n[Class Bonus] Preserve\\nLinked ally has taunt and loses pride.'",
+    "flavor_text": "b\"Even the king of beasts rallied to Gaia's presence.",
+    "cost_memory": "",
+    "cost_reserve": 1,
+    "level": "",
+    "power": 0,
+    "life": 2,
+    "speed": "",
+    "legality": "",
+    "editions": [
+      "Fractured Crown 3 b'\\xe9\\x81\\x93\\xe6\\xbc\\xab'"
+    ],
+    "slug": "avatar-of-gaia",
+    "durability": ""
+  },
+  {
+    "name": "Kraal, Stonescale Tyrant",
+    "collector_number": 90,
+    "types": "['UNIQUE', 'ALLY']",
+    "classes": "['TAMER']",
+    "subtypes": "['TAMER', 'BEAST', 'DRAGON']",
+    "element": "TERA",
+    "effect": "b'As an additional cost to activate this card, banish two preserved cards from your material deck.\\nIntercept, Spellshroud, True Sight, Vigor\\n[Class Bonus] On Attack: Reveal the top two cards of your deck and put them into your material deck preserved. '",
+    "flavor_text": "",
+    "cost_memory": "",
+    "cost_reserve": 5,
+    "level": "",
+    "power": 6,
+    "life": 8,
+    "speed": "",
+    "legality": "",
+    "editions": [
+      "Fractured Crown 4 b'\\xe9\\x81\\x93\\xe6\\xbc\\xab'",
+      "Fractured Crown 7 b'\\xe9\\x81\\x93\\xe6\\xbc\\xab'"
+    ],
+    "slug": "kraal-stonescale-tyrant",
+    "durability": ""
+  },
+  {
+    "name": "Kraal, Stonescale Tyrant",
+    "collector_number": 90.1,
+    "types": "['UNIQUE', 'ALLY']",
+    "classes": "['TAMER']",
+    "subtypes": "['TAMER', 'BEAST', 'DRAGON']",
+    "element": "TERA",
+    "effect": "b'As an additional cost to activate this card, banish two preserved cards from your material deck.\\nIntercept, Spellshroud, True Sight, Vigor\\n[Class Bonus] On Attack: Reveal the top two cards of your deck and put them into your material deck preserved. '",
+    "flavor_text": "",
+    "cost_memory": "",
+    "cost_reserve": 5,
+    "level": "",
+    "power": 6,
+    "life": 8,
+    "speed": "",
+    "legality": "",
+    "editions": [
+      "Fractured Crown 4 b'\\xe9\\x81\\x93\\xe6\\xbc\\xab'",
+      "Fractured Crown 7 b'\\xe9\\x81\\x93\\xe6\\xbc\\xab'"
+    ],
+    "slug": "kraal-stonescale-tyrant",
+    "durability": ""
+  }
 ]

@@ -1,7 +1,7 @@
 [
     {
       "name": "Arisanna, Herbalist Prodigy",
-      "collector_number": 4,
+      "collector_number": 4.1,
       "types": "['CHAMPION']",
       "classes": "['CLERIC']",
       "subtypes": "['CLERIC', 'HUMAN']",
@@ -25,7 +25,7 @@
     },
     {
       "name": "Arisanna, Master Alchemist",
-      "collector_number": 5,
+      "collector_number": 5.1,
       "types": "['CHAMPION']",
       "classes": "['CLERIC']",
       "subtypes": "['CLERIC', 'HUMAN']",
@@ -50,7 +50,7 @@
     },
     {
       "name": "Arisanna, Lucent Arbiter",
-      "collector_number": 7,
+      "collector_number": 7.1,
       "types": "['CHAMPION']",
       "classes": "['CLERIC']",
       "subtypes": "['CLERIC', 'HUMAN']",
@@ -73,7 +73,7 @@
     },
     {
       "name": "Diana, Keen Huntress",
-      "collector_number": 8,
+      "collector_number": 8.1,
       "types": "['CHAMPION']",
       "classes": "['RANGER']",
       "subtypes": "['RANGER', 'HUMAN']",
@@ -97,7 +97,7 @@
     },
     {
       "name": "Diana, Deadly Duelist",
-      "collector_number": 9,
+      "collector_number": 9.1,
       "types": "['CHAMPION']",
       "classes": "['RANGER']",
       "subtypes": "['RANGER', 'HUMAN']",
@@ -122,7 +122,7 @@
     },
     {
       "name": "Diana, Cursebreaker",
-      "collector_number": 10,
+      "collector_number": 10.1,
       "types": "['CHAMPION']",
       "classes": "['RANGER']",
       "subtypes": "['RANGER', 'HUMAN']",
@@ -145,7 +145,7 @@
     },
     {
       "name": "Tonoris, Lone Mercenary",
-      "collector_number": 12,
+      "collector_number": 12.1,
       "types": "['CHAMPION']",
       "classes": "['GUARDIAN']",
       "subtypes": "['GUARDIAN', 'HUMAN']",
@@ -169,7 +169,7 @@
     },
     {
       "name": "Tonoris, Might of Humanity",
-      "collector_number": 13,
+      "collector_number": 13.1,
       "types": "['CHAMPION']",
       "classes": "['GUARDIAN']",
       "subtypes": "['GUARDIAN', 'HUMAN']",
@@ -194,7 +194,7 @@
     },
     {
       "name": "Tonoris, Creation's Will",
-      "collector_number": 14,
+      "collector_number": 14.1,
       "types": "['CHAMPION']",
       "classes": "['GUARDIAN']",
       "subtypes": "['GUARDIAN', 'HUMAN']",
@@ -217,7 +217,7 @@
     },
     {
       "name": "Crimson Tear",
-      "collector_number": 99,
+      "collector_number": 99.1,
       "types": "['UNIQUE', 'ALLY']",
       "classes": "['ASSASSIN']",
       "subtypes": "['ASSASSIN', 'AUTOMATON']",
@@ -240,7 +240,7 @@
     },
     {
       "name": "Dahlia, Idyllic Dreamer",
-      "collector_number": 128,
+      "collector_number": 128.1,
       "types": "['UNIQUE', 'ALLY']",
       "classes": "['RANGER']",
       "subtypes": "['RANGER', 'AUTOMATON']",
@@ -263,7 +263,7 @@
     },
     {
       "name": "Rose, Eternal Paragon",
-      "collector_number": 166,
+      "collector_number": 166.1,
       "types": "['UNIQUE', 'ALLY']",
       "classes": "['GUARDIAN', 'WARRIOR']",
       "subtypes": "['GUARDIAN', 'WARRIOR', 'AUTOMATON']",
@@ -286,7 +286,7 @@
     },
     {
       "name": "Claude, Fated Visionary",
-      "collector_number": 182,
+      "collector_number": 182.1,
       "types": "['UNIQUE', 'ALLY']",
       "classes": "['CLERIC']",
       "subtypes": "['CLERIC', 'HUMAN']",
