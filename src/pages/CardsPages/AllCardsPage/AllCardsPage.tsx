@@ -171,7 +171,7 @@ const AllCardsPage: FC = () => {
                 const filteredList = cardsList.filter((card: Card) => card.element.includes(typing!.toUpperCase()));
                 setallCardsState({ ...allCardsState, cards: filteredList, imgSrc: "FTCA_Images"});
             }
-        } else if (id === "Isekai") {
+        } else if (id === "GVC") {
             const cardsList = DB_Isekai.map((x) => x as unknown as Card);
             if (typing === "All") {
                 setallCardsState({ ...allCardsState, cards: cardsList, imgSrc: "GVC_Images"});
