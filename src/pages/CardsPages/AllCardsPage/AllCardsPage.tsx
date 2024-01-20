@@ -251,10 +251,6 @@ const AllCardsPage: FC = () => {
         } 
     }, [typing])
 
-    useEffect(() => {
-        console.log(allCardsState);
-    }, [allCardsState])
-
     return <>
         <div>
             <ElementBar id={ id as string}/>
