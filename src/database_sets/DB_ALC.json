@@ -180,6 +180,31 @@
       "durability": ""
     },
     {
+      "name": "Arisanna, Master Alchemist",
+      "collector_number": 5.2,
+      "types": "['CHAMPION']",
+      "classes": "['CLERIC']",
+      "subtypes": "['CLERIC', 'HUMAN']",
+      "element": "NORM",
+      "effect": "b'Arisanna Lineage (Arisanna, Master Alchemist must be leveled from a previous level \"Arisanna\" champion.)\\nOn Enter: Gather twice.\\nInherited Effect: At the beginning of your end phase, you may sacrifice two Herbs with the same name. If you do, draw a card.'",
+      "flavor_text": "b''",
+      "cost_memory": 2,
+      "cost_reserve": "",
+      "level": 2,
+      "power": "",
+      "life": 22,
+      "speed": "",
+      "legality": "",
+      "editions": [
+        "Alchemical Revolution 1 b'\\xe4\\xbb\\xa3\\xe3\\x80\\x85'",
+        "Alchemical Revolution Starter Decks 1 b'\\xe4\\xbb\\xa3\\xe3\\x80\\x85'",
+        "Alchemical Revolution First Edition 7 b'\\xe4\\xbb\\xa3\\xe3\\x80\\x85'",
+        "Alchemical Revolution First Edition 7 b'\\xe4\\xbb\\xa3\\xe3\\x80\\x85'"
+      ],
+      "slug": "arisanna-master-alchemist",
+      "durability": ""
+    },
+    {
       "name": "Arisanna, Astral Zenith",
       "collector_number": 6,
       "types": "['CHAMPION']",
@@ -348,6 +373,31 @@
       "durability": ""
     },
     {
+      "name": "Diana, Deadly Duelist",
+      "collector_number": 9.2,
+      "types": "['CHAMPION']",
+      "classes": "['RANGER']",
+      "subtypes": "['RANGER', 'HUMAN']",
+      "element": "NORM",
+      "effect": "b'Diana Lineage (Diana, Deadly Duelist must be leveled from a previous level \"Diana\" champion.)\\nOn Enter: Materialize a Bullet card from your material deck. (You still pay its costs.)\\nInherited Effect: Ranged 2'",
+      "flavor_text": "b''",
+      "cost_memory": 2,
+      "cost_reserve": "",
+      "level": 2,
+      "power": "",
+      "life": 22,
+      "speed": "",
+      "legality": "",
+      "editions": [
+        "Alchemical Revolution 1 b'Faicha'",
+        "Alchemical Revolution Starter Decks 1 b'Faicha'",
+        "Alchemical Revolution First Edition 7 b'Faicha'",
+        "Alchemical Revolution First Edition 7 b'Faicha'"
+      ],
+      "slug": "diana-deadly-duelist",
+      "durability": ""
+    },
+    {
       "name": "Diana, Cursebreaker",
       "collector_number": 10,
       "types": "['CHAMPION']",
@@ -493,6 +543,31 @@
     {
       "name": "Tonoris, Might of Humanity",
       "collector_number": 13.1,
+      "types": "['CHAMPION']",
+      "classes": "['GUARDIAN']",
+      "subtypes": "['GUARDIAN', 'HUMAN']",
+      "element": "NORM",
+      "effect": "b'Tonoris Lineage (Tonoris, Might of Humanity must be leveled from a previous level \"Tonoris\" champion.)\\nOn Enter: Tonoris\\' next attack this turn gets +3 power.'",
+      "flavor_text": "b\"With replenished strength, Tonoris serves as a beacon of hope for humanity's salvation.",
+      "cost_memory": 2,
+      "cost_reserve": "",
+      "level": 2,
+      "power": "",
+      "life": 25,
+      "speed": "",
+      "legality": "",
+      "editions": [
+        "Alchemical Revolution 1 b'\\xe5\\x8d\\x81\\xe5\\xb0\\xbe'",
+        "Alchemical Revolution Starter Decks 1 b'\\xe5\\x8d\\x81\\xe5\\xb0\\xbe'",
+        "Alchemical Revolution First Edition 7 b'\\xe5\\x8d\\x81\\xe5\\xb0\\xbe'",
+        "Alchemical Revolution First Edition 7 b'\\xe5\\x8d\\x81\\xe5\\xb0\\xbe'"
+      ],
+      "slug": "tonoris-might-of-humanity",
+      "durability": ""
+    },
+    {
+      "name": "Tonoris, Might of Humanity",
+      "collector_number": 13.2,
       "types": "['CHAMPION']",
       "classes": "['GUARDIAN']",
       "subtypes": "['GUARDIAN', 'HUMAN']",

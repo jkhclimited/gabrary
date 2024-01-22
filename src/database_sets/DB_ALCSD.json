@@ -155,6 +155,30 @@
       "durability": ""
     },
     {
+      "name": "Arisanna, Astral Zenith",
+      "collector_number": 6.1,
+      "types": "['CHAMPION']",
+      "classes": "['CLERIC']",
+      "subtypes": "['CLERIC', 'HUMAN']",
+      "element": "ASTRA",
+      "effect": "b\"Arisanna Lineage\\nOnce per turn, you may pay 0rather than pay a card's starcalling costs.",
+      "flavor_text": "b'The chosen luminary of the celestial heavens. Her advent foretells both devastation and salvation.'",
+      "cost_memory": 3,
+      "cost_reserve": "",
+      "level": 3,
+      "power": "",
+      "life": 25,
+      "speed": "",
+      "legality": "",
+      "editions": [
+        "Alchemical Revolution 1 b'\\xe4\\xbb\\xa3\\xe3\\x80\\x85'",
+        "Alchemical Revolution Starter Decks 1 b'\\xe4\\xbb\\xa3\\xe3\\x80\\x85'",
+        "Alchemical Revolution Starter Decks 7 b'\\xe4\\xbb\\xa3\\xe3\\x80\\x85'"
+      ],
+      "slug": "arisanna-astral-zenith",
+      "durability": ""
+    },
+    {
       "name": "Diana, Keen Huntress",
       "collector_number": 7,
       "types": "['CHAMPION']",
@@ -228,6 +252,30 @@
       "durability": ""
     },
     {
+      "name": "Diana, Duskstalker",
+      "collector_number": 9.1,
+      "types": "['CHAMPION']",
+      "classes": "['RANGER']",
+      "subtypes": "['RANGER', 'HUMAN']",
+      "element": "UMBRA",
+      "effect": "b\"Diana Lineage\\nOn Enter: Diana becomes distant. \\nOn Champion Hit: Generate a Creeping Torment card and put it on the bottom of the hit champion's lineage. (To generate, add that card from outside of the game.) ",
+      "flavor_text": "b''",
+      "cost_memory": 3,
+      "cost_reserve": "",
+      "level": 3,
+      "power": "",
+      "life": 25,
+      "speed": "",
+      "legality": "",
+      "editions": [
+        "Alchemical Revolution 1 b'Faicha'",
+        "Alchemical Revolution Starter Decks 1 b'Faicha'",
+        "Alchemical Revolution Starter Decks 7 b'Faicha'"
+      ],
+      "slug": "diana-duskstalker",
+      "durability": ""
+    },
+    {
       "name": "Tonoris, Lone Mercenary",
       "collector_number": 10,
       "types": "['CHAMPION']",
@@ -279,6 +327,30 @@
     {
       "name": "Tonoris, Genesis Aegis",
       "collector_number": 12,
+      "types": "['CHAMPION']",
+      "classes": "['GUARDIAN']",
+      "subtypes": "['GUARDIAN', 'HUMAN']",
+      "element": "NEOS",
+      "effect": "b'Tonoris Lineage\\nAt the beginning of your recollection phase, choose one that hasn\\xe2\\x80\\x99t been chosen\\xe2\\x80\\x94 \\n\\xe2\\x80\\xa2 Summon an Obelisk of Armaments token.\\n\\xe2\\x80\\xa2 Summon an Obelisk of Fabrication token.\\n\\xe2\\x80\\xa2 Summon an Obelisk of Protection token.'",
+      "flavor_text": "b''",
+      "cost_memory": 3,
+      "cost_reserve": "",
+      "level": 3,
+      "power": "",
+      "life": 30,
+      "speed": "",
+      "legality": "",
+      "editions": [
+        "Alchemical Revolution 1 b'\\xe5\\x8d\\x81\\xe5\\xb0\\xbe'",
+        "Alchemical Revolution Starter Decks 1 b'\\xe5\\x8d\\x81\\xe5\\xb0\\xbe'",
+        "Alchemical Revolution Starter Decks 7 b'\\xe5\\x8d\\x81\\xe5\\xb0\\xbe'"
+      ],
+      "slug": "tonoris-genesis-aegis",
+      "durability": ""
+    },
+    {
+      "name": "Tonoris, Genesis Aegis",
+      "collector_number": 12.1,
       "types": "['CHAMPION']",
       "classes": "['GUARDIAN']",
       "subtypes": "['GUARDIAN', 'HUMAN']",

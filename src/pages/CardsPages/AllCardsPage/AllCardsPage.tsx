@@ -2,12 +2,9 @@ import './AllCardsPage.css';
 import React, { FC, useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import DB_ALC from '../../../database_sets/DB_ALC.json';
-import DB_ALC_Alts from '../../../database_sets/DB_ALC_Alt.json';
 import DB_ALCSD from '../../../database_sets/DB_ALCSD.json';
 import DB_DOAAlter from '../../../database_sets/DB_DOAAlter.json';
-import DB_DOAAlter_Alt from '../../../database_sets/DB_DOAAlter_Alt.json';
 import DB_DOA1st from '../../../database_sets/DB_DOA1st.json';
-import DB_DOA1st_Alt from '../../../database_sets/DB_DOA1st_Alt.json';
 import DB_DOAp from '../../../database_sets/DB_DOAp.json';
 import DB_DOASD from '../../../database_sets/DB_DOASD.json';
 import DB_EVP from '../../../database_sets/DB_EVP.json';
@@ -62,192 +59,71 @@ const AllCardsPage: FC = () => {
         setallCardsState({ ...allCardsState, lightboxDisplay: false });
     };
 
+    function getCards(fullCardsList: any[], imgSrc: string) {
+        const imgSrcStr = imgSrc + "_Images";
+        if (typing === "All") {
+            setallCardsState({ ...allCardsState, cards: fullCardsList, imgSrc: imgSrcStr});
+        } else if (typing === "Alt-Arts") {
+            const filterAlts = fullCardsList.filter((card: Card) => card.collector_number % 1 != 0);
+            setallCardsState({ ...allCardsState, cards: filterAlts, imgSrc: imgSrcStr});
+        } else if (typing === "Champion" || typing === "Regalia" || typing === "Domain") {
+            const filteredList = fullCardsList.filter((card: Card) => card.types.includes(typing!.toUpperCase()));
+            setallCardsState({ ...allCardsState, cards: filteredList, imgSrc: imgSrcStr});
+        } else {
+            const filteredList = fullCardsList.filter((card: Card) => card.element.includes(typing!.toUpperCase()));
+            setallCardsState({ ...allCardsState, cards: filteredList, imgSrc: imgSrcStr});
+        }
+    }
+
     useEffect(() => {
         if (id === "ALC") {
             const cardsList = DB_ALC.map((x) => x as unknown as Card);
-            const cardsListAlt = DB_ALC_Alts.map((x) => x as unknown as Card);
-            if (typing === "All") {
-                setallCardsState({ ...allCardsState, cards: cardsList, imgSrc: "ALC_Images"});
-            } else if (typing === "Alt-Arts") {
-                setallCardsState({ ...allCardsState, cards: cardsListAlt, imgSrc: "ALC_Alt_Images"});
-            } else if (typing === "Champion" || typing === "Regalia" || typing === "Domain") {
-                const filteredList = cardsList.filter((card: Card) => card.types.includes(typing!.toUpperCase()));
-                setallCardsState({ ...allCardsState, cards: filteredList, imgSrc: "ALC_Images"});
-            } else {
-                const filteredList = cardsList.filter((card: Card) => card.element.includes(typing!.toUpperCase()));
-                setallCardsState({ ...allCardsState, cards: filteredList, imgSrc: "ALC_Images"});
-            }
+            getCards(cardsList, id);
         } else if (id === "ALCSD") {
             const cardsList = DB_ALCSD.map((x) => x as unknown as Card);
-            if (typing === "All") {
-                setallCardsState({ ...allCardsState, cards: cardsList, imgSrc: "ALCSD_Images"});
-            } else if (typing === "Champion" || typing === "Regalia" || typing === "Domain") {
-                const filteredList = cardsList.filter((card: Card) => card.types.includes(typing!.toUpperCase()));
-                setallCardsState({ ...allCardsState, cards: filteredList, imgSrc: "ALCSD_Images"});
-            } else {
-                const filteredList = cardsList.filter((card: Card) => card.element.includes(typing!.toUpperCase()));
-                setallCardsState({ ...allCardsState, cards: filteredList, imgSrc: "ALCSD_Images"});
-            }
+            getCards(cardsList, id);
         } else if (id === "DOA1st") {
             const cardsList = DB_DOA1st.map((x) => x as unknown as Card);
-            const cardsListAlt = DB_DOA1st_Alt.map((x) => x as unknown as Card);
-            if (typing === "All") {
-                setallCardsState({ ...allCardsState, cards: cardsList, imgSrc: "DOA1st_Images"});
-            } else if (typing === "Alt-Arts") {
-                setallCardsState({ ...allCardsState, cards: cardsListAlt, imgSrc: "DOA1st_Alt_Images"});
-            } else if (typing === "Champion" || typing === "Regalia" || typing === "Domain") {
-                const filteredList = cardsList.filter((card: Card) => card.types.includes(typing!.toUpperCase()));
-                setallCardsState({ ...allCardsState, cards: filteredList, imgSrc: "DOA1st_Images"});
-            } else {
-                const filteredList = cardsList.filter((card: Card) => card.element.includes(typing!.toUpperCase()));
-                setallCardsState({ ...allCardsState, cards: filteredList, imgSrc: "DOA1st_Images"});
-            }
+            getCards(cardsList, id);
         } else if (id === "DOA-Alter") {
             const cardsList = DB_DOAAlter.map((x) => x as unknown as Card);
-            const cardsListAlt = DB_DOAAlter_Alt.map((x) => x as unknown as Card);
-            if (typing === "All") {
-                setallCardsState({ ...allCardsState, cards: cardsList, imgSrc: "DOAAlter_Images"});
-            } else if (typing === "Alt-Arts") {
-                setallCardsState({ ...allCardsState, cards: cardsListAlt, imgSrc: "DOAAlter_Alt_Images"});
-            } else if (typing === "Champion" || typing === "Regalia" || typing === "Domain") {
-                const filteredList = cardsList.filter((card: Card) => card.types.includes(typing!.toUpperCase()));
-                setallCardsState({ ...allCardsState, cards: filteredList, imgSrc: "DOAAlter_Images"});
-            } else {
-                const filteredList = cardsList.filter((card: Card) => card.element.includes(typing!.toUpperCase()));
-                setallCardsState({ ...allCardsState, cards: filteredList, imgSrc: "DOAAlter_Images"});
-            }
+            getCards(cardsList, id);
         } else if (id === "DOAp") {
             const cardsList = DB_DOAp.map((x) => x as unknown as Card);
-            if (typing === "All") {
-                setallCardsState({ ...allCardsState, cards: cardsList, imgSrc: "DOAp_Images"});
-            } else if (typing === "Champion" || typing === "Regalia" || typing === "Domain") {
-                const filteredList = cardsList.filter((card: Card) => card.types.includes(typing!.toUpperCase()));
-                setallCardsState({ ...allCardsState, cards: filteredList, imgSrc: "DOAp_Images"});
-            } else {
-                const filteredList = cardsList.filter((card: Card) => card.element.includes(typing!.toUpperCase()));
-                setallCardsState({ ...allCardsState, cards: filteredList, imgSrc: "DOAp_Images"});
-            }
+            getCards(cardsList, id);
         } else if (id === "DOASD") {
             const cardsList = DB_DOASD.map((x) => x as unknown as Card);
-            if (typing === "All") {
-                setallCardsState({ ...allCardsState, cards: cardsList, imgSrc: "DOASD_Images"});
-            } else if (typing === "Champion" || typing === "Regalia" || typing === "Domain") {
-                const filteredList = cardsList.filter((card: Card) => card.types.includes(typing!.toUpperCase()));
-                setallCardsState({ ...allCardsState, cards: filteredList, imgSrc: "DOASD_Images"});
-            } else {
-                const filteredList = cardsList.filter((card: Card) => card.element.includes(typing!.toUpperCase()));
-                setallCardsState({ ...allCardsState, cards: filteredList, imgSrc: "DOASD_Images"});
-            }
+            getCards(cardsList, id);
         } else if (id === "EVP") {
             const cardsList = DB_EVP.map((x) => x as unknown as Card);
-            if (typing === "All") {
-                setallCardsState({ ...allCardsState, cards: cardsList, imgSrc: "EVP_Images"});
-            } else if (typing === "Champion" || typing === "Regalia" || typing === "Domain") {
-                const filteredList = cardsList.filter((card: Card) => card.types.includes(typing!.toUpperCase()));
-                setallCardsState({ ...allCardsState, cards: filteredList, imgSrc: "EVP_Images"});
-            } else {
-                const filteredList = cardsList.filter((card: Card) => card.element.includes(typing!.toUpperCase()));
-                setallCardsState({ ...allCardsState, cards: filteredList, imgSrc: "EVP_Images"});
-            }
+            getCards(cardsList, id);
         } else if (id === "FTC") {
             const cardsList = DB_FTC.map((x) => x as unknown as Card);
-            if (typing === "All") {
-                setallCardsState({ ...allCardsState, cards: cardsList, imgSrc: "FTC_Images"});
-            } else if (typing === "Champion" || typing === "Regalia" || typing === "Domain") {
-                const filteredList = cardsList.filter((card: Card) => card.types.includes(typing!.toUpperCase()));
-                setallCardsState({ ...allCardsState, cards: filteredList, imgSrc: "FTC_Images"});
-            } else {
-                const filteredList = cardsList.filter((card: Card) => card.element.includes(typing!.toUpperCase()));
-                setallCardsState({ ...allCardsState, cards: filteredList, imgSrc: "FTC_Images"});
-            }
+            getCards(cardsList, id);
         } else if (id === "FTCA") {
             const cardsList = DB_FTCA.map((x) => x as unknown as Card);
-            if (typing === "All") {
-                setallCardsState({ ...allCardsState, cards: cardsList, imgSrc: "FTCA_Images"});
-            } else if (typing === "Champion" || typing === "Regalia" || typing === "Domain") {
-                const filteredList = cardsList.filter((card: Card) => card.types.includes(typing!.toUpperCase()));
-                setallCardsState({ ...allCardsState, cards: filteredList, imgSrc: "FTCA_Images"});
-            } else {
-                const filteredList = cardsList.filter((card: Card) => card.element.includes(typing!.toUpperCase()));
-                setallCardsState({ ...allCardsState, cards: filteredList, imgSrc: "FTCA_Images"});
-            }
+            getCards(cardsList, id);
         } else if (id === "GVC") {
             const cardsList = DB_Isekai.map((x) => x as unknown as Card);
-            if (typing === "All") {
-                setallCardsState({ ...allCardsState, cards: cardsList, imgSrc: "GVC_Images"});
-            } else if (typing === "Champion" || typing === "Regalia" || typing === "Domain") {
-                const filteredList = cardsList.filter((card: Card) => card.types.includes(typing!.toUpperCase()));
-                setallCardsState({ ...allCardsState, cards: filteredList, imgSrc: "GVC_Images"});
-            } else {
-                const filteredList = cardsList.filter((card: Card) => card.element.includes(typing!.toUpperCase()));
-                setallCardsState({ ...allCardsState, cards: filteredList, imgSrc: "GVC_Images"});
-            }
+            getCards(cardsList, id);
         } else if (id === "KSP") {
             const cardsList = DB_KSP.map((x) => x as unknown as Card);
-            if (typing === "All") {
-                setallCardsState({ ...allCardsState, cards: cardsList, imgSrc: "KSP_Images"});
-            } else if (typing === "Champion" || typing === "Regalia" || typing === "Domain") {
-                const filteredList = cardsList.filter((card: Card) => card.types.includes(typing!.toUpperCase()));
-                setallCardsState({ ...allCardsState, cards: filteredList, imgSrc: "KSP_Images"});
-            } else {
-                const filteredList = cardsList.filter((card: Card) => card.element.includes(typing!.toUpperCase()));
-                setallCardsState({ ...allCardsState, cards: filteredList, imgSrc: "KSP_Images"});
-            }
+            getCards(cardsList, id);
         } else if (id === "P22") {
             const cardsList = DB_P22.map((x) => x as unknown as Card);
-            if (typing === "All") {
-                setallCardsState({ ...allCardsState, cards: cardsList, imgSrc: "P22_Images"});
-            } else if (typing === "Champion" || typing === "Regalia" || typing === "Domain") {
-                const filteredList = cardsList.filter((card: Card) => card.types.includes(typing!.toUpperCase()));
-                setallCardsState({ ...allCardsState, cards: filteredList, imgSrc: "P22_Images"});
-            } else {
-                const filteredList = cardsList.filter((card: Card) => card.element.includes(typing!.toUpperCase()));
-                setallCardsState({ ...allCardsState, cards: filteredList, imgSrc: "P22_Images"});
-            }
+            getCards(cardsList, id);
         } else if (id === "P23") {
             const cardsList = DB_P23.map((x) => x as unknown as Card);
-            if (typing === "All") {
-                setallCardsState({ ...allCardsState, cards: cardsList, imgSrc: "P23_Images"});
-            } else if (typing === "Champion" || typing === "Regalia" || typing === "Domain") {
-                const filteredList = cardsList.filter((card: Card) => card.types.includes(typing!.toUpperCase()));
-                setallCardsState({ ...allCardsState, cards: filteredList, imgSrc: "EVP_Images"});
-            } else {
-                const filteredList = cardsList.filter((card: Card) => card.element.includes(typing!.toUpperCase()));
-                setallCardsState({ ...allCardsState, cards: filteredList, imgSrc: "EVP_Images"});
-            }
+            getCards(cardsList, id);
         } else if (id === "P24") {
             const cardsList = DB_P24.map((x) => x as unknown as Card);
-            if (typing === "All") {
-                setallCardsState({ ...allCardsState, cards: cardsList, imgSrc: "P24_Images"});
-            } else if (typing === "Champion" || typing === "Regalia" || typing === "Domain") {
-                const filteredList = cardsList.filter((card: Card) => card.types.includes(typing!.toUpperCase()));
-                setallCardsState({ ...allCardsState, cards: filteredList, imgSrc: "P24_Images"});
-            } else {
-                const filteredList = cardsList.filter((card: Card) => card.element.includes(typing!.toUpperCase()));
-                setallCardsState({ ...allCardsState, cards: filteredList, imgSrc: "P24_Images"});
-            }
+            getCards(cardsList, id);
         } else if (id === "SP1") {
             const cardsList = DB_SP1.map((x) => x as unknown as Card);
-            if (typing === "All") {
-                setallCardsState({ ...allCardsState, cards: cardsList, imgSrc: "SP1_Images"});
-            } else if (typing === "Champion" || typing === "Regalia" || typing === "Domain") {
-                const filteredList = cardsList.filter((card: Card) => card.types.includes(typing!.toUpperCase()));
-                setallCardsState({ ...allCardsState, cards: filteredList, imgSrc: "SP1_Images"});
-            } else {
-                const filteredList = cardsList.filter((card: Card) => card.element.includes(typing!.toUpperCase()));
-                setallCardsState({ ...allCardsState, cards: filteredList, imgSrc: "SP1_Images"});
-            }
+            getCards(cardsList, id);
         } else if (id === "Spoilers") {
             const cardsList = DB_Spoilers.map((x) => x as unknown as Card);
-            if (typing === "All") {
-                setallCardsState({ ...allCardsState, cards: cardsList, imgSrc: "Spoilers_Images"});
-            } else if (typing === "Champion" || typing === "Regalia" || typing === "Domain") {
-                const filteredList = cardsList.filter((card: Card) => card.types.includes(typing!.toUpperCase()));
-                setallCardsState({ ...allCardsState, cards: filteredList, imgSrc: "Spoilers_Images"});
-            } else {
-                const filteredList = cardsList.filter((card: Card) => card.element.includes(typing!.toUpperCase()));
-                setallCardsState({ ...allCardsState, cards: filteredList, imgSrc: "Spoilers_Images"});
-            }
+            getCards(cardsList, id);
         } 
     }, [typing])
 
