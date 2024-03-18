@@ -131,6 +131,14 @@ const AllCardsPage: FC = () => {
         <div>
             <ElementBar id={ id as string}/>
             <p className="toggleText">Toggle Text <ToggleSwitch name='Toggle Card Text' handleTextToggle={handleTextToggle}/></p> 
+
+            {id === "Spoilers" ? 
+                <div className="text-row">
+                    <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('10')} src={process.env.PUBLIC_URL + `/Spoilers_Images/10.jpg`} alt="cotd" /></p>
+                    <p style={{ display: (allCardsState.showing ? 'block' : 'none' ) }} className="centerText">Card Name</p>
+                </div>
+            : <div></div> }
+
             <div className="flexCardImgs">
                 {allCardsState.cards.length > 0 ?
                     allCardsState.cards.map((card, i) => (
