@@ -5,5 +5,13 @@
         "types": "['ACTION']",
         "classes": "['CLERIC','SKILL','REACTION']",
         "element": "NORM"
+	},
+    {
+	    "name": "Favorable Winds",
+        "collector_number": 144,
+        "types": "['ACTION']",
+        "classes": "['MAGE','SSPELL']",
+        "element": "WIND"
 	}
+
 ]
