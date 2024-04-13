@@ -30,7 +30,7 @@ const NavBar: FC = () => {
                 <Link to="/creators" className="navItem">Content Creators</Link>
                 <Link to="/sets/Spoilers/All" className="navItem">Spoilers</Link>
                 <Link to="/calendar" className="navItem">Calendar</Link>
-                <Link to="https://docs.google.com/spreadsheets/d/1c89cDEkZoMt3X4lClQfMylo_eMNfhgEXj5QzT_qMIK4/edit#gid=962830777" className="navItem">Path of Silver</Link>
+                <Link to="https://docs.google.com/spreadsheets/d/1c89cDEkZoMt3X4lClQfMylo_eMNfhgEXj5QzT_qMIK4/edit?usp=sharing" className="navItem">Path of Silver</Link>
             </div>
             <div className="toggleDark">
 
