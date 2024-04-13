@@ -20,10 +20,6 @@ const ContentCreatorsPage: FC = () => <>
             <p className='contentCreatorName'>TM32</p>
             <iframe className='videoArea' src='https://www.youtube.com/embed?listType=playlist&list=UULF82Nu1M_YE6ju9dihgI8ieg' title='Latest TM32 video' allowFullScreen></iframe>
         </div>
-        <div className='contentCreator' id='adventureCoGaming'>
-            <p className='contentCreatorName'>Adventure Co. Gaming</p>
-            <iframe className='videoArea' src='https://www.youtube.com/embed?listType=playlist&list=UULF19n08j8gULeRiYlbyOUibg' title='Latest AdventureCo. Gaming video' allowFullScreen></iframe>
-        </div>
         <div className='contentCreator' id='talkga'>
             <p className='contentCreatorName'>TalkGA</p>
             <iframe className='videoArea' src='https://www.youtube.com/embed?listType=playlist&list=UUT2Qizj1z9Vw7yul0WwXTYg' title='Latest TalkGA video' allowFullScreen></iframe>
@@ -32,9 +28,9 @@ const ContentCreatorsPage: FC = () => <>
             <p className='contentCreatorName'>True Champion Gaming</p>
             <iframe className='videoArea' src='https://www.youtube.com/embed?listType=playlist&list=UULFHGnCeBHoOdcsdb1X0Oi9qg' title='Latest True Champion Gaming video' allowFullScreen></iframe>
         </div>
-        <div className='contentCreator' id='duoLeveling'>
-            <p className='contentCreatorName'>Duo Leveling</p>
-            <iframe className='videoArea' src='https://www.youtube.com/embed?listType=playlist&list=UULF9AyD8AoWSKovWQWYsNzL4g' title='Latest Duo Leveling video' allowFullScreen></iframe>
+        <div className='contentCreator' id='Banner Knight Stew'>
+            <p className='contentCreatorName'>Banner Knight Stew</p>
+            <iframe className='videoArea' src='https://www.youtube.com/embed?listType=playlist&list=UULvJYgZ995jlPX5QA2igoOg' title='Latest Banner Knight Stew' allowFullScreen></iframe>
         </div>
         <div className='contentCreator' id='valkyrieLoaf'>
             <p className='contentCreatorName'>Valkyrie Loaf</p>
@@ -52,17 +48,9 @@ const ContentCreatorsPage: FC = () => <>
             <p className='contentCreatorName'>Creative Shock</p>
             <iframe className='videoArea' src='https://www.youtube.com/embed?listType=playlist&list=UULF9XCeZbyVmWWXaLc2o-KLjg' title='Latest Creative Shock video' allowFullScreen></iframe>
         </div>
-        <div className='contentCreator' id="Champion's Quarters">
-            <p className='contentCreatorName'>Champion's Quarters</p>
-            <iframe className='videoArea' src='https://www.youtube.com/embed?listType=playlist&list=UUL2ppi1lfSxeHhvHUPrNxug' title="Latest Champion's Quarters video" allowFullScreen></iframe>
-        </div>
         <div className='contentCreator' id="LeviTCG">
             <p className='contentCreatorName'>LeviTCG</p>
             <iframe className='videoArea' src='https://www.youtube.com/embed?listType=playlist&list=UULFmcpT6hkpAo31ztXnfljwUQ' title="Latest LeviTCG video" allowFullScreen></iframe>
-        </div>
-		<div className='contentCreator' id="Storm Tyrant's Guys">
-            <p className='contentCreatorName'>Storm Tyrant's Guys</p>
-            <iframe className='videoArea' src='https://www.youtube.com/embed?listType=playlist&list=UUMT0ihKh_NktOG8jMM3LRvg' title="Latest Storm Tyrant's Guys video" allowFullScreen></iframe>
         </div>
 		<div className='contentCreator' id="Pranks TCG">
             <p className='contentCreatorName'>Pranks TCG</p>
@@ -83,6 +71,10 @@ const ContentCreatorsPage: FC = () => <>
 		<div className='contentCreator' id="TT Plays.">
             <p className='contentCreatorName'>TT Plays</p>
             <iframe className='videoArea' src='https://www.youtube.com/embed?listType=playlist&list=UUUvIrAXik6nGSLzoBrLfoqA' title="Latest TT Plays video" allowFullScreen></iframe>
+        </div>
+        <div className='contentCreator' id='duoLeveling'>
+            <p className='contentCreatorName'>Duo Leveling</p>
+            <iframe className='videoArea' src='https://www.youtube.com/embed?listType=playlist&list=UULF9AyD8AoWSKovWQWYsNzL4g' title='Latest Duo Leveling video' allowFullScreen></iframe>
         </div>
     </div>
 </>
