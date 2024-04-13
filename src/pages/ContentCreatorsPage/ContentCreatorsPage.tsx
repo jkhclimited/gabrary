@@ -30,7 +30,7 @@ const ContentCreatorsPage: FC = () => <>
         </div>
         <div className='contentCreator' id='Banner Knight Stew'>
             <p className='contentCreatorName'>Banner Knight Stew</p>
-            <iframe className='videoArea' src='https://www.youtube.com/embed?listType=playlist&list=UULvJYgZ995jlPX5QA2igoOg' title='Latest Banner Knight Stew' allowFullScreen></iframe>
+            <iframe className='videoArea' src='https://www.youtube.com/embed?listType=playlist&list=UUTvJYgZ995jlPX5QA2igoOg' title='Latest Duo Leveling video' allowFullScreen></iframe>
         </div>
         <div className='contentCreator' id='valkyrieLoaf'>
             <p className='contentCreatorName'>Valkyrie Loaf</p>
