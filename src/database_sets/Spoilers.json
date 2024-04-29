@@ -84,6 +84,13 @@
         "element": "WIND"
 	},
     {
+	    "name": "Spirit of Wind",
+        "collector_number": 4001,
+        "types": "['CHAMPION']",
+        "classes": "['SPIRIT']",
+        "element": "WIND"
+	},
+    {
 	    "name": "Tristan, Underhanded",
         "collector_number": 4002,
         "types": "['CHAMPION']",
@@ -193,6 +200,20 @@
         "collector_number": 5001,
         "types": "['CHAMPION']",
         "classes": "['SPIRIT']",
+        "element": "NORM"
+	},
+    {
+	    "name": "Silvie, Wilds Whisperer",
+        "collector_number": 5002,
+        "types": "['CHAMPION']",
+        "classes": "['TAMER','HUMAN']",
+        "element": "NORM"
+	},
+    {
+	    "name": "Silvie, With the Pack",
+        "collector_number": 5003,
+        "types": "['CHAMPION']",
+        "classes": "['TAMER','HUMAN']",
         "element": "NORM"
 	},
     {
