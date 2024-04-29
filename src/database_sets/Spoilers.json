@@ -217,6 +217,13 @@
         "element": "NORM"
 	},
     {
+	    "name": "Silvie, Slime Sovereign",
+        "collector_number": 5004,
+        "types": "['CHAMPION']",
+        "classes": "['TAMER','HUMAN']",
+        "element": "TERA"
+	},
+    {
 	    "name": "Key Slime Pudding",
         "collector_number": 5008,
         "types": "['REGALIA','ITEM']",
