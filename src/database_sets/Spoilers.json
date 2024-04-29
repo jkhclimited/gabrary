@@ -1,7 +1,7 @@
 [
     {
-	    "name": "Tristan, Shadowreaver",
-        "collector_number": 006.1,
+        "name": "Tristan, Shadowreaver",
+        "collector_number": 6.1,
         "types": "['CHAMPION']",
         "classes": "['ASSASSIN','HUMAN']",
         "element": "UMBRA"
