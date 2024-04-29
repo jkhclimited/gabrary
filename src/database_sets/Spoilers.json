@@ -1,5 +1,19 @@
 [
     {
+	    "name": "Tristan, Shadowreaver",
+        "collector_number": 006.1,
+        "types": "['CHAMPION']",
+        "classes": "['ASSASSIN','HUMAN']",
+        "element": "UMBRA"
+	},
+    {
+	    "name": "Cell Assembler",
+        "collector_number": 43,
+        "types": "['ALLY']",
+        "classes": "['GUARDIAN,AUTOMATON']",
+        "element": "NORM"
+	},
+    {
 	    "name": "Hide in Bush",
         "collector_number": 54,
         "types": "['ACTION']",
@@ -7,11 +21,262 @@
         "element": "NORM"
 	},
     {
+	    "name": "Manufacture Cell",
+        "collector_number": 59,
+        "types": "['ACTION']",
+        "classes": "['CELRIC', 'AUTOMATON', 'CRAFT']",
+        "element": "NORM"
+	},
+    {
+	    "name": "Powercell",
+        "collector_number": 64.1,
+        "types": "['TOKEN','ITEM']",
+        "classes": "['CLERIC','POWERCELL']",
+        "element": "NORM"
+	},
+    {
+	    "name": "Cell Handler",
+        "collector_number": 84,
+        "types": "['ALLY']",
+        "classes": "['TAMER','AUTOMATON']",
+        "element": "FIRE"
+	},
+    {
+	    "name": "Surging Bolt",
+        "collector_number": 100,
+        "types": "['ACTION']",
+        "classes": "['MAGE','SPELL']",
+        "element": "FIRE"
+	},
+    {
+	    "name": "Cell Sharpshooter",
+        "collector_number": 106,
+        "types": "['ALLY']",
+        "classes": "['RANGER','AUTOMATON']",
+        "element": "WATER"
+	},
+    {
+	    "name": "Fractal of Rain",
+        "collector_number": 112,
+        "types": "['PHANTASIA']",
+        "classes": "['CLERIC','FRACTAL']",
+        "element": "WATER"
+	},
+    {
+	    "name": "Charged Assailant",
+        "collector_number": 138,
+        "types": "['ALLY']",
+        "classes": "['ASSASSIN','AUTOMATON']",
+        "element": "WIND"
+	},
+    {
 	    "name": "Favorable Winds",
         "collector_number": 144,
         "types": "['ACTION']",
-        "classes": "['MAGE','SSPELL']",
+        "classes": "['MAGE','SPELL']",
         "element": "WIND"
-	}
-
+	},
+    {
+	    "name": "Windmill Engineer",
+        "collector_number": 160,
+        "types": "['ALLY']",
+        "classes": "['RANGER','HUMAN']",
+        "element": "WIND"
+	},
+    {
+	    "name": "Tristan, Underhanded",
+        "collector_number": 4002,
+        "types": "['CHAMPION']",
+        "classes": "['ASSASSIN','HUMAN']",
+        "element": "NORM"
+	},
+    {
+	    "name": "Tristan, Hired Blade",
+        "collector_number": 4003,
+        "types": "['CHAMPION']",
+        "classes": "['ASSASSIN','HUMAN']",
+        "element": "NORM"
+	},
+    {
+	    "name": "Tristan, Shadowdancer",
+        "collector_number": 4004,
+        "types": "['CHAMPION']",
+        "classes": "['ASSASSIN','HUMAN']",
+        "element": "UMBRA"
+	},
+    {
+	    "name": "Gearstride Gloves",
+        "collector_number": 4009,
+        "types": "['REGALIA','ITEM']",
+        "classes": "['ASSASSIN','GLOVES']",
+        "element": "WIND"
+	},
+    {
+	    "name": "Malignant Athame",
+        "collector_number": 4011,
+        "types": "['REGALIA','WEAPON']",
+        "classes": "['ASSASSIN','DAGGER']",
+        "element": "UMBRA"
+	},
+    {
+	    "name": "Incapacitate",
+        "collector_number": 4015,
+        "types": "['ACTION']",
+        "classes": "['ASSASSIN','SKILL','REACTION']",
+        "element": "UMBRA"
+	},
+    {
+	    "name": "mastermind Scheme",
+        "collector_number": 4016,
+        "types": "['ACTION']",
+        "classes": "['ASSASSIN','SKILL']",
+        "element": "NORM"
+	},
+    {
+	    "name": "Sable Remnant",
+        "collector_number": 4017,
+        "types": "['ALLY']",
+        "classes": "['ASSASSIN','AUTOMATON']",
+        "element": "NORM"
+	},
+    {
+	    "name": "Stifiling Trap",
+        "collector_number": 4025,
+        "types": "['ACTION']",
+        "classes": "['ASSASSIN','SKILL','REACTION']",
+        "element": "WIND"
+	},
+    {
+	    "name": "Surveil the Winds",
+        "collector_number": 4026,
+        "types": "['ACTION']",
+        "classes": "['ASSASSIN','SKILL']",
+        "element": "WIND"
+	},
+    {
+	    "name": "Gloamspire Headhunter",
+        "collector_number": 4027,
+        "types": "['ALLY']",
+        "classes": "['ASSASSIN','AUTOMATON']",
+        "element": "UMBRA"
+	},
+    {
+	    "name": "Grim Foreboding",
+        "collector_number": 4028,
+        "types": "['ACTION']",
+        "classes": "['ASSASSIN','SKILL']",
+        "element": "UMBRA"
+	},
+    {
+	    "name": "Haunting Demise",
+        "collector_number": 4029,
+        "types": "['ACTION']",
+        "classes": "['ASSASSIN','DAGGER','CURSE']",
+        "element": "UMBRA"
+	},
+    {
+	    "name": "Ominous Shadow",
+        "collector_number": 4030,
+        "types": "['TOKEN','PHANTASIA','ALLY']",
+        "classes": "['ASSASSIN','SHADOW']",
+        "element": "UMBRA"
+	},
+    {
+	    "name": "Shadowstrike",
+        "collector_number": 4032,
+        "types": "['ATTACK']",
+        "classes": "['ASSASSIN','DAGGER']",
+        "element": "UMBRA"
+	},
+    {
+	    "name": "Spirit of Slime",
+        "collector_number": 5001,
+        "types": "['CHAMPION']",
+        "classes": "['SPIRIT']",
+        "element": "NORM"
+	},
+    {
+	    "name": "Key Slime Pudding",
+        "collector_number": 5008,
+        "types": "['REGALIA','ITEM']",
+        "classes": "['TAMER','FOOD']",
+        "element": "NORM"
+	},
+    {
+	    "name": "Slime Nexus",
+        "collector_number": 5010,
+        "types": "['REGALIA','ITEM']",
+        "classes": "['TAMER','COMPONENT']",
+        "element": "NORM"
+	},
+    {
+	    "name": "Slime Nexus",
+        "collector_number": 5014,
+        "types": "['ITEM']",
+        "classes": "['TAMER','FOOD']",
+        "element": "NORM"
+	},
+    {
+	    "name": "Baby Red Slime",
+        "collector_number": 5019,
+        "types": "['ALLY']",
+        "classes": "['TAMER','ANIMAL','SLIME']",
+        "element": "FIRE"
+	},
+    {
+	    "name": "Baby Blue Slime",
+        "collector_number": 5022,
+        "types": "['ALLY']",
+        "classes": "['TAMER','ANIMAL','SLIME']",
+        "element": "WATER"
+	},
+    {
+	    "name": "Gather Slimes",
+        "collector_number": 5024,
+        "types": "['ACTION']",
+        "classes": "['TAMER','SKILL','SLIME']",
+        "element": "WATER"
+	},
+    {
+	    "name": "Baby Green Slimes",
+        "collector_number": 5025,
+        "types": "['ALLY']",
+        "classes": "['TAMER','ANIMAL','SLIME']",
+        "element": "WIND"
+	},
+    {
+	    "name": "Slime's Blessing",
+        "collector_number": 5027,
+        "types": "['ACTION']",
+        "classes": "['TAMER','SKILL','SLIME']",
+        "element": "WIND"
+	},
+    {
+	    "name": "Storm Slime",
+        "collector_number": 5029,
+        "types": "['ALLY']",
+        "classes": "['TAMER','BEAST','SLIME']",
+        "element": "ARCANE"
+	},
+    {
+	    "name": "Ethereal Slime",
+        "collector_number": 5030,
+        "types": "['ALLY']",
+        "classes": "['TAMER','BEAST','SLIME']",
+        "element": "CRUX"
+	},
+    {
+	    "name": "Lustrous Slime",
+        "collector_number": 5031,
+        "types": "['ALLY']",
+        "classes": "['TAMER','BEAST','SLIME']",
+        "element": "LUXEM"
+	},
+    {
+	    "name": "Verdant Slime",
+        "collector_number": 5033,
+        "types": "['ALLY']",
+        "classes": "['TAMER','BEAST','SLIME']",
+        "element": "TERA"
+	},
 ]
