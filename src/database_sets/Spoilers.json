@@ -42,10 +42,24 @@
         "element": "FIRE"
 	},
     {
+	    "name": "Priestess of Flame",
+        "collector_number": 94,
+        "types": "['ALLY']",
+        "classes": "['CLERIC','HUMAN]",
+        "element": "FIRE"
+	},
+    {
 	    "name": "Surging Bolt",
         "collector_number": 100,
         "types": "['ACTION']",
         "classes": "['MAGE','SPELL']",
+        "element": "FIRE"
+	},
+    {
+	    "name": "Volatile Fusilier",
+        "collector_number": 103,
+        "types": "['ALLY']",
+        "classes": "['RANGER','HUMAN']",
         "element": "FIRE"
 	},
     {
@@ -63,10 +77,45 @@
         "element": "WATER"
 	},
     {
+	    "name": "Icebound Slam",
+        "collector_number": 117,
+        "types": "['ATTACK']",
+        "classes": "['GUARDIAN','SWORD']",
+        "element": "WATER"
+	},
+    {
+	    "name": "Lost in Thought",
+        "collector_number": 122,
+        "types": "['ACTION']",
+        "classes": "['MAGE','SKILL']",
+        "element": "WATER"
+	},
+    {
+	    "name": "Naia, Diviner of Fortunes",
+        "collector_number": 123.1,
+        "types": "['UNIQUE','ALLY']",
+        "classes": "['MAGE','HUMAN']",
+        "element": "WATER"
+	},
+    {
+	    "name": "Blessed Clergy",
+        "collector_number": 135,
+        "types": "['ALLY']",
+        "classes": "['CLERIC','HUMAN']",
+        "element": "WIND"
+	},
+    {
 	    "name": "Charged Assailant",
         "collector_number": 138,
         "types": "['ALLY']",
         "classes": "['ASSASSIN','AUTOMATON']",
+        "element": "WIND"
+	},
+    {
+	    "name": "Cleansing Reunion",
+        "collector_number": 139,
+        "types": "['ACTION']",
+        "classes": "['CLERIC','SKILL']",
         "element": "WIND"
 	},
     {
@@ -75,6 +124,34 @@
         "types": "['ACTION']",
         "classes": "['MAGE','SPELL']",
         "element": "WIND"
+	},
+    {
+	    "name": "Vainglory Retribution",
+        "collector_number": 154.1,
+        "types": "['ACTION']",
+        "classes": "['CLERIC','SPELL']",
+        "element": "WIND"
+	},
+    {
+	    "name": "Foretold Bloom",
+        "collector_number": 162,
+        "types": "['ACTION']",
+        "classes": "['CLERIC','SPELL']",
+        "element": "ASTRA"
+	},
+    {
+	    "name": "Blade of Creation",
+        "collector_number": 172,
+        "types": "['ATTACK']",
+        "classes": "['GUARDIAN','WARRIOR','SWORD']",
+        "element": "NEOS"
+	},
+    {
+	    "name": "Expunge",
+        "collector_number": 179,
+        "types": "['ACTION']",
+        "classes": "['CLERIC','SPELL']",
+        "element": "UMBRA"
 	},
     {
 	    "name": "Windmill Engineer",
@@ -112,6 +189,13 @@
         "element": "UMBRA"
 	},
     {
+	    "name": "Tristan, Shadowdancer",
+        "collector_number": 4004.1,
+        "types": "['CHAMPION']",
+        "classes": "['ASSASSIN','HUMAN']",
+        "element": "UMBRA"
+	},
+    {
 	    "name": "Gearstride Gloves",
         "collector_number": 4009,
         "types": "['REGALIA','ITEM']",
@@ -126,11 +210,18 @@
         "element": "UMBRA"
 	},
     {
+	    "name": "Shadeblood Coating",
+        "collector_number": 4012,
+        "types": "['REGALIA','ITEM']",
+        "classes": "['ASSASSIN','ACCESSORY']",
+        "element": "UMBRA"
+	},
+    {
 	    "name": "Incapacitate",
         "collector_number": 4015,
         "types": "['ACTION']",
         "classes": "['ASSASSIN','SKILL','REACTION']",
-        "element": "UMBRA"
+        "element": "NORM"
 	},
     {
 	    "name": "mastermind Scheme",
@@ -193,6 +284,13 @@
         "collector_number": 4032,
         "types": "['ATTACK']",
         "classes": "['ASSASSIN','DAGGER']",
+        "element": "UMBRA"
+	},
+    {
+	    "name": "Shifting Mirage",
+        "collector_number": 4033,
+        "types": "['ACTION']",
+        "classes": "['ASSASSIN','SKILL','REACTION']",
         "element": "UMBRA"
 	},
     {
