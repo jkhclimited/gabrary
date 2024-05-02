@@ -38,7 +38,7 @@ const ContentCreatorsPage: FC = () => <>
         </div>
         <div className='contentCreator' id='The Magic Library TCG'>
             <p className='contentCreatorName'>The Magic Library TCG</p>
-            <iframe className='videoArea' src='https://www.youtube.com/embed?listType=playlist&list=UUCggRPfkjTZ9dLjchNn12U2A' title='Latest The Magic Library TCG video' allowFullScreen></iframe>
+            <iframe className='videoArea' src='https://www.youtube.com/embed?listType=playlist&list=UUggRPfkjTZ9dLjchNn12U2A' title='Latest The Magic Library TCG video' allowFullScreen></iframe>
         </div>
         <div className='contentCreator' id='redZoneRogue'>
             <p className='contentCreatorName'>Red Zone Rogue</p>
