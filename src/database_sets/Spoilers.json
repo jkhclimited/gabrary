@@ -14,6 +14,13 @@
         "element": "NORM"
 	},
     {
+	    "name": "Geldus, Terror of Dorumegia",
+        "collector_number": 52,
+        "types": "['ALLY']",
+        "classes": "['TAMER','BEAST','BULL']",
+        "element": "NORM"
+	},
+    {
 	    "name": "Hide in Bush",
         "collector_number": 54,
         "types": "['ACTION']",
@@ -147,6 +154,13 @@
         "element": "WIND"
 	},
     {
+	    "name": "Shred to Ribbons",
+        "collector_number": 150,
+        "types": "['ATTACK']",
+        "classes": "['GUARDIAN','WARRIOR','SWORD']",
+        "element": "WIND"
+	},
+    {
 	    "name": "Vainglory Retribution",
         "collector_number": 154.1,
         "types": "['ACTION']",
@@ -158,6 +172,20 @@
         "collector_number": 162,
         "types": "['ACTION']",
         "classes": "['CLERIC','SPELL']",
+        "element": "ASTRA"
+	},
+    {
+	    "name": "Prima Materia",
+        "collector_number": 165,
+        "types": "['UNIQUE','ITEM']",
+        "classes": "['CLERIC','ARTIFACT']",
+        "element": "ASTRA"
+	},
+    {
+	    "name": "Prima Materia",
+        "collector_number": 165.1,
+        "types": "['UNIQUE','ITEM']",
+        "classes": "['CLERIC','ARTIFACT']",
         "element": "ASTRA"
 	},
     {
