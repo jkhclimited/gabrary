@@ -137,32 +137,20 @@ const AllCardsPage: FC = () => {
                 <p className="centerText">Card(s) of the Day</p>
                 <div className="flexCardImgs">
                     <div className="text-row">
-                        <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('5011')} src={process.env.PUBLIC_URL + `/Spoilers_Images/5011.jpg`} alt="cotd" /></p>
-                        <p style={{ display: (allCardsState.showing ? 'block' : 'none' ) }} className="centerText">Slime Totem</p>
+                        <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('52')} src={process.env.PUBLIC_URL + `/Spoilers_Images/52.jpg`} alt="cotd" /></p>
+                        <p style={{ display: (allCardsState.showing ? 'block' : 'none' ) }} className="centerText">Geldus, Terror of Dorumegia</p>
                     </div>
                     <div className="text-row">
-                        <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('5013')} src={process.env.PUBLIC_URL + `/Spoilers_Images/5013.jpg`} alt="cotd" /></p>
-                        <p style={{ display: (allCardsState.showing ? 'block' : 'none' ) }} className="centerText">Baby Gray Slime</p>
+                        <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('150')} src={process.env.PUBLIC_URL + `/Spoilers_Images/150.jpg`} alt="cotd" /></p>
+                        <p style={{ display: (allCardsState.showing ? 'block' : 'none' ) }} className="centerText">Shred to Ribbons</p>
                     </div>
                     <div className="text-row">
-                        <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('5021')} src={process.env.PUBLIC_URL + `/Spoilers_Images/5021.jpg`} alt="cotd" /></p>
-                        <p style={{ display: (allCardsState.showing ? 'block' : 'none' ) }} className="centerText">Slime Eruption</p>
+                        <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('165')} src={process.env.PUBLIC_URL + `/Spoilers_Images/165.jpg`} alt="cotd" /></p>
+                        <p style={{ display: (allCardsState.showing ? 'block' : 'none' ) }} className="centerText">Prima Materia</p>
                     </div>
                     <div className="text-row">
-                        <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('173')} src={process.env.PUBLIC_URL + `/Spoilers_Images/173.jpg`} alt="cotd" /></p>
-                        <p style={{ display: (allCardsState.showing ? 'block' : 'none' ) }} className="centerText">Bolster Ranks</p>
-                    </div>
-                    <div className="text-row">
-                        <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('128')} src={process.env.PUBLIC_URL + `/Spoilers_Images/128.jpg`} alt="cotd" /></p>
-                        <p style={{ display: (allCardsState.showing ? 'block' : 'none' ) }} className="centerText">Primordial Ritual</p>
-                    </div>
-                    <div className="text-row">
-                        <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('147')} src={process.env.PUBLIC_URL + `/Spoilers_Images/147.jpg`} alt="cotd" /></p>
-                        <p style={{ display: (allCardsState.showing ? 'block' : 'none' ) }} className="centerText">Orchestrated Seizure</p>
-                    </div>
-                    <div className="text-row">
-                        <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('5016')} src={process.env.PUBLIC_URL + `/Spoilers_Images/5016.jpg`} alt="cotd" /></p>
-                        <p style={{ display: (allCardsState.showing ? 'block' : 'none' ) }} className="centerText">Limitless Slime</p>
+                        <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('165.1')} src={process.env.PUBLIC_URL + `/Spoilers_Images/165.1.jpg`} alt="cotd" /></p>
+                        <p style={{ display: (allCardsState.showing ? 'block' : 'none' ) }} className="centerText">Prima Materia</p>
                     </div>
                 </div>
             </div>
