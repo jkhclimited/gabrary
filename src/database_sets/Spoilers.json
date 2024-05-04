@@ -105,6 +105,13 @@
         "element": "WATER"
 	},
     {
+	    "name": "Primordial Ritual",
+        "collector_number": 128,
+        "types": "['ACTION']",
+        "classes": "['CLERIC','SKILL']",
+        "element": "WATER"
+	},
+    {
 	    "name": "Blessed Clergy",
         "collector_number": 135,
         "types": "['ALLY']",
@@ -133,6 +140,13 @@
         "element": "WIND"
 	},
     {
+	    "name": "Orchestrated Seizure",
+        "collector_number": 147,
+        "types": "['ACTION']",
+        "classes": "['CLERIC','SKILL']",
+        "element": "WIND"
+	},
+    {
 	    "name": "Vainglory Retribution",
         "collector_number": 154.1,
         "types": "['ACTION']",
@@ -151,6 +165,13 @@
         "collector_number": 172,
         "types": "['ATTACK']",
         "classes": "['GUARDIAN','WARRIOR','SWORD']",
+        "element": "NEOS"
+	},
+    {
+	    "name": "Bolster Ranks",
+        "collector_number": 173,
+        "types": "['ACTION']",
+        "classes": "['GUARDIAN','SPELL']",
         "element": "NEOS"
 	},
     {
@@ -364,10 +385,24 @@
         "element": "NORM"
 	},
     {
+	    "name": "Limitless Slime",
+        "collector_number": 5016,
+        "types": "['ALLY']",
+        "classes": "['TAMER','ANIMAL','SLIME']",
+        "element": "NORM"
+	},
+    {
 	    "name": "Baby Red Slime",
         "collector_number": 5019,
         "types": "['ALLY']",
         "classes": "['TAMER','ANIMAL','SLIME']",
+        "element": "FIRE"
+	},
+    {
+	    "name": "Slime Eruption",
+        "collector_number": 5021,
+        "types": "['ACTION']",
+        "classes": "['TAMER','SKILL','SLIME']",
         "element": "FIRE"
 	},
     {
