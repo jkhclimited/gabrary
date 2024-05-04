@@ -21,6 +21,13 @@
         "element": "NORM"
 	},
     {
+	    "name": "Machined Monstrosity",
+        "collector_number": 57,
+        "types": "['ALLY']",
+        "classes": "['TAMER','AUTOMATON','BEAST']",
+        "element": "NORM"
+	},
+    {
 	    "name": "Manufacture Cell",
         "collector_number": 59,
         "types": "['ACTION']",
@@ -333,6 +340,20 @@
         "collector_number": 5010,
         "types": "['REGALIA','ITEM']",
         "classes": "['TAMER','COMPONENT']",
+        "element": "NORM"
+	},
+    {
+	    "name": "Slime TOTEM",
+        "collector_number": 5011,
+        "types": "['REGALIA','ITEM']",
+        "classes": "['TAMER','ARTIFACT']",
+        "element": "TERA"
+	},
+    {
+	    "name": "Baby Gray Slime",
+        "collector_number": 5013,
+        "types": "['ALLY']",
+        "classes": "['TAMER','ANIMAL','SLIME']",
         "element": "NORM"
 	},
     {
