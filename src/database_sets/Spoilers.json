@@ -14,6 +14,13 @@
         "element": "NORM"
 	},
     {
+	    "name": "Critical Recovery",
+        "collector_number": 47,
+        "types": "['ACTION']",
+        "classes": "['CLERIC','SPELL','REACTION']",
+        "element": "NORM"
+	},
+    {
 	    "name": "Geldus, Terror of Dorumegia",
         "collector_number": 52,
         "types": "['ALLY']",
@@ -46,6 +53,13 @@
         "collector_number": 64.1,
         "types": "['TOKEN','ITEM']",
         "classes": "['CLERIC','POWERCELL']",
+        "element": "NORM"
+	},
+    {
+	    "name": "Purification",
+        "collector_number": 65,
+        "types": "['ACTION']",
+        "classes": "['CLERIC','SPELL']",
         "element": "NORM"
 	},
     {
@@ -98,6 +112,13 @@
         "element": "WATER"
 	},
     {
+	    "name": "Imperial Scout",
+        "collector_number": 119,
+        "types": "['ALLY']",
+        "classes": "['GUARDIAN','SWORD']",
+        "element": "WATER"
+	},
+    {
 	    "name": "Lost in Thought",
         "collector_number": 122,
         "types": "['ACTION']",
@@ -137,6 +158,13 @@
         "collector_number": 139,
         "types": "['ACTION']",
         "classes": "['CLERIC','SKILL']",
+        "element": "WIND"
+	},
+    {
+	    "name": "Diablerie",
+        "collector_number": 142,
+        "types": "['ACTION']",
+        "classes": "['CLERIC','SPELL','REACTION']",
         "element": "WIND"
 	},
     {
