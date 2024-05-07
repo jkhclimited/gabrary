@@ -7,6 +7,20 @@
         "element": "UMBRA"
 	},
     {
+	    "name": "Krustallan Longsword",
+        "collector_number": 20,
+        "types": "['REGALIA','WEAPON']",
+        "classes": "['WARRIOR','SWORD']",
+        "element": "WATER"
+	},
+    {
+	    "name": "Buried Grief",
+        "collector_number": 42,
+        "types": "['ACTION']",
+        "classes": "['CLERIC','SKILL']",
+        "element": "NORM"
+	},
+    {
 	    "name": "Cell Assembler",
         "collector_number": 43,
         "types": "['ALLY']",
@@ -63,6 +77,13 @@
         "element": "NORM"
 	},
     {
+	    "name": "Calamity Cannon",
+        "collector_number": 81,
+        "types": "['ACTION']",
+        "classes": "['RANGER','SKILL','REACTION']",
+        "element": "FIRE"
+	},
+    {
 	    "name": "Cell Handler",
         "collector_number": 84,
         "types": "['ALLY']",
@@ -102,6 +123,13 @@
         "collector_number": 112,
         "types": "['PHANTASIA']",
         "classes": "['CLERIC','FRACTAL']",
+        "element": "WATER"
+	},
+    {
+	    "name": "Hailstorm Guard",
+        "collector_number": 115,
+        "types": "['ACTION']",
+        "classes": "['GUARDIAN','SKILL','REACITON']",
         "element": "WATER"
 	},
     {
@@ -189,6 +217,13 @@
         "element": "WIND"
 	},
     {
+	    "name": "Tempest Downfall",
+        "collector_number": 153,
+        "types": "['ACTION']",
+        "classes": "['MAGE','SPELL']",
+        "element": "WIND"
+	},
+    {
 	    "name": "Vainglory Retribution",
         "collector_number": 154.1,
         "types": "['ACTION']",
@@ -243,6 +278,13 @@
         "types": "['ALLY']",
         "classes": "['RANGER','HUMAN']",
         "element": "WIND"
+	},
+    {
+	    "name": "Sinister Mindreaver",
+        "collector_number": 187,
+        "types": "['ALLY']",
+        "classes": "['ASSASSIN','HUMAN']",
+        "element": "UMBRA"
 	},
     {
 	    "name": "Spirit of Wind",
