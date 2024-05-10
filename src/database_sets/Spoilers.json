@@ -7,6 +7,13 @@
         "element": "UMBRA"
 	},
     {
+	    "name": "Mercanary's Blade",
+        "collector_number": 11,
+        "types": "['REGALIA','WEAPON']",
+        "classes": "['ASSASSIN','DAGGER']",
+        "element": "NORM"
+	},
+    {
 	    "name": "Krustallan Longsword",
         "collector_number": 20,
         "types": "['REGALIA','WEAPON']",
@@ -60,6 +67,20 @@
         "collector_number": 59,
         "types": "['ACTION']",
         "classes": "['CELRIC', 'AUTOMATON', 'CRAFT']",
+        "element": "NORM"
+	},
+    {
+	    "name": "Mechanical Hare",
+        "collector_number": 60,
+        "types": "['ALLY']",
+        "classes": "['TAMER','AUTOMATON','ANIMAL','RABBIT']",
+        "element": "NORM"
+	},
+    {
+	    "name": "MNurture Crops",
+        "collector_number": 62,
+        "types": "['ACTIONALLY']",
+        "classes": "['CLERIC','SKILL']",
         "element": "NORM"
 	},
     {
@@ -168,6 +189,20 @@
         "element": "WATER"
 	},
     {
+	    "name": "Seaside Ringleader",
+        "collector_number": 131,
+        "types": "['ALLY']",
+        "classes": "['TAMER','HUMAN']",
+        "element": "WATER"
+	},
+    {
+	    "name": "Water Herbs",
+        "collector_number": 132,
+        "types": "['ACTION']",
+        "classes": "['CLERIC','SKILL']",
+        "element": "WATER"
+	},
+    {
 	    "name": "Blessed Clergy",
         "collector_number": 135,
         "types": "['ALLY']",
@@ -184,6 +219,13 @@
     {
 	    "name": "Cleansing Reunion",
         "collector_number": 139,
+        "types": "['ACTION']",
+        "classes": "['CLERIC','SKILL']",
+        "element": "WIND"
+	},
+    {
+	    "name": "Cultivate",
+        "collector_number": 141,
         "types": "['ACTION']",
         "classes": "['CLERIC','SKILL']",
         "element": "WIND"
@@ -231,6 +273,13 @@
         "element": "WIND"
 	},
     {
+	    "name": "Astromech Attendant",
+        "collector_number": 161,
+        "types": "['ALLY']",
+        "classes": "['CELRIC', 'AUTOMATON']",
+        "element": "ASTRA"
+	},
+    {
 	    "name": "Foretold Bloom",
         "collector_number": 162,
         "types": "['ACTION']",
@@ -266,6 +315,13 @@
         "element": "NEOS"
 	},
     {
+	    "name": "Convoking Slime",
+        "collector_number": 174,
+        "types": "['ALLY']",
+        "classes": "['TAMER','BEAST','SLIME']",
+        "element": "NEOS"
+	},
+    {
 	    "name": "Expunge",
         "collector_number": 179,
         "types": "['ACTION']",
@@ -278,6 +334,13 @@
         "types": "['ALLY']",
         "classes": "['RANGER','HUMAN']",
         "element": "WIND"
+	},
+    {
+	    "name": "Final Stroke",
+        "collector_number": 180,
+        "types": "['ATTACK']",
+        "classes": "['ASSASSIN','DAGGER']",
+        "element": "UMBRA"
 	},
     {
 	    "name": "Sinister Mindreaver",
@@ -341,6 +404,13 @@
         "types": "['REGALIA','ITEM']",
         "classes": "['ASSASSIN','ACCESSORY']",
         "element": "UMBRA"
+	},
+    {
+	    "name": "Exploit Vulnerability",
+        "collector_number": 4013,
+        "types": "['ACTION']",
+        "classes": "['ASSASSIN','SKILL']",
+        "element": "NORM"
 	},
     {
 	    "name": "Incapacitate",
