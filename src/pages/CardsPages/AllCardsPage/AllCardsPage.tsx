@@ -12,9 +12,13 @@ import DB_FTC from '../../../database_sets/DB_FTC.json';
 import DB_FTCA from '../../../database_sets/DB_FTCA.json';
 import DB_Isekai from '../../../database_sets/DB_Isekai.json';
 import DB_KSP from '../../../database_sets/DB_KSP.json';
+import DB_MRC from '../../../database_sets/DB_MRC.json';
 import DB_P22 from '../../../database_sets/DB_P22.json';
 import DB_P23 from '../../../database_sets/DB_P23.json';
 import DB_P24 from '../../../database_sets/DB_P24.json';
+import DB_ReC_SHD from '../../../database_sets/DB_ReC_SHD.json';
+import DB_ReC_SLM from '../../../database_sets/DB_ReC_SLM.json';
+import DB_SLC from '../../../database_sets/DB_SLC.json';
 import DB_SP1 from '../../../database_sets/DB_SP1.json';
 import DB_Spoilers from '../../../database_sets/Spoilers.json';
 
@@ -109,6 +113,9 @@ const AllCardsPage: FC = () => {
         } else if (id === "KSP") {
             const cardsList = DB_KSP.map((x) => x as unknown as Card);
             getCards(cardsList, id);
+        } else if (id === "MRC") {
+            const cardsList = DB_MRC.map((x) => x as unknown as Card);
+            getCards(cardsList, id);
         } else if (id === "P22") {
             const cardsList = DB_P22.map((x) => x as unknown as Card);
             getCards(cardsList, id);
@@ -117,6 +124,15 @@ const AllCardsPage: FC = () => {
             getCards(cardsList, id);
         } else if (id === "P24") {
             const cardsList = DB_P24.map((x) => x as unknown as Card);
+            getCards(cardsList, id);
+        } else if (id === "ReC_SHD") {
+            const cardsList = DB_ReC_SHD.map((x) => x as unknown as Card);
+            getCards(cardsList, id);
+        } else if (id === "ReC_SLM") {
+            const cardsList = DB_ReC_SLM.map((x) => x as unknown as Card);
+            getCards(cardsList, id);
+        } else if (id === "SLC") {
+            const cardsList = DB_SLC.map((x) => x as unknown as Card);
             getCards(cardsList, id);
         } else if (id === "SP1") {
             const cardsList = DB_SP1.map((x) => x as unknown as Card);
