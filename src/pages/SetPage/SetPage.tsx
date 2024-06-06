@@ -10,6 +10,30 @@ const SetPage: FC = () => {
             <p className='sets-header header-text'>Sets</p>
             <p className='sets-subheader subheader-text'>Listed Below from Newest to Oldest</p>
             <div className='aSet'>
+                <Link to={`/sets/MRC/All`} className='setLink'>
+                    <img className='setIMG' src={process.env.PUBLIC_URL + `/Set_Symbols/MRC.jpg`} alt='Mecurial Heart' />
+                    Mecurial Heart
+                </Link>
+            </div>
+            <div className='aSet'>
+                <Link to={`/sets/ReC_SHD/All`} className='setLink'>
+                    <img className='setIMG' src={process.env.PUBLIC_URL + `/Set_Symbols/ReC_SHD.jpg`} alt='Re:Collection Shadowdancer' />
+                    Re:Collection Shadowdancer
+                </Link>
+            </div>
+            <div className='aSet'>
+                <Link to={`/sets/ReC_SLM/All`} className='setLink'>
+                    <img className='setIMG' src={process.env.PUBLIC_URL + `/Set_Symbols/ReC_SLM.jpg`} alt='Re:Collection Slime Sovereign' />
+                    Re:Collection Slime Sovereign
+                </Link>
+            </div>
+            <div className='aSet'>
+                <Link to={`/sets/SLC/All`} className='setLink'>
+                    <img className='setIMG' src={process.env.PUBLIC_URL + `/Set_Symbols/SLC.jpg`} alt='SquareLive Collaboration' />
+                    SquareLive Collaboration
+                </Link>
+            </div>
+            <div className='aSet'>
                 <Link to={`/sets/ALC/All`} className='setLink'>
                     <img className='setIMG' src={process.env.PUBLIC_URL + `/Set_Symbols/ALC.jpg`} alt='Alchemical Revolution' />
                     Alchemical Revolution
