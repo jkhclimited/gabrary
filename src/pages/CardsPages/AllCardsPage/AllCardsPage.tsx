@@ -153,8 +153,12 @@ const AllCardsPage: FC = () => {
                 <p className="centerText">Card(s) of the Day</p>
                 <div className="flexCardImgs">
                     <div className="text-row">
-                        <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('008')} src={process.env.PUBLIC_URL + `/Spoilers_Images/008.jpg`} alt="cotd" /></p>
+                        <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('8')} src={process.env.PUBLIC_URL + `/Spoilers_Images/8.jpg`} alt="cotd" /></p>
                         <p style={{ display: (allCardsState.showing ? 'block' : 'none' ) }} className="centerText">Creeping Torment</p>
+                    </div>
+                    <div className="text-row">
+                        <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('14)} src={process.env.PUBLIC_URL + `/Spoilers_Images/14.jpg`} alt="cotd" /></p>
+                        <p style={{ display: (allCardsState.showing ? 'block' : 'none' ) }} className="centerText">Incendiary Shot</p>
                     </div>
                 </div>
             </div>
