@@ -1,7 +1,7 @@
 [
     {
         "name": "Creeping Torment",
-        "collector_number": 008,
+        "collector_number": 8,
         "types": "['PHANTASIA']",
         "classes": "['CLERIC,CURSE,SPELL']",
         "element": "UMBRA"
