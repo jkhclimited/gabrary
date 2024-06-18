@@ -5,5 +5,12 @@
         "types": "['PHANTASIA']",
         "classes": "['CLERIC,CURSE,SPELL']",
         "element": "UMBRA"
+	},
+    {
+        "name": "Incendiary Shot",
+        "collector_number": 14,
+        "types": "['ITEM']",
+        "classes": "['RANGER,BULLET']",
+        "element": "UFIRE"
 	}
 ]
