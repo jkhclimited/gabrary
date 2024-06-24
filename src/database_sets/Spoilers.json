@@ -1,5 +1,19 @@
 [
     {
+        "name": "Carter, Synthetic Reaper",
+        "collector_number": 2.1,
+        "types": "['UNIQUE,ALLY']",
+        "classes": "['GUARDIAN,RANGER,HUMAN']",
+        "element": "UMBRA"
+	},
+    {
+        "name": "Cell Assembler",
+        "collector_number": 3,
+        "types": "['ALLY']",
+        "classes": "['GUARDIAN,AUTOMATON']",
+        "element": "NORM"
+	},
+    {
         "name": "Creeping Torment",
         "collector_number": 8,
         "types": "['PHANTASIA']",
@@ -7,10 +21,52 @@
         "element": "UMBRA"
 	},
     {
+        "name": "Cremation Ritual",
+        "collector_number": 9,
+        "types": "['ACTION']",
+        "classes": "['MAGE,SPELL']",
+        "element": "FIRE"
+	},
+    {
+        "name": "Evasive Maneuvers",
+        "collector_number": 10,
+        "types": "['ACTION']",
+        "classes": "['RANGEr,SKILL,REACTION']",
+        "element": "NORM"
+	},
+    {
+        "name": "Freydis, Master Tactictian",
+        "collector_number": 12.1,
+        "types": "['UNIQUE,ALLY']",
+        "classes": "['RANGER,HUMAN']",
+        "element": "NORM"
+	},
+    {
         "name": "Incendiary Shot",
         "collector_number": 14,
         "types": "['ITEM']",
         "classes": "['RANGER,BULLET']",
         "element": "UFIRE"
+	},
+    {
+        "name": "Rococo, Explopsive Maven",
+        "collector_number": 17.1,
+        "types": "['UNIQUE,ALLY']",
+        "classes": "['RANGER,AUTOMATON']",
+        "element": "FIRE"
+	},
+    {
+        "name": "Song of Frost",
+        "collector_number": 21,
+        "types": "['ACTION']",
+        "classes": "['TAMER,SKILL,MELODY']",
+        "element": "WATER"
+	},
+    {
+        "name": "Zander, Deft Executor",
+        "collector_number": 25.1,
+        "types": "['CHAMPION']",
+        "classes": "['ASSASSIN,HUMAN']",
+        "element": "NORM"
 	}
 ]
