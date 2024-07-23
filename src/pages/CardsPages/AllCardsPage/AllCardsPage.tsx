@@ -20,6 +20,7 @@ import DB_ReC_SHD from '../../../database_sets/DB_ReC_SHD.json';
 import DB_ReC_SLM from '../../../database_sets/DB_ReC_SLM.json';
 import DB_SLC from '../../../database_sets/DB_SLC.json';
 import DB_SP1 from '../../../database_sets/DB_SP1.json';
+import DB_SP2 from '../../../database_sets/DB_SP2.json';
 import DB_Spoilers from '../../../database_sets/Spoilers.json';
 
 import ToggleSwitch from '../../../components/ToggleTextSwitch/ToggleTextSwitch';
@@ -136,6 +137,9 @@ const AllCardsPage: FC = () => {
             getCards(cardsList, id);
         } else if (id === "SP1") {
             const cardsList = DB_SP1.map((x) => x as unknown as Card);
+            getCards(cardsList, id);
+        } else if (id === "SP2") {
+            const cardsList = DB_SP2.map((x) => x as unknown as Card);
             getCards(cardsList, id);
         } else if (id === "Spoilers") {
             const cardsList = DB_Spoilers.map((x) => x as unknown as Card);
