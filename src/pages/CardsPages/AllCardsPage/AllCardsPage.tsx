@@ -156,13 +156,41 @@ const AllCardsPage: FC = () => {
             <div> 
                 <p className="centerText">Card(s) of the Day</p>
                 <div className="flexCardImgs">
-                    <div className="text-row">
-                        <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('8')} src={process.env.PUBLIC_URL + `/Spoilers_Images/8.jpg`} alt="cotd" /></p>
-                        <p style={{ display: (allCardsState.showing ? 'block' : 'none' ) }} className="centerText">Creeping Torment</p>
+                <div className="text-row">
+                        <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('22')} src={process.env.PUBLIC_URL + `/Spoilers_Images/22.jpg`} alt="cotd" /></p>
+                        <p style={{ display: (allCardsState.showing ? 'block' : 'none' ) }} className="centerText">Dragon's Dawn</p>
+                    </div>
+                <div className="text-row">
+                        <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('59')} src={process.env.PUBLIC_URL + `/Spoilers_Images/59.jpg`} alt="cotd" /></p>
+                        <p style={{ display: (allCardsState.showing ? 'block' : 'none' ) }} className="centerText">Lumbering Steed</p>
+                    </div>
+                <div className="text-row">
+                        <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('64')} src={process.env.PUBLIC_URL + `/Spoilers_Images/64.jpg`} alt="cotd" /></p>
+                        <p style={{ display: (allCardsState.showing ? 'block' : 'none' ) }} className="centerText">Nascent Barrier</p>
                     </div>
                     <div className="text-row">
-                        <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('14')} src={process.env.PUBLIC_URL + `/Spoilers_Images/14.jpg`} alt="cotd" /></p>
-                        <p style={{ display: (allCardsState.showing ? 'block' : 'none' ) }} className="centerText">Incendiary Shot</p>
+                        <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('117')} src={process.env.PUBLIC_URL + `/Spoilers_Images/117.jpg`} alt="cotd" /></p>
+                        <p style={{ display: (allCardsState.showing ? 'block' : 'none' ) }} className="centerText">Ritai Guard</p>
+                    </div>
+                    <div className="text-row">
+                        <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('118')} src={process.env.PUBLIC_URL + `/Spoilers_Images/118.jpg`} alt="cotd" /></p>
+                        <p style={{ display: (allCardsState.showing ? 'block' : 'none' ) }} className="centerText">Scorchfire Assassin</p>
+                    </div>
+                    <div className="text-row">
+                        <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('128')} src={process.env.PUBLIC_URL + `/Spoilers_Images/128.jpg`} alt="cotd" /></p>
+                        <p style={{ display: (allCardsState.showing ? 'block' : 'none' ) }} className="centerText">Burst Asunder</p>
+                    </div>
+                    <div className="text-row">
+                        <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('157')} src={process.env.PUBLIC_URL + `/Spoilers_Images/157.jpg`} alt="cotd" /></p>
+                        <p style={{ display: (allCardsState.showing ? 'block' : 'none' ) }} className="centerText">Tidal Lock</p>
+                    </div>
+                    <div className="text-row">
+                        <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('197')} src={process.env.PUBLIC_URL + `/Spoilers_Images/197.jpg`} alt="cotd" /></p>
+                        <p style={{ display: (allCardsState.showing ? 'block' : 'none' ) }} className="centerText">Wildgrowth Feline</p>
+                    </div>
+                    <div className="text-row">
+                        <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('199')} src={process.env.PUBLIC_URL + `/Spoilers_Images/199.jpg`} alt="cotd" /></p>
+                        <p style={{ display: (allCardsState.showing ? 'block' : 'none' ) }} className="centerText">Yunzhou Cavalry</p>
                     </div>
                 </div>
             </div>
