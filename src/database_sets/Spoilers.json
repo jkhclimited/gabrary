@@ -1,72 +1,65 @@
 [
     {
-        "name": "Carter, Synthetic Reaper",
-        "collector_number": 2.1,
-        "types": "['UNIQUE,ALLY']",
-        "classes": "['GUARDIAN,RANGER,HUMAN']",
-        "element": "UMBRA"
-	},
+        "name": "Dragon's Dawn",
+        "collector_number": 22,
+        "types": "['REGALIA, WEAPON']",
+        "classes": "['WEAPON, POLEARM']",
+        "element": "FIRE"
+},
     {
-        "name": "Cell Assembler",
-        "collector_number": 3,
+        "name": "Lumbering Steed",
+        "collector_number": 59,
         "types": "['ALLY']",
-        "classes": "['GUARDIAN,AUTOMATON']",
+        "classes": "['TAMER,ANIMAL,HORSE']",
         "element": "NORM"
-	},
-    {
-        "name": "Creeping Torment",
-        "collector_number": 8,
-        "types": "['PHANTASIA']",
-        "classes": "['CLERIC,CURSE,SPELL']",
-        "element": "UMBRA"
-	},
-    {
-        "name": "Cremation Ritual",
-        "collector_number": 9,
+},
+{
+        "name": "Bascent Barrier",
+        "collector_number": 64,
         "types": "['ACTION']",
-        "classes": "['MAGE,SPELL']",
-        "element": "FIRE"
-	},
-    {
-        "name": "Evasive Maneuvers",
-        "collector_number": 10,
-        "types": "['ACTION']",
-        "classes": "['RANGEr,SKILL,REACTION']",
+        "classes": "['CLERIC,SPELL,REACTION']",
         "element": "NORM"
-	},
-    {
-        "name": "Freydis, Master Tactictian",
-        "collector_number": 12.1,
-        "types": "['UNIQUE,ALLY']",
-        "classes": "['RANGER,HUMAN']",
-        "element": "NORM"
-	},
-    {
-        "name": "Incendiary Shot",
-        "collector_number": 14,
-        "types": "['ITEM']",
-        "classes": "['RANGER,BULLET']",
-        "element": "UFIRE"
-	},
-    {
-        "name": "Rococo, Explopsive Maven",
-        "collector_number": 17.1,
-        "types": "['UNIQUE,ALLY']",
-        "classes": "['RANGER,AUTOMATON']",
-        "element": "FIRE"
-	},
-    {
-        "name": "Song of Frost",
-        "collector_number": 21,
-        "types": "['ACTION']",
-        "classes": "['TAMER,SKILL,MELODY']",
-        "element": "WATER"
-	},
-    {
-        "name": "Zander, Deft Executor",
-        "collector_number": 25.1,
-        "types": "['CHAMPION']",
-        "classes": "['ASSASSIN,HUMAN']",
-        "element": "NORM"
-	}
+},
+{
+    "name": "Ritai Guard",
+    "collector_number": 117,
+    "types": "['ALLY']",
+    "classes": "['GUARDIAN,HUMAN']",
+    "element": "FIRE"
+},
+{
+    "name": "Scorchfire Assassin",
+    "collector_number": 118,
+    "types": "['ALLY']",
+    "classes": "['ASSASSIN,HUMAN']",
+    "element": "FIRE"
+},
+{
+    "name": "Burst Asunder",
+    "collector_number": 128,
+    "types": "['ACTION']",
+    "classes": "['CLERIC,SPELL,MAGE']",
+    "element": "WATER"
+},
+{
+    "name": "Tidal Lock",
+    "collector_number": 157,
+    "types": "['ACTION']",
+    "classes": "['CLERIC,SPELL,REACTION']",
+    "element": "WATER"
+},
+{
+    "name": "Wildgrwoth Feline",
+    "collector_number": 197,
+    "types": "['ALLY']",
+    "classes": "['TAMER,ANIMAL,CAT']",
+    "element": "WIND"
+},
+{
+    "name": "Yunzhou Cavalry",
+    "collector_number": 199,
+    "types": "['ALLY']",
+    "classes": "['RANGER,HUMAN']",
+    "element": "WIND"
+}
 ]
