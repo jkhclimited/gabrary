@@ -10,6 +10,12 @@ const SetPage: FC = () => {
             <p className='sets-header header-text'>Sets</p>
             <p className='sets-subheader subheader-text'>Listed Below from Newest to Oldest</p>
             <div className='aSet'>
+                <Link to={`/sets/SP2/All`} className='setLink'>
+                    <img className='setIMG' src={process.env.PUBLIC_URL + `/Set_Symbols/SP2.jpg`} alt='Supporter Pack 2' />
+                    Supporter Pack 2
+                </Link>
+            </div>
+            <div className='aSet'>
                 <Link to={`/sets/MRC/All`} className='setLink'>
                     <img className='setIMG' src={process.env.PUBLIC_URL + `/Set_Symbols/MRC.jpg`} alt='Mecurial Heart' />
                     Mecurial Heart
