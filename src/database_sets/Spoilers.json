@@ -42,6 +42,13 @@
     "element": "WATER"
 },
 {
+    "name": "Sword Saint of Eventide",
+    "collector_number": 156,
+    "types": "['ALLY']",
+    "classes": "['WARRIOR,HUMAN']",
+    "element": "WATER"
+},
+{
     "name": "Tidal Lock",
     "collector_number": 157,
     "types": "['ACTION']",
