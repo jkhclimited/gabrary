@@ -56,6 +56,13 @@
     "element": "WATER"
 },
 {
+    "name": "Fairy Whispers",
+    "collector_number": 175,
+    "types": "['ACTION']",
+    "classes": "['MAGE,SPELL']",
+    "element": "WIND"
+},
+{
     "name": "Wildgrwoth Feline",
     "collector_number": 197,
     "types": "['ALLY']",
