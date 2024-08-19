@@ -157,8 +157,8 @@ const AllCardsPage: FC = () => {
                 <p className="centerText">Card(s) of the Day</p>
                 <div className="flexCardImgs">
                 <div className="text-row">
-                        <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('156')} src={process.env.PUBLIC_URL + `/Spoilers_Images/156.jpg`} alt="cotd" /></p>
-                        <p style={{ display: (allCardsState.showing ? 'block' : 'none' ) }} className="centerText">Sword Saint of Eventide</p>
+                        <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('175')} src={process.env.PUBLIC_URL + `/Spoilers_Images/175.jpg`} alt="cotd" /></p>
+                        <p style={{ display: (allCardsState.showing ? 'block' : 'none' ) }} className="centerText">Fairy Whispers</p>
                     </div>
                 </div>
             </div>
