@@ -21,6 +21,13 @@
         "element": "NORM"
 },
 {
+    "name": "Fang of Dragon's Breath",
+    "collector_number": 99,
+    "types": "['Phantasia]",
+    "classes": "['WARRIOR, SPELL']",
+    "element": "FIRE"
+},
+{
     "name": "Ritai Guard",
     "collector_number": 117,
     "types": "['ALLY']",
