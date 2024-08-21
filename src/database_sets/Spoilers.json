@@ -28,6 +28,13 @@
     "element": "FIRE"
 },
 {
+    "name": "Lavasoul Tiger",
+    "collector_number": 111,
+    "types": "['ALLY']",
+    "classes": "['TAMER,BEAST,TIGER']",
+    "element": "FIRE"
+},
+{
     "name": "Ritai Guard",
     "collector_number": 117,
     "types": "['ALLY']",
@@ -42,10 +49,24 @@
     "element": "FIRE"
 },
 {
+    "name": "Sword Saint of Everflame",
+    "collector_number": 122,
+    "types": "['ALLY']",
+    "classes": "['WARRIOR,HUMAN']",
+    "element": "FIRE"
+},
+{
     "name": "Burst Asunder",
     "collector_number": 128,
     "types": "['ACTION']",
     "classes": "['CLERIC,SPELL,MAGE']",
+    "element": "WATER"
+},
+{
+    "name": "Slipstream Vault",
+    "collector_number": 152,
+    "types": "['ACTION']",
+    "classes": "['RANGER,SKILL,REACTION']",
     "element": "WATER"
 },
 {
@@ -67,6 +88,13 @@
     "collector_number": 175,
     "types": "['ACTION']",
     "classes": "['MAGE,SPELL']",
+    "element": "WIND"
+},
+{
+    "name": "Razorgale Calling",
+    "collector_number": 188,
+    "types": "['Phantasia]",
+    "classes": "['CLERIC,SPELL']",
     "element": "WIND"
 },
 {
