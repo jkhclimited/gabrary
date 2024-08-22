@@ -6,6 +6,13 @@
         "classes": "['WEAPON, POLEARM']",
         "element": "FIRE"
 },
+{
+    "name": "Sundering Moon",
+    "collector_number": 28,
+    "types": "['REGALIA, WEAPON']",
+    "classes": "['WARRIOR, POLEARM']",
+    "element": "WIND"
+},
     {
         "name": "Lumbering Steed",
         "collector_number": 59,
