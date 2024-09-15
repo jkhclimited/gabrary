@@ -1,10 +1,129 @@
 [
     {
+        "name": "Jin, Fate Defiant",
+        "collector_number": 4.1,
+        "types": "['CHAMPION']",
+        "classes": "['WARRIOR, HUMAN]",
+        "element": "NORM"
+},
+{
+    "name": "Jin, Zealous Maverick",
+    "collector_number": 5.1,
+    "types": "['CHAMPION']",
+    "classes": "['WARRIOR, HUMAN]",
+    "element": "NORM"
+},
+{
+    "name": "Kongming, Wayward Maven",
+    "collector_number": 7.1,
+    "types": "['CHAMPION']",
+    "classes": "['MAGE, HUMAN]",
+    "element": "NORM"
+},
+{
+    "name": "Kongming, Ascetic Vice",
+    "collector_number": 8.1,
+    "types": "['CHAMPION']",
+    "classes": "['MAGE, HUMAN]",
+    "element": "NORM"
+},
+{
+    "name": "Kongming, Fel Eidolon",
+    "collector_number": 9.1,
+    "types": "['CHAMPION']",
+    "classes": "['WARRIOR, HUMAN]",
+    "element": "TERA"
+},
+{
+    "name": "Mandate of Honor",
+    "collector_number": 17,
+    "types": "['REGALIA, ITEM']",
+    "classes": "['CLERIC, ACCESSORY]",
+    "element": "NORM"
+},
+    {
         "name": "Dragon's Dawn",
         "collector_number": 22,
         "types": "['REGALIA, WEAPON']",
         "classes": "['WEAPON, POLEARM']",
         "element": "FIRE"
+},
+{
+    "name": "Cure the Flesh",
+    "collector_number": 37,
+    "types": "['ACTION']",
+    "classes": "['CLERIC, SKILL]",
+    "element": "NORM"
+},
+{
+    "name": "Idle Thoughts",
+    "collector_number": 49,
+    "types": "['ACTION']",
+    "classes": "['MAGE, SKILL']",
+    "element": "NORM"
+},
+{
+    "name": "Indolent Leisure",
+    "collector_number": 51,
+    "types": "['ACTION']",
+    "classes": "['CLERIC, MAGE, SPELL']",
+    "element": "NORM"
+},
+{
+    "name": "Lost Wisdom",
+    "collector_number": 58,
+    "types": "['ACTION']",
+    "classes": "['CLERIC, MAGE, SKILL']",
+    "element": "NORM"
+},
+{
+    "name": "Lumbering Steed",
+    "collector_number": 59,
+    "types": "['ALLY']",
+    "classes": "['TAMER,ANIMAL,HORSE']",
+    "element": "NORM"
+},
+{
+    "name": "Mnemonic Charm",
+    "collector_number": 61,
+    "types": "['ITEM']",
+    "classes": "['CLERIC, MAGE, SCRIPTURE']",
+    "element": "NORM"
+},
+{
+    "name": "Bascent Barrier",
+    "collector_number": 64,
+    "types": "['ACTION']",
+    "classes": "['CLERIC,SPELL,REACTION']",
+    "element": "NORM"
+},
+{
+    "name": "Paired Minds, Kindred Souls",
+    "collector_number": 67,
+    "types": "['ACTION']",
+    "classes": "['WARRIOR, SKILL']",
+    "element": "NORM"
+},
+{
+    "name": "Slice and Dice",
+    "collector_number": 81,
+    "types": "['ATTACK']",
+    "classes": "['ASSASSIN,DAGGER']",
+    "element": "NORM"
+},
+{
+    "name": "Stolid Vanguard",
+    "collector_number": 83,
+    "types": "['ALLY']",
+    "classes": "['WARRIOR, HUMAN]",
+    "element": "NORM"
+},
+{
+    "name": "Unbroken Mustang",
+    "collector_number": 88,
+    "types": "['ALLLY']",
+    "classes": "['TAMER,ANIMAL,HORSE']",
+    "element": "NORM"
 },
 {
     "name": "Sundering Moon",
@@ -13,25 +132,53 @@
     "classes": "['WARRIOR, POLEARM']",
     "element": "WIND"
 },
-    {
-        "name": "Lumbering Steed",
-        "collector_number": 59,
-        "types": "['ALLY']",
-        "classes": "['TAMER,ANIMAL,HORSE']",
-        "element": "NORM"
+{
+    "name": "Weaken Resistance",
+    "collector_number": 91,
+    "types": "['ACTION']",
+    "classes": "['MAGE,SPELL']",
+    "element": "NORM"
 },
 {
-        "name": "Bascent Barrier",
-        "collector_number": 64,
-        "types": "['ACTION']",
-        "classes": "['CLERIC,SPELL,REACTION']",
-        "element": "NORM"
+    "name": "Creative Shock",
+    "collector_number": 99,
+    "types": "['Action']",
+    "classes": "['MAGE, SPELL']",
+    "element": "FIRE"
 },
 {
     "name": "Fang of Dragon's Breath",
     "collector_number": 99,
-    "types": "['Phantasia]",
+    "types": "['Phantasia']",
     "classes": "['WARRIOR, SPELL']",
+    "element": "FIRE"
+},
+{
+    "name": "Fireball",
+    "collector_number": 101,
+    "types": "['ACTION']",
+    "classes": "['MAGE, SPELL']",
+    "element": "FIRE"
+},
+{
+    "name": "Flame-Rune Swordsman",
+    "collector_number": 102,
+    "types": "['ALLY']",
+    "classes": "['MAGE, WARRIOR, HUMAN']",
+    "element": "FIRE"
+},
+{
+    "name": "Heated Vengeance",
+    "collector_number": 107,
+    "types": "['ATTACK']",
+    "classes": "['WARRIOR, POLEARM']",
+    "element": "FIRE"
+},
+{
+    "name": "Ignited Fate",
+    "collector_number": 109,
+    "types": "['ACTION']",
+    "classes": "['MAGE, SPELL']",
     "element": "FIRE"
 },
 {
@@ -56,6 +203,13 @@
     "element": "FIRE"
 },
 {
+    "name": "Solar Pinnacle",
+    "collector_number": 121,
+    "types": "['ACTION']",
+    "classes": "['MAGE, SPELL']",
+    "element": "FIRE"
+},
+{
     "name": "Sword Saint of Everflame",
     "collector_number": 122,
     "types": "['ALLY']",
@@ -70,10 +224,31 @@
     "element": "WATER"
 },
 {
+    "name": "Rainweaver Mage",
+    "collector_number": 145,
+    "types": "['ALLY']",
+    "classes": "['MAGE, HUMAN']",
+    "element": "WATER"
+},
+{
+    "name": "Refracting Missle",
+    "collector_number": 146,
+    "types": "['ACTION']",
+    "classes": "['MAGE, SPELL']",
+    "element": "WATER"
+},
+{
     "name": "Slipstream Vault",
     "collector_number": 152,
     "types": "['ACTION']",
     "classes": "['RANGER,SKILL,REACTION']",
+    "element": "WATER"
+},
+{
+    "name": "Sudden Snow",
+    "collector_number": 155,
+    "types": "['ACTION']",
+    "classes": "['MAGE, SPELL']",
     "element": "WATER"
 },
 {
@@ -91,10 +266,38 @@
     "element": "WATER"
 },
 {
+    "name": "Wuji of Lingering Fate",
+    "collector_number": 163,
+    "types": "['Phantasia']",
+    "classes": "['MAGE, SPELL']",
+    "element": "WATER"
+},
+{
+    "name": "Bagua of Cardinal Fate",
+    "collector_number": 169,
+    "types": "['ACTION']",
+    "classes": "['MAGE,SPELL']",
+    "element": "WIND"
+},
+{
     "name": "Fairy Whispers",
     "collector_number": 175,
     "types": "['ACTION']",
     "classes": "['MAGE,SPELL']",
+    "element": "WIND"
+},
+{
+    "name": "Favorable Winds",
+    "collector_number": 176,
+    "types": "['ACTION']",
+    "classes": "['MAGE,SPELL']",
+    "element": "WIND"
+},
+{
+    "name": "Poised Rearguard",
+    "collector_number": 187,
+    "types": "['ALLY']",
+    "classes": "['GUARDIAN,HUMAN']",
     "element": "WIND"
 },
 {
@@ -117,5 +320,223 @@
     "types": "['ALLY']",
     "classes": "['RANGER,HUMAN']",
     "element": "WIND"
+},
+{
+    "name": "Jin, Fate Defiant",
+    "collector_number": 4003,
+    "types": "['CHAMPION']",
+    "classes": "['WARRIOR, HUMAN]",
+    "element": "NORM"
+},
+{
+    "name": "Jin, Zealous Maverick",
+    "collector_number": 4004,
+    "types": "['CHAMPION']",
+    "classes": "['WARRIOR, HUMAN]",
+    "element": "NORM"
+},
+{
+    "name": "Jin, Undying Resolve",
+    "collector_number": 4005,
+    "types": "['CHAMPION']",
+    "classes": "['WARRIOR, HUMAN]",
+    "element": "EXIA"
+},
+{
+    "name": "Jin, Undying Resolve",
+    "collector_number": 4005.1,
+    "types": "['CHAMPION']",
+    "classes": "['WARRIOR, HUMAN]",
+    "element": "EXIA"
+},
+{
+    "name": "Executioner's Spear",
+    "collector_number": 4010,
+    "types": "['REGALIA, WEAPON']",
+    "classes": "['WARRIOR, POLEARM']",
+    "element": "NORM"
+},
+{
+    "name": "Berserker Plate",
+    "collector_number": 40019,
+    "types": "['REGALIA, ITEM']",
+    "classes": "['WARRIOR, ARMOR]",
+    "element": "EXIA"
+},
+{
+    "name": "Shuang Ji of Sacrifice",
+    "collector_number": 4020,
+    "types": "['REGALIA, WEAPON']",
+    "classes": "['WARRIOR, POLEARM']",
+    "element": "EXIA"
+},
+{
+    "name": "Pierce the Heavens",
+    "collector_number": 4029,
+    "types": "['ATTACK']",
+    "classes": "['WARRIOR, POLEARM']",
+    "element": "NORM"
+},
+{
+    "name": "Eminent Commander",
+    "collector_number": 4045,
+    "types": "['ALLY']",
+    "classes": "['WARRIOR, HUMAN']",
+    "element": "WIND"
+},
+{
+    "name": "Materialize Polearm",
+    "collector_number": 4047,
+    "types": "['ACTION']",
+    "classes": "['WARRIOR, SPELL']",
+    "element": "WIND"
+},
+{
+    "name": "Enrage",
+    "collector_number": 4052,
+    "types": "['ACTION']",
+    "classes": "['WARRIOR, SKILL']",
+    "element": "EXIA"
+},
+{
+    "name": "Exia Sight",
+    "collector_number": 4053,
+    "types": "['ACTION']",
+    "classes": "['CLERIC, SPELL']",
+    "element": "EXIA"
+},
+{
+    "name": "Mend Flesh",
+    "collector_number": 4055,
+    "types": "['ACTION']",
+    "classes": "['CLERIC, WARRIOR, SKILL']",
+    "element": "EXIA"
+},
+{
+    "name": "Relentless Outburst",
+    "collector_number": 4056,
+    "types": "['ACTION']",
+    "classes": "['WARRIOR, SKILL']",
+    "element": "EXIA"
+},
+{
+    "name": "Kongming, Wayward Maven",
+    "collector_number": 5006,
+    "types": "['CHAMPION']",
+    "classes": "['MAGE, HUMAN']",
+    "element": "NORM"
+},
+{
+    "name": "Kongming, Ascetic Vice",
+    "collector_number": 5007,
+    "types": "['CHAMPION']",
+    "classes": "['MAGE, HUMAN']",
+    "element": "NORM"
+},
+{
+    "name": "Kongming, Fel Eidolon",
+    "collector_number": 5008,
+    "types": "['CHAMPION']",
+    "classes": "['MAGE, HUMAN']",
+    "element": "TERA"
+},
+{
+    "name": "Kongming, Fel Eidolon",
+    "collector_number": 5008.1,
+    "types": "['CHAMPION']",
+    "classes": "['MAGE, HUMAN']",
+    "element": "TERA"
+},
+{
+    "name": "Fan of Seven Debts",
+    "collector_number": 5011,
+    "types": "['REGALIA, ITEM']",
+    "classes": "['MAGE, FAN']",
+    "element": "NORM"
+},
+{
+    "name": "Shard of Empowerment",
+    "collector_number": 5014,
+    "types": "['REGALIA, ITEM']",
+    "classes": "['MAGE, CRYSTAL']",
+    "element": "NORM"
+},
+{
+    "name": "Ardent Cloudstriker",
+    "collector_number": 5023,
+    "types": "['ALLY']",
+    "classes": "['WARRIOR, HUMAN']",
+    "element": "NORM"
+},
+{
+    "name": "Shifting Currents",
+    "collector_number": 5033,
+    "types": "['MASTERY']",
+    "classes": "['MAGE, SPELL']",
+    "element": "NORM"
+},
+{
+    "name": "Coriolis Ward",
+    "collector_number": 5039,
+    "types": "['ACTION']",
+    "classes": "['MAGE, SPELL, REACTION']",
+    "element": "WATER"
+},
+{
+    "name": "Hydroguard Retainer",
+    "collector_number": 5040,
+    "types": "['ALLY']",
+    "classes": "['GUARDIAN,HUMAN']",
+    "element": "WATER"
+},
+{
+    "name": "Tsunami of Nanyue",
+    "collector_number": 5043,
+    "types": "['ACTION']",
+    "classes": "['MAGE, SPELL']",
+    "element": "WATER"
+},
+{
+    "name": "Leeching Bolt",
+    "collector_number": 5058,
+    "types": "['ACTION']",
+    "classes": "['MAGE, SPELL']",
+    "element": "TERA"
+},
+{
+    "name": "Planar Abyss",
+    "collector_number": 5059,
+    "types": "['ACTION']",
+    "classes": "['MAGE, SPELL']",
+    "element": "TERA"
+},
+{
+    "name": "Savage Swing",
+    "collector_number": 6001,
+    "types": "['ATTACK']",
+    "classes": "['WARRIOR, POLEARM']",
+    "element": "NORM"
+},
+{
+    "name": "Tariff Ring",
+    "collector_number": 8015,
+    "types": "['REGALIA, ITEM']",
+    "classes": "['GUARDIAN, ACCESSORY']",
+    "element": "NORM"
+},
+{
+    "name": "Backup Charger",
+    "collector_number": 8019,
+    "types": "['REGALIA, ITEM']",
+    "classes": "['CLERIC, ACCESSORY']",
+    "element": "NORM"
+},
+{
+    "name": "Minthe, Spirit of Water",
+    "collector_number": 8155,
+    "types": "['CHAMPION]",
+    "classes": "['SPIRIT']",
+    "element": "WATER"
 }
+
 ]
