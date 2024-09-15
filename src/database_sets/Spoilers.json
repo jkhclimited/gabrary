@@ -35,6 +35,13 @@
     "element": "TERA"
 },
 {
+    "name": "Imperial Seal",
+    "collector_number": 15,
+    "types": "['REGALIA, ITEM']",
+    "classes": "['MAGE, ARTIFACT]",
+    "element": "NORM"
+},
+{
     "name": "Mandate of Honor",
     "collector_number": 17,
     "types": "['REGALIA, ITEM']",
@@ -224,6 +231,13 @@
     "element": "WATER"
 },
 {
+    "name": "Hoarfrost Spine",
+    "collector_number": 137,
+    "types": "['WEAPON']",
+    "classes": "['RANGER,BOW']",
+    "element": "WATER"
+},
+{
     "name": "Rainweaver Mage",
     "collector_number": 145,
     "types": "['ALLY']",
@@ -235,6 +249,13 @@
     "collector_number": 146,
     "types": "['ACTION']",
     "classes": "['MAGE, SPELL']",
+    "element": "WATER"
+},
+{
+    "name": "Seafletched Serpent",
+    "collector_number": 150,
+    "types": "['ALLY']",
+    "classes": "['RANGER,TAMER,BEAST,SERPENT']",
     "element": "WATER"
 },
 {
