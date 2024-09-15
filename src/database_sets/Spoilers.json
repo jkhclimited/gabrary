@@ -525,6 +525,13 @@
     "element": "NORM"
 },
 {
+    "name": "Blazing Throw",
+    "collector_number": 8018,
+    "types": "['ACTIOn']",
+    "classes": "['WARRIOR, SKILL']",
+    "element": "NORM"
+},
+{
     "name": "Backup Charger",
     "collector_number": 8019,
     "types": "['REGALIA, ITEM']",
