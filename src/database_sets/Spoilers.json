@@ -56,6 +56,13 @@
         "element": "FIRE"
 },
 {
+    "name": "bring Down the Mighty",
+    "collector_number": 33,
+    "types": "['ACTION']",
+    "classes": "['ASSASSIN,SKILL]",
+    "element": "NORM"
+},
+{
     "name": "Cure the Flesh",
     "collector_number": 37,
     "types": "['ACTION']",
@@ -148,7 +155,7 @@
 },
 {
     "name": "Creative Shock",
-    "collector_number": 99,
+    "collector_number": 98,
     "types": "['Action']",
     "classes": "['MAGE, SPELL']",
     "element": "FIRE"
@@ -196,6 +203,13 @@
     "element": "FIRE"
 },
 {
+    "name": "Oppressive Presence",
+    "collector_number": 113,
+    "types": "['ACTION']",
+    "classes": "['WARRIOR,SKILL']",
+    "element": "FIRE"
+},
+{
     "name": "Ritai Guard",
     "collector_number": 117,
     "types": "['ALLY']",
@@ -228,6 +242,13 @@
     "collector_number": 128,
     "types": "['ACTION']",
     "classes": "['CLERIC,SPELL,MAGE']",
+    "element": "WATER"
+},
+{
+    "name": "Cao Cao, Aspirant of Chaos",
+    "collector_number": 129,
+    "types": "['UNIQUE, ALLY']",
+    "classes": "['MAGE, HUMAN']",
     "element": "WATER"
 },
 {
