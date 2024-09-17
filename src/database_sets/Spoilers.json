@@ -70,6 +70,13 @@
     "element": "NORM"
 },
 {
+    "name": "Extraction Incision",
+    "collector_number": 40,
+    "types": "['ATTACK']",
+    "classes": "['ASSASSIN,DAGGER']",
+    "element": "NORM"
+},
+{
     "name": "Idle Thoughts",
     "collector_number": 49,
     "types": "['ACTION']",
@@ -168,6 +175,13 @@
     "element": "FIRE"
 },
 {
+    "name": "Fiery Swing",
+    "collector_number": 100,
+    "types": "['ATTACK']",
+    "classes": "['GUARDIAN, POLEARM']",
+    "element": "FIRE"
+},
+{
     "name": "Fireball",
     "collector_number": 101,
     "types": "['ACTION']",
@@ -235,6 +249,13 @@
     "collector_number": 122,
     "types": "['ALLY']",
     "classes": "['WARRIOR,HUMAN']",
+    "element": "FIRE"
+},
+{
+    "name": "Xiao Qiao, Cinderkeeper",
+    "collector_number": 126,
+    "types": "['UNIQUE, ALLY']",
+    "classes": "['ASSASSIN, TAMER, ANIMAL, HUMAN, CAT']",
     "element": "FIRE"
 },
 {
