@@ -157,16 +157,16 @@ const AllCardsPage: FC = () => {
                 <p className="centerText">Card(s) of the Day</p>
                 <div className="flexCardImgs">
                     <div className="text-row">
-                        <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('129')} src={process.env.PUBLIC_URL + `/Spoilers_Images/129.jpg`} alt="cotd" /></p>
-                        <p style={{ display: (allCardsState.showing ? 'block' : 'none' ) }} className="centerText">Cao Cao, Aspirant of Chaost</p>
+                        <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('40')} src={process.env.PUBLIC_URL + `/Spoilers_Images/40.jpg`} alt="cotd" /></p>
+                        <p style={{ display: (allCardsState.showing ? 'block' : 'none' ) }} className="centerText">Extraction Incision</p>
                     </div>
                     <div className="text-row">
-                        <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('33')} src={process.env.PUBLIC_URL + `/Spoilers_Images/33.jpg`} alt="cotd" /></p>
-                        <p style={{ display: (allCardsState.showing ? 'block' : 'none' ) }} className="centerText">Bring Down the Mighty</p>
+                        <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('100')} src={process.env.PUBLIC_URL + `/Spoilers_Images/100.jpg`} alt="cotd" /></p>
+                        <p style={{ display: (allCardsState.showing ? 'block' : 'none' ) }} className="centerText">Fiery Swing</p>
                     </div>
                     <div className="text-row">
-                        <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('113')} src={process.env.PUBLIC_URL + `/Spoilers_Images/113.jpg`} alt="cotd" /></p>
-                        <p style={{ display: (allCardsState.showing ? 'block' : 'none' ) }} className="centerText">Oppressive Presence</p>
+                        <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('126')} src={process.env.PUBLIC_URL + `/Spoilers_Images/126.jpg`} alt="cotd" /></p>
+                        <p style={{ display: (allCardsState.showing ? 'block' : 'none' ) }} className="centerText">Xiao Qiao, Cinderkeeper</p>
                     </div>
                 </div> 
             </div>
