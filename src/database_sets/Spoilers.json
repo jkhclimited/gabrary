@@ -91,6 +91,20 @@
     "element": "NORM"
 },
 {
+    "name": "Invective Instruction",
+    "collector_number": 54,
+    "types": "['ACTION']",
+    "classes": "['TAMER, SKILL']",
+    "element": "NORM"
+},
+{
+    "name": "Lead with Force",
+    "collector_number": 57,
+    "types": "['ACTION']",
+    "classes": "['TAMER, SKILL']",
+    "element": "NORM"
+},
+{
     "name": "Lost Wisdom",
     "collector_number": 58,
     "types": "['ACTION']",
@@ -109,6 +123,13 @@
     "collector_number": 61,
     "types": "['ITEM']",
     "classes": "['CLERIC, MAGE, SCRIPTURE']",
+    "element": "NORM"
+},
+{
+    "name": "Mortal Ambition",
+    "collector_number": 62,
+    "types": "['ACTION']",
+    "classes": "['TAMER, SKILL']",
     "element": "NORM"
 },
 {
