@@ -53,8 +53,8 @@ const ContentCreatorsPage: FC = () => <>
             <iframe className='videoArea' src='https://www.youtube.com/embed?listType=playlist&list=UULFmcpT6hkpAo31ztXnfljwUQ' title="Latest LeviTCG video" allowFullScreen></iframe>
         </div>
 		<div className='contentCreator' id="Chess Club">
-            <p className='contentCreatorName'>Pranks TCG</p>
-            <iframe className='videoArea' src='https://www.youtube.com/embed?listType=playlist&list=UUyPPFPv-dBacHZO9kZp2aFg' title="Latest Pranks TCG video" allowFullScreen></iframe>
+            <p className='contentCreatorName'>Chess Club</p>
+            <iframe className='videoArea' src='https://www.youtube.com/embed?listType=playlist&list=UUyPPFPv-dBacHZO9kZp2aFg' title="Latest Chess Club video" allowFullScreen></iframe>
         </div>
 		<div className='contentCreator' id="Biefall">
             <p className='contentCreatorName'>Biefall</p>
