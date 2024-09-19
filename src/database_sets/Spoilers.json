@@ -56,6 +56,13 @@
         "element": "FIRE"
 },
 {
+    "name": "Sundering Moon",
+    "collector_number": 28,
+    "types": "['REGALIA, WEAPON']",
+    "classes": "['WARRIOR, POLEARM']",
+    "element": "WIND"
+},
+{
     "name": "bring Down the Mighty",
     "collector_number": 33,
     "types": "['ACTION']",
@@ -168,11 +175,11 @@
     "element": "NORM"
 },
 {
-    "name": "Sundering Moon",
-    "collector_number": 28,
-    "types": "['REGALIA, WEAPON']",
-    "classes": "['WARRIOR, POLEARM']",
-    "element": "WIND"
+    "name": "War Marshal",
+    "collector_number": 90,
+    "types": "['ALLY']",
+    "classes": "['GUARDIAN,HUMAN']",
+    "element": "NORM"
 },
 {
     "name": "Weaken Resistance",
@@ -364,6 +371,13 @@
     "element": "WIND"
 },
 {
+    "name": "Dilu, Auspicious Charger",
+    "collector_number": 173,
+    "types": "['UNIQUE, ALLY']",
+    "classes": "['TAMER, RANGER, BEAST, HORSE']",
+    "element": "WIND"
+},
+{
     "name": "Fairy Whispers",
     "collector_number": 175,
     "types": "['ACTION']",
@@ -392,6 +406,13 @@
     "element": "WIND"
 },
 {
+    "name": "Vengeful Gust",
+    "collector_number": 196,
+    "types": "['ACTION']",
+    "classes": "['MJAGE,SPELL']",
+    "element": "WIND"
+},
+{
     "name": "Wildgrwoth Feline",
     "collector_number": 197,
     "types": "['ALLY']",
@@ -403,6 +424,13 @@
     "collector_number": 199,
     "types": "['ALLY']",
     "classes": "['RANGER,HUMAN']",
+    "element": "WIND"
+},
+{
+    "name": "Zhao Yun, Dragonsblood",
+    "collector_number": 214,
+    "types": "['UNIQUE, ALLY']",
+    "classes": "['WARRIOR, HUMAN']",
     "element": "WIND"
 },
 {
