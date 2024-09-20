@@ -154,10 +154,24 @@
     "element": "NORM"
 },
 {
+    "name": "Skilled Plainsman",
+    "collector_number": 80,
+    "types": "['ALLY']",
+    "classes": "['WARRIOR, HUMAN']",
+    "element": "NORM"
+},
+{
     "name": "Slice and Dice",
     "collector_number": 81,
     "types": "['ATTACK']",
     "classes": "['ASSASSIN,DAGGER']",
+    "element": "NORM"
+},
+{
+    "name": "Staggering Strike",
+    "collector_number": 82,
+    "types": "['ATTACK']",
+    "classes": "['WARRIOR, SWORD']",
     "element": "NORM"
 },
 {
@@ -228,6 +242,13 @@
     "collector_number": 107,
     "types": "['ATTACK']",
     "classes": "['WARRIOR, POLEARM']",
+    "element": "FIRE"
+},
+{
+    "name": "Hulao Gate, Sun's Ascent",
+    "collector_number": 108,
+    "types": "['UNIQUE, DOMAIN']",
+    "classes": "['WARRIOR, CROSSROADS']",
     "element": "FIRE"
 },
 {
