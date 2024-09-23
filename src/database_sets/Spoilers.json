@@ -63,6 +63,13 @@
     "element": "WIND"
 },
 {
+    "name": "Acolyte of Cultivation",
+    "collector_number": 29,
+    "types": "['ALLY']",
+    "classes": "['CLERIC, MAGE, HUMAN']",
+    "element": "WIND"
+},
+{
     "name": "bring Down the Mighty",
     "collector_number": 33,
     "types": "['ACTION']",
@@ -81,6 +88,20 @@
     "collector_number": 40,
     "types": "['ATTACK']",
     "classes": "['ASSASSIN,DAGGER']",
+    "element": "NORM"
+},
+{
+    "name": "Heavenly Guide",
+    "collector_number": 46,
+    "types": "['ALLY']",
+    "classes": "['CLERIC, HUMAN']",
+    "element": "NORM"
+},
+{
+    "name": "Hire Mercenaries",
+    "collector_number": 47,
+    "types": "['ACTION']",
+    "classes": "['TAMER, SKILL']",
     "element": "NORM"
 },
 {
@@ -140,6 +161,13 @@
     "element": "NORM"
 },
 {
+    "name": "Mystic Purifier",
+    "collector_number": 63,
+    "types": "['ACTION']",
+    "classes": "['CLERIC, HUMAN']",
+    "element": "NORM"
+},
+{
     "name": "Bascent Barrier",
     "collector_number": 64,
     "types": "['ACTION']",
@@ -182,9 +210,16 @@
     "element": "NORM"
 },
 {
+    "name": "Sun Quan, Sealbearer",
+    "collector_number": 84,
+    "types": "['UNIQUE, ALLY']",
+    "classes": "['TAMER, WARRIOR, HUMAN']",
+    "element": "NORM"
+},
+{
     "name": "Unbroken Mustang",
     "collector_number": 88,
-    "types": "['ALLLY']",
+    "types": "['ALLY']",
     "classes": "['TAMER,ANIMAL,HORSE']",
     "element": "NORM"
 },
@@ -273,6 +308,13 @@
     "element": "FIRE"
 },
 {
+    "name": "Relic of Dancing Embers",
+    "collector_number": 116,
+    "types": "['PHANTASIA']",
+    "classes": "['TAMER, ARTIFACT']",
+    "element": "FIRE"
+},
+{
     "name": "Ritai Guard",
     "collector_number": 117,
     "types": "['ALLY']",
@@ -298,6 +340,13 @@
     "collector_number": 122,
     "types": "['ALLY']",
     "classes": "['WARRIOR,HUMAN']",
+    "element": "FIRE"
+},
+{
+    "name": "Thunderclap",
+    "collector_number": 124,
+    "types": "['ACTION']",
+    "classes": "['MAGE, SPELL']",
     "element": "FIRE"
 },
 {
@@ -392,6 +441,13 @@
     "element": "WIND"
 },
 {
+    "name": "Cyclical Breeze",
+    "collector_number": 172,
+    "types": "['ACTION]",
+    "classes": "['CLERIC, MAGE, SPELL']",
+    "element": "WIND"
+},
+{
     "name": "Dilu, Auspicious Charger",
     "collector_number": 173,
     "types": "['UNIQUE, ALLY']",
@@ -427,10 +483,17 @@
     "element": "WIND"
 },
 {
+    "name": "Three VISTIS",
+    "collector_number": 194,
+    "types": "['ACTION']",
+    "classes": "['CLERIC, MAGE, SKILL']",
+    "element": "WIND"
+},
+{
     "name": "Vengeful Gust",
     "collector_number": 196,
     "types": "['ACTION']",
-    "classes": "['MJAGE,SPELL']",
+    "classes": "['MAGE,SPELL']",
     "element": "WIND"
 },
 {
