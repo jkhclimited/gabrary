@@ -157,40 +157,20 @@ const AllCardsPage: FC = () => {
                 <p className="centerText">Card(s) of the Day</p>
                 <div className="flexCardImgs">
                     <div className="text-row">
-                        <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('172')} src={process.env.PUBLIC_URL + `/Spoilers_Images/172.jpg`} alt="cotd" /></p>
-                        <p style={{ display: (allCardsState.showing ? 'block' : 'none' ) }} className="centerText">Cyclical Breeze</p>
+                        <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('190')} src={process.env.PUBLIC_URL + `/Spoilers_Images/190.jpg`} alt="cotd" /></p>
+                        <p style={{ display: (allCardsState.showing ? 'block' : 'none' ) }} className="centerText">Soothing Disillusion</p>
                     </div>
                     <div className="text-row">
-                        <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('124')} src={process.env.PUBLIC_URL + `/Spoilers_Images/124.jpg`} alt="cotd" /></p>
-                        <p style={{ display: (allCardsState.showing ? 'block' : 'none' ) }} className="centerText">Thunderclap</p>
+                        <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('141')} src={process.env.PUBLIC_URL + `/Spoilers_Images/141.jpg`} alt="cotd" /></p>
+                        <p style={{ display: (allCardsState.showing ? 'block' : 'none' ) }} className="centerText">Jueying, Shadowmare</p>
                     </div>
                     <div className="text-row">
-                        <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('194')} src={process.env.PUBLIC_URL + `/Spoilers_Images/194.jpg`} alt="cotd" /></p>
-                        <p style={{ display: (allCardsState.showing ? 'block' : 'none' ) }} className="centerText">Three Visits</p>
+                        <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('34')} src={process.env.PUBLIC_URL + `/Spoilers_Images/34.jpg`} alt="cotd" /></p>
+                        <p style={{ display: (allCardsState.showing ? 'block' : 'none' ) }} className="centerText">Cavalier Rescue</p>
                     </div>
                     <div className="text-row">
-                        <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('47')} src={process.env.PUBLIC_URL + `/Spoilers_Images/47.jpg`} alt="cotd" /></p>
-                        <p style={{ display: (allCardsState.showing ? 'block' : 'none' ) }} className="centerText">Hire Mercenaries</p>
-                    </div>
-                    <div className="text-row">
-                        <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('63')} src={process.env.PUBLIC_URL + `/Spoilers_Images/63.jpg`} alt="cotd" /></p>
-                        <p style={{ display: (allCardsState.showing ? 'block' : 'none' ) }} className="centerText">Mystic Purifier</p>
-                    </div>
-                    <div className="text-row">
-                        <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('84')} src={process.env.PUBLIC_URL + `/Spoilers_Images/84.jpg`} alt="cotd" /></p>
-                        <p style={{ display: (allCardsState.showing ? 'block' : 'none' ) }} className="centerText">Sun Quan, Sealbearer</p>
-                    </div>
-                    <div className="text-row">
-                        <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('29')} src={process.env.PUBLIC_URL + `/Spoilers_Images/29.jpg`} alt="cotd" /></p>
-                        <p style={{ display: (allCardsState.showing ? 'block' : 'none' ) }} className="centerText">Acolyte of Cultivation</p>
-                    </div>
-                    <div className="text-row">
-                        <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('116')} src={process.env.PUBLIC_URL + `/Spoilers_Images/116.jpg`} alt="cotd" /></p>
-                        <p style={{ display: (allCardsState.showing ? 'block' : 'none' ) }} className="centerText">Relic of Dancing Embers</p>
-                    </div>
-                    <div className="text-row">
-                        <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('46')} src={process.env.PUBLIC_URL + `/Spoilers_Images/46.jpg`} alt="cotd" /></p>
-                        <p style={{ display: (allCardsState.showing ? 'block' : 'none' ) }} className="centerText">Heavenly Guide</p>
+                        <p className="cardImgBox"><img className="cardImg" onClick={() => showLightbox('142')} src={process.env.PUBLIC_URL + `/Spoilers_Images/142.jpg`} alt="cotd" /></p>
+                        <p style={{ display: (allCardsState.showing ? 'block' : 'none' ) }} className="centerText">Nanyue Portsman</p>
                     </div>
                 </div> 
             </div>
