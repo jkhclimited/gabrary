@@ -54,6 +54,9 @@ const ElementBar: FC<ElemProps> = ({id}) => {
         <Link to={`/sets/${ id }/Astra`} className="elemLink">
             <img className="elemBarIMG" src={process.env.PUBLIC_URL + `/Element_Symbols/astral.png`} alt="Astra" />
         </Link>
+        <Link to={`/sets/${ id }/Exia`} className="elemLink">
+            <img className="elemBarIMG" src={process.env.PUBLIC_URL + `/Element_Symbols/exia.png`} alt="Exia" />
+        </Link>
         <Link to={`/sets/${ id }/Alt-Arts`} className="elemLink">
             <img className="elemBarIMG" src={process.env.PUBLIC_URL + `/Element_Symbols/alt-arts.png`} alt="Alt Arts" />
         </Link>
