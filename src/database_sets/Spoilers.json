@@ -77,10 +77,17 @@
     "element": "NORM"
 },
 {
+    "name": "Cavalier Rescue",
+    "collector_number": 34,
+    "types": "['ACTION']",
+    "classes": "['TAMER, HORSE, SKILL']",
+    "element": "NORM"
+},
+{
     "name": "Cure the Flesh",
     "collector_number": 37,
     "types": "['ACTION']",
-    "classes": "['CLERIC, SKILL]",
+    "classes": "['CLERIC, SKILL']",
     "element": "NORM"
 },
 {
@@ -378,6 +385,20 @@
     "element": "WATER"
 },
 {
+    "name": "Jueying, Shadowmare",
+    "collector_number": 141,
+    "types": "['UNIQUE, ALLY']",
+    "classes": "['MAGE, TAMER, BEAST, HORSE']",
+    "element": "WATER"
+},
+{
+    "name": "Nanyue Portsman",
+    "collector_number": 142,
+    "types": "['ALLY']",
+    "classes": "['GUARDIAN, WARRIOR, HUMAN']",
+    "element": "WATER"
+},
+{
     "name": "Rainweaver Mage",
     "collector_number": 145,
     "types": "['ALLY']",
@@ -480,6 +501,13 @@
     "collector_number": 188,
     "types": "['Phantasia]",
     "classes": "['CLERIC,SPELL']",
+    "element": "WIND"
+},
+{
+    "name": "Soothing Disillusion",
+    "collector_number": 190,
+    "types": "['ACTION']",
+    "classes": "['CLERIC,TAMER, SPELL']",
     "element": "WIND"
 },
 {
