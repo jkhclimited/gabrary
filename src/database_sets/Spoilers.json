@@ -546,6 +546,27 @@
     "element": "WIND"
 },
 {
+    "name": "Conduit of Seasons",
+    "collector_number": 219,
+    "types": "['ALLY']",
+    "classes": "['CLERIC, HUMAN']",
+    "element": "TERA"
+},
+{
+    "name": "Sempiternal Sage",
+    "collector_number": 226,
+    "types": "['ALLY']",
+    "classes": "['CLERIC, MAGE, HUMAN']",
+    "element": "TERA"
+},
+{
+    "name": "Spellshield: Tera",
+    "collector_number": 227,
+    "types": "['ALLY']",
+    "classes": "['MAGE, SPELL, REACTION']",
+    "element": "TERA"
+},
+{
     "name": "Jin, Fate Defiant",
     "collector_number": 4003,
     "types": "['CHAMPION']",
