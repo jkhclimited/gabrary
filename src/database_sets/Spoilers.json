@@ -189,6 +189,13 @@
     "element": "NORM"
 },
 {
+    "name": "Seal the Past",
+    "collector_number": 76,
+    "types": "['ACTION']",
+    "classes": "['CLERIC, SPELL']",
+    "element": "NORM"
+},
+{
     "name": "Skilled Plainsman",
     "collector_number": 80,
     "types": "['ALLY']",
@@ -490,6 +497,20 @@
     "element": "WIND"
 },
 {
+    "name": "Liu Bei, Oathkeeper",
+    "collector_number": 182,
+    "types": "['UNIQUE, ALLY']",
+    "classes": "['RANGER, HUMAN']",
+    "element": "WIND"
+},
+{
+    "name": "Oath of the Sakura",
+    "collector_number": 185,
+    "types": "['ACTION']",
+    "classes": "['WARRIOR,SKILL']",
+    "element": "WIND"
+},
+{
     "name": "Poised Rearguard",
     "collector_number": 187,
     "types": "['ALLY']",
@@ -543,7 +564,7 @@
     "collector_number": 214,
     "types": "['UNIQUE, ALLY']",
     "classes": "['WARRIOR, HUMAN']",
-    "element": "WIND"
+    "element": "EXIA"
 },
 {
     "name": "Conduit of Seasons",
@@ -789,6 +810,35 @@
     "types": "['CHAMPION]",
     "classes": "['SPIRIT']",
     "element": "WATER"
+},
+{
+    "name": "MultiImage",
+    "collector_number": 9001,
+    "types": "['REGALIA, ITEM']",
+    "classes": "['CLERIC, ACCESSORY']",
+    "element": "NORM"
+},
+{
+    "name": "MultiImage2",
+    "collector_number": 9002,
+    "types": "['REGALIA, ITEM']",
+    "classes": "['CLERIC, ACCESSORY']",
+    "element": "NORM"
+},
+{
+    "name": "MultiImage3",
+    "collector_number": 9003,
+    "types": "['REGALIA, ITEM']",
+    "classes": "['CLERIC, ACCESSORY']",
+    "element": "NORM"
+},
+{
+    "name": "MultiImage4",
+    "collector_number": 9004,
+    "types": "['REGALIA, ITEM']",
+    "classes": "['CLERIC, ACCESSORY']",
+    "element": "NORM"
 }
+
 
 ]
