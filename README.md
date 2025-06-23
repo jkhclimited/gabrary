@@ -1,4 +1,4 @@
-# Gabrary.net
+# [Gabrary.net](https://gabrary.vercel.app/)
 
 A project aiming to bring easy access to information for Grand Archive cards and creators.
 
