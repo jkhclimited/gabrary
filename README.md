@@ -1,4 +1,4 @@
-# Gabary.net
+# Gabrary.net
 
 A project aiming to bring easy access to information for Grand Archive cards and creators.
 
